@@ -1,0 +1,97 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "no",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.9474,
+        "recall": 0.6364,
+        "f1": 0.4286,
+        "macro_f1": 0.6865
+      },
+      "interference": {
+        "precision": 0.7158,
+        "recall": 0.6664,
+        "f1": 0.4286,
+        "macro_f1": 0.6865
+      },
+      "prescribed_by_law": {
+        "precision": 0.4865,
+        "recall": 0.4675,
+        "f1": 0.0,
+        "macro_f1": 0.4768
+      },
+      "legitimate_aim": {
+        "precision": 0.9737,
+        "recall": 0.7143,
+        "f1": 0.6,
+        "macro_f1": 0.7865
+      },
+      "necessity": {
+        "precision": 0.8196,
+        "recall": 0.8196,
+        "f1": 0.6667,
+        "macro_f1": 0.8196
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.8202,
+        "recall": 0.7433,
+        "f1": 0.5714,
+        "macro_f1": 0.7758
+      },
+      "interference": {
+        "precision": 0.5628,
+        "recall": 0.5917,
+        "f1": 0.2,
+        "macro_f1": 0.573
+      },
+      "prescribed_by_law": null,
+      "legitimate_aim": {
+        "precision": 0.9934,
+        "recall": 0.875,
+        "f1": 0.8571,
+        "macro_f1": 0.9253
+      },
+      "necessity": {
+        "precision": 0.7432,
+        "recall": 0.855,
+        "f1": 0.6,
+        "macro_f1": 0.7865
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.75,
+      "recall": 0.9589,
+      "f1": 0.6667,
+      "macro_f1": 0.8119
+    }
+  },
+  "case": "case_108"
+}

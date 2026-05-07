@@ -1,0 +1,39 @@
+analysisWe need assess based on selected facts. Likely many missing; conclusions maybe uncertain but we must decide.
+
+Scope: facts indicate solo picket, attempt to join assembly, peaceful? No fact about violence. Assume peaceful. So yes.
+
+Interference: police stopped, warned, arrested – yes interference.
+
+Prescribed_by_law: need law existence; we have F034/F035 mention article 20.2 §2 code of offences, plus regional law F121/F122 about distance. But do we know foreseeability etc? Not enough facts about clarity/safeguards. Probably cannot establish fully; likely no.
+
+Legitimate aim: police cited public order (F016). Also local authority refused venue due to festivals (F011). Public order is legit aim. So yes.
+
+Necessity: Need balancing; we have arrest for solo picket, fine. Given lack of clear law on distance, perhaps not necessary. Facts limited; likely no.
+
+Positive obligation: facts about notification process etc. Government failed to provide venue? They suggested alternative but refused. Might be positive obligation not met. Could be yes violation. But positive obligation separate; we have facts of refusal to suggest alternative due to festivities. Might be no positive duty? Hard.
+
+Given at least one justification element (prescribed_by_law or necessity) likely no, thus violation. We'll output accordingly.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,131 @@
+analysisWe need map facts per element. Scope: need assembly existence, participation, peacefulness. Facts: F008 (protest numbers), F036 (meeting held), F037/F039 attendance, F040 police ordering, F041 denial, F042 etc. Also F013 aim, F028 etc. So list: F036, F037, F038, F039, F040, F041, F042, F043, maybe F028 (call). We'll include key ones: F036 (held meeting), F037 (attendance), F038 (duration), F040/F041 (peaceful?), F042 (police interaction). Also F008 shows broader protests but not her assembly. Use F036-F043.
+
+Interference: governmental act interfering – refusal, police order, arrest. Facts: F014 (refusal), F016 challenge, F021-22 acceptance, F035 warning, F040 police loudspeaker, F042 police demand, F045 arrest, F047-48 reports, F049-60 offenses, F063 conviction. Include many: F014,F021,F022,F035,F040,F042,F045,F047,F048,F049,F050,F051,F052,F053,F054,F055,F056,F058,F060,F061,F063,F064,F065,F066,F067,F068,F069,F070,F071,F072,F081,F082,F083,F084,F085,F086,F087.
+
+Prescribed_by_law: need foreseeability, accessibility, safeguards. Facts about Public Events Act, procedural deadlines, court findings of unlawfulness of refusal: F014,F015,F031-34, F032-34, F035 warning, F121-128 maybe but those are general rulings not facts. Use F014,F015,F031,F032,F033,F034,F035,F121? Actually those are not atomic. Keep core: F014,F015,F031,F032,F033,F034,F035,F121? Not needed. Provide list.
+
+Legitimate aim: need aim like public order, safety. Facts: police order to disperse, claim of public safety, F040, F058, F060, F083 statements about public safety. Also F083 says police duty to ensure public safety. So include F040,F058,F060,F083.
+
+Necessity: balancing – need facts on proportionality, duration, number, alternatives offered. Facts: F021 (alternative venue), F022 acceptance, F035 warning, F040 vs F041 discrepancy, F058, F060, F083, F084, F085, F086, F087, F128 etc. Provide list.
+
+Positive obligation: Court may have positive duty to protect assembly. Facts: perhaps none directly, but could be that state must protect from police interference – F042-44 show police didn't intervene properly. Might be F042-44. Provide.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F043",
+        "F028"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F014",
+        "F015",
+        "F021",
+        "F022",
+        "F035",
+        "F040",
+        "F042",
+        "F045",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F051",
+        "F052",
+        "F053",
+        "F054",
+        "F055",
+        "F056",
+        "F058",
+        "F060",
+        "F061",
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F067",
+        "F068",
+        "F069",
+        "F070",
+        "F071",
+        "F072",
+        "F081",
+        "F082",
+        "F083",
+        "F084",
+        "F085",
+        "F086",
+        "F087"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F014",
+        "F015",
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F035"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F040",
+        "F058",
+        "F060",
+        "F083"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F021",
+        "F022",
+        "F035",
+        "F040",
+        "F041",
+        "F058",
+        "F060",
+        "F083",
+        "F084",
+        "F085",
+        "F086",
+        "F087",
+        "F128",
+        "F129",
+        "F130"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F042",
+        "F043",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F051",
+        "F052",
+        "F053",
+        "F054",
+        "F055",
+        "F056",
+        "F058",
+        "F060",
+        "F061"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+analysisWe need determine violations. Likely yes violation due to excessive force interfering. So scope: demonstration = protected => yes. interference: police force => yes. prescribed by law: law requires permit denied, but demonstration still occurred; use of force maybe not prescribed. Likely no (not prescribed). legitimate aim: public order – yes. necessity: not necessary, disproportional – no. positive obligation: State must investigate etc – inadequate investigation -> no. Overall violation yes.
+
+Select facts: scope F007,F008? Actually scope: demonstration participation F007. interference: F012-F017,F041-F046,F052 etc. prescribed_by_law: F122-F126, plus F022 rejection, F023 etc. legitimate aim: F036,F037 police safety, F029 blocking traffic. necessity: same plus proportionality facts F041 etc and expert report F049-F052 showing no warning. positive_obligation: failures of prosecution F075,F118 etc.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F015", "F016", "F017", "F041", "F042", "F043", "F044", "F045", "F046", "F052"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F122", "F124", "F125", "F126", "F127", "F022", "F023", "F024"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029", "F036", "F037", "F124"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F041", "F042", "F043", "F044", "F045", "F046", "F049", "F050", "F051", "F052", "F128", "F131"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F075", "F118", "F119", "F120", "F121"]
+    }
+  },
+  "violated": true
+}

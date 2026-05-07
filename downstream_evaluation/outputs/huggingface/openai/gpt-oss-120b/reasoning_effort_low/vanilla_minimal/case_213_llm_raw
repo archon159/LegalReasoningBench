@@ -1,0 +1,59 @@
+analysisWe need assess each element.
+
+Scope: Does case fall within Article 11? Yes, peaceful assembly. Facts: F006-F008 show intent to hold peaceful assembly. So yes. Use those.
+
+Interference: Was there interference with right? Ban of assembly constitutes interference. Facts: F013 (court prohibited), F025 appeal dismissal, etc. So yes.
+
+Prescribed by law: Need law basis. There are temporary regulations, local act, code. Courts said decision based on Temporary Regulations (F014-F016) which are binding under section 73 (F015). Also constitutional article 39 allows restrictions by court. So prohibition prescribed by law. So yes.
+
+Legitimate aim: Must be national security, public order, health, rights of others. Court gave reasons: public order, safety, traffic, health, rights of others (F023,F024,F026-F028). So legitimate aim appears. So yes.
+
+Necessity: Must be necessary in democratic society; proportional, least restrictive. Need assess if ban proportionate given circumstances. Likely not necessary because notice insufficient? But they had 10-day rule (F052) – applicant gave notice 1 day before, not enough. However requirement is reasonable time, not fixed 10 days maybe. Court found lack of detail, indefinite duration, location conflict with fairs. Could be justified. Hard to decide. Probably ECtHR would find violation due to overbreadth and failure to consider alternatives. Many cases require allowing assembly unless real risk. Here risk speculative. So likely not necessary. So conclusion no (i.e., necessity not satisfied).
+
+Positive obligation: State must ensure effective respect for right, including procedural safeguards. They denied appeal, no alternative venue offered. Might be breach. So positive obligation not met => conclusion no.
+
+Thus overall violation because interference not justified -> violation. Provide JSON.
+
+List facts per element.
+
+Scope facts: F006,F007,F008.
+
+Interference facts: F013,F025,F026? Actually interference is ban: F013, F025. Include F013.
+
+Prescribed by law facts: F014,F015,F052,F051 maybe also F030,F031. Choose key: F014,F015,F051,F052.
+
+Legitimate aim facts: F023,F024,F026,F027,F028.
+
+Necessity facts: F017-F022,F026-F028,F052 perhaps. We'll list F017,F018,F019,F020,F021,F022,F026,F027,F028,F052.
+
+Positive obligation facts: F013,F025,F029 (leave to appeal denied), maybe F030,F031. Use F013,F025,F029.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F013", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F051", "F052"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F023", "F024", "F026", "F027", "F028"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F017", "F018", "F019", "F020", "F021", "F022", "F026", "F027", "F028", "F052"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F013", "F025", "F029"]
+    }
+  },
+  "violated": true
+}

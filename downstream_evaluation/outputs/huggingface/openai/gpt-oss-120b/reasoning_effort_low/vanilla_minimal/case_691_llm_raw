@@ -1,0 +1,45 @@
+analysisWe need assess violation. Likely ECtHR found violation due to failure to investigate. So scope yes, interference? Ill-treatment = interference with freedom of assembly? Yes because police violence interfered. Prescribed by law – use of truncheon on head prohibited by law => illegal -> not prescribed => violation. Legitimate aim – public order maybe but disproportionate. Necessity – not necessary. Positive obligation – state must protect right, failed. So overall violation. Provide facts mapping.
+
+Select facts:
+
+Scope: participation in rally F012, F001 etc.
+
+Interference: police hits F015,F016, injuries F027,F032 etc.
+
+Prescribed by law: sections prohibiting head hits F111, also law allowing force F104-110 show conditions; need both. Use F111 and maybe F104-110.
+
+Legitimate aim: public order – maybe implied by police act F104-F110. Use F104.
+
+Necessity: need facts showing lack of necessity, e.g., applicants didn't resist F014, no disorder, plus prohibition. Use F014,F111,F015,F016.
+
+Positive obligation: state's duty to investigate – facts about refusal to open investigations F039-F083, court dismissals F062 etc.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F012", "F013"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F023", "F027", "F032", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F111", "F104", "F105", "F106", "F107", "F108", "F109", "F110"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F104", "F105", "F106"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F015", "F016", "F111", "F104", "F105", "F106"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F039", "F040", "F042", "F043", "F045", "F046", "F047", "F048", "F052", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F075", "F076", "F077", "F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F088", "F089", "F090", "F091", "F092", "F094", "F095", "F096", "F097", "F098", "F099", "F100", "F101", "F102"]
+    }
+  },
+  "violated": true
+}

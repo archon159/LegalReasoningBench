@@ -1,0 +1,47 @@
+analysisWe need assess violation. Likely violation due to interference with peaceful assembly and procedural deficiencies. So scope yes, interference yes, prescribed by law? Demonstration required permit; law allowed warning. Probably interference not prescribed properly? The fine maybe disproportionate. I'd say violation. Provide facts.
+
+Map:
+
+Scope: demonstration is protected – facts F001,F014,F019.
+
+Interference: conviction, fine, police etc – F020-F025,F021.
+
+Prescribed by law: law cited Public Events Act – F016,F073,F072. Also admin offence code – F020. So yes.
+
+Legitimate aim: aim to protect public order – state says breach of public order – F022,F023,F025. So legitimate aim claimed yes.
+
+Necessity: proportionality – fine small but conviction impacts. Also procedural flaws re interception evidence – maybe not necessary. Conclude no (not necessary). Use facts about improper authorization of tapping and use as evidence – F026-F053 etc.
+
+Positive obligation: State must protect right to assemble, allow peaceful demo – failure to allow – facts F014-F019,F016-F018. So violation of positive obligation yes.
+
+Overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F014", "F019"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021", "F022", "F023", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F016", "F072", "F073"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F025"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F021", "F022", "F023", "F025", "F026", "F027", "F028", "F029", "F042", "F043", "F044", "F045", "F046", "F048", "F050", "F051", "F052"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F014", "F016", "F017", "F018", "F019"]
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,45 @@
+analysisWe need assess likely violation. Facts show arrest for participation; demonstration maybe illegal lacking permit. Law 2911 requires permission. So interference exists, but may be lawful. Likely no violation because not peaceful? They claim peaceful press conference. Govt says resisted. Court acquitted. Probably Court finds no violation. We'll map.
+
+Scope: assembly? Yes press conference demonstration. Applicant tried to participate. Peaceful? ambiguous; govt says resisted, but court notes exercise of democratic rights. Assume peaceful enough. So scope yes. Use facts F003,F004,F005.
+
+Interference: arrest = interference. Facts F004,F005,F039 etc. Conclusion yes.
+
+Prescribed_by_law: law 2911 requires permission; they lacked. So arrest based on law. But foreseeability? law accessible. So yes prescribed. Facts F027,F028,F029,F042 etc. Conclusion yes.
+
+Legitimate aim: public order. Gov cited disturbance. So yes. Facts F027,F028,F029.
+
+Necessity: proportionality questionable. Evidence of injuries suggests possible excess. Court found force proportionate. Might conclude necessity satisfied. Use F006,F022,F023,F030. Probably yes.
+
+Positive obligation: none indicated. No duty to investigate? Complaint not prosecuted. Could be violation of positive obligation to effectively investigate. But Court often finds lack of effective investigation violation under Art 3, not Art 11. Here maybe no positive obligation. So conclusion no.
+
+Overall if all justification elements yes, then no violation. So violated false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F005"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F039"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029", "F042"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F006", "F022", "F023", "F030"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

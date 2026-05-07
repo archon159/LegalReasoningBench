@@ -1,0 +1,15 @@
+analysisNeed map. Provide key facts per element. Let's pick relevant ones.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F001 (notice), F045 (first applicant participated), F046 (third applicant participated), F047 (second not), F048 (group gathered), F058 (demonstration at Miskindzha peaceful). Also F059 etc show conflict. So scope facts: F001,F045,F046,F048,F058.
+
+Interference: government acts interfering: F014 (administration opposed), F015 (time limit), F016 (capacity), F019 (warning), F044 (organisers decided to hold anyway), F050-055 (police blocked roads), F059-067 (police firing). So list many: F014,F015,F016,F019,F044,F050,F051,F052,F053,F054,F055,F059,F060,F061,F062,F063,F064,F065,F066,F067.
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Facts: F253-265 describe law. Also F255-263. So include F253,F254,F255,F256,F257,F258,F259,F260,F261,F262,F263. Maybe also F255-263.
+
+Legitimate_aim: need justification: public safety, prevention of disorder, etc. Facts: F014-016, F019, F076, F077, F081. Also F076-077 mention risks. So include F014,F015,F016,F019,F076,F077,F081.
+
+Necessity: balancing. Need facts about severity, alternatives, proportionality. Facts: F058 (peaceful), F059-067 (force used), F076-077 (risk assessment), F080-081 (operation plan), F084-087 (groups size). Also F089-091 negotiation offers. So include F058,F059,F060,F061,F062,F063,F064,F065,F066,F067,F076,F077,F080,F081,F089,F090,F091.
+
+Positive obligation: need whether court imposed duty. Not sure facts. Might be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F001","F045","F046","F048","F058"]},"interference":{"facts":["F014","F015","F016","F019","F044","F050","F051","F052","F053","F054","F055","F059","F060","F061","F062","F063","F064","F065","F066","F067"]},"prescribed_by_law":{"facts":["F253","F254","F255","F256","F257","F258","F259","F260","F261","F262","F263"]},"legitimate_aim":{"facts":["F014","F015","F016","F019","F076","F077","F081"]},"necessity":{"facts":["F058","F059","F060","F061","F062","F063","F064","F065","F066","F067","F076","F077","F080","F081","F089","F090","F091"]},"positive_obligation":{"facts":[]}}}

@@ -1,0 +1,43 @@
+analysisWe need determine violations. Likely ECtHR found violation of Article 11 due to pre‑trial detention etc. This resembles case Belousov? Probably yes violation. Provide facts: scope: assembly existed (march), applicant participated (F024), peaceful? march peaceful but meeting had clashes; however participation in peaceful assembly? The assembly turned violent after police actions. Court may consider it not peaceful => scope maybe fails? But ECtHR often finds violation even if some violence, focusing on pre‑trial detention disproportionate. Might say scope satisfied because assembly peaceful until police dispersed. Use F010 peace of march, F014 clashes but still assembly. We'll assume yes.
+
+Interference: pre‑trial detention interferes with freedom to assemble (ongoing). Facts F027-F033 etc. So yes.
+
+Prescribed by law: Russian law on detention exists, but foreseeability? Courts often find insufficient safeguards. Likely no. Use facts about detention extensions lacking change, F047,F050,F059,F065,F066. Conclusion no.
+
+Legitimate aim: aim of preventing disorder/crime. Yes (F014, charges). So yes.
+
+Necessity: Not necessary, disproportionate. So no.
+
+Positive obligation: state must ensure effective remedy, safe conditions; likely violation. Use facts about harsh conditions F078-F086. So yes positive obligation violation.
+
+Overall violation because either justification fails (prescribed by law or necessity). So overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F010", "F024"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029", "F030", "F031", "F032", "F033", "F034", "F035"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F029", "F030", "F031", "F032", "F033", "F034", "F035", "F047", "F050", "F059", "F065", "F066"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F014", "F018", "F019", "F021", "F022", "F036", "F037"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F029", "F030", "F031", "F032", "F033", "F034", "F035", "F047", "F050", "F059", "F065", "F066"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F078", "F079", "F080", "F083", "F086"]
+    }
+  },
+  "violated": true
+}

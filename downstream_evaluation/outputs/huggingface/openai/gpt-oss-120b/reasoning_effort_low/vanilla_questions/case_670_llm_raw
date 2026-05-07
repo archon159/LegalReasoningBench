@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations: scope yes (assembly peaceful, they participated). interference yes (arrest, conviction). prescribed_by_law? Need law article 310.1 – seems law exists, but foreseeability? Probably yes. legitimate aim? Authorities claim public order etc; but demonstration unauthorized -> aim maybe public safety. Might be considered legitimate but questionable. Necessity? Likely not necessary, disproportionate. So violation. Positive obligation? State must protect right to peaceful assembly and investigate ill-treatment – likely violated. Provide facts.
+
+Select facts per element.
+
+Scope: F004,F005,F006,F007.
+
+Interference: F014 (arrest), F036-38 (conviction), F031-34 (no lawyer), F042 (medical denial).
+
+Prescribed_by_law: F037 (Article 310.1), plus existence of code. Use F037.
+
+Legitimate aim: maybe F037 indicates law aims to maintain public order; but need factual aim. Could use F037 and maybe F036 indicating failure to stop unauthorized demo => aim public safety. We'll cite F037.
+
+Necessity: need disproportionality: F031-34, F042, F026, F048 etc showing lack of necessity. Choose F031,F034,F042,F026.
+
+Positive obligation: investigation of ill-treatment: facts F064-F069, F114-F118 show failure. Use F064,F114,F119.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F006", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F036", "F037", "F038", "F031", "F032", "F033", "F034", "F042", "F026"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F037"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F037"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F031", "F034", "F042", "F026", "F048"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F064", "F114", "F119"]
+    }
+  },
+  "violated": true
+}

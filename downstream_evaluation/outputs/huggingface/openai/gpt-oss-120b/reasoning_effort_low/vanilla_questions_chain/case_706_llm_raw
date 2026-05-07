@@ -1,0 +1,43 @@
+analysisWe need map facts. Likely scope: assembly occurred (march), applicant participated (F018), peaceful (F010, plus applicant claims peaceful F026). So yes. Facts: F006,F010,F018,F026.
+
+Interference: arrest/detention interferes. Yes. Facts: F019,F020,F021,F022,F023 etc.
+
+Prescribed by law: need law allowing police to disperse, administrative offence article. We have info about Code of Administrative Offences provisions, but does it foresee arrest for breaking cordon? Probably ambiguous. But likely not sufficiently foreseeable; Court often found violation. Use facts: F042,F043,F044,F045,F046, plus law references F080,F081,F082. Conclusion maybe no (not prescribed). We'll say no.
+
+Legitimate aim: police claim maintaining order/public safety. They said breaking cordon prevents duties. Aim: prevention of disorder. So yes. Facts: F031,F045,F046.
+
+Necessity: proportionality – arrest of woman with infant, conditions poor, disproportionate. Likely not necessary. Use facts about detention conditions F047-F054, length of detention F017,F059, etc. Conclusion no.
+
+Positive obligation: state must ensure effective remedy; domestic courts refused. Likely violation. Facts: F069-F078, F087-F090. Conclusion yes.
+
+Overall violation: since lack of prescription and necessity and positive obligation, violation. So true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F010", "F018", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F019", "F020", "F021", "F022", "F023"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F080", "F081", "F082"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F031", "F045", "F046"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F015", "F016", "F017", "F047", "F048", "F049", "F051", "F052", "F053"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F078", "F087", "F088", "F089", "F090"]
+    }
+  },
+  "violated": true
+}

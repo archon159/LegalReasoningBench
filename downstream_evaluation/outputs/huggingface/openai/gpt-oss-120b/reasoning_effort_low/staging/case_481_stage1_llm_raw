@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F008 purpose, F009 participants, F010 messages, F011 no chants, so peaceful. Also F005 notification of meeting shows intent. So list F005,F008,F009,F010,F011.
+
+Interference: governmental act interfering. Facts: prohibition F012, reliance F013,F014,F015, order no suspensive effect F026,F027, dismissal F028. Choose key: F012,F015,F026,F027,F028.
+
+Prescribed by law: need law basis foreseeability etc. Facts: reference to Assembly Act sections: F003 notification, F057,F058 describe law; F013 reliance on sec6; F059 about popular ceremonies. So include F003,F013,F056,F057,F058,F060.
+
+Legitimate aim: need aim listed. Facts: F015 (public order/security), F025 risk of conflict, F035, F036, F049, F053. Choose core: F015,F025,F035,F036,F053.
+
+Necessity: balancing. Need facts showing assessment of necessity and proportionality: F025 risk, F031-33 past disruptions, F034 finding confrontation, F035, F036, F049, F053, plus constitutional court reasoning F045-F053. Include several: F025,F031,F032,F033,F034,F035,F036,F049,F053.
+
+Positive obligation: does Court spell out? From facts: F052 mentions positive obligation under Art9 but that's about religion. For assembly maybe none. Might be none. So empty list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F005", "F008", "F009", "F010", "F011"]
+    },
+    "interference": {
+      "facts": ["F012", "F015", "F026", "F027", "F028"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F003", "F013", "F056", "F057", "F058", "F060"]
+    },
+    "legitimate_aim": {
+      "facts": ["F015", "F025", "F035", "F036", "F053"]
+    },
+    "necessity": {
+      "facts": ["F025", "F031", "F032", "F033", "F034", "F035", "F036", "F049", "F053"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+analysisWe need to pick facts relevant. Scope: assembly? The applicant organized commemoration ceremony (F101). She tried to attend meeting (F100). So yes assembly. Facts: F101, F100, maybe F101 indicates peaceful? Likely peaceful. So scope yes.
+
+Interference: government actions: denial of body, harassment, etc. Facts: F054, F055, F056, F057, F013, F014, F007, F013, F014, F013. Also denial of foundation registration F097. So yes interference.
+
+Prescribed by law: need foreseeability, accessibility, safeguards. Need facts about laws: F176, F177, F178, F179, F176. Also F176 says registration requires court order. So provisions exist. But are safeguards? Maybe insufficient. Hard. Probably yes prescribed? Might be questionable. Let's say yes.
+
+Legitimate aim: public safety, prevention of disorder, protection of rights. Government claims investigation, national security. Facts: F010, F011, F012, F172. So yes legitimate aim.
+
+Necessity: balancing. Need facts showing excessive interference: F013, F014, F007, F097, F098, F100, F101. Likely not necessary. Conclusion no.
+
+Positive obligation: government failed to allow access to body, to investigate. Facts: F054, F055, F056, F057, F013, F014. So yes positive obligation violated.
+
+Thus overall violation yes.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"conclusion":"yes","facts":["F100","F101"]},"interference":{"conclusion":"yes","facts":["F013","F014","F007","F054","F055","F056","F057","F097"]},"prescribed_by_law":{"conclusion":"yes","facts":["F176","F177","F178","F179"]},"legitimate_aim":{"conclusion":"yes","facts":["F010","F011","F012","F172"]},"necessity":{"conclusion":"no","facts":["F013","F014","F097","F100","F101"]},"positive_obligation":{"conclusion":"yes","facts":["F054","F055","F056","F057","F013","F014"]}},"violated":true}

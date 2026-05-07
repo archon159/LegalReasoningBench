@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope: need assembly existence, participation, peacefulness. Facts: F027 (people assembled non‑approved rally); F028 (different manner); maybe F030 etc show police threats but peace? Also F031 shows they moved peacefully. So include F027, F028, F030?, F031 indicates peaceful? Use F027, F028, F031. Also F032 etc. We'll list.
+
+Interference: governmental act/omission interfering. Police orders, fines. Facts: F029, F030, F034, F035, F036, F037, F038, F039, F042- F049, etc. Choose core: F029, F030, F034, F035, F036, F037, F038, F039.
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Facts about law: F072, F073, F074, F075, F077- F083. Also F074-75 about notification requirement. So include those.
+
+Legitimate aim: need aim like public order, safety. Facts: F069, F070, F071 (court finding serious breach of public order/public safety). Also maybe F048 stating violation of law. Include F069,F070,F071.
+
+Necessity: balancing intensity vs aim. Need info on proportionality, fines, police response. Facts: F042-44 fines, F064 community work, F069-71 showing seriousness, plus F030 threats. Use F042,F043,F064,F069,F070,F071.
+
+Positive_obligation: does Court spell out? Not in facts. Likely none. So empty list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F027", "F028", "F031"]
+    },
+    "interference": {
+      "facts": ["F029", "F030", "F034", "F035", "F036", "F037", "F038", "F039"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F072", "F073", "F074", "F075", "F077", "F078", "F079", "F080", "F081", "F082", "F083"]
+    },
+    "legitimate_aim": {
+      "facts": ["F069", "F070", "F071"]
+    },
+    "necessity": {
+      "facts": ["F042", "F043", "F064", "F069", "F070", "F071"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

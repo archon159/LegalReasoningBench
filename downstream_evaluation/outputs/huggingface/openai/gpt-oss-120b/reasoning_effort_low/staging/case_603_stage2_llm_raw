@@ -1,0 +1,39 @@
+analysisWe need conclusions based on selected facts.
+
+Scope: facts show gathering, participation, likely peaceful? No fact about violence. Assume peaceful. So yes.
+
+Interference: arrests constitute interference. Yes.
+
+Prescribed_by_law: we have statutes article 20.2 §5 providing penalty. Need foreseeability etc but facts just show law exists. Assume yes.
+
+Legitimate aim: no facts indicating aim; cannot conclude yes. Likely none -> no.
+
+Necessity: need balancing; without legit aim can't be necessary. So no.
+
+Positive obligation: no facts => no conclusion maybe not applicable -> no.
+
+Thus violation because legit aim and necessity fail. Even though prescribed_by_law yes, overall violation.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

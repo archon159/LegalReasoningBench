@@ -1,0 +1,36 @@
+analysisWe need map facts to each element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F007 (participated), maybe F010 (police did not interfere initially) indicates peaceful? Also F025 etc showing gathering. So include F007, F025, F010 perhaps F033 shows violence later but peace of assembly before dispersion? We'll list F007, F025, F010.
+
+Interference: governmental act interfering – police use of force. Facts: F012,F013,F015,F016,F017,F018,F041-F047, F052 etc. Choose key: F012,F013,F015,F016,F041,F042,F043,F044,F045,F046,F052.
+
+Prescribed_by_law: need law provisions. Facts: F122-F127 (law sections). Also F128-133 about circular. So include F122,F124,F125,F126,F127,F128,F129,F130,F131.
+
+Legitimate_aim: need justification like public order. Facts: F029,F030,F033,F034,F036,F037 show disorder. Also F032 refusal to leave. So include F029,F030,F033,F034,F036,F037.
+
+Necessity: need balancing – info on proportionality, injuries, expert reports, court findings. Facts: F049-F052 (expert says no warning), F058-F060 (injuries), F102-F106 (court findings of excessiveness), F128-F131 (rules on tear gas). Include F049,F050,F051,F058,F102,F103,F104,F105,F106,F128,F131.
+
+Positive_obligation: Court may require investigation. Facts: F048 (expert appointed), F064 (complaint), F075 (rejection), F118 (discontinuation), maybe F163-166 (CPT recommendations). But likely need facts about state's duty to investigate: F048,F064,F075. Provide those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F025", "F010"]
+    },
+    "interference": {
+      "facts": ["F012", "F013", "F015", "F016", "F041", "F042", "F043", "F044", "F045", "F046", "F052"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F122", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131"]
+    },
+    "legitimate_aim": {
+      "facts": ["F029", "F030", "F033", "F034", "F036", "F037"]
+    },
+    "necessity": {
+      "facts": ["F049", "F050", "F051", "F058", "F102", "F103", "F104", "F105", "F106", "F128", "F131"]
+    },
+    "positive_obligation": {
+      "facts": ["F048", "F064", "F075"]
+    }
+  }
+}

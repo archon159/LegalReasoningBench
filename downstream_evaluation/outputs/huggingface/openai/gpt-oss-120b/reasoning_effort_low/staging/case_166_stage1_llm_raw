@@ -1,0 +1,108 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F003-F005 (planned demos), F017 (organisers decided to hold), F018 (intended peaceful), F019 (conducted peacefully), F023 (each attended), maybe F020 etc but scope just peace. So include F003,F004,F005,F017,F018,F019,F023.
+
+Interference: governmental act interfering – refusal to authorize, police dispersal, arrests. Facts: F009,F013,F014 (refusals), F024 (police dispersed), F025 (arrests). Also F030 etc but that's later. Include those.
+
+Prescribed by law: need law on assembly permits and admin offences. Facts about notice requirement? Not directly. We have info about administrative offence reports and code articles but those are procedural. Need law governing authorization: perhaps not in list. Could use F006-F008 (notice given) showing procedure; plus F009 etc showing authority's decision based on law. So include F006,F007,F008,F009,F013,F014,F030,F068-F071 (law provisions). But pick key: F006-F008 (notice), F009,F013,F014 (refusal), F030 (offence under article 310.1), F068-F071 (procedural guarantees). We'll list.
+
+Legitimate aim: need justification like public order, safety. Not explicit in facts. Might infer from authority notes heavy traffic etc. Facts: F011,F012,F016 indicate concerns about traffic/public leisure. So include those.
+
+Necessity: need balancing – intensity of interference vs aim. Use same as legit aim plus facts on police dispersal, arrests, short hearings, lack of lawyer. Probably include F024,F025,F036-F045 etc. We'll select F024,F025,F036,F037,F038,F039,F040,F041,F042,F045-F048,F049-F053,F055 (sentences). Also F011,F012,F016 for aim.
+
+Positive obligation: Court may require state to protect right to assemble, ensure effective remedy. Relevant facts about lack of access to lawyer, unfair trial, failure to inform of charges. So include F035 (no lawyer), F028 (questioning), F032-F034 (not served docs), F038 (public excluded), F039,F040,F041,F042,F045-F048,F049-F053,F064-F067 (failure to serve decisions). Provide list.
+
+We'll output JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F003",
+        "F004",
+        "F005",
+        "F017",
+        "F018",
+        "F019",
+        "F023"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F009",
+        "F013",
+        "F014",
+        "F024",
+        "F025"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F006",
+        "F007",
+        "F008",
+        "F009",
+        "F013",
+        "F014",
+        "F030",
+        "F068",
+        "F069",
+        "F070",
+        "F071"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F011",
+        "F012",
+        "F016"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F011",
+        "F012",
+        "F016",
+        "F024",
+        "F025",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F051",
+        "F052",
+        "F053",
+        "F055"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F028",
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F064",
+        "F065",
+        "F066",
+        "F067"
+      ]
+    }
+  }
+}

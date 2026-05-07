@@ -1,0 +1,31 @@
+analysisWe need map facts. Likely F002,F003,F004 relate to restrictions => interference, prescribed, legit aim, necessity. Scope needs info about assembly etc not present -> none. So scope cannot be answered -> maybe no? But without facts can't conclude yes. Probably cannot determine, but using given facts only, we can say insufficient -> conclusion no? We'll assume no violation of scope element due to lack of facts. Provide accordingly.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

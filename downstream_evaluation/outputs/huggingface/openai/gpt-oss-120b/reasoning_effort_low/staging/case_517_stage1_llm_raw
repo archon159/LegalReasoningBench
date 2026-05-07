@@ -1,0 +1,128 @@
+analysisWe need map facts per element. Quick selection:
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F007 (planned demo), F008 estimate, F045, F046, F048 (actual gathering), F058 (peaceful at Miskindzha), F060 etc violent but peace? Need peaceful nature – maybe both peaceful and violent aspects. Use F058 for peaceful, F060 shows not peaceful. But scope just asks if assembly peaceful—need facts about nature. Include F058, F060, F064 etc. Provide key ones: F048, F058, F060, F045, F046.
+
+Interference: governmental act interfering – denial permit, police block, arrests. Facts: F014,F015,F016 letters, F044 (organisers held anyway), F049,F051,F052,F053,F059-F066 police force, F069 arrests, F070 charges, F165-... arrests of applicants, F172 detention, etc. Choose core: F014,F015,F016,F049,F051,F059,F060,F061,F062,F063,F064,F065,F066,F069,F070,F165,F172,F173,F180,F181.
+
+Prescribed_by_law: need law timing, notice period. Facts: F260,F255 etc but atomic facts about law: F260 (notice period), F259, F255, F256, F257, F258, F262, F263, F264. Also factual about notice timing: F012, F013, F015 (letter says outside time limit). So include those.
+
+Legitimate_aim: need reasons like public order, safety. Facts: F081 (aim), F074,F075,F076 (risk), F083,F082, F095 (warning), F138 (authorised use of firearms), F081, F083.
+
+Necessity: need balancing, proportionality. Facts: F058 (peaceful), F060-F066 (excessive force), F095 warnings, F097 stone throwing, F099,F100, F101-104 numbers of munitions, F106, F107 injuries, F108-114 injuries, plus reports F228,F230,F231 etc showing justification. Include many.
+
+Positive_obligation: Court may have positive duty to protect assembly. Need facts about police failing to protect, e.g., F009 request for protection, F081 claim to guarantee rights, F090 offer of garage, F091 decline, F095 warning, F138 authorisation. Also maybe F202 etc about attempts to keep order. Use F009, F081, F090, F091, F095, F138.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F007",
+        "F008",
+        "F045",
+        "F046",
+        "F048",
+        "F058",
+        "F060"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F014",
+        "F015",
+        "F016",
+        "F044",
+        "F049",
+        "F051",
+        "F052",
+        "F053",
+        "F059",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F069",
+        "F070",
+        "F165",
+        "F172",
+        "F173",
+        "F180",
+        "F181"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F012",
+        "F013",
+        "F015",
+        "F260",
+        "F255",
+        "F256",
+        "F257",
+        "F258",
+        "F259",
+        "F263",
+        "F264"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F081",
+        "F074",
+        "F075",
+        "F076",
+        "F082",
+        "F083",
+        "F095",
+        "F138"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F058",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F095",
+        "F097",
+        "F099",
+        "F100",
+        "F101",
+        "F102",
+        "F103",
+        "F104",
+        "F106",
+        "F107",
+        "F108",
+        "F109",
+        "F110",
+        "F111",
+        "F112",
+        "F113",
+        "F114",
+        "F228",
+        "F230",
+        "F231"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F009",
+        "F081",
+        "F090",
+        "F091",
+        "F095",
+        "F138",
+        "F202",
+        "F204",
+        "F206"
+      ]
+    }
+  }
+}

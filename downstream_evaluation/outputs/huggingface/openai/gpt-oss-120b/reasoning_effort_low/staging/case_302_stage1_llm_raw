@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope: need assembly existence, participation, peacefulness. Facts: F009 (arrest during unauthorised demonstration), indicates assembly; also maybe F005 (members of opposition) shows participation. Peaceful? Not explicit. No fact stating peaceful, so none. But we can still list F009 for assembly and participation. So scope facts: F009, maybe F005.
+
+Interference: governmental act interfering with freedom – arrest, conviction. Facts: F009, F010, F011, F006, F007 indicate arrest and conviction for participation. Also F012 etc. So include F009,F010,F011,F006,F007.
+
+Prescribed by law: need law basis. Facts: F010 (Article 310.1 of Code of Administrative Offences), F006/F007 mention provisions. So include F010,F006,F007.
+
+Legitimate aim: need justification. Not in facts. None. So [].
+
+Necessity: balancing – need info on aim and proportionality. Not present. [].
+
+Positive obligation: Court may have positive duty to ensure effective remedy etc. Facts about lack of legal assistance, appeals etc. Could be relevant: F013,F014,F028,F029 show denial of legal aid. Also F030 refusal to admit appeal. So include those. Also F022-F023 about access to decision. So list F013,F014,F028,F029,F030,F022,F023.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F009", "F005"]
+    },
+    "interference": {
+      "facts": ["F009", "F010", "F011", "F006", "F007"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F010", "F006", "F007"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": ["F013", "F014", "F028", "F029", "F030", "F022", "F023"]
+    }
+  }
+}

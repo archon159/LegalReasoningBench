@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: need to know protest organization/participation => F002,F003,F004,F005. So yes scope? Assuming they fall within article 11. Conclusion yes. Facts list those.
+
+Interference: need measure taken; not given. No atomic fact mentions interference. So cannot conclude yes; likely no. Use [].
+
+Prescribed by law: need law basis; none. So no.
+
+Legitimate aim: need aim like public safety etc; not given. So no.
+
+Necessity: need proportionality; none. So no.
+
+Positive obligation: state duty to protect; none. So no.
+
+Overall violation? Since not all elements satisfied, violation unlikely. But need both interference and lawful etc. Since missing, can't find violation -> false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004", "F005"]
+    },
+    "interference": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

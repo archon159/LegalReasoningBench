@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (participated), F007 (gathered), F008 (gathered outside), F009 (protest), F010 (peaceful). Also need that it was assembly? So F006,F007,F010.
+
+Interference: governmental act interfering – arrest, police dispersal. Facts: F011 (police dispersed), F012 (arrest), F013 etc. So include F011,F012,F013 maybe F014. Use those showing interference.
+
+Prescribed_by_law: need law basis, notice requirement, article 298.2. Facts: F016 (reports issued), F017 (article cited), F054 (no prior notice required for spontaneous), F058,F059,F060,F061,F062 (law changes). Also F018,F019 (not served). But core is law existence. Include F017,F054,F058,F059,F060,F061,F062.
+
+Legitimate_aim: need justification like public order etc. Not directly in facts but perhaps none. No factual claim of aim. Might be absent -> [].
+
+Necessity: need balancing, proportionality – length of detention vs aim, also evidence of peacefulness, severity of penalty. Facts: F010 (peaceful), F043,F044 (detention lengths), F059,F060 (penalties), F011 (force). Also F031 etc show fairness but that's procedural. For necessity, include F010,F043,F044,F059,F060,F011.
+
+Positive_obligation: Court may have positive duty to protect peaceful assembly. Need facts about failure to protect, e.g., police forced dispersion, no guarantee of peaceful assembly. Could use F011,F012,F013,F014,F020,F021. Choose one representing state failed to ensure. Let's pick F011,F012,F020,F021.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F010"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F017", "F054", "F058", "F059", "F060", "F061", "F062"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F010", "F011", "F043", "F044", "F059", "F060"]
+    },
+    "positive_obligation": {
+      "facts": ["F011", "F012", "F020", "F021"]
+    }
+  }
+}

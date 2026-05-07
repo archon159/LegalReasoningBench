@@ -1,0 +1,43 @@
+analysisWe need map facts. Likely scope: assembly occurred (demonstration). Applicant participated (F034). Peaceful? Affidavit says peaceful (F037) and photos (F129,F130,F131) show mixed but applicant claims peaceful. So yes peaceful. Use facts F034,F037.
+
+Interference: police arrested, beat etc. Yes. Facts F042-F045,F048-F051,F058,F102 etc.
+
+Prescribed by law: Need law defining unlawful assembly Sec70 etc. Also criminal code sections. So yes law exists. Facts F132-F138 maybe. Also law about entry (F140). Provide.
+
+Legitimate aim: authorities claim aim to protect public safety/order, prevent breach of peace. So legit aim likely public safety/prevention of disorder. Facts F99-F105,F140 etc.
+
+Necessity: assess proportionality – excessive force, beatings, torture => not necessary. So conclusion no (not necessary). Facts F042-F046,F049-F051,F064-F069,F071-F074 etc.
+
+Positive obligation: State must protect right to peaceful assembly, investigate ill-treatment. Likely violation of positive obligation. Facts F052 (UN observers), lack of investigation. So conclusion yes.
+
+Overall violation: yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F034", "F037"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F048", "F049", "F050", "F051", "F102"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F132", "F133", "F134", "F135", "F136", "F137", "F138", "F139", "F140", "F141", "F142"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F099", "F100", "F101", "F102", "F103", "F104", "F105", "F140"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F042", "F045", "F046", "F049", "F050", "F051", "F064", "F065", "F066", "F067", "F068", "F069", "F071", "F072", "F073", "F074", "F075"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075"]
+    }
+  },
+  "violated": true
+}

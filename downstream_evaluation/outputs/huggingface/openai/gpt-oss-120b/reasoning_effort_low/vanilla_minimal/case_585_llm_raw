@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations: interference yes, prescribed by law? ban maybe unlawful. So prescribe? law exists but ban illegal -> not prescribed => no. legitimate aim? security etc none given so no. necessity? no. positive obligation? state failed to protect -> violation. Overall violation true.
+
+Provide facts per element.
+
+Scope: peaceful assembly picket – facts F004,F005,F011-F016. Conclusion yes.
+
+Interference: ban, dispersal, arrests – facts F007-F016,F017-F019,F021,F022. Conclusion yes.
+
+Prescribed by law: ban based on claim no right; law allows assemblies but ban not lawful – facts F003,F008,F009. Conclusion no.
+
+Legitimate aim: none shown – maybe public safety not cited. No facts indicating aim. Conclusion no.
+
+Necessity: not necessary – facts F012-F016,F021 etc. Conclusion no.
+
+Positive obligation: failure to investigate attacks – facts F039-F047,F052-F055,F060-F062. Conclusion yes.
+
+Thus overall violation true.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F011", "F012", "F013", "F014", "F015", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009", "F014", "F015", "F017", "F018", "F019", "F021", "F022"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F003", "F008", "F009"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F014", "F015", "F021", "F022"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F039", "F040", "F041", "F042", "F043", "F045", "F046", "F047", "F048", "F052", "F054", "F055", "F060", "F061"]
+    }
+  },
+  "violated": true
+}

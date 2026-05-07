@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F015 (gathered), F016,F017 (purpose), F019,F020 (reading statement), also need peacefulness – maybe info that it was peaceful? Not given; but we have police claim illegal etc. No explicit violent by protesters except police injuries. Might need F029 showing police injured implying clash maybe not peaceful. But still need facts about peace. Use F029? We'll include.
+
+Interference: police warning, arrests, force. Facts: F021,F022,F023,F024,F025,F026,F028,F029.
+
+Prescribed_by_law: need law requirement and foreseeability. Facts: F021 mentions law 2911, F053, F054, F055, F056 give content. Also F052 constitutional article. So include those.
+
+Legitimate aim: need aim like public safety, prevention of disorder. Facts: F024,F025,F029 show police injuries, also law sections allow dispersion for security. So include F024,F025,F029,F056 perhaps.
+
+Necessity: balancing – need both interference severity and aim. Include same plus maybe sentencing facts? Probably F041 (court finding force necessary). Also F040 (ignored warning). Use F040,F041.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Need facts about state failing to protect. Could include F024,F025,F029 showing injury, also F034-F037 about fairness of trial maybe not. We'll pick F024,F025,F029.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F015", "F016", "F017", "F019", "F020", "F029"]
+    },
+    "interference": {
+      "facts": ["F021", "F022", "F023", "F024", "F025", "F026", "F028", "F029"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F021", "F053", "F054", "F055", "F056", "F052"]
+    },
+    "legitimate_aim": {
+      "facts": ["F024", "F025", "F029", "F056"]
+    },
+    "necessity": {
+      "facts": ["F040", "F041", "F024", "F025", "F029"]
+    },
+    "positive_obligation": {
+      "facts": ["F024", "F025", "F029"]
+    }
+  }
+}

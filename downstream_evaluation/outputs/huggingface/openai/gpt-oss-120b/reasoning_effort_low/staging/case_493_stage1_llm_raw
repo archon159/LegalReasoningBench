@@ -1,0 +1,93 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F004 (intended demonstrations), F008 (intend to occupy pedestrian zone), F009 organizer, F018-023 (actual appearance but not demonstration). Also F047-048 (peaceful silent). So include those.
+
+Interference: prohibition decisions etc. Facts: F011,F015,F026,F038,F019-023 show police presence but not preventing walk. Main interference is bans: F011,F015,F026,F038. Also maybe F022 (not prevented) shows no interference for that instance. Include bans.
+
+Prescribed by law: need law provisions and notice. Facts: F010 (notification), F054,F055,F056 (legal framework). Also F014 (remittal) maybe. So include F010,F054-F056.
+
+Legitimate aim: need police reasoning – traffic safety, public order. Facts: F027,F028,F029,F030,F031,F032,F039-F045. Also F055 allows ban for traffic. So include those.
+
+Necessity: need balancing – evidence of proportionality. Same as legit aim plus perhaps court judgments showing compliance: F035,F050. Also F047-048 statements of minimal impact. So include those.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Need facts about state failing to allow. Likely F052 constitutional guarantee, and maybe F053. Also maybe F057 dispersion not used. Use F052,F053.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F004",
+        "F008",
+        "F009",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F047",
+        "F048"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F011",
+        "F015",
+        "F026",
+        "F038",
+        "F019",
+        "F020",
+        "F021",
+        "F022"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F010",
+        "F054",
+        "F055",
+        "F056"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F045"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F027",
+        "F028",
+        "F030",
+        "F032",
+        "F039",
+        "F040",
+        "F042",
+        "F043",
+        "F045",
+        "F047",
+        "F048",
+        "F035",
+        "F050"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F052",
+        "F053"
+      ]
+    }
+  }
+}

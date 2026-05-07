@@ -1,0 +1,33 @@
+analysisWe need determine likely conclusions. Applicant spoke at rally => assembly peaceful? Likely peaceful. So scope yes. Interference: Dismissal and detention due to speech -> yes interference. Prescribed by law: dismissal based on law requiring prosecutor neutrality; detention based on criminal procedure. Probably law exists but maybe not foreseeable? Likely yes prescribed. Legitimate aim: public order, prevent disorder. Government claims. Probably accepted as legit aim. Necessity: proportionality questionable given political speech. Court likely finds violation. Positive obligation? Not relevant. So overall violation yes.
+
+Provide facts: scope uses F022-F026, F018,F020 etc. Interference uses F030,F031,F023,F028,F095 etc. Prescribed law uses F028,F029,F030,F031,F095,F096,F101,F102. Legitimate aim uses F111 (state of emergency), F109 casualties, F108 etc. Necessity uses many about detention length etc F095-F104 etc. Positive obligation none.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F018", "F020", "F022", "F023", "F024", "F025", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F028", "F029", "F030", "F031", "F095", "F096", "F101", "F102"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F028", "F029", "F030", "F031", "F095", "F096"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F108", "F109", "F110", "F111"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F095", "F096", "F101", "F102", "F108", "F109", "F110", "F111"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

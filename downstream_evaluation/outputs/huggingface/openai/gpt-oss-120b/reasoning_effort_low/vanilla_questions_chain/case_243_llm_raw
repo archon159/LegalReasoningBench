@@ -1,0 +1,43 @@
+analysisWe need assess. Likely violation: interference yes, not prescribed, etc. Provide facts.
+
+Scope: assembly? They attempted to gather at Taksim but denied; actual gathering happened at DİSK HQ. So assembly existed (peaceful?) they were peaceful until police dispersed. So scope yes. Facts: F019 (gathering), F020-F024 show police interaction, also F025 injuries. Also F001-F003 notification shows intent. Use F019,F020,F022 maybe peace. Conclude yes.
+
+Interference: police dispersal, force => yes. Facts: F020-F024,F025,F026,F027,F032.
+
+Prescribed by law: Need law basis. Law 2911 sections cited. Police said violation of Act (F021). But law restricts demos in squares, requires permission. Authorities denied permission. Issue foreseeability? Probably not sufficiently accessible, vague. Likely no. Use F057,F058,F059,F021,F004,F005.
+
+Legitimate aim: authorities cite security, public order. Facts: F006-F009,F012-F013. So yes legit aim.
+
+Necessity: proportionality? Force excessive, gas in hospital, etc. Likely not necessary. Use F023-F027,F032-F034. Conclusion no.
+
+Positive obligation: state must protect right, ensure effective remedy. Failure to investigate/prosecute may violate. Facts: F038-F045, F046-F050 showing refusal to prosecute. Likely yes violation of positive obligation. Conclusion yes.
+
+Overall violation because interference unjustified -> violation. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F003", "F019", "F020", "F022"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021", "F023", "F024", "F025", "F026", "F027", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F057", "F058", "F059", "F021", "F004", "F005"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F012", "F013"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F023", "F024", "F025", "F026", "F027", "F032", "F033", "F034"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049", "F050"]
+    }
+  },
+  "violated": true
+}

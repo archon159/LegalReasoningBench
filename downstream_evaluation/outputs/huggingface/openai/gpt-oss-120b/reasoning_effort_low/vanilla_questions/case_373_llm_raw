@@ -1,0 +1,31 @@
+analysisWe need map facts. Likely scope yes (assembly occurred, participants, peaceful?). No fact about violence; assume peaceful => yes. Use F005,F006. Interference yes arrest etc F010-F015. Prescribed by law? Need law basis – domestic law referenced but unclear if foreseeability; likely violation because law vague. Use F026 maybe. Assume no proper prescription -> conclusion no (i.e., not prescribed). Legitimate aim? Authorities claim maintain public order; but not in facts. Might infer aim of preventing disorder. Not explicit. Probably no legitimate aim proven. So conclusion no. Necessity? Since no legit aim, no. Positive obligation? Court may have positive duty to protect detainees conditions; violations of treatment maybe separate article. Probably no positive obligation identified. So overall violation yes because lack of prescription & necessity. Provide facts accordingly.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F026"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F010", "F026"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

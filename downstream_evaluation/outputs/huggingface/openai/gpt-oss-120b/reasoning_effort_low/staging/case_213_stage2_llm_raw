@@ -1,0 +1,41 @@
+analysisWe assess based on selected facts.
+
+Scope: Need assembly, attempt, peaceful. Facts: F006 notice intent peaceful assembly; F007 indefinite period; F008 location; F010 no info whether actually held. So intent exists, but no confirmation of actual attempt. Court may consider intended assembly enough? Usually need existence or attempt. Uncertainty -> likely not established fully. Probably no scope? Might say yes because intention counts as attempt? I'd say no due to lack of actual conduct. So scope = no.
+
+If scope no, then no violation regardless. But we still evaluate others maybe.
+
+Interference: facts show prohibition by court etc. Assuming scope yes, interference yes. We'll put yes.
+
+Prescribed by law: facts show temporary regulations, constitutional article, notification requirements etc. Are they sufficiently foreseeable? Issues: requirement of 10 days not in law? Actually Temp Reg require 10 days (F052). Applicant gave 1 day notice, so law exists. However law may be vague? Likely yes prescribed by law.
+
+Legitimate aim: reasons given relate to public order, health, rights of others. So yes.
+
+Necessity: need proportionality. Reasons seem overbroad (indefinite duration, location in park, conflict with fairs). Likely not necessary. So no.
+
+Positive obligation: none. So no.
+
+Overall violation? Since necessity no, violation yes, assuming scope & interference yes. But if scope no, then no violation. Which is more plausible? ECtHR often finds scope satisfied if applicant intended and tried to organize even if not held due to ban. They treat ban as interference with intended assembly. So scope likely yes. So final: violation yes.
+
+Let's output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

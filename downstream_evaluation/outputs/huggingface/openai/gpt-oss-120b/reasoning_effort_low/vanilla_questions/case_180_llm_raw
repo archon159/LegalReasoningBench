@@ -1,0 +1,33 @@
+analysisNeed to map. Likely scope yes (assembly planned, applicant participated, peaceful?). Peaceful? Counter-demo violent, but assembly itself peaceful. Assume yes. Interference: police arrest etc yes. Prescribed by law: reliance on Art27.2/27.3 – law exists, foreseeability maybe questionable but likely yes. Legitimate aim: public order/prevention of disorder – yes. Necessity: disproportionate because police didn't protect, selective arrests – likely no (not necessary). Positive obligation: Court has recognized positive duty to protect – yes violation. So overall violation yes.
+
+Select facts: scope: F006,F007,F008,F020,F021? peace? maybe F021-F025 show aggression but assembly peaceful. Use F020,F021,F022,F023,F024. Interference: F014,F030-F034,F038,F040-F042. Prescribed: F034,F040,F041,F042. Legitimate aim: F015,F030,F031. Necessity: F014-F025,F028-F032,F074,F130,F131. Positive: F099-F105,F102-F110,F123-F133.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F020", "F021", "F022", "F023", "F024"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F030", "F031", "F032", "F033", "F034", "F038", "F040", "F041", "F042"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F034", "F040", "F041", "F042"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F015", "F030", "F031"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F021", "F022", "F023", "F024", "F025", "F028", "F029", "F030", "F031", "F032", "F074", "F130", "F131"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F099", "F100", "F102", "F103", "F104", "F105", "F110", "F112", "F113", "F114", "F115", "F123", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131", "F132", "F133"]
+    }
+  },
+  "violated": true
+}

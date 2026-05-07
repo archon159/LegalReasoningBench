@@ -1,0 +1,43 @@
+analysisWe need map. Likely: scope yes (assembly planned). He intended to join rally, peaceful. Facts F004,F005,F006 show participation. So scope yes.
+
+Interference: police seized passport/ticket, detained – interferes with ability to attend. Yes. Facts F010-F022 etc.
+
+Prescribed by law: seizure based on Code of Administrative Offences articles 27.7,27.10. Need foreseeability, accessibility, safeguards. Probably yes law exists but maybe insufficient safeguards? Usually Court finds violation if lack of clear law. Here law exists. So conclude yes (prescribed by law).
+
+Legitimate aim: preventing forged tickets, public safety, order. Aim legit. Yes.
+
+Necessity: was detention proportionate? Detained 5 hours for ticket issue; perhaps disproportionate. Court might find not necessary. Likely no necessity => violation. Use facts about duration, lack of prompt release, no suspicion of riot. So conclusion no.
+
+Positive obligation: state must ensure effective remedy. They denied criminal proceedings, no effective remedy. Violation likely yes. Facts F055-F103 etc.
+
+Overall violation: Since both necessity and positive obligation fail, overall violation yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F006"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012", "F013", "F014", "F015", "F016", "F020", "F021", "F022"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F026", "F107", "F108", "F109"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F044", "F045", "F046", "F047", "F048", "F049", "F053"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F016", "F022", "F036", "F037", "F040", "F041", "F042", "F043", "F095", "F096"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F055", "F056", "F057", "F058", "F059", "F060", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F088", "F089", "F090", "F091", "F092", "F093", "F094", "F095", "F096", "F097", "F098", "F099", "F100", "F101", "F102", "F103", "F104"]
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations found in cases. Assume all elements met -> violation. Provide facts per element.
+
+Scope: peaceful demonstration => F005,F006,F011,F012,F013,F016 etc. So facts: participation, purpose. Use F005,F006,F011,F012,F013,F016,F017,F019,F020,F021.
+
+Interference: police dispersed, arrests. Facts F022-F025,F026,F028.
+
+Prescribed by law: need law basis – mention CAO amendment F030,F031,F032 maybe. Also national law requirement for notice. Use F030,F031,F032.
+
+Legitimate aim: protection of safety, order. Need police action aims. Facts F022-F025 indicate public order. Also F019,F020 etc. Use F022-F025.
+
+Necessity: assess proportionality – likely not necessary. Facts F022-F025,F016,F017 etc. We'll conclude no (not necessary). But then overall violation yes because failure of necessity.
+
+Positive obligation: state must protect right to assemble; they failed to allow lawful demo. Facts F008,F009,F010 show refusal to permit. Use those.
+
+Thus conclusions: scope yes, interference yes, prescribed_by_law yes (law exists but perhaps not appropriate?), legitimate aim yes, necessity no, positive_obligation yes. Violation true because one element fails (necessity).
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F011", "F012", "F013", "F016", "F017", "F019", "F020", "F021"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F026", "F028"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F030", "F031", "F032"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F022", "F023", "F024", "F025", "F016", "F017", "F019", "F020", "F021"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010"]
+    }
+  },
+  "violated": true
+}

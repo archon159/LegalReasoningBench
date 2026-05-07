@@ -1,0 +1,15 @@
+analysisWe need to pick relevant facts for each element. We don't need exhaustive, just representative. Provide minimal set. Let's choose key facts.
+
+Scope: need facts about assembly existence, participation, peacefulness. Facts: F101 (applicant organized ceremony), F100 (prevented attendance), maybe F101 indicates assembly. Also F101 shows assembly. Participation: applicant participated. Peaceful: likely peaceful. Use F101, F100. Maybe F101 alone enough. We'll list F101, F100.
+
+Interference: facts about interference: F007 (harassment), F013 (government denies), F014, F015 etc. Also F100 (prevented attendance). Use F007, F100, F013.
+
+Prescribed_by_law: need foreseeability, accessibility, safeguards. Facts about laws: F176 (registration requires court order), F178 (border crossing regulation), F184 (law on martyrs). Use F176, F178, F184.
+
+Legitimate_aim: need legitimate aim justification: e.g., public safety, prevention of disorder. Facts: F172 (official condemnation), F171 (public opinion), F172 maybe. Also F172 indicates legitimate aim of public safety? Might use F172. Also F172. Use F172.
+
+Necessity: balancing. Need facts about severity: F100 (prevented attendance), F101 (ceremony). Also F100, F101. Maybe F100, F101.
+
+Positive obligation: facts about positive obligations: F176 (regulation requiring court order), F178 (border crossing). But positive obligation may refer to failure to protect. Use F007 (harassment), F100 (prevented attendance). Use F007, F100.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F100","F101"]},"interference":{"facts":["F007","F100","F013"]},"prescribed_by_law":{"facts":["F176","F178","F184"]},"legitimate_aim":{"facts":["F172"]},"necessity":{"facts":["F100","F101"]},"positive_obligation":{"facts":["F007","F100"]}}}

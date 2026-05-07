@@ -1,0 +1,36 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F017 (assembly), F018 (applicant participated), F026 (they assert peaceful) also F020 (loud noise maybe affect peace). Use both assertion and factual note. So include F017,F018,F026,F020.
+
+Interference: police disbanded. Facts: F021 (police decided to disband), F022 (forced them), F023 (dispersed). Also F019 presence. So include F021,F022,F023,F019.
+
+Prescribed by law: need info about law requirement and notice. Facts: F051 (law requires 3 days), F052 (law allows police to disband), F053 (judicial review period), also F016 (they did not inform), F028 (impossibility to inform). So include those.
+
+Legitimate aim: police claimed risk to security of reception. Fact: F021 (risk to security), maybe F020 noise, F030 mention minor detonation. But primary is F021. Include F021,F030.
+
+Necessity: need balancing, proportionality. Facts: F045 (court found necessary and proportionate), F030 (detonation), F020 (noise), F021 (risk). Also F035 (purpose of law). We'll include F045,F030,F021,F020,F035.
+
+Positive obligation: does Court spell out? Not in facts; maybe none. Could be none. So empty list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F017", "F018", "F026", "F020"]
+    },
+    "interference": {
+      "facts": ["F019", "F021", "F022", "F023"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F051", "F052", "F053", "F016", "F028"]
+    },
+    "legitimate_aim": {
+      "facts": ["F021", "F030"]
+    },
+    "necessity": {
+      "facts": ["F045", "F030", "F021", "F020", "F035"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

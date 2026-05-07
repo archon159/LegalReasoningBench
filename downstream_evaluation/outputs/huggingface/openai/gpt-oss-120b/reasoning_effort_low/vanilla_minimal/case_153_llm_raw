@@ -1,0 +1,43 @@
+analysisWe need map. Likely violation yes. Provide facts per element.
+
+Scope: applies to peaceful protest -> F008, F006. Conclusion yes.
+
+Interference: police dispersed, arrests -> F009,F010. Yes.
+
+Prescribed by law: need law article 298 etc shows they cited but question if law exists. We have F016,F017 showing offences under code. So yes prescribed? Probably yes because there is law. conclusion yes.
+
+Legitimate aim: protection of safety, order, health. Not explicit but typical. No fact given. Might infer from law aims. But none. Could use F009 police action for maintaining public order. Not in facts. Might be missing => cannot establish, so conclusion no.
+
+Necessity: need proportionality. Facts show peaceful, small fines, dispersion maybe unnecessary. So conclusion no.
+
+Positive obligation: state must protect peaceful assembly. Facts show failure. So conclusion no? Positive obligation means must take steps to ensure. Violation if not. So conclusion no (i.e., not fulfilled). We'll output accordingly.
+
+Violated = true because some elements not met.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F008"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F008", "F009"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F009", "F010"]
+    }
+  },
+  "violated": true
+}

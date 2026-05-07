@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope needs assembly existence, participation intent, peacefulness. Facts: F001 (arrests related to intention to participate), F002 (administrative proceedings...), F018, F019 (intended to participate), maybe F020/21 (leaflet distribution). Also peaceful nature implied but not explicit; assume peaceful demonstrations planned. So include F018/F019 and perhaps F020/21 indicate they were peaceful? We'll include F018,F019.
+
+Interference: governmental act interfering – arrests etc. Use F001, F002, F003, F004 (allegations). Also F020/21 show arrests. So include F001,F002,F020,F021.
+
+Prescribed by law: need info about legal basis; none of atomic facts directly mention law. Maybe not available -> empty.
+
+Legitimate aim: need justification; not in facts. Empty.
+
+Necessity: need balancing info; not present. Empty.
+
+Positive obligation: Court may have spelled out; not in facts. Empty.
+
+Thus output.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F018", "F019"]
+    },
+    "interference": {
+      "facts": ["F001", "F002", "F020", "F021"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

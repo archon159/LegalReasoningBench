@@ -1,0 +1,44 @@
+analysisWe need determine likely conclusions. Facts show peaceful protest, police dispersed, arrests. Likely violation of Article 11 because interference not necessary. So scope yes, interference yes, prescribed by law? Need law basis—Article 285 used, but maybe vague. Probably not sufficiently foreseeable, lacking safeguards => no. Thus violation. Legitimate aim maybe public order, but necessity fails. Positive obligation maybe state must protect peaceful assembly, failed -> yes violation. Provide facts accordingly.
+
+Select facts:
+Scope: F020 (participation), F032 (peaceful), maybe F027 etc showing assembly. Also F025 march. Use those.
+
+Interference: police push, arrests: F029,F030,F045,F061.
+
+Prescribed by law: reference to Article 285 (F063,F064,F100-F102). Also constitution article 99 gives peace requirement. But foreseeability? Might conclude no because law vague. Use F100-F102, F099.
+
+Legitimate aim: public safety/order: police claim mass disorders. Use F063,F100 etc.
+
+Necessity: evaluate balancing: facts show peaceful, disproportionate response. Use F032,F045,F058,F059.
+
+Positive obligation: state must allow peaceful protest, ensure police proportionate. Use F032,F058,F059,F053.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F020", "F032", "F025", "F027", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F029", "F030", "F045", "F058", "F059", "F061"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F099", "F100", "F101", "F102", "F063"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F063", "F100", "F101", "F102"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F032", "F045", "F058", "F059", "F053"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F032", "F058", "F059", "F053"]
+    }
+  },
+  "violated": true
+}

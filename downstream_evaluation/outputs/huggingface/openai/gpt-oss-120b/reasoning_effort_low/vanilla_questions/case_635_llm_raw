@@ -1,0 +1,43 @@
+analysisWe need map facts. Likely scope yes: assembly? solo picket counts as assembly? ECtHR says solo protest is protected. So yes assembly, peaceful. Facts F006-F009,F011 show participation. Peaceful? No violence mentioned. assume peaceful. So scope yes using F006,F008,F009,F011.
+
+Interference: arrest etc. Yes. Facts F011-F013,F017.
+
+Prescribed by law: need info on law requiring notification. Not given directly but CAO article 20.2 §2 and PEA. Not in facts. Might be missing; but we have references to law requirement. Assume law exists, but foreseeability? Not enough facts. Probably conclude no violation of prescribed by law? Actually issue is whether law clear enough. We lack facts about accessibility. Could say insufficient -> conclusion no (i.e., not prescribed). Use F017,F042 maybe about distance rule introduced after. But law existed before. Might be ambiguous. I'll say no.
+
+Legitimate aim: authorities aimed to maintain public order, prevent unauthorized gatherings. Not explicit facts. None. So cannot assess; likely yes legitimate aim (public order). No facts though. We'll use none? Might be no.
+
+Necessity: balancing – likely disproportionate. Need facts about timing, solo picket not needing notification. Use F006-F009,F042. Conclude no necessity.
+
+Positive obligation: Court may have positive duty to ensure legislation compatible. Not present. Conclude no.
+
+Overall violation: likely yes because interference not necessary and law not clear. So violated true.
+
+We'll output accordingly.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F008", "F009", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F017"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F017", "F042"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F006", "F008", "F009", "F042"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

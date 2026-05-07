@@ -1,0 +1,31 @@
+analysisNeed to map. Likely violations: Conviction for participation in demonstrations etc => interference with assembly. Probably not prescribed by law? Turkish law criminalizes membership; but assembly itself maybe peaceful. Likely Court finds violation of Art 11. Use facts: scope F002,F003,F026,F027,F028. interference conviction F029-F032. prescribed_by_law: law article 314 etc F011,F012. legitimate aim: terrorism/security F009,F011 etc. necessity: likely not necessary -> violation. positive_obligation maybe none. Provide conclusions yes for scope, interference, prescribed_by_law? Actually prescribed_by_law satisfied (law exists). So conclusion yes (prescribed). legitimate aim yes (security). necessity no (not necessary). positive_obligation no.
+
+Thus overall violation because lack of necessity. JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F026", "F027", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F029", "F030", "F031", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F009", "F011", "F012"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F030", "F031", "F032"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

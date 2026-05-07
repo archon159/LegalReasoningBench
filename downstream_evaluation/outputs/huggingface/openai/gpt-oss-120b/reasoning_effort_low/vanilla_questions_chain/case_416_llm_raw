@@ -1,0 +1,59 @@
+analysisWe focus on demonstration part. Scope: assembly occurred (static demo). Yes. Peaceful? They were non‑authorised but peaceful; no violence reported. So peaceful yes. Facts F068-F075 etc. Use those.
+
+Interference: police stopped, detained – yes interference.
+
+Prescribed by law: Public Gatherings Act requires notification; they gave telegram but maybe not compliant with timing (must be 3 days prior, they notified 30 May for 7 June = >3 days ok). But they didn't get approval? Need to see if requirement of authorization? For static demo, notification enough, no permit required. So law allows police to order cessation if illegal. So interference possibly prescribed. We need facts showing law basis: sections 5,8 etc. Facts F149-F158 etc. Provide.
+
+Legitimate aim: maintain public order, protect rights of others, prevent disorder. Likely yes.
+
+Necessity: assess proportionality – detention for 7 days for refusal to obey order. Might be disproportionate. But we conclude no necessity => violation. Need facts about lack of warning, no alternative, etc. Use F078-F080 etc.
+
+Positive obligation: state must ensure effective remedy, allow access to file, etc. There were violations of procedural rights (no info of rights, no access to file timely). Could be positive obligation breach. Conclude yes.
+
+Thus overall violation.
+
+Provide facts list per element.
+
+Let's pick relevant facts:
+
+Scope: F068,F069,F070,F073,F074,F075,F076,F077,F078.
+
+Interference: F075-F080,F101-F104,F112-F114.
+
+Prescribed_by_law: F147-F158,F155,F157,F158.
+
+Legitimate_aim: F075-F78 (public order), F124,F125,F126.
+
+Necessity: F078-F080,F101-F104,F112-F114,F141-F145 (conditions).
+
+Positive_obligation: F081,F090,F091,F099,F100,F103,F138-F140,F141-F145.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F068", "F069", "F070", "F073", "F074", "F075", "F076", "F077", "F078"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F075", "F076", "F077", "F078", "F079", "F080", "F101", "F102", "F103", "F104", "F112", "F113", "F114"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F147", "F148", "F149", "F150", "F151", "F152", "F155", "F157", "F158"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F075", "F076", "F077", "F078", "F124", "F125", "F126", "F127"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F078", "F079", "F080", "F101", "F102", "F103", "F104", "F112", "F113", "F114", "F141", "F142", "F143", "F144", "F145"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F081", "F090", "F091", "F099", "F100", "F103", "F138", "F139", "F140", "F141", "F142", "F143", "F144", "F145"]
+    }
+  },
+  "violated": true
+}

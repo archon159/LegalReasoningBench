@@ -1,0 +1,150 @@
+{
+  "case_name": "case_500",
+  "conclusion": {
+    "violated": false,
+    "elements": {
+      "scope": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_assembly_exists": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_participation": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_peaceful": {
+        "conclusion": "no",
+        "discussed": "explicit"
+      },
+      "interference": {
+        "conclusion": "yes",
+        "discussed": "explicit"
+      },
+      "prescribed_by_law": {
+        "conclusion": "yes",
+        "discussed": "explicit"
+      },
+      "prescribed_by_law_foreseeable": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "prescribed_by_law_accessible": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "prescribed_by_law_safeguards": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "legitimate_aim": {
+        "conclusion": "yes",
+        "discussed": "explicit",
+        "aims": [
+          "national_security",
+          "public_safety",
+          "prevention_of_disorder",
+          "prevention_of_crime"
+        ]
+      },
+      "necessity": {
+        "conclusion": "yes",
+        "discussed": "explicit"
+      },
+      "positive_obligation": {
+        "conclusion": null,
+        "discussed": "implied"
+      }
+    }
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": [
+        "F011",
+        "F082",
+        "F094",
+        "F095",
+        "F096",
+        "F117",
+        "F123"
+      ],
+      "interference": [
+        "F011",
+        "F082",
+        "F097"
+      ],
+      "prescribed_by_law": [
+        "F112",
+        "F113",
+        "F127",
+        "F130",
+        "F133",
+        "F135",
+        "F136",
+        "F137"
+      ],
+      "legitimate_aim": [
+        "F094",
+        "F095",
+        "F096",
+        "F117",
+        "F123"
+      ],
+      "necessity": [
+        "F094",
+        "F095",
+        "F096",
+        "F112",
+        "F113",
+        "F117",
+        "F123"
+      ],
+      "positive_obligation": []
+    },
+    "list2": {
+      "scope": [
+        "F011",
+        "F094",
+        "F095",
+        "F096"
+      ],
+      "interference": [
+        "F011",
+        "F082"
+      ],
+      "prescribed_by_law": [
+        "F112",
+        "F113",
+        "F127",
+        "F130",
+        "F133"
+      ],
+      "legitimate_aim": [
+        "F094",
+        "F095",
+        "F096"
+      ],
+      "necessity": [
+        "F094",
+        "F095",
+        "F096",
+        "F117",
+        "F123"
+      ],
+      "positive_obligation": []
+    },
+    "list3": [
+      "F011",
+      "F082",
+      "F094",
+      "F095",
+      "F096",
+      "F117",
+      "F127",
+      "F130",
+      "F133"
+    ]
+  }
+}

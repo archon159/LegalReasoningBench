@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful?) Facts include claim peaceful (F028) but also evidence of weapons etc maybe not peaceful. But scope requires peaceful assembly; if not peaceful, then not protected. Since facts show both claims of peace and evidence of weapons and violence. Need decide? Using only listed facts for scope: includes F028 stating applicant alleges peaceful. No contradictory fact in scope list. So likely conclude yes scope met.
+
+Interference: many facts of police action, arrests, detention etc => yes interference.
+
+Prescribed_by_law: facts about charges under statutes, but need foreseeability etc. We have only statutory references, not info on clarity/safeguards. Likely insufficient, may conclude no (not prescribed). However typical ECtHR finds laws vague. Given limited facts, probably cannot establish that law was clear. So conclusion no.
+
+Legitimate aim: facts show aim to maintain public order, prevent disorder. Yes.
+
+Necessity: need balancing; given violence and weapons, perhaps deemed necessary. But if law not prescribed, still violation anyway. Yet we must answer. Probably no necessity because disproportionate. Use facts of heavy force etc. Might say no.
+
+Positive obligation: only fact F032 police attacked – that's negative duty? Positive obligation would be to protect assembly. Not fulfilled -> violation yes. But positive obligation only if applicable. Likely no.
+
+Overall violation: if any justification element fails, violation. Prescribed_by_law likely no, so violation. Provide final.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

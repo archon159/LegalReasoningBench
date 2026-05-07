@@ -1,0 +1,45 @@
+analysisWe need determine conclusions. Likely violation: scope yes, interference yes, prescribed by law maybe yes (notification done for main demo but not post‑official protest; law requires notification for assemblies in public places – the post‑end protest was spontaneous and not notified, but still protected? Court may find lack of prior notice not required for spontaneous continuation? Probably interference unlawful => violation. So prescribe by law? The authorities had legal basis to intervene if disturbance; but they lacked warning. Might be not prescribed because no prior notice required for spontaneous? I'd say prescribed by law satisfied (law allows dispersion). But necessity likely no (disproportionate). Positive obligation maybe yes (state failed to protect). So overall violation.
+
+Provide facts mapping.
+
+Scope: F006,F012,F013,F014,F015,F016 -> yes.
+
+Interference: F022-F036,F048-F050 etc show police forceful separation causing injury. Yes.
+
+Prescribed by law: Need law provisions F111-F119,F120-F126 showing requirement of notification and that authorities may dissolve. Also F009,F010,F011 show notification for original demo. Post‑offical not notified (F017). So question: was intervention prescribed? Since they acted under Protection of Public Safety Act sections allowing dissolution without prior warning in urgent situations (F125,F126). They had no warning though. Could be considered prescribed. I'll conclude yes.
+
+Legitimate aim: public safety/order (F046 police injured, F062 police report about traffic interruption). So yes.
+
+Necessity: Disproportionate per judgments (F103,F104,F096,F097). So no.
+
+Positive obligation: state failed to protect peaceful assembly (F096 judgement). So yes.
+
+Thus violation because necessity fails. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F012", "F013", "F014", "F015", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F030", "F031", "F035", "F036", "F038", "F039", "F040", "F041", "F048", "F049", "F050"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F017", "F111", "F112", "F113", "F114", "F115", "F116", "F119", "F120", "F121", "F122", "F123", "F124", "F125", "F126"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F046", "F062", "F063", "F123", "F124"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F103", "F104", "F096", "F097", "F123", "F124", "F125"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F096", "F097", "F103", "F104"]
+    }
+  },
+  "violated": true
+}

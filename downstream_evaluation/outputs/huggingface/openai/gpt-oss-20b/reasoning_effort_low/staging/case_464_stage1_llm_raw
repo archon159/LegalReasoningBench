@@ -1,0 +1,13 @@
+analysisWe need to map each element to relevant facts. For scope: need facts about assembly, participation, peace. So F024 (meeting started), F025 (cordoned), F026 (only access), F027 (arrived), F028 (parked), F029 (entered), F030-35 speeches/slogans, F036 exit, F037 saw arrest, F038 arrested. Also F010-13 etc about authorized demo. So list many. But maybe just key ones: F024, F025, F026, F027, F030-35, F036, F038. Also F010-13 for assembly existence. We'll include those.
+
+Interference: facts about arrest, police action: F038, F040-46, F047-50, F051-54, F055-57, F058-59, etc. Include F038, F040-46, F051-54, F055-57, F058-59.
+
+Prescribed by law: need facts about legal provisions: F196-207. Also facts about applicability: F197-200 etc. So list those.
+
+Legitimate aim: facts about justification: F051-54 mention preventing disorder, etc. Also F013 (demonstration demanded rights). Maybe F013, F051-54.
+
+Necessity: need facts about balancing: F055-57, F058-59, F060-67, F068-70, etc. Also F071-75 about detention conditions. So include those.
+
+Positive obligation: facts about court's positive obligation? Not explicit. Might be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F010","F011","F012","F013","F015","F016","F017","F018","F019","F020","F024","F025","F026","F027","F028","F029","F030","F031","F032","F033","F034","F035","F036","F037","F038"]},"interference":{"facts":["F038","F040","F041","F042","F043","F044","F045","F046","F047","F048","F049","F050","F051","F052","F053","F054","F055","F056","F057","F058","F059"]},"prescribed_by_law":{"facts":["F196","F197","F198","F199","F200","F201","F202","F203","F204","F205","F206","F207"]},"legitimate_aim":{"facts":["F013","F051","F052","F053","F054"]},"necessity":{"facts":["F055","F056","F057","F058","F059","F060","F061","F062","F063","F064","F065","F066","F067","F068","F069","F070","F071","F072","F073","F074","F075","F076","F077","F078","F079","F080","F081","F082","F083","F084","F085","F086","F087","F088","F089","F090","F091"]},"positive_obligation":{"facts":[]}}}

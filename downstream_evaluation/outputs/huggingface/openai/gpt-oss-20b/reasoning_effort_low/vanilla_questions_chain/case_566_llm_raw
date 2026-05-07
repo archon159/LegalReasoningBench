@@ -1,0 +1,15 @@
+analysisWe need to map facts. Scope: assembly? yes F009. Applicant tried to participate? yes F009 includes applicant. Peaceful? likely yes; no violence reported. So scope yes.
+
+Interference: Government acted? Yes police maintained order, administrative proceedings, fines. Facts: F008, F026, F036 etc. Conclusion yes.
+
+Prescribed by law: foreseeability: notice requirement F065, 10 days. Applicant gave notice 18 Mar, picket 25 Mar = 7 days? Actually 7 days before? Wait 18 to 25 is 7 days. So insufficient. Also law says 10 days. So interference not prescribed. Need facts: F003, F005, F065, F066, F037, F038. Conclusion no.
+
+Legitimate aim: government claims public order, preventing obstruction. But since interference unlawful, still check. Facts: F008, F047, F048. Conclusion maybe yes? But if not prescribed, doesn't matter. We'll say yes.
+
+Necessity: Not needed if not prescribed. But still evaluate: intensity vs aim. Likely not necessary. Use facts: F047, F048, F050. Conclusion no.
+
+Positive obligation: none. So false.
+
+Violated: yes.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"conclusion":"yes","facts":["F009"]},"interference":{"conclusion":"yes","facts":["F008","F026","F036"]},"prescribed_by_law":{"conclusion":"no","facts":["F003","F005","F065","F066","F037","F038"]},"legitimate_aim":{"conclusion":"yes","facts":["F008","F047","F048"]},"necessity":{"conclusion":"no","facts":["F047","F048","F050"]},"positive_obligation":{"conclusion":"no","facts":[]}},"violated":true}

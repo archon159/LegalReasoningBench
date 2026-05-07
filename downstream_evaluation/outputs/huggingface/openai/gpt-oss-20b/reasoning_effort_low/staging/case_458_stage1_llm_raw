@@ -1,0 +1,13 @@
+analysisWe need map. scope: assembly? F004 shows protests; F018-019 show participation. peaceful? F004 says peaceful rallies. So facts: F004, F018, F019, maybe F005 indicates arrests but still peaceful. Use F004, F018, F019.
+
+Interference: police action, arrests. F020, F021, F022, F023, etc. Also deployment F017. So list: F017, F020, F021, F023.
+
+Prescribed_by_law: need law provisions: F025, F026, F033, F034. Also notification of unauthorized event. So F025, F026, F033, F034.
+
+Legitimate aim: government citing public safety, preventing disorder. F010, F011, F012, F013. Also F017. So include those.
+
+Necessity: balancing. Need severity of measures vs aim. Use F020, F021, F023, F025, F026, F033, F034. Maybe also F017. We'll pick F020, F021, F023, F025, F026.
+
+Positive obligation: maybe none. But could refer to procedural fairness: F029-F032. But positive obligation? Might be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F018","F019"]},"interference":{"facts":["F017","F020","F021","F023"]},"prescribed_by_law":{"facts":["F025","F026","F033","F034"]},"legitimate_aim":{"facts":["F010","F011","F012","F013","F017"]},"necessity":{"facts":["F020","F021","F023","F025","F026"]},"positive_obligation":{"facts":[]}}}

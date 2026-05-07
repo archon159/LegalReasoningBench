@@ -1,0 +1,47 @@
+analysisWe need assess each element. Likely violation: interference yes, not lawful, not necessary. So conclusions: scope yes, interference yes, prescribed_by_law maybe no (law requires permit, none obtained -> illegal => not prescribed). legitimate aim: public safety yes. necessity: no. positive obligation: state must protect right, perhaps fail -> no. Overall violation true.
+
+Select facts supporting each.
+
+Scope: F001,F003,F004? Actually article 11 focus on assembly. Use F001,F003.
+
+Interference: police dispersal causing injury: F001,F002,F048,F052,F053.
+
+Prescribed by law: need law requiring permit and prohibition: F150,F151,F152 show requirement, plus lack of permit: F098,F099 etc showing no permission. So conclusion no (not prescribed).
+
+Legitimate aim: security/public safety: F016-F019,F027,F028 etc showing threats. Also law allows restriction for public safety. So yes.
+
+Necessity: need to evaluate proportionality. Facts showing large crowd, stone throwing, but also that water cannon indiscriminate, injury severe, alternatives. Use F044-F047,F080-F086,F141,F146 etc. Conclude no.
+
+Positive obligation: state must investigate properly. Facts about investigations: F070-F108,F114-F136 show inadequate. Conclude no.
+
+Thus overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F003"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F048", "F052", "F053"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F150", "F151", "F152", "F098", "F099"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018", "F027", "F028", "F030"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F044", "F045", "F046", "F047", "F080", "F081", "F082", "F083", "F084", "F086", "F141", "F146"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F098", "F114", "F115", "F116", "F117", "F121", "F122", "F123", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131", "F132", "F133", "F134", "F135", "F136"]
+    }
+  },
+  "violated": true
+}

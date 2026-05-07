@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely scope yes (assembly, participation, peaceful). Facts: F006 (demonstration held), F008 (applicant participated), F007 (jointly organized) also peace? Not explicit but assume peaceful. No violence mentioned. So include F006,F008.
+
+Interference: arrest and fine constitute interference. Facts: F011,F012,F013,F015,F016,F017,F018.
+
+Prescribed by law: need law existence. We have Article 180.1 (F031,F032) and mention that decree not applied after 2004 law (F056). But at time 2002, the 1988 USSR decree still applied? However Constitution says only post-1995 laws apply; decree excluded later but not yet. There is ambiguity. Applicant argues none exists. Likely Court finds lack of clear law => not prescribed. Use F031,F032,F056 maybe. Conclusion likely no (not prescribed).
+
+Legitimate aim: if interference justified for public order etc. Government might claim public order. No facts showing aim. Could infer aim to maintain public order. Not explicit. Might be no because not shown. We'll say no.
+
+Necessity: depends on previous, likely no.
+
+Positive obligation: none identified. So no.
+
+Overall violation: Yes, because not prescribed etc. So violated.
+
+Provide facts accordingly.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F008"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F031", "F032", "F056"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

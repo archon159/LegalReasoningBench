@@ -1,0 +1,45 @@
+analysisWe need map facts.
+
+Scope: assembly existed (F006, F007), applicants participated (F013), peaceful? They claim peaceful until police action; govt says violent group (F021-24). Need assess peacefulness of assembly overall. Likely not entirely peaceful due to subgroup. But for scope, need peaceful assembly. Might conclude ambiguous but likely not peaceful => scope not met -> no violation. However typical cases find assembly peaceful until police dispersed. Here govt claims 60 NBP attempted unauthorized march, threw bottles. That may affect. Probably Court would say assembly not wholly peaceful, thus scope fails. So conclusion no for scope.
+
+Interference: police use of force interfered (F016,F027-F036 etc). If scope fails then interference irrelevant but still answer yes? Usually need both. We'll set interference yes (facts of force).
+
+Prescribed_by_law: need law on police use of force. Not given directly; only reference to summary (F075). No specific law facts. Likely insufficient info => cannot determine, but assume law exists but not clear foreseeability. Might conclude no (not sufficiently prescribed). Use F075 maybe indicates law exists. But we lack specifics. I'd say cannot establish prescribed by law => conclusion no.
+
+Legitimate aim: Govt says maintain public order (prevent disorder) (F021-25). So yes.
+
+Necessity: Given excessive force vs aim, likely not necessary. Facts show severe injuries, inability to identify officers, disproportionate. So conclusion no.
+
+Positive obligation: State failed to investigate properly (F043-73). Yes violation of positive obligation. Conclusion yes.
+
+Overall violation: Since scope not satisfied, no violation? Actually if scope fails, no violation overall even if other elements. So violated false.
+
+Let's output accordingly.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F006", "F007", "F013", "F021", "F022", "F023", "F024"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F016", "F027", "F028", "F029", "F033", "F034", "F036"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F075"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F023", "F024", "F025"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F016", "F027", "F028", "F029", "F033", "F034", "F036"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F043", "F044", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073"]
+    }
+  },
+  "violated": false
+}

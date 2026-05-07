@@ -1,0 +1,69 @@
+analysisNeed map. Scope: need assembly existence, participation, peacefulness. Facts about demonstrations, press conferences etc. Use F003,F004 indicate participation; also need info if peaceful—none explicit but maybe descriptions of violent? Some facts mention shouting at police, committing crimes. So peace unclear. Include those indicating nature: F042 mask, F048 shouting, F047 crimes. Provide list.
+
+Interference: governmental act interfering – conviction. Facts: F002 (complaint), F029 conviction, F032 sentence. Also indictment F010,F011. So include.
+
+Prescribed by law: need law basis. Facts: F011, F012, also article 314 etc. So include.
+
+Legitimate aim: need justification like terrorism, public safety. Facts: prosecution notes PKK involvement, law on terrorism. So include F009,F011,F012,F013,F014,F015,F016,F017,F018-F020 etc.
+
+Necessity: need balancing – severity of penalty vs aim. Facts: sentencing length F032, nature of acts (peaceful?) F042,F048,F047 etc.
+
+Positive obligation: perhaps state must protect right to assemble; maybe none. Could be none. Return [].
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F003",
+        "F004",
+        "F026",
+        "F027",
+        "F042",
+        "F047",
+        "F048"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F002",
+        "F029",
+        "F032",
+        "F010",
+        "F011",
+        "F012"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F011",
+        "F012"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F009",
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F032",
+        "F042",
+        "F047",
+        "F048"
+      ]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

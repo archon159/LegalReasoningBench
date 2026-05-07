@@ -1,0 +1,57 @@
+analysisWe need map facts. Likely scope yes: assembly occurred, participants tried, peaceful? No violence except police attack. They were peaceful. So scope yes using F047-F053 etc showing demonstration peaceful. Use F056 shows special forces attack but that's state violence not protesters. So peaceful yes.
+
+Interference: police stopped, arrests => yes using F048-F058 etc.
+
+Prescribed_by_law: need law on assemblies – sections provided F130-F143 etc show procedure. They had notification? They applied earlier, got approval then municipal council refused later. Law requires notification 15 days prior (F138). They had judgement ordering authorization. Might be unclear foreseeability. Probably not properly prescribed because municipality acted contrary to law. Conclusion maybe no (i.e., not prescribed). But need decide. Usually Court finds lack of clear law. Here law exists, but they had court judgment overriding. Could be considered not prescribed because municipal refusal not based on law. I'd say no.
+
+Legitimate aim: police claimed maintain public order. So yes legit aim (public safety/order). Facts F056 etc.
+
+Necessity: disproportionate because peaceful demo, arrest excessive. So no necessity -> violation.
+
+Positive obligation: state failed to investigate complaints, delayed prosecution. Likely yes violation of positive obligation. Use F105-F119 etc.
+
+Thus overall violation yes.
+
+Provide facts per element.
+
+Scope facts: F047 (demonstration start), F048- F053 (peaceful statements), F056 shows violence by state not protesters, so peaceful. Also F057 etc.
+
+Interference facts: F048-F058, F062-F073.
+
+Prescribed_by_law facts: F130-F144, F138-F143, plus F034-F040 showing application, F041-44 court judgment, F046 municipality refusal. So list those.
+
+Legitimate aim facts: F056 (state security), maybe F130 etc. Use F130 (peaceful requirement) but aim is public order. Use F056, F057.
+
+Necessity facts: F056-58, F069-71 conditions, length of detention, fines. Use F056-F073, F074-F076, F080-F084.
+
+Positive obligation facts: F105-F119, F122-F124.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F047", "F048", "F049", "F051", "F052", "F053", "F054", "F055", "F056"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F048", "F049", "F051", "F052", "F056", "F057", "F058", "F062", "F063", "F064", "F065", "F073"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F130", "F131", "F132", "F133", "F134", "F135", "F136", "F138", "F139", "F140", "F141", "F142", "F143", "F144", "F145", "F034", "F035", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F056", "F057", "F058", "F130"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F056", "F057", "F058", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F080", "F081", "F082", "F083"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F105", "F106", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114", "F115", "F116", "F117", "F118", "F119", "F120", "F121", "F122", "F123", "F124", "F125"]
+    }
+  },
+  "violated": true
+}

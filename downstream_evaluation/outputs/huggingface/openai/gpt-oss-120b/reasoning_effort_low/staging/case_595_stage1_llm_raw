@@ -1,0 +1,24 @@
+analysisWe need map facts. Scope: existence of assembly, participation, peacefulness. Facts: F006 (demonstration), F007 purpose, F008 approval, F010 march peaceful, F014 clashes indicates not peaceful? Need peaceful assembly – maybe both. Also F024 applicant took part. So include F006,F010,F014?,F024. Interference: police actions, detention. Facts: F011,F012,F013,F015,F016,F017, plus detention F027 etc. Include many. Prescribed by law: need law on assembly permits. Not in list; maybe none. Could be missing. We'll leave empty. Legitimate aim: police cited public safety, prevent disorder. Facts about charges, mass disorder etc. Use F018-F022, F038-F040, F099-F101. Necessity: balancing – need facts on justification of detention, extensions, etc. Include F029-F035, F046-F050, F065-F067, F069-F071, F119. Positive obligation: perhaps regarding conditions of detention? Facts about conditions: F073-F080, F083-F087. Provide.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F010", "F014", "F024"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013", "F015", "F016", "F017", "F027", "F028", "F029", "F030", "F031", "F032", "F033", "F034", "F035"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": ["F018", "F019", "F020", "F021", "F022", "F038", "F039", "F040", "F099", "F100", "F101"]
+    },
+    "necessity": {
+      "facts": ["F029", "F030", "F031", "F032", "F033", "F034", "F035", "F046", "F047", "F048", "F049", "F050", "F059", "F060", "F061", "F065", "F066", "F067", "F069", "F070", "F071", "F072", "F119"]
+    },
+    "positive_obligation": {
+      "facts": ["F073", "F074", "F075", "F078", "F079", "F080", "F083", "F084", "F085", "F086", "F087"]
+    }
+  }
+}

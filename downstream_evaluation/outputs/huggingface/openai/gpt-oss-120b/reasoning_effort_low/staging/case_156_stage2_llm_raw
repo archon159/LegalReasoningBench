@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful). Facts show demonstrations authorized, they claim peaceful. No fact about violence. So yes.
+
+Interference: custody, detention, convictions for participation => yes.
+
+Prescribed by law: we have statutes listed. Are they sufficiently foreseeable? Given vagueness maybe not, but using facts only we have law references. No info on foreseeability. Might conclude no? Hard. Probably violation due to lack of clarity. But we only have facts, not analysis of foreseeability. Could assume law exists thus prescribed yes. However jurisprudence often finds violation due to vague law. But facts don't include assessment of foreseeability. We'll go with yes? I'll choose no? Hmm.
+
+Legitimate aim: aim likely national security etc. Not explicit in facts. We have classification of MLKP as illegal armed org. That suggests aim security. So yes.
+
+Necessity: need proportionality. Facts show heavy sentences for peaceful demo. Likely not necessary. So no.
+
+Positive obligation: none -> no violation? Actually not applicable, conclusion no.
+
+Overall violation because necessity no leads to violation. Also if prescribed by law maybe yes, but still violation due to necessity. So final violated true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

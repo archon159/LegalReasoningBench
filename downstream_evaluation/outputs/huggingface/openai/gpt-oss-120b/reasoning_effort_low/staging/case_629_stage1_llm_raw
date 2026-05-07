@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope needs assembly existence, participation, peacefulness. Facts: F009 (intended demonstration), F010 purpose, maybe F011 notification shows intent, but peace? No fact about violence. So include F009, F010, maybe F011. Also F013/014 about closure indicates location but not peace. We'll list those.
+
+Interference: governmental act interfering – dismissal of notification. Facts: F011 (notification), F012 (dismissal), F013/014 (area closed). Also court challenge F016 etc. So include F011,F012,F013,F014.
+
+Prescribed by law: need law basis for police power. Not directly given; perhaps F011 (notification requirement) implies law, but not explicit. Might use F011 showing procedure under law. Also maybe F013 referencing Anti-Terror Centre authority. Use F011,F013.
+
+Legitimate aim: need justification like public safety, anti-terror. Facts: F013/F014 show anti-terror centre closure citing security. So include those.
+
+Necessity: need balancing – includes F013/F014 and maybe F018 court finding lack of reasons. Also F018 shows insufficient justification. Include F013,F014,F018.
+
+Positive obligation: Court may impose duty to protect right to assemble. Facts about failure to give reasons etc. Likely F018 (court holding deficiency) and maybe F020-F022 about liability action. Use F018.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F009", "F010", "F011"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013", "F014"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F011", "F013"]
+    },
+    "legitimate_aim": {
+      "facts": ["F013", "F014"]
+    },
+    "necessity": {
+      "facts": ["F013", "F014", "F018"]
+    },
+    "positive_obligation": {
+      "facts": ["F018"]
+    }
+  }
+}

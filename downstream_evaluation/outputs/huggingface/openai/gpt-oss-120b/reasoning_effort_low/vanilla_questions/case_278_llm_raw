@@ -1,0 +1,45 @@
+analysisWe need assess each element.
+
+Scope: assembly planned, peaceful demonstration; applicant tried to organize. Facts: F003-F005 show application for peaceful demo; F004 location; F005 purpose. So yes scope met. Also peaceful? It was intended peaceful. No evidence of violence. So conclusion yes. facts list maybe F003,F004,F005.
+
+Interference: Government refused authorization (F006,F009) and later upheld ban (F034,F036). That's interference. conclusion yes. facts F006,F009,F034,F036.
+
+Prescribed_by_law: Need foreseeability etc. Law 560-XIII sections define procedure. Refusal was based on grounds not in law (as per Court of Appeal finding F017,F018,F019). So the interference was not prescribed by law. Conclusion no (i.e., not prescribed). facts F017,F018,F019,F056,F057 etc but choose ones showing lack of legal basis: F017,F018,F019.
+
+Legitimate aim: Government claimed public order, morals (F029,F030). Those are legitimate aims under Art 11(2). So conclusion yes. facts F029,F030,F045 perhaps.
+
+Necessity: Must be proportional. Courts found risk of breach of public order (F045) but earlier appellate found no basis. However Supreme Court upheld ban citing failure to give undertakings (F037-F044). These are procedural requirements, not substantive necessity. Likely not necessary in democratic society because refusal was disproportionate to aim. So conclusion no (not necessary). facts F045,F037-F044,F029,F030.
+
+Positive obligation: Court may have positive duty to protect minority groups' assembly. ECtHR often finds state must not discriminate. Here likely violation => positive obligation breached. But we need if Court spelled out positive obligation. Not in facts. Probably none. So conclusion no. facts [].
+
+Overall violation: Since interference not prescribed and not necessary, violation. So true.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F005"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F006", "F009", "F034", "F036"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F017", "F018", "F019"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029", "F030", "F045"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F045", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F029", "F030"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

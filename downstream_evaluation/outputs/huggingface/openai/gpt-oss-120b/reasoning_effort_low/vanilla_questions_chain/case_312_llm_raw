@@ -1,0 +1,47 @@
+analysisWe need pick facts. Likely scope yes (peaceful demos). Use F014, F015 etc. Interference yes (arrests). Prescribed by law maybe no because law vague? They were charged under admin code article 310.1 – law exists. But foreseeability? Probably yes. Legitimate aim? Police claim disorder etc but actually political. Might be no. Necessity no. Positive obligation maybe yes regarding access to lawyer. So overall violation yes.
+
+List facts per element.
+
+Scope: need assembly existence and peacefulness and participation. Facts: F014 (participated in peaceful opposition demonstrations); F015 (arrested because assemblies not authorized) shows they tried to assemble; also F023/F024 etc showing planning. Provide.
+
+Interference: arrests. Facts: F027-F034 etc plus official reasons. Choose F027,F028,F029,F030,F031,F032,F033,F034.
+
+Prescribed_by_law: law article 310.1 and 296. Facts: F061,F062,F105 (require copy of report). Also maybe F060. Conclude yes.
+
+Legitimate_aim: need aim like public safety etc. Official reasons: failure to obey lawful order. That's legit aim? Could be maintenance of public order. But given context political suppression, Court may find not genuine. We'll say no. Facts: F035-F045 (official reasons) plus F014 (peaceful) showing no disorder. Use F014,F035-F045.
+
+Necessity: balancing. Need facts about severity, length of detention, etc. Use F095 (detention up to 20 days) and F014 (peaceful) and perhaps F105 showing procedural deficits. Conclude no.
+
+Positive_obligation: access to lawyer, info of charge. Facts: F063,F064,F065,F066,F067,F068,F070,F071,F072 etc. Conclude yes.
+
+Overall violation: yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F023", "F024", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029", "F030", "F031", "F032", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F060", "F061", "F062", "F105"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F035", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F014"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F095", "F105", "F064", "F063"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F063", "F064", "F065", "F066", "F067", "F068", "F070", "F071"]
+    }
+  },
+  "violated": true
+}

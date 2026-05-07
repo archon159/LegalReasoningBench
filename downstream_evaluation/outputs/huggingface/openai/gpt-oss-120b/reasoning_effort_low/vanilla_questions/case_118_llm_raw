@@ -1,0 +1,45 @@
+analysisWe need map facts. Scope: assembly participation and peacefulness. Facts: F001/F009 show participation; need peaceful – not directly but maybe implied none mention violence. No fact stating violent, so assume peaceful => use F001,F009. Conclusion yes.
+
+Interference: arrest etc. Facts F002,F010,F011 indicate interference. Conclusion yes.
+
+Prescribed by law: need law foreseeability. We have references to code articles F017,F019, also domestic law summaries F024,F025. Use those. Likely law exists but maybe not clear on notification requirement. Still prescribed. We'll pick F017,F019,F024.
+
+Conclusion yes.
+
+Legitimate aim: authorities claim disorder etc. Not explicit facts but domestic courts considered unlawful shouting and lack of notification – likely aim public order. No direct fact showing aim, but we can infer from F022,F023. So conclusion yes.
+
+Necessity: need balancing. No facts about proportionality. Might be lacking. Probably violation because penalty disproportionate. But we have no fact about assessment. Could conclude no (i.e., not necessary). Use F018,F020 (penalties) plus F022,F023. Conclude no.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. No fact indicating such. Likely no specific positive obligation identified. So conclusion no.
+
+Overall violation: If any element fails (prescribed yes, legit aim yes, necessity no) then violation. So violated = true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F010", "F011"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F017", "F019", "F024"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F018", "F020", "F022", "F023"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

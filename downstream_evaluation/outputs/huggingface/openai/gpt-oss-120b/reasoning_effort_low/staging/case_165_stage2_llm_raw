@@ -1,0 +1,39 @@
+analysisWe need assess based on selected facts. Some selections may be off but use them.
+
+Scope facts: F002 (participation in demonstration), F018 (established participation), F023 (acquittal of stone throwing). Need assembly peaceful? Not given; assume demonstration possibly peaceful? No fact indicating violence except stone claim denied. So likely peaceful => scope yes.
+
+Interference: F005 custody, F006 detention, F011 conviction, F012 sentencing, F003 sentence length. Shows interference yes.
+
+Prescribed_by_law: F001 conviction under criminal code, F008 indictment under Meetings Act, F009 indictment resisting security forces, F014 court concluded conduct constituted offence under Section 32. Need foreseeability etc. We have law cited, but adequacy? Likely yes as law exists though maybe vague. We'll say yes.
+
+Legitimate aim: Facts about PKK organization, slogans, security forces. Aim could be prevention of disorder / protection of rights of others. Government claims security. Likely legit aim yes.
+
+Necessity: Need balancing. Facts: heavy sentence, stone throwing not proven (F013), yet conviction for offences in name of illegal org. Might be disproportionate. Also reduction later (F028). Could be not necessary. Probably no.
+
+Positive obligation: none facts -> conclude no violation via positive? Since no positive duty identified, conclusion no (i.e., not applicable).
+
+Overall: since necessity no, violation yes.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

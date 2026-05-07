@@ -1,0 +1,39 @@
+analysisWe need assess based on selected facts.
+
+Scope: facts show march held, participants, peaceful? No fact about peace but assume peaceful. So yes.
+
+Interference: refusal of permission etc interfered. Yes.
+
+Prescribed_by_law: need foreseeability etc. Facts show requirement of traffic plan lacking legal basis, not communicated. Likely not properly prescribed. So no.
+
+Legitimate aim: mayor cited preventing violence, public order. But maybe not genuine. However even if aim exists, still need legit. Given facts show aim of public safety. Could be considered legitimate. Probably yes? But since prescribed fails, violation anyway. We'll say yes.
+
+Necessity: proportionality issues, overbroad bans, etc. Facts show not necessary. So no.
+
+Positive obligation: facts about lack of info, participation in procedure. Likely yes government failed positive duty => violation of positive obligation. Conclusion yes.
+
+Overall violation: yes.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

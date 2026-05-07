@@ -1,0 +1,29 @@
+analysisWe need map facts. Likely scope yes (gathering peaceful). Facts F001,F002,F012,F013,F016. interference yes (arrest, conviction) F003,F004,F018. prescribed by law yes? need law provision – F020,F021 show law exists. So yes. legitimate aim – public order etc maybe but not given; assume aim is maintaining public order. Not explicit facts. Might lack. Could use F020 etc indicating law aims to ensure procedure. We'll say yes. necessity – proportionality unclear; likely violation. No facts about necessity. Might conclude no. positive obligation – state must protect right to assemble; they failed. Facts about police cordon F014,F015 indicate failure to allow. So positive obligation not met => no satisfaction. Need conclusions per element: scope yes, interference yes, prescribed_by_law yes, legitimate_aim yes, necessity no, positive_obligation no. Overall violation true because both necessity and positive fail.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F012", "F013", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F018"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F014", "F015"]
+    }
+  },
+  "violated": true
+}

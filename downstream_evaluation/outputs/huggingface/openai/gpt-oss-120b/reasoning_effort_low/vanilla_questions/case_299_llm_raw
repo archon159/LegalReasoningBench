@@ -1,0 +1,31 @@
+analysisWe need map. Likely violations for scope yes, interference yes, prescribed by law maybe no (law unclear, spontaneous allowed but they didn't notify; law required notice? Actually article says no prior written notification required for spontaneous assemblies per Art5§IV law 1998. So they didn't need notice, thus no breach of law -> not prescribed?). But they were charged under amended law requiring notice after Jan 1 2013. Demonstrations Jan 12,26,Mar10 2013 after amendment. Law required notice? Not clear. Probably requirement existed, so lack of notice = violation of prescribed by law? Might be insufficient foreseeability. Conclude no (not properly prescribed). Thus overall violation. Provide facts: F005,F080,F082-F084 etc. We'll output.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004", "F006", "F007", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F018", "F019", "F045", "F046"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F005", "F080", "F082", "F083", "F084"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F012", "F042"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F045", "F046", "F055", "F056", "F057", "F058"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F024", "F025", "F032", "F034", "F035", "F040", "F041", "F043", "F044"]
+    }
+  },
+  "violated": true
+}

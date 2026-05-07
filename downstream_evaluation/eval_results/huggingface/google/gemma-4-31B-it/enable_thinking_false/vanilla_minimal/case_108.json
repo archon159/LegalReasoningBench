@@ -1,0 +1,97 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "no",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.9474,
+        "recall": 0.6364,
+        "f1": 0.4286,
+        "macro_f1": 0.6865
+      },
+      "interference": {
+        "precision": 0.8417,
+        "recall": 0.6805,
+        "f1": 0.5,
+        "macro_f1": 0.7295
+      },
+      "prescribed_by_law": {
+        "precision": 0.6601,
+        "recall": 0.737,
+        "f1": 0.4,
+        "macro_f1": 0.6902
+      },
+      "legitimate_aim": {
+        "precision": 0.9737,
+        "recall": 0.7143,
+        "f1": 0.6,
+        "macro_f1": 0.7865
+      },
+      "necessity": {
+        "precision": 0.7359,
+        "recall": 0.8059,
+        "f1": 0.5714,
+        "macro_f1": 0.7649
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.8202,
+        "recall": 0.7433,
+        "f1": 0.5714,
+        "macro_f1": 0.7758
+      },
+      "interference": {
+        "precision": 0.605,
+        "recall": 0.605,
+        "f1": 0.25,
+        "macro_f1": 0.605
+      },
+      "prescribed_by_law": null,
+      "legitimate_aim": {
+        "precision": 0.9934,
+        "recall": 0.875,
+        "f1": 0.8571,
+        "macro_f1": 0.9253
+      },
+      "necessity": {
+        "precision": 0.6805,
+        "recall": 0.8417,
+        "f1": 0.5,
+        "macro_f1": 0.7295
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.7143,
+      "recall": 0.9452,
+      "f1": 0.6,
+      "macro_f1": 0.771
+    }
+  },
+  "case": "case_108"
+}

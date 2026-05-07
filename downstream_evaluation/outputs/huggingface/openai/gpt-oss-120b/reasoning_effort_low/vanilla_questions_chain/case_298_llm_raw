@@ -1,0 +1,37 @@
+analysisWe need map facts. Likely scope yes (assembly planned, took part, peaceful). Use F003/F004,F018,F014,F015. Interference yes (police dispersed, arrests) use F019-F021,F032 etc. Prescribed by law? Need law on assembly; refusal by authority maybe not clear foreseeability. Probably no – not sufficiently foreseeable/safeguards => violation of prescribed by law thus article violated. So conclusion no for prescribed_by_law meaning not satisfied -> violation. Legitimate aim? Authorities claim law but likely not genuine; but they'd argue public order. Facts show they said not in accordance with law, impractical. Might be aimed at public safety/order. Could be accepted? Usually Court finds lack of necessity. But legit aim maybe yes. We'll set yes. Necessity? Likely no, disproportionate. Positive obligation? No positive duty identified. So overall violation because failure at prescribed_by_law and necessity. Provide facts accordingly.
+
+Let's pick facts: prescribed_by_law uses F007,F008,F009,F010,F011,F012 showing arbitrary refusal, lack of clear law. Also F064 reference but not atomic. Use those.
+
+Necessity uses F019-F021,F053 etc.
+
+Positive obligation none.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F018", "F014", "F015"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F019", "F020", "F021", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F007", "F008", "F009", "F010", "F011", "F012"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F010", "F012"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F019", "F020", "F021", "F053"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

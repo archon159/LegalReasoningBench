@@ -1,0 +1,43 @@
+analysisWe need map. Likely violation because interference not justified. So scope yes (peaceful assembly). Facts: F013,F014,F025,F026 show gathering and expression. Also they are union members. So scope yes.
+
+Interference: conviction/fine for refusing to disperse => yes interference. Facts: F031,F032,F033,F034,F035,F036 etc.
+
+Prescribed by law: law sections 32 etc exist. But need lawful basis specific to prohibition? There was bulletins declaring unlawful statements within 100m. Those are administrative acts maybe not law. Might be not sufficiently precise -> likely no prescribed by law. Use F044,F045,F046,F047,F050,F051.
+
+Legitimate aim: protect public order/safety. Facts: F031,F032 mention public order; also law aims. So yes.
+
+Necessity: must be proportionate. Likely not necessary, as peaceful protest, no violence. So no.
+
+Positive obligation: state must protect right to assemble; they failed to protect police didn't intervene but later fined. Could be breach. Facts: F027,F028,F029,F030 showing police non‑intervention (state's duty). So positive obligation not met => no.
+
+Thus overall violation because interference not justified. Need conclusions per element: scope yes, interference yes, prescribed_by_law no, legitimate_aim yes, necessity no, positive_obligation no. Violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F025", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F033", "F034", "F035", "F036"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F044", "F045", "F046", "F047", "F050", "F051"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F044", "F045", "F046"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F027", "F028", "F029", "F030", "F031", "F032"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F027", "F028", "F029", "F030"]
+    }
+  },
+  "violated": true
+}

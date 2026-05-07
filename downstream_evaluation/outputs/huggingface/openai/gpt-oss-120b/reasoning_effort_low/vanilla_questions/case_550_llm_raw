@@ -1,0 +1,57 @@
+analysisWe need map facts. Likely: scope yes (assembly occurred, applicant participated, peaceful? banners inc incitement maybe not peaceful). Peaceful? They shouted slogans, some calls for war criminal may be seen as non‑violent. Assume peaceful => yes.
+
+Interference: police used force arrest -> yes.
+
+Prescribed by law: reference to Assemblies and Marches Act Art 24; existence of law, foreseeability? Facts show law cited F055. So yes prescribed.
+
+Legitimate aim: police aimed to prevent disorder/public safety. Not explicit but implied. Use of force to disperse unauthorized demo -> legit aim yes.
+
+Necessity: proportionality? Force used against two persons continuing to sit; likely disproportionate. So no necessity.
+
+Positive obligation: state must protect right to peaceful assembly and investigate ill‑treatment. Domestic investigation inadequate (insufficient). So violation of positive obligation yes.
+
+Overall violation because both interference not necessary and positive obligation breach. So overall violated = true.
+
+Provide facts per element.
+
+Scope facts: F007 (gathering), F015 (applicant continued), maybe F011 (sat down) shows participation, peace? F010 etc maybe incitement but still peaceful. Use F007,F011,F015.
+
+Interference facts: F012 warning, F013 opening passage, F014 dispersion, F015 continuation, F016 force arrest.
+
+Prescribed by law: F055 (law), plus maybe F061 description. Use F055.
+
+Legitimate aim: F012-F014 showing police maintaining public order, also F055 justification. Use F012,F014,F055.
+
+Necessity: need facts about force proportion: F016,F025,F024 etc showing violence. Also F055 law justification. Use F016,F025,F055.
+
+Positive obligation: facts about investigation insufficiency: F039-F047, F046, F047, F050, F051, F059. Choose key: F039,F041,F042,F046,F047,F051,F059.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F011", "F015"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F014", "F015", "F016"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F055"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F012", "F014", "F055"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F016", "F025", "F055"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F039", "F041", "F042", "F046", "F047", "F051", "F059"]
+    }
+  },
+  "violated": true
+}

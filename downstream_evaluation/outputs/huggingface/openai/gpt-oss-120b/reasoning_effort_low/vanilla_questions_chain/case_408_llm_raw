@@ -1,0 +1,46 @@
+analysisWe need assess likely violation. Given many arrests etc. Likely violation of Article 11 due to lack of lawful authorization and disproportionate response. So scope yes, interference yes, prescribed_by_law maybe no because law vague. So violation. Provide facts.
+
+Select facts:
+Scope: F007/F008 demonstration, F045 participation, F046 peaceful? Actually video shows some violence. But applicants claim peaceful. Use F045, F046, F047. Conclude assembly occurred, they tried to participate, peace questionable but claim peaceful => assume yes.
+
+Interference: arrests F052,F053,F054,F055 etc.
+
+Prescribed_by_law: need law requiring permission – but law unclear; facts about notice refusal F036,F037,F038 showing requirement of authority. Also administrative offence article 310.1 F013. However foreseeability? Probably not sufficiently accessible. Conclude no.
+
+Legitimate aim: public order etc. Facts F041,F042,F043,F044 indicate aim to prevent disorder. Conclude yes.
+
+Necessity: proportionality – violence occurred (F048-F051) but state response heavy, convictions. Likely not necessary. Conclude no.
+
+Positive obligation: perhaps duty to protect against ill‑treatment – facts F086-F094 show failure. Conclude yes violation.
+
+Thus overall violation.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F045", "F046"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F052", "F053", "F054", "F055"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F013", "F036", "F037", "F038"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F041", "F042", "F043", "F044"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F048", "F049", "F050", "F051", "F055"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F086", "F087", "F088", "F089", "F090", "F091", "F092"]
+    }
+  },
+  "violated": true
+}

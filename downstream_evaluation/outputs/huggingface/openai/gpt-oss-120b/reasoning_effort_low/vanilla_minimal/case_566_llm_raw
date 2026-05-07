@@ -1,0 +1,43 @@
+analysisWe need assess each element. Likely violation: interference yes, prescribed by law yes, legitimate aim? Aim was political expression; restriction maybe not necessary. So violation. Provide facts.
+
+Scope: picket is peaceful assembly => yes. Facts F004,F005,F009 etc.
+
+Interference: conviction/fine interferes. Facts F036-F059.
+
+Prescribed by law: law exists sections etc F065-F070 and applied. Yes.
+
+Legitimate aim: protection of public order, health, morals, rights of others. State argued public order. Facts about obstruction etc F029,F042,F043. So aim legit. Conclusion yes.
+
+Necessity: Was restriction proportionate? Ten‑day notice rule maybe excessive, plus penalty disproportionate. Also content-based restriction (leaflets slander). Likely not necessary. Use facts F037-F040 etc. Conclude no.
+
+Positive obligation: state must protect right to assemble, ensure authorities do not impede. They intervened and fined. Might be breach. Probably yes? Actually positive obligation is to ensure effective enjoyment; here failure. So conclusion yes (state failed).
+
+Thus overall violation because one element (necessity) not met. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F009", "F010", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F058", "F059"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F065", "F066", "F067", "F068", "F069", "F070", "F037", "F038"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029", "F042", "F043", "F044", "F047", "F048"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F037", "F038", "F040", "F041", "F042", "F043", "F050", "F051", "F056", "F057"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F019", "F020", "F021", "F022", "F023", "F024", "F025", "F026", "F027", "F028", "F029", "F030", "F031", "F032", "F036", "F058"]
+    }
+  },
+  "violated": true
+}

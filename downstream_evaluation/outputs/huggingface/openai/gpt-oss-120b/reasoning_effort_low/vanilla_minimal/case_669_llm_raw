@@ -1,0 +1,33 @@
+analysisWe need map. Likely violation: scope yes, interference yes, prescribed by law? no interference not about law. So not prescribed => violation. legitimate aim (public safety) yes. necessity no. positive obligation yes. Overall violation true.
+
+Select facts: scope F005 (reliance). Also F001,F002 show issue. Interference: F001,F002,F044-F072 etc. Prescribed by law: none showing law authorising restriction -> no. legitimate aim: protection of public safety/order – F040,F042 etc. necessity: need facts showing disproportionate – many. positive obligation: state duty to protect – F021,F036-043 etc.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F001", "F002"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F044", "F045", "F050", "F052", "F064", "F066", "F069", "F071", "F072", "F073", "F074", "F079", "F080", "F085", "F086", "F089", "F091", "F092"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F040", "F042", "F053", "F072"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F041", "F042", "F045", "F050", "F064", "F066", "F069", "F071", "F072", "F073", "F074", "F079", "F080", "F085", "F086", "F089", "F091", "F092"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F021", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F113", "F115", "F119", "F121", "F122"]
+    }
+  },
+  "violated": true
+}

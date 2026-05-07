@@ -1,0 +1,43 @@
+analysisWe need map. Likely scope yes (assembly, participation, peaceful). Facts: F001,F002,F004 (peaceful? disrupted). Peaceful assembly maybe not fully due to violence but applicants intended peaceful. Use F001,F002,F004. Conclusion yes.
+
+Interference: police arrest etc. Facts F005,F006,F007,F016,F018,F019. Yes.
+
+Prescribed by law: charge under article 20.1; law exists. Need F008 showing law, plus maybe info about foreseeability not given. Assume yes. facts F008.
+
+Legitimate aim: authorities cite public order. Facts F018,F019,F020. Yes.
+
+Necessity: need assessment of proportionality. Given courts upheld arrest despite termination, likely not necessary. So conclusion no. facts F018,F019,F020,F021.
+
+Positive obligation: Court may have positive duty to protect assembly. Fact F026,F027 indicate claim. Likely violation of positive obligation => yes. facts F026,F027.
+
+Thus overall violation yes.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F004"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F007", "F016", "F018", "F019"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F008"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019", "F020"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F018", "F019", "F020", "F021"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F026", "F027"]
+    }
+  },
+  "violated": true
+}

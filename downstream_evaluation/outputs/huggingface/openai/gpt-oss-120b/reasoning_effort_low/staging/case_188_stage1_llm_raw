@@ -1,0 +1,36 @@
+analysisWe need map facts. Facts given: F001 list of applicants; F002 complain of disproportionate measures as protest participants; F003 protests location/date; F004 other complaints.
+
+Scope needs info about assembly existence, participation, peacefulness. We have F002 (participants) and F003 (protests). So scope uses F002, F003.
+
+Interference: need governmental act interfering. Not directly in facts; maybe implied by disproportionate measures (F002). So use F002.
+
+Prescribed by law: need law basis – none of facts mention law. So empty [].
+
+Legitimate aim: need aim justification – not in facts. Empty [].
+
+Necessity: need balancing – not present. Empty [].
+
+Positive obligation: need if Court spelled out – not in facts. Empty [].
+
+Thus output.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F002", "F003"]
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+analysisWe need map facts per element. Provide minimal relevant facts. Let's pick key ones.
+
+Scope: need facts showing assembly, participation, peaceful. F004, F005, F006, F007, F008, F009, F010, F012, F013, F014, F015, F020, F046, F047, F048, F049, F050, F051, F052, F053, F054, F055, etc. But choose representative: F004 (demonstrations), F005 (unauthorized), F006 (arrests), F009 (applicant arrested), F020 (claim peaceful), F046 (video shows protest peaceful until police start), F047 (police dispersed). So list maybe these.
+
+Interference: facts of arrest, charges, convictions. F009, F010, F011, F012, F013, F014, F015, F016, F017, F018, F019, F020, F021, F022, F023, F024, etc. Also F046-F048. We'll include F009, F010, F011, F012, F013, F014, F015, F046, F047.
+
+Prescribed_by_law: need law provisions and foreseeability. Facts about Article 310.1, Article 233, Article 186.1, Article 315.1. Use F013, F170, F171, F172. Also F036-F038 about authorization. So list F013, F170, F171, F172, F036, F038.
+
+Legitimate aim: need justification like public safety, preventing disorder. Facts about police orders, arrests due to breach of public order. Use F012, F013, F036, F038, F046, F047, F048, F049, F050, F051. Maybe F012, F013, F036, F038, F047.
+
+Necessity: need balancing. Facts about severity of disturbance, police response, injuries. Use F048, F049, F050, F051, F052, F053, F054, F055, F056, F057, F058, F059, F060. Also F020 claim peaceful. So list F048, F049, F050, F051, F052, F053, F054, F055, F060, F020.
+
+Positive obligation: any statement of positive duty? Not explicit. Might be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F005","F006","F009","F020","F046","F047"]},"interference":{"facts":["F009","F010","F011","F012","F013","F014","F015","F046","F047"]},"prescribed_by_law":{"facts":["F013","F170","F171","F172","F036","F038"]},"legitimate_aim":{"facts":["F012","F013","F036","F038","F047"]},"necessity":{"facts":["F020","F048","F049","F050","F051","F052","F053","F054","F055","F060"]},"positive_obligation":{"facts":[]}}}

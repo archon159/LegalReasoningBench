@@ -1,0 +1,34 @@
+analysisNeed map. Scope: need assembly existence, participation, peaceful. Facts: F005 (intention), F006, F007 (purpose), F013 (did not hold). Actually assembly didn't occur. So to assess scope need facts showing attempt to assemble: F005, F006, F007, F013 shows none held => maybe no assembly -> likely not satisfied. Provide those.
+
+Interference: governmental act interfering: prohibition letter F008-F010, police visit F011-F012. Also later court etc. So include F008,F009,F010,F011,F012.
+
+Prescribed by law: need law basis, procedural obligations. Facts about Meetings and Marches Act, but atomic facts referencing that: F027,F028 show lack of statutory grounds; also F034,F035 about procedure. So include F027,F028,F034,F035.
+
+Legitimate aim: need justification grounds. Not present; maybe none. But need facts indicating absence of legit aim: F027,F028 indicate no statutory ground. Could include those. Also maybe F001-F004 about environmental reasons not legit aim for restriction. Probably include F027,F028.
+
+Necessity: balancing – need info on severity, continuation of clearing etc. Facts: F014 (clearing continued), F001-F004 (environmental concern). Also F026 judgement. Use F014,F001,F002,F003,F004.
+
+Positive obligation: Court may impose duty to protect environment? Might involve state liability. Relevant facts: F036-F039 about liability. Also perhaps F034. Choose F036,F037,F038,F039.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F005", "F006", "F007", "F013"]
+    },
+    "interference": {
+      "facts": ["F008", "F009", "F010", "F011", "F012"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F027", "F028", "F034", "F035"]
+    },
+    "legitimate_aim": {
+      "facts": ["F027", "F028"]
+    },
+    "necessity": {
+      "facts": ["F001", "F002", "F003", "F004", "F014"]
+    },
+    "positive_obligation": {
+      "facts": ["F036", "F037", "F038", "F039"]
+    }
+  }
+}

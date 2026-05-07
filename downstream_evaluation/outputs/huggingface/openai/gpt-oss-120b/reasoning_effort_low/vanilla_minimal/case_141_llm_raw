@@ -1,0 +1,41 @@
+analysisWe need assess violation. Likely ECtHR found violation of Art 11 regarding detention and lack of fair trial? Probably yes. Use facts: interference = arrest/detention for exercising assembly. Prescribed by law? TRNC law questionable but recognized? Might be not prescribed properly. Likely violation. Provide facts accordingly.
+
+Select facts:
+Scope: participation in demonstration -> F012,F018,F019 etc.
+Interference: arrest, detention, beating -> F022-F028,F036-F047,F051-F066.
+Prescribed by law: charges under TRNC law -> F112-F119,F133-F135.
+Legitimate aim: public safety/order -> Government alleges -> F079-F087.
+Necessity: proportionality of force, fair trial deficiencies -> F019-F028,F040-F053,F094 etc.
+Positive obligation: state must protect peaceful assembly -> failure to protect -> F019-F028,F040-F053.
+
+Conclusion violation yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F012", "F018", "F019", "F020", "F021", "F022", "F023"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F026", "F027", "F028", "F036", "F037", "F043", "F044", "F045", "F046", "F047", "F048", "F050", "F051", "F052", "F066"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F112", "F113", "F133", "F134", "F135"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F019", "F021", "F022", "F023", "F025", "F027", "F028", "F040", "F041", "F051", "F052", "F094", "F117", "F118"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F019", "F021", "F022", "F023", "F025", "F027", "F028", "F040", "F041", "F051", "F052", "F094"]
+    }
+  },
+  "violated": true
+}

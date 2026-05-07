@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope: assembly existence, participation, peacefulness. Facts about demonstrations planned and applicants intending to join. For first applicant: F006 (arrest before demonstration), also F005 reporter but not participant. Might still scope? He was present maybe not participant. Second applicant: F025 planning demo, F026 planning to participate, F027-30 etc. So facts: F006, F025, F026, maybe F027 shows stop before demo. Peaceful? No fact about violence. None. So include those.
+
+Interference: facts showing arrest/detention prior to demo: F001,F002,F004,F006,F027-F030 etc. Also convictions. So list.
+
+Prescribed_by_law: need law basis: F009 indicates charge under article, F010, F033, F034 show statutory provisions. Also mention administrative-offence report. So include F009,F010,F033,F034 perhaps.
+
+Legitimate aim: need justification like failure to obey police request; that's in F009, F033. Also maybe public order. So include those.
+
+Necessity: need balancing – facts about severity of sanction (fine small) vs aim. Include F014,F034 (fine amounts). Also maybe lack of necessity: F011 (overnight detention) shows disproportionate. So include F011,F014,F034.
+
+Positive obligation: Court may have positive duty to protect assembly. Need facts about government's duty to allow participation. Could use F025,F026 (planning demo) and F043 complaint. Maybe also F040-42 but those are other articles. We'll include F025,F026,F043.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F025", "F026"]
+    },
+    "interference": {
+      "facts": ["F001", "F002", "F004", "F006", "F027", "F028", "F029", "F030", "F031"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F009", "F010", "F033", "F034"]
+    },
+    "legitimate_aim": {
+      "facts": ["F009", "F033"]
+    },
+    "necessity": {
+      "facts": ["F011", "F014", "F034"]
+    },
+    "positive_obligation": {
+      "facts": ["F025", "F026", "F043"]
+    }
+  }
+}

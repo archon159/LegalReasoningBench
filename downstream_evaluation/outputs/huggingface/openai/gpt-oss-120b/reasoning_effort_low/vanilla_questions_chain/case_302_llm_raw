@@ -1,0 +1,31 @@
+analysisWe need assess. Facts show arrest for unauthorized demonstration, likely peaceful. So scope: assembly? Yes, demonstration = assembly, applicant participated, peaceful? Not stated but likely peaceful. No fact indicating violence. Assume peaceful. So scope yes using F009,F010 maybe. Interference: arrest/detention interferes. Yes using F009,F010,F011. Prescribed by law: conviction under Article 310.1 Code of Admin Offences – need foreseeability etc. Likely law vague, but we have only facts showing law exists. We cannot assess safeguards; assume law insufficient? Hard. Probably violation because lack of representation and due process indicates not properly prescribed. But question about prescribed by law focuses on clarity and accessibility. We have no info on vagueness. Might conclude yes (it was prescribed). Use F010,F011. Legitimate aim: authorities may claim public order. No fact stating aim. Not present. Could infer aim to prevent disorder. But without explicit, can't conclude. Probably they argue prevention of disorder. We'll say yes based on typical. Need fact showing unauthorized demonstration -> aim to maintain public order. Not in facts. Might be missing. Could default to no because not proven. I'd choose no => violation. Necessity then irrelevant but still evaluate: if legitimate aim not established, violation already. Positive obligation: none. Conclusion violation true.
+
+Let's output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

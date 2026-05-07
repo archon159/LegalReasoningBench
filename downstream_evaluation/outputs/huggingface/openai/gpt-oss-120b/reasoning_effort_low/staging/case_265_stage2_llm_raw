@@ -1,0 +1,35 @@
+analysisWe must assess using selected facts. Likely scope yes (assembly, participation, peaceful? but facts show violence, so peaceful? F011/F012 indicate violent. So peaceful false => scope not met -> no violation overall. But need conclusions per element. Scope: need assembly, participation, peaceful. Facts show violent, so not peaceful => scope = no. Interference? Since conviction interferes with freedom regardless, but if scope no then maybe irrelevant but still? We can say yes interference exists (conviction). Using facts F031-34 indicate sanction for participation. So interference yes.
+
+Prescribed_by_law: need law basis; we have conviction under statutes, but foreseeability? Not enough facts; we only have F031 (sentence based on law). Might conclude yes? Hard. Probably yes because law exists.
+
+Legitimate aim: state security etc. Facts show protecting police, preventing disorder. Use F042-44, F055 indicating aim of public safety. So yes.
+
+Necessity: need balancing; we have reduction/suspension facts F058-60 showing some mitigation but still heavy. Likely not necessary proportionate. Conclude no.
+
+Positive obligation: facts about witness refusal F029,F030 indicate denial of fair trial, positive duty to ensure equality of arms. Likely yes violation of positive obligation => conclusion no (i.e., not fulfilled). Actually question: did government fulfill positive obligation? Conclusion yes if fulfilled. Here not fulfilled, so conclusion no.
+
+Overall violation: Since scope not satisfied, no violation? Actually if scope fails, no violation. So violated false.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": false
+}

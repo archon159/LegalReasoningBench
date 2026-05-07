@@ -1,0 +1,33 @@
+analysisWe need map facts. This case seems same as 2005 decision where violation found. So conclusions: scope yes (applicants members of party, party dissolved -> affects freedom of assembly? Actually article 11 covers freedom of peaceful assembly; but parties relate to association (article 11 includes both). Likely scope yes. interference yes (dissolution interferes). prescribed by law? constitutional court decision based on law— but likely not sufficiently precise => maybe no. But given ECtHR found breach, they considered it not prescribed by law. So conclusion no for prescribed_by_law. legitimate aim? state may claim protection of territorial integrity etc. Probably no. necessity? no. positive obligation? yes (state must protect). Overall violation true.
+
+Select facts: scope uses F007,F008,F009,F010,F011,F012. interference uses F011,F012. prescribed_by_law uses F011 (court decision) maybe insufficient. legitimate aim uses F011 (state justification?) none given. necessity uses F011,F012. positive_obligation uses F011,F012,F013 (judgment). Provide.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009", "F010", "F011", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F011"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F011", "F012"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013"]
+    }
+  },
+  "violated": true
+}

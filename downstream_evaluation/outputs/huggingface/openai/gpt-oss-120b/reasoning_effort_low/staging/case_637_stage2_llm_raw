@@ -1,0 +1,25 @@
+analysisWe need conclusions based on selected facts. Likely scope yes, interference yes, prescribed maybe no due to lack of proper notification? Facts show law provisions but not that applied foreseeably. Probably not prescribed => no -> violation. Also necessity likely no. Positive obligation maybe yes (state didn't provide lawyer etc) => violation anyway. So overall violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

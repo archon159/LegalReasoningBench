@@ -1,0 +1,45 @@
+analysisNeed to map. Likely violation: interference yes, not prescribed, etc. Provide conclusions.
+
+Scope: applies to peaceful assembly. Facts show peaceful protest initially. So scope yes. Use F009-F014,F015,F016,F017,F018,F019.
+
+Interference: police dispersed, house arrest. Yes. Facts F035-F048,F050-F058,F106 etc.
+
+Prescribed by law: need legal basis. Police acted under Assembly Act maybe but unclear. They cited Section6 etc for protection, not for dispersal. No lawful order. Likely no proper law. Use F091-F094? Actually law for protection not for dispersal. So conclusion no.
+
+Legitimate aim: aim to protect public order / safety. Govt claims weapons. Use F068-F071. So yes.
+
+Necessity: proportionality? Excessive force, house arrest. Likely not necessary. Conclusion no.
+
+Positive obligation: state must protect right to assemble. They failed to protect and even disrupted. So yes violation of positive obligation? Need conclude yes that state breached. Use F022-F028,F064-F066 etc.
+
+Thus overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F012", "F013", "F014", "F015", "F016", "F017", "F018", "F019"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F035", "F036", "F037", "F040", "F045", "F046", "F047", "F048", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F106"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F091", "F092", "F093", "F124", "F125", "F126"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F068", "F069", "F070", "F071", "F066", "F067"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F046", "F047", "F048", "F064", "F065", "F066", "F067", "F068", "F070"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F026", "F027", "F028", "F064", "F065", "F066", "F067"]
+    }
+  },
+  "violated": true
+}

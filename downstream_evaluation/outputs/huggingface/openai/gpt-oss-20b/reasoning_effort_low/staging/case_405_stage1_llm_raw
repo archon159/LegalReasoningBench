@@ -1,0 +1,13 @@
+analysisWe need map. scope: need evidence of assembly, participation, peacefulness. Facts: F004, F005 (assembly), F009, F010 (peaceful). Also maybe F001? but not necessary. So scope facts: [F004,F005,F009,F010].
+
+Interference: any government act interfering: police dispersal etc. Facts: F011, F012-F018, F020-F024, F025-F031, F032-F038, F039-F041, plus maybe F042? but that's complaint. So interference facts: many. We'll list key ones: F011, F012, F013, F014, F015, F016, F017, F018, F019, F020, F021, F022, F023, F024, F025, F026, F027, F028, F029, F030, F031, F032, F033, F034, F035, F036, F037, F038, F039, F040, F041.
+
+Prescribed_by_law: need info on law provisions, foreseeability, accessibility, safeguards. Facts: F077 (law on ill-treatment), F078 (law on assembly). Maybe also F001? but not. So [F077,F078].
+
+Legitimate_aim: need justification: public order, preventing disorder, etc. Facts: F070 indicates removal for violating public order. So F070. Also maybe F079? none. So [F070].
+
+Necessity: need balancing; facts about severity, necessity. Could use F070 (public order), F011 (dispersal), maybe F069? but that's court finding. Use F070, F011. Also maybe F069? but it's court decision. We'll include F070, F011.
+
+Positive obligation: need facts showing positive duty. Might refer to F077/F078? But positive obligation arises from law requiring protection. Use F077, F078. Also maybe F042? but that's complaint. We'll use F077,F078.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F005","F009","F010"]},"interference":{"facts":["F011","F012","F013","F014","F015","F016","F017","F018","F019","F020","F021","F022","F023","F024","F025","F026","F027","F028","F029","F030","F031","F032","F033","F034","F035","F036","F037","F038","F039","F040","F041"]},"prescribed_by_law":{"facts":["F077","F078"]},"legitimate_aim":{"facts":["F070"]},"necessity":{"facts":["F011","F070"]},"positive_obligation":{"facts":["F077","F078"]}}}

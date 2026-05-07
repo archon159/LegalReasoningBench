@@ -1,0 +1,45 @@
+analysisWe need assess Article 11 – freedom of assembly. But facts revolve around harassment, etc. Likely claim is violation of freedom of peaceful assembly? Actually maybe about forming association (foundation). Could be Article 11 positive obligation to protect. Probably violation found. Use key facts: denial of permission to cross border, refusal to register foundation, restriction of press card, harassment. So conclude violations.
+
+Provide facts per element.
+
+Scope: applies to freedom of peaceful assembly and association. Applicant seeks to form association (Kutlu Adalı Foundation) and hold commemorative ceremony. Facts: F097, F101, F102, F108? Also F100 crossing. So yes.
+
+Interference: actions restricting assembly – refusal to register foundation, prevent crossing, police harassment, denial of permit for ceremony. Yes.
+
+Prescribed by law: Need legal basis for refusals. Laws exist but arbitrary. Facts: F176, F177 show requirement of court order; refusal seems not prescribed. So no proper law -> conclusion no.
+
+Legitimate aim: authorities claim public safety, order. Facts: F176, F178 etc. Possibly legitimate aim claimed. So yes.
+
+Necessity: Measures not necessary in democratic society – disproportionate. So no.
+
+Positive obligation: State must protect against third‑party harassment. They failed. Yes.
+
+Overall violation because interference not justified. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F097", "F101", "F102", "F100"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F097", "F100", "F101", "F102", "F091", "F092", "F093", "F094", "F095", "F096"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F176", "F177"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F176", "F178", "F179"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F097", "F100", "F101", "F102", "F091", "F092", "F093", "F094", "F095", "F096"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F091", "F092", "F093", "F094", "F095", "F096"]
+    }
+  },
+  "violated": true
+}

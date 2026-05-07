@@ -1,0 +1,29 @@
+analysisWe need infer likely missing info; but only given few facts, many elements cannot be decided -> maybe conclude insufficient => can't find violation? Probably scope yes (assembly planned, intent). But we don't know if actually took place or peaceful. So cannot confirm. Might say no for scope due lack of fact. Similarly others unknown. Likely all conclusions no due insufficient facts. Provide empty lists where none.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F003", "F004", "F005", "F006"]
+    },
+    "interference": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

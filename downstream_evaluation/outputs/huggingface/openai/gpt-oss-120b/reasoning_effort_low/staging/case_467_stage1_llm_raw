@@ -1,0 +1,31 @@
+analysisWe need map. Given only three atomic facts F001-F003. Which elements need which? Likely all need F002 (complaints about measures). Scope needs info about assembly existence etc not present. So maybe none. Use available facts: F002 relates to interference claim. Also F001 lists applicants but not substantive. Could be used for scope identification. So assign:
+
+scope: F001 (identifies applicants and possibly their participation)
+interference: F002
+prescribed_by_law: [] (no fact)
+legitimate_aim: [] 
+necessity: []
+positive_obligation: []
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001"]
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

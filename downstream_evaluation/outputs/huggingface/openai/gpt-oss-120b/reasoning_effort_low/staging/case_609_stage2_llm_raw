@@ -1,0 +1,37 @@
+analysisWe need conclusions based on listed facts. Likely scope yes (assembly, participation, peaceful). Facts show demonstration organized, applicant participated, seems peaceful until forced dispersal. So scope yes.
+
+Interference: police used force, beat her, prevented medical aid – yes interference.
+
+Prescribed_by_law: Need foreseeability etc. Facts show law articles cited, but unclear if law clearly allows force after time limit. Probably not sufficiently precise; Court likely finds lack of clear safeguards. Might conclude no (not prescribed).
+
+Legitimate aim: aim was preventing disorder/public safety due to exceeding time. Could be considered legitimate. So yes.
+
+Necessity: Proportionality questionable; force excessive, prevented medical aid. Likely no.
+
+Positive obligation: state failed to provide medical aid – yes violation of positive duty => conclusion yes (state breached).
+
+Overall violation: since prescribed_by_law or necessity fails, violation yes.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,43 @@
+analysisWe need assess if violation. Likely no violation because conviction for violent disorder permissible. So elements: scope yes (assembly, participation, peaceful? Not peaceful => fails peace requirement maybe but still assembly). Interference yes (arrest, conviction). Prescribed by law yes (criminal code). Legitimate aim yes (prevention of disorder, protection of rights of others). Necessity likely yes (proportionate). Positive obligation none. Thus overall no violation. Provide facts accordingly.
+
+Select facts: scope: F012,F013,F014,F016,F017 etc showing participation; also need peaceful – not peaceful -> but element asks peaceful? need fact indicating violence -> F014,F016,F027 etc. We'll list.
+
+Interference: arrest F038, conviction F064,F065 etc.
+
+Prescribed: F040-F043 criminal code.
+
+Legitimate aim: article 212 aims prevention of disorder – facts about mass disorder F001,F020,F021,F068.
+
+Necessity: balancing – use sentencing facts F085,F086 and evidence of violence F069-F074.
+
+Positive obligation: none.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F016", "F017", "F027", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F038", "F039", "F040", "F041", "F064", "F085"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F040", "F041", "F043", "F093"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F001", "F020", "F021", "F068", "F069", "F070"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F069", "F070", "F074", "F085", "F086"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

@@ -1,0 +1,29 @@
+analysisWe need map facts. Likely all show interference etc. So conclusions: scope yes (peaceful demo). interference yes (arrest). prescribed_by_law? need law basis – not given maybe lacking, so no. legitimate aim? security? not given -> likely no. necessity? no. positive obligation? yes state must protect peaceful assembly – they failed => violation. But overall violation requires all elements satisfied except maybe some negative. Usually if any element fails, violation. Here prescribed_by_law not satisfied, legitimate aim not, necessity not => violation. Provide facts: scope uses F010,F011,F012,F013. interference uses F014,F015,F016,F017,F018,F019,F020. prescribed_by_law uses F022,F023,F024,F025 perhaps but these relate admin offences not assembly; still need law authorising restriction – none, so conclude no with those facts. legitimate_aim uses maybe security/public order but not present → no facts. necessity uses same as legit aim plus proportionality – none → no. positive_obligation uses F008,F009 (authorisation) showing state duty to allow – they did authorize but then interfered, so positive obligation breached – use F008,F009,F010,F011,F014. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012", "F013"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010", "F011", "F014"]
+    }
+  },
+  "violated": true
+}

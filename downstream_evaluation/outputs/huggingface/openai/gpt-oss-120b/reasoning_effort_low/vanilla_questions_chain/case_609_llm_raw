@@ -1,0 +1,59 @@
+analysisWe need map facts. Likely scope yes (assembly, participation, peaceful). Facts: F006-F010 show demonstration peaceful intent. F015 participation. So scope yes.
+
+Interference: police forced dispersal, beat her. Yes. Facts: F011,F012,F013,F014,F018-21,F027-29 etc.
+
+Prescribed by law: need law basis. Facts: F062,F063,F092,F094,F095 show law allows restriction and force. Need foreseeability etc. Probably yes (law exists). But assess adequacy: law vague? likely considered insufficient safeguards => maybe no. However typical ECtHR finds Azerbaijan law not precise enough. Might conclude no (not prescribed by law). We'll choose no.
+
+If not prescribed, violation automatically. So overall violation yes.
+
+Legitimate aim: law says prevent disorder/public safety. Govt claimed demonstration beyond time limit -> aim to prevent disorder. So yes.
+
+Necessity: Given excessive force, not necessary. So no.
+
+Positive obligation: duty to provide medical aid – facts show failure. So yes violation of positive obligation.
+
+Thus overall violation true.
+
+Provide facts per element.
+
+Scope facts: F006,F007,F008,F009,F010,F015.
+
+Interference facts: F011,F012,F013,F014,F018,F019,F020,F021,F022,F023,F024,F025,F027,F028,F029,F030,F036.
+
+Prescribed by law facts: F062,F063,F092,F094,F095.
+
+Legitimate aim facts: F012,F052,F053,F061,F062,F063,F094.
+
+Necessity facts: F014,F018-21,F027-28,F095,F098,F102.
+
+Positive obligation facts: F027,F028,F029,F031-F043,F081.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F010", "F015"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F014", "F018", "F019", "F020", "F021", "F022", "F023", "F024", "F025", "F027", "F028", "F029", "F030", "F036"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F062", "F063", "F092", "F094", "F095"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F012", "F052", "F053", "F061", "F062", "F063", "F094"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F018", "F019", "F020", "F021", "F027", "F028", "F095", "F098", "F102"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029", "F031", "F032", "F033", "F034", "F035", "F036", "F037", "F041", "F042", "F043", "F044", "F045", "F081"]
+    }
+  },
+  "violated": true
+}

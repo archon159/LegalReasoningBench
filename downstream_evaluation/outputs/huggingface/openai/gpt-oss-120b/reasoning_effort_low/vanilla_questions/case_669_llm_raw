@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely all yes for scope etc. Provide selections.
+
+Scope: assembly existed (IDAHO event). Applicants participated. Peaceful? Flash mob peaceful intent. Facts F018,F019,F020,F048,F054 etc show peaceful. So yes. Use facts: F018,F019,F020,F048,F054.
+
+Interference: police allowed counter-demo to breach, causing violence. Yes. Facts: F050,F064,F066,F069,F071,F072,F074 etc.
+
+Prescribed by law: Need law governing assemblies. Not in facts. No explicit law mentioned. Might be absent => cannot assess? Probably not enough info -> conclude no? But likely law exists (Georgian law on assemblies) but not detailed. Since not in atomic facts, we may say insufficient; but need conclusion yes/no based on facts. Probably can't determine, but assume law exists and is accessible. However no fact indicates. I'd put no (cannot establish). But then overall violation maybe still? Usually if not prescribed by law, violation. So conclusion no (i.e., not prescribed) leads to violation.
+
+Legitimate aim: authorities claimed public safety/order. Facts: F040 (intelligence), F041 proposal, F042 promise. So yes.
+
+Necessity: balance not met – police inadequate. Facts: F050,F064,F066,F069,F071,F072,F074,F077 etc. Conclusion yes (violation of necessity). Actually necessity assessment: was interference necessary? No, thus violation => conclusion yes (meaning requirement not met). We'll state yes (i.e., not necessary).
+
+Positive obligation: Court may have positive duty to protect. Here state failed to protect. Facts: F021,F022,F023,F024,F025... etc. Conclusion yes.
+
+Overall violation: true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019", "F020", "F048", "F054"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F050", "F064", "F066", "F069", "F071", "F072", "F074", "F077"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F040", "F041", "F042"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F050", "F064", "F066", "F069", "F071", "F072", "F074", "F077"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F023", "F024", "F025", "F026", "F027", "F028", "F029"]
+    }
+  },
+  "violated": true
+}

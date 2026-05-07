@@ -1,0 +1,59 @@
+analysisWe need map facts. Likely violation yes. Provide facts per element.
+
+Scope: assembly? He performed silent protest alone, not assembly. Assembly requires gathering of persons. Might be considered peaceful demonstration? It's a solo protest, not assembly. So scope maybe no because not assembly. But Article 11 also covers freedom of association? Actually assembly includes meeting of persons; a lone protest is exercise of freedom of expression, not assembly. So likely scope not satisfied => no violation under article 11? However case law sometimes treats even one-person protest as assembly? Usually assembly = gathering of persons, at least two. I'd say no.
+
+Interference: police stopped him, detained – interferes with his freedom to assemble (if considered). Facts F014-F040 etc.
+
+Prescribed by law: Need law on demonstrations (Law No.26) says no authorization needed <50 participants. His solo protest fits. Police had no legal basis -> not prescribed.
+
+Legitimate aim: police claimed maintaining public order, protecting rights of others. Could be but questionable.
+
+Necessity: disproportionate force, detention, conditions – not necessary.
+
+Positive obligation: state must protect right to peaceful assembly, ensure police act proportionally – violated.
+
+Given ambiguity, likely Court would find violation of Article 11 because interference with peaceful protest. I'll output accordingly.
+
+Select facts:
+
+Scope: F011-F013 show protest, F012 placard, F013 silent protest. Also F006 demonstration organized earlier but not his participation. Use F011-F013.
+
+Interference: F014-F040,F041-F045.
+
+Prescribed by law: F105 (law no auth), plus F011-F013 to show he complied.
+
+Legitimate aim: police claim order, maybe F038 (officer said breaching rights of others) indicates aim of protecting rights of others. Use F038.
+
+Necessity: F021,F030,F036,F040-F045, F045- F058 conditions.
+
+Positive obligation: overall.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F021", "F022", "F023", "F030", "F032", "F036", "F039", "F040", "F041", "F042", "F043", "F044", "F045"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F105", "F011", "F012", "F013"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F038"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F021", "F030", "F036", "F040", "F045", "F046", "F047", "F048", "F049", "F051", "F057", "F058"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F021", "F022", "F023", "F030", "F032", "F036", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049", "F051", "F057", "F058"]
+    }
+  },
+  "violated": true
+}

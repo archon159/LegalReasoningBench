@@ -1,0 +1,77 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F004 (protest rallies organized), F007 (applicants attended gathering), F008 (organised by second applicant), F009 (approved), F010 (they walked to another gathering), F011 (authorized gathering times), maybe F012/13 numbers irrelevant. Also peace? No fact stating violence; assume peaceful. So include those.
+
+Interference: police blocking route, arrests. Facts: F015 (route blocked), F016 (arrested), F017 (excessive force), F018 etc. Also administrative detention F026 etc. So include F015,F016,F017,F018,F019 etc maybe.
+
+Prescribed by law: need law provisions. Facts about charges and code articles: F022,F023,F024,F025,F026,F027,F028. Also summary of law F076,F077. So include those.
+
+Legitimate aim: need government's justification – public safety, prevention of disorder. Not explicit but perhaps implied by charges under article 20.2 §2 (procedure) and 19.3 (disobeying orders) aimed at public order. Might use F022-F025 showing charges. Also maybe F012 govt alleged size. We'll include F022-F025.
+
+Necessity: need balancing, proportionality, evidence of excessive force, length of detention, fairness of trial. Facts: F017 (excessive force), F027,F028 detention lengths, F034 short adjournment, F055 dismiss testimony, F056 trust police, F057 sentencing, F058 prior conviction, F064 etc. Choose key: F017,F027,F028,F034,F055,F056.
+
+Positive obligation: Court may have positive duty to protect right to peaceful assembly, ensure effective remedy. Facts about failure of authorities to allow court access etc: F030,F031,F032. Also maybe F045-49 testimonies. Use F030,F031,F032.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F004",
+        "F007",
+        "F008",
+        "F009",
+        "F010",
+        "F011"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F026",
+        "F027",
+        "F028",
+        "F076",
+        "F077"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F022",
+        "F023",
+        "F024",
+        "F025"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F017",
+        "F027",
+        "F028",
+        "F034",
+        "F055",
+        "F056"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F030",
+        "F031",
+        "F032"
+      ]
+    }
+  }
+}

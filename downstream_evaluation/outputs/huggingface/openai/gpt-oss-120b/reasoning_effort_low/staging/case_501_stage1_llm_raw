@@ -1,0 +1,102 @@
+analysisWe need map facts per element. Identify relevant ones.
+
+Scope: need facts showing assembly, participation, peacefulness. Relevant: F019 (rally organized), F020 (applicants participated), F021 (others), F025-038 etc show march, but assembly? The assembly is the protest at Prosecutor office. Peaceful: F032 (no violence), F033-34 slogans, drums, F035 line, etc. So list many. Provide key IDs: F019,F020,F025,F027,F028,F032,F033,F034,F035,F036,F037,F038,F040 maybe but that's police. We'll include those indicating peaceful nature. Also F053 (first applicant says peaceful). So scope facts: those.
+
+Interference: facts showing police action, arrests, detentions. Include F029,F030,F031,F035,F040,F041,F042,F043,F045,F046,F058,F059,F061,F062,F063,F064,F065,F071,F078 etc. Core: police push, ban, arrest. So list.
+
+Prescribed_by_law: need law basis. Facts about Constitution article 99? Actually F099 gives constitutional provision. Also criminal code articles 285 (F100-F102). Need info that law exists. So include F099,F100,F101,F102.
+
+Legitimate aim: need justification by state—public safety, order. Facts showing police claimed to prevent disorder, protect rights. Not explicit but perhaps implied by police actions: F042,F043 (police demand vacate), F045 (push), also mention mass disorders offense (F100-F102). So include those.
+
+Necessity: need balancing, proportionality. Facts about lack of violence (F032), police response heavy (special forces F040), removal of tents, prolonged detention, prohibition on gatherings (F077,F078). Also dissenting opinion noting no violence (F086-F088). So include these.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Facts about state's failure to protect, e.g., police prevented peaceful protest, detained. Could include F032 (no violence), F035 (police block), F053 (peaceful claim). Maybe also F099 constitutional guarantee. So include F099,F032,F035,F053.
+
+We'll output lists.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F019",
+        "F020",
+        "F021",
+        "F025",
+        "F027",
+        "F028",
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F036",
+        "F037",
+        "F038",
+        "F053"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F029",
+        "F030",
+        "F031",
+        "F035",
+        "F040",
+        "F041",
+        "F042",
+        "F043",
+        "F045",
+        "F046",
+        "F058",
+        "F059",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F071",
+        "F078"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F099",
+        "F100",
+        "F101",
+        "F102"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F042",
+        "F043",
+        "F045",
+        "F100",
+        "F101",
+        "F102"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F032",
+        "F040",
+        "F041",
+        "F045",
+        "F058",
+        "F059",
+        "F077",
+        "F078",
+        "F086",
+        "F087",
+        "F088"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F099",
+        "F032",
+        "F035",
+        "F053"
+      ]
+    }
+  }
+}

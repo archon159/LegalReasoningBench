@@ -1,0 +1,51 @@
+analysisWe need infer conclusions. Likely violation: arrests for demonstration without notice => interference, not prescribed, etc. So scope yes (assembly, participation, peaceful?). No fact about peace but assume peaceful; not stated violent. We'll say yes.
+
+Interference yes (arrest, conviction).
+
+Prescribed by law? Need law requiring notification; they didn't submit. Domestic law requires advance notice, so lack of notice makes illegal. But law exists. However foreseeability? Probably not properly accessible. Might be no violation of prescribed? Usually Court finds not sufficiently precise. I'd say no (not prescribed).
+
+Thus violation because not prescribed -> breach. Legitimate aim maybe public order, but not necessary if not prescribed. Still need conclusion: legitimate aim likely claimed (public safety). We can say yes (government argued). Necessity probably no (excessive). Positive obligation none.
+
+So overall violation true.
+
+Provide facts: scope uses F001,F009,F002? Actually participation and arrest. Use F001,F002,F003? For peaceful maybe not present. We'll list F001,F002,F009.
+
+Interference: F002,F003,F016 etc.
+
+Prescribed: F023 (no advance notification), plus maybe law summary F024.
+
+Legitimate aim: F023 indicates authority claim of preventing disorder. Use F023.
+
+Necessity: F014,F015,F020 etc.
+
+Positive obligation: none [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F016"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F023", "F024"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F023"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F015", "F020"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

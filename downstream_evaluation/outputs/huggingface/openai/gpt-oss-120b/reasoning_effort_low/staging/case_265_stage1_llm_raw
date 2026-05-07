@@ -1,0 +1,36 @@
+analysisWe map facts.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F006 (demonstration organized), F007 (purpose), maybe F011/F012 showing violence -> indicates not peaceful. Also F004 (conviction for inciting stone throwing) shows participation. So include F006,F007,F011,F012,F004.
+
+Interference: governmental act interfering - conviction, sentencing. Facts: F031-F035 etc show conviction. So include F031,F032,F033,F034,F045 etc. At least F031 (sentencing), F032, F033, F034.
+
+Prescribed_by_law: need law basis. Facts: F031 mentions article 220 §6 etc; also F032, F033, F034. Choose one representative: F031.
+
+Legitimate_aim: need justification like public safety, prevention of disorder. Facts: trial findings about violence, protecting security forces. Use F042-F045, F055. Include F042,F043,F044,F055.
+
+Necessity: balancing. Need facts about severity of interference vs aim. Could include same as legit aim plus facts about proportionality e.g., sentence length, suspension law. Maybe F058,F059,F060 showing reduction. Include F058,F059,F060.
+
+Positive_obligation: Court may have positive duty to ensure fair trial/equal arms. Facts about refusal to hear witnesses: F029,F030. So include those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F011", "F012", "F004"]
+    },
+    "interference": {
+      "facts": ["F031", "F032", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F031"]
+    },
+    "legitimate_aim": {
+      "facts": ["F042", "F043", "F044", "F055"]
+    },
+    "necessity": {
+      "facts": ["F058", "F059", "F060"]
+    },
+    "positive_obligation": {
+      "facts": ["F029", "F030"]
+    }
+  }
+}

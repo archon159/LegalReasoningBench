@@ -1,0 +1,45 @@
+analysisWe need determine likely violations. From case law, similar to Zakharov v Russia where ECtHR found violation of Art 11 due to ill‑treatment and failure to investigate. So likely yes for all elements. Provide facts.
+
+Scope: assembly existed, applicants participated, peaceful. Facts: F012 participation, F014 claim peaceful, maybe F011 background. Use F012,F014,F011.
+
+Interference: police ill‑treatment interfered with freedom to assemble. Facts: F015,F016,F023,F024,F025 etc.
+
+Prescribed by law: need law on use of force. We have sections showing prohibition of hitting head etc. Also law allows force only under certain conditions. The use was not authorized => not prescribed. Facts: F104-F112.
+
+Legitimate aim: police claimed maintain public order, prevent disorder. Not explicit but implied. Could use F050 etc showing police said force used against resistance. But still aim may be public safety. We'll say yes (they asserted legit aim). Facts: F050,F051 perhaps.
+
+Necessity: Court likely finds disproportionate because hitting head prohibited. So no necessity -> violation. Facts: F015,F111,F112.
+
+Positive obligation: State failed to investigate properly. Facts: many about refusal to open investigations: F039-F065 etc, plus later refusals. So conclusion yes violation of positive obligation.
+
+Thus overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F012", "F014", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F023", "F024", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F104", "F105", "F106", "F107", "F108", "F109", "F110", "F111", "F112"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F050", "F051"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F111", "F112"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F039", "F040", "F042", "F043", "F045", "F052", "F055", "F056", "F057", "F058", "F059", "F061", "F062", "F063", "F064", "F065", "F070", "F071", "F073", "F075", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F090", "F091", "F092", "F098", "F099", "F100"]
+    }
+  },
+  "violated": true
+}

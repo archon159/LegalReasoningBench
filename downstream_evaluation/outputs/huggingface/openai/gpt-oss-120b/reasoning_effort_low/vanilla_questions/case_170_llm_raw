@@ -1,0 +1,45 @@
+analysisWe need map but limited facts. Likely insufficient info -> cannot conclude violations. Use available facts: F002 indicates complaint of disproportionate measures => suggests interference etc. F003 gives assembly purpose. So:
+
+scope: yes (assembly, participation, likely peaceful). use F003,F002.
+
+interference: yes based on F002.
+
+prescribed_by_law: unknown none of facts mention law, so [] and conclusion no? can't determine -> assume no because not enough info -> conclusion no.
+
+legitimate_aim: unknown -> no.
+
+necessity: unknown -> no.
+
+positive_obligation: maybe none -> no.
+
+Overall violation? Since missing elements, cannot find violation -> false.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F002"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

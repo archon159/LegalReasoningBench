@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly existed (F007,F010,F011). Applicants participated (F013). Peaceful (F010,F011). So yes. Facts list maybe F007,F010,F011,F013.
+
+Interference: arrests after demo constitute interference (F014 plus similarity to cases showing interference). So yes. Use F014,F015,F016,F017 perhaps. We'll pick F014,F015.
+
+Prescribed_by_law: Need law governing arrest/admin offences. We have law 135 etc but does it make foreseeability? Not clear. Likely no because law vague. But we may lack facts linking arrest to specific law. No atomic fact states that arrest was based on law. So cannot conclude prescribed by law; likely no. Use F022-F025 maybe. But those pertain to admin procedure rights, not arrest basis. Probably conclusion no. Facts: F022,F023,F024,F025.
+
+Legitimate aim: Government might claim public order etc. No fact stating aim. Might infer prevention of disorder. Not given. So can't establish. Likely no. No facts. So conclusion no, facts [].
+
+Necessity: Since not justified, necessity no. Facts maybe same as legit aim. Use none.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Govt failed to protect. Could be yes. Fact: F014 arrests despite authorized demo. So positive obligation breached. Use F008 (authorization) and F014. Conclusion yes.
+
+Overall violation: Since interference and lack of lawful justification => violation. Even if positive obligation also breach. So violated true.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F010", "F011", "F013"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F014"]
+    }
+  },
+  "violated": true
+}

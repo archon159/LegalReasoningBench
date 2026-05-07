@@ -1,0 +1,43 @@
+analysisWe need assess. Likely violation because denial of permit not proportionate. So scope yes (assembly planned, peaceful assumed). Interference yes (police denied). Prescribed by law? There is law but maybe not clear foreseeability – likely yes it's prescribed. Legitimate aim? They cite security, private life, dignitary protection – could be legit. Necessity? Court found disproportionate, so no necessity => violation. Positive obligation? State must protect right to assemble – they failed -> violation yes.
+
+Map facts: scope uses F007,F008,F009,F010. Also peace assumption none explicit but assume peaceful -> no fact but can infer. We'll include those.
+
+Interference uses F011 (dismissal).
+
+Prescribed by law uses F036,F037.
+
+Legitimate aim uses F012-F014,F026-F028.
+
+Necessity uses F020-F028,F032-F033.
+
+Positive obligation maybe F018 (judicial review) or overall but use F018.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F036", "F037"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F026", "F027", "F028"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F021", "F022", "F023", "F024", "F025", "F026", "F027", "F028", "F032", "F033"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F018"]
+    }
+  },
+  "violated": true
+}

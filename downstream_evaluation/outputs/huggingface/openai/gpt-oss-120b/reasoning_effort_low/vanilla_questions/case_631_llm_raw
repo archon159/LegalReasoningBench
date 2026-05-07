@@ -1,0 +1,43 @@
+analysisWe need assess likely violation: Dismissal for participating in picket. Jurisprudence says dismissal for lawful strike violates Art 11 unless strike illegal. Here law requires procedures; seems not complied (notice etc). So violation. Provide facts per element.
+
+Scope: assembly? picket = assembly, peaceful? no violence mentioned. Applicant participated. Facts: F030 (participation), F031, F032 (peaceful expression), maybe F027 etc not needed. So yes.
+
+Interference: dismissal interfered. Facts: F044 dismissal, F030 participation. Yes.
+
+Prescribed by law: Need law on strike procedures (Section 19 etc). Did applicant follow? She gave notice Feb 22, but law requires notice 7 days before strike (if outside enterprise) – she did give notice to mayor (local authority) 3 days before? Actually notice on 22 Feb for 3 Mar = 9 days, meets 7-day requirement. But also need employer notification? Not done. Also need decision by assembly etc. Not clear. Likely not fully prescribed => interference not prescribed -> violation. Use facts: F019-F022 (notice), F084-F087 (requirements). Conclude not prescribed.
+
+Legitimate aim: employer cites safety and unauthorized absence. Those are legitimate aims (public safety, prevention of disorder). Facts: F028-F029 safety, F033-F035 absence. So yes legitimate aim.
+
+Necessity: Balance - dismissal disproportionate to aim given procedural deficiencies. So no necessity. Facts: F044 dismissal, F028-29 safety, F033-35 absence, plus law requirements F084-87. Conclusion no.
+
+Positive obligation: State must protect right to strike; perhaps failed to ensure proper procedure. Could be positive obligation breached. Facts: F070-73 constitutional right, F084-87 procedural obligations. Likely yes.
+
+Thus overall violation because interference not prescribed and not necessary. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F030", "F031", "F032"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F030", "F044"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F019", "F020", "F021", "F022", "F084", "F085", "F086", "F087"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F028", "F029", "F033", "F034", "F035"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F044", "F028", "F029", "F033", "F034", "F035", "F084", "F085", "F086", "F087"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F070", "F071", "F072", "F073", "F084", "F085", "F086", "F087"]
+    }
+  },
+  "violated": true
+}

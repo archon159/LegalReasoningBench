@@ -1,0 +1,33 @@
+analysisWe need map. Likely violations: many cases similar to ECtHR finds violation due to lack of lawful authorization and disproportionate punishment. So conclusions: scope yes (assembly occurred, peaceful? videos show some violence but applicants claim peaceful; but overall assembly existed). Interference yes (arrest, conviction). Prescribed by law maybe no because law vague and not foreseeable. Legitimate aim maybe yes (public order). Necessity likely no (disproportionate). Positive obligation maybe yes (state must protect peaceful assembly). Overall violation true.
+
+Select facts: scope: F007,F008,F045,F046,F048 etc. Interference: F009,F010,F011,F014,F015,F052,F053,F054,F055,F056,F057,F058,F059,F060,F063,F064,F065 etc. Prescribed by law: F005 (unauthorized demos), F031? Also law articles 310.1, 233 etc. Need foreseeability: F012,F013. Legitimate aim: F048-F051 showing disorder, plus F041 etc. Necessity: compare severity vs aim: F064 sentences heavy vs minor offense. Positive obligation: ECtHR jurisprudence but facts maybe F016-F018 lack of lawyer. Use those.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F045", "F046", "F048"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F014", "F015", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F063", "F064"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F005", "F012", "F013", "F031", "F041", "F042", "F043", "F044"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F048", "F049", "F050", "F051", "F041", "F042"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018", "F020", "F021", "F022", "F023"]
+    }
+  },
+  "violated": true
+}

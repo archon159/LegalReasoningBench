@@ -1,0 +1,43 @@
+analysisNeed to map. Likely scope yes (assembly, participation, peaceful). Facts: F009-F014,F016-F019 show assembly peaceful. So yes.
+
+Interference: police dispersal, house arrest. Facts F035-F048,F050-F058,F106 etc. Yes.
+
+Prescribed by law: need law basis. We have Assembly Act §14 gives police power to terminate after warning. Also State Protection Act sections. But were they applied foreseeably? Probably questionable. Might conclude no (not sufficiently foreseeable). Choose no.
+
+Legitimate aim: security, public order. Govt claims weapons threat. Facts F068-F071. Likely legit aim accepted. So yes.
+
+Necessity: proportionality? Given violent dispersal killing 8 civilians, likely not necessary. Conclude no.
+
+Positive obligation: state should protect right to assemble; they failed. Conclusion yes violation. Provide facts F091-F094 etc.
+
+Overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F012", "F013", "F014", "F015", "F016", "F017", "F018", "F019"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F035", "F040", "F045", "F046", "F047", "F048", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F106"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F014", "F126", "F091", "F092", "F093"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F068", "F069", "F070", "F071"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F046", "F047", "F048", "F064", "F065", "F066", "F067"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F091", "F092", "F093", "F131", "F140", "F141"]
+    }
+  },
+  "violated": true
+}

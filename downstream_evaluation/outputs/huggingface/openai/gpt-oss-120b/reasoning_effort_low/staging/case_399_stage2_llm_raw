@@ -1,0 +1,37 @@
+analysisWe need conclusions based on selected facts. Scope: facts show participation in Maidan protests, which were assemblies, likely peaceful? Not sure peace. But assume yes. So scope yes.
+
+Interference: abduction, torture clearly interference. Yes.
+
+Prescribed_by_law: no facts about law; none provided. Likely no law authorizing. So conclusion no (not prescribed).
+
+Legitimate aim: no facts showing aim like security etc. So no.
+
+Necessity: even if not legit aim, necessity fails. So no.
+
+Positive obligation: facts about investigations, compensation maybe indicate some steps but likely insufficient. Positive obligation maybe yes? They had investigations but delays. Probably no fulfillment => violation of positive duty. Conclusion no (government failed). So positive obligation not met -> conclusion no.
+
+Overall violation: Since prescribed_by_law no, legitimate aim no, necessity no, violation yes.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

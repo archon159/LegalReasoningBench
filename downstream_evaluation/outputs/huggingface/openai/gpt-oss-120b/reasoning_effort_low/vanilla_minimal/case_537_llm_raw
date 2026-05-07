@@ -1,0 +1,29 @@
+analysisWe need map. Likely scope: public meeting = peaceful assembly => yes. Facts: F010,F011,F012. interference: fine = interference yes. facts: F013-F018. prescribed by law: need law requiring prior authorization; we have rule but not explicit law ID. From facts we know court said breach of rules; assume law exists. Use F014,F015. conclude yes. legitimate aim: protect public order/public safety maybe. Not given but likely aim. No fact. Might be missing. Could use none -> cannot conclude. Probably no. necessity: assess proportionality; unknown. likely no. positive obligation: state must protect right; fine indicates failure maybe. uncertain. We'll output based on available facts: scope yes, interference yes, prescribed_by_law yes, legitimate_aim no, necessity no, positive_obligation no. Violated true because not all satisfied.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

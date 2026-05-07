@@ -1,0 +1,85 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F012 (both participated), F011 maybe background, F014 (they say they didn't violate order), also F001 (political rally). Peaceful: F014 indicates they didn't resist; also maybe F018 etc showing police aggression but not protest violence. So include F012, F014, F011 perhaps. Use IDs: F012, F014, F011, F001.
+
+Interference: police ill-treatment = interference. Facts: F015,F016,F018,F020,F022,F023,F024,F025,F027,F028,F029,F030,F031-F036,F037 etc showing no arrest but still harm. Core: F015,F016,F018,F020,F022,F023,F024,F025,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036. Also F037 (no arrest) maybe irrelevant. We'll list key ones: F015,F016,F018,F020,F022,F023,F024,F025,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036.
+
+Prescribed_by_law: need law provisions about use of force. Facts: F104-F112 provide statutory content. Also maybe F021 showing lack of evidence but not law. So include F104,F105,F106,F107,F108,F109,F110,F111,F112.
+
+Legitimate_aim: need justification like public order, preventing disorder. Facts: maybe F050 (police said responding to breaking cordon), F049, F051, F052 etc showing police rationale. Also F014 (applicants say no violation). But legit aim derived from state argument; we have F049,F050,F051. Include those.
+
+Necessity: need balancing, proportionality. Facts about investigation failures maybe not; but need info on severity of force vs aim. Use same as legitimate plus maybe F111 prohibition of head hits shows disproportionate. Also F112 prohibition of special means on peaceful. So include F111,F112,F049,F050,F051.
+
+Positive_obligation: Court may have positive duty to investigate. Facts about investigative process: F039-F065, F070-F073, F079, F080-F084, F090-F102. Choose representative: F039 (application), F042 (dismissal), F052 (investigator didn't examine), F058 (lack of identification), F079 (same conclusion), F080-F084 (prosecutor overruling), F090-F102 (court dismissals). Provide few: F039,F042,F052,F058,F079,F080,F084,F090,F098.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F012", "F014", "F011"]
+    },
+    "interference": {
+      "facts": [
+        "F015",
+        "F016",
+        "F018",
+        "F020",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F036"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F104",
+        "F105",
+        "F106",
+        "F107",
+        "F108",
+        "F109",
+        "F110",
+        "F111",
+        "F112"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F049",
+        "F050",
+        "F051"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F049",
+        "F050",
+        "F051",
+        "F111",
+        "F112"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F039",
+        "F042",
+        "F052",
+        "F058",
+        "F079",
+        "F080",
+        "F084",
+        "F090",
+        "F098"
+      ]
+    }
+  }
+}

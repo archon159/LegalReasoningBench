@@ -150,6 +150,7 @@ activemq-data/
 # Environments
 .env
 .envrc
+secret.env
 .venv
 env/
 venv/
@@ -216,3 +217,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project runtime artifacts (auto-created by pipeline scripts)
+gold_standard/temps/
+gold_standard/status/
+gold_standard/logs/
+gold_standard/codes/timings/

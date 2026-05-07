@@ -1,0 +1,38 @@
+analysisWe need map. Given only three atomic facts, likely all apply to many elements. F001 lists applicants – needed for scope, interference, etc. F002 complaint about disproportionate measures – relevant to interference, prescribed_by_law, legitimate aim, necessity, positive obligation. F003 other complaints – maybe not needed. Provide mapping.
+
+We'll assign:
+
+scope: needs knowing who are applicants and their participation -> F001, F002 (since they claim organizers/participants). So both.
+
+interference: need know measures taken -> F002.
+
+prescribed_by_law: need know if measures based on law – not directly in facts; but F002 mentions measures, could imply law. Use F002.
+
+legitimate_aim: need know government's justification – not in facts; but F002 mentions disproportionate measures, implies lack of legit aim. Still use F002.
+
+necessity: need assess balancing – again F002.
+
+positive_obligation: maybe F003 about other complaints? Not really. Could be none. But maybe F002. We'll put F002.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002"]
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F002"]
+    },
+    "legitimate_aim": {
+      "facts": ["F002"]
+    },
+    "necessity": {
+      "facts": ["F002"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

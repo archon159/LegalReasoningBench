@@ -1,0 +1,55 @@
+analysisWe need infer likely conclusions: Applicants took part in political demonstrations -> assembly, peaceful? Not stated but they shouted slogans, refused to stop; could be non‑peaceful? Likely considered peaceful but authorities claim illegal because no notice. Assume peaceful. So scope yes.
+
+Interference: apprehension, detention, conviction => yes.
+
+Prescribed by law: there is law requiring prior notification; they didn't submit. Conviction under Art 19.3. Need law existence – referenced F020, F021 but not atomic. We have only atomic facts referencing law indirectly. Probably yes prescribed.
+
+Legitimate aim: maintain public order, prevent disorder. Likely yes.
+
+Necessity: proportionality questionable; fines/detention maybe disproportionate for peaceful demonstration. Court often finds violation. So necessity no → violation.
+
+Positive obligation: none.
+
+Thus overall violation yes.
+
+Provide facts: scope uses F006 (participation), maybe F018/019 about conduct, assume peaceful. Use F006,F018,F019.
+
+Interference uses F007,F008,F013,F014,F015.
+
+Prescribed by law uses F013 (law article), plus reference to law but atomic only F013.
+
+Legitimate aim uses F018/F019 (court rationale) indicating aim of public order.
+
+Necessity uses F014,F015 (severity) and perhaps F011,F012 (detention length).
+
+Positive obligation maybe none [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F018", "F019"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F013", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F013"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F015", "F011", "F012"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

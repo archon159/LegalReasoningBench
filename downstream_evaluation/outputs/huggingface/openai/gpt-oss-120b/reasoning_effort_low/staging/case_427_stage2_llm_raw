@@ -1,0 +1,39 @@
+analysisWe need conclusions based on selected facts.
+
+Scope: facts indicate gatherings (F010,F011), applicants participated (F014), no info violence (F015). So yes.
+
+Interference: police warnings, orders to disperse, arrests (F017-F019). Yes.
+
+Prescribed_by_law: need law basis – convictions under Art 20.2§5 etc (F020) and refusal order (F022) plus references to domestic law (F027,F028). We have those facts showing law exists. Likely yes (law prescribed).
+
+Legitimate aim: No facts identified earlier; we have none. Without facts cannot determine but likely government would claim public order. However since no facts, we must conclude cannot establish? Probably unknown -> no? The instruction: use only mapped facts. Since none, we cannot affirm legitimate aim => conclusion no.
+
+Necessity: depends on balancing; we have facts about peacefulness, warnings, fines. Likely not necessary proportionate. With lack of legit aim, also no. So conclusion no.
+
+Positive obligation: no facts, so no conclusion -> no.
+
+Overall violation: scope yes, interference yes, but justified? Since legitimate aim no, violation. Also necessity no. So violated true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

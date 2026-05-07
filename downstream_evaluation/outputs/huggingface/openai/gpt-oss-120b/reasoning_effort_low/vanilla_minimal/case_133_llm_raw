@@ -1,0 +1,47 @@
+analysisWe need map. Likely violations: interference yes, prescribed by law? admin offence based on law – seems prescribed. legitimate aim: public safety/order – likely. necessity: probably not necessary disproportionate. positive obligation: state must protect peaceful assembly – maybe violation. So overall violation true.
+
+Identify facts per element:
+
+Scope: need that applicants exercised right to peaceful assembly. Facts: F008-F012 show demonstration authorized, peaceful march. Also F020 participation. So scope yes facts [F008,F009,F010,F011,F012,F020].
+
+Interference: arrest, dispersion. Facts F016,F017,F018,F021,F022,F023 etc. Conclusion yes.
+
+Prescribed by law: existence of Code of Administrative Offences article 19.3 §1. Not listed but implied; maybe not in atomic facts. No explicit fact ID. Could use none -> [] and conclusion yes? But need fact showing law exists. Not given. Might assume not needed. We'll put [].
+
+Legitimate aim: protection of public safety, order. Facts about clashes, police cordon, etc. Use F016,F017,F018,F042 etc. Conclusion yes.
+
+Necessity: assess proportionality – likely no. Need facts showing police measures excessive: early termination, prolonged detention, denial of witness, etc. Use many facts showing procedural unfairness and that demonstration was peaceful. So conclusion no.
+
+Positive obligation: state must ensure effective respect for right – failures in allowing peaceful demo, arbitrary arrests. Facts F013-F018, F045-F053, etc. Conclusion no (state failed).
+
+Thus overall violation because interference not justified (necessity fails). Provide JSON.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010", "F011", "F012", "F020"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018", "F021", "F022", "F023", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F088", "F089", "F090", "F091", "F092", "F093", "F094"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018", "F042", "F043", "F075", "F076", "F077"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014", "F015", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F058", "F059", "F060", "F061", "F084", "F085", "F086", "F087", "F088"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F013", "F014", "F015", "F016", "F017", "F018", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F058", "F059", "F060", "F061", "F084", "F085", "F086", "F087", "F088"]
+    }
+  },
+  "violated": true
+}

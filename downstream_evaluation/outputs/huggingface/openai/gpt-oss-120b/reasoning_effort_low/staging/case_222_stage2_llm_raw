@@ -1,0 +1,39 @@
+analysisWe assess based on selected facts.
+
+Scope: F022 participation, F025 says peaceful, F028 plan sit‑in => assembly, applicant participated, peaceful. So yes.
+
+Interference: Facts show police used force, injuries etc. Yes interference.
+
+Prescribed_by_law: We have criminal code sections defining unlawful assembly, weapons, arrest powers etc. Need to see if the action (police dispersal, use of force) was based on law foreseeability. Facts only list statutes, not application. But we can infer that police acted under those provisions. However we lack fact showing that the specific action was authorized. Still typical analysis: existence of law enough? Probably yes because statutes exist covering unlawful assembly and police powers. So conclude yes (prescribed by law).
+
+Legitimate aim: Govt alleges aim to prevent disorder, protect public safety etc. Facts show allegations of violent demonstration, protecting security. Likely legitimate aim of preventing disorder/public safety. So yes.
+
+Necessity: Need balancing. Facts include UN reports of large demonstration breaking barrier, causing tension. Police used force quickly. Could be considered necessary? Court often finds excessive force violates necessity. Here facts show severe injury to peaceful demonstrator. Might deem disproportionate. Given only facts listed, we have evidence of violence by demonstrators? Govt alleges weapons etc but not proven. Considering peaceful nature per affidavit, force seems unnecessary. So conclude no.
+
+Positive obligation: No facts indicating gov had duty to take steps. Empty list -> cannot establish violation. So conclusion no (not applicable).
+
+Overall violation: Since necessity no, violation occurs. Actually if any justification element is no, then interference unlawful → violation. So violated = true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

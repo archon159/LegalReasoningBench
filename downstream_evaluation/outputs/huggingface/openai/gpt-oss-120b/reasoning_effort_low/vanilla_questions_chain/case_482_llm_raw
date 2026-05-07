@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly existence, participation, peaceful. Facts: F006 (participated), F007 (theme, likely peaceful). So yes. Use those.
+
+Interference: disciplinary sanction for participation => interference. Facts: F008,F009,F010. Yes.
+
+Prescribed by law: sanction under Article125 Law657. Need law foreseeability. Fact F010 gives basis; also maybe need law description but not given. Assume yes. So conclusion yes.
+
+Legitimate aim: need aim like public order etc. No fact stating aim. Not provided. Likely authority claimed discipline to maintain efficiency of civil service, maybe public service neutrality. Not in facts. So cannot establish legitimate aim -> conclusion no.
+
+Necessity: depends on legit aim, since no legit aim, conclusion no.
+
+Positive obligation: none indicated. No fact about state failing to protect. So conclusion no.
+
+Overall violation: Since interference not justified, violation yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F010"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

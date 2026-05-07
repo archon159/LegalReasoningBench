@@ -1,0 +1,32 @@
+analysisWe need map. Given only three atomic facts F001-F003. Which relate? Scope needs info about assembly etc – not present. So empty. Interference also none. Prescribed_by_law maybe F001 lists applicants but not law. Probably none. Legitimate aim none. Necessity none. Positive obligation maybe F002 complains of disproportionate measures – relates to necessity and possibly positive obligation. But question: identify which atomic facts needed. We can say F002 needed for interference, legitimacy, necessity. Use it. Provide mapping accordingly.
+
+Let's assign:
+scope: [] (no fact)
+interference: ["F002"] (complaint of measures indicates interference)
+prescribed_by_law: [] (none)
+legitimate_aim: [] (none)
+necessity: ["F002"]
+positive_obligation: ["F002"]
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": []
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F002"]
+    },
+    "positive_obligation": {
+      "facts": ["F002"]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly existed? Yes demonstration 19 July 1989 (F041). Applicant participated (F041, F049 etc). Peaceful? Affidavit says peaceful (F043) and photos (F143). So scope yes. Facts: F041,F043,F144 maybe shows police break up but still peaceful? Use F043. 
+
+Interference: Government acted (TRNC authorities) arrested, detained, ill-treated. That's interference. Facts: F054-F058,F069-F071,F075,F080 etc. So yes.
+
+Prescribed_by_law: Need law basis. We have Law no.5/72 sections etc (F146-F170). Shows charges based on law. Are they foreseeable, accessible, safeguards? Likely not clear but assume yes? However TRNC not recognized; but law exists. Probably yes. We'll pick F146,F147,F168,F169,F170.
+
+Legitimate aim: aim likely public safety/order. Government claims preventing breach of border. So legit aim maybe prevention of disorder. So yes.
+
+Necessity: Was force proportionate? Evidence of beating, ill-treatment despite peaceful nature. Likely not necessary. So no.
+
+Positive obligation: Not applicable maybe none. So conclusion no violation? Actually if necessity no -> violation. So overall violation yes.
+
+Provide facts per element.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F041", "F043", "F144"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F054", "F055", "F057", "F058", "F060", "F069", "F070", "F075", "F080"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F146", "F147", "F168", "F169", "F170"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F113", "F114", "F115", "F116", "F117", "F118"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F043", "F054", "F055", "F057", "F058", "F069", "F070", "F075", "F080"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

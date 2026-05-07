@@ -1,0 +1,115 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": {
+      "gold": "yes",
+      "pred": "no"
+    }
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.6135,
+        "recall": 0.6858,
+        "f1": 0.3415,
+        "macro_f1": 0.636
+      },
+      "interference": {
+        "precision": 0.7166,
+        "recall": 0.7416,
+        "f1": 0.5479,
+        "macro_f1": 0.7278
+      },
+      "prescribed_by_law": {
+        "precision": 0.6341,
+        "recall": 0.5482,
+        "f1": 0.1951,
+        "macro_f1": 0.5551
+      },
+      "legitimate_aim": {
+        "precision": 0.6426,
+        "recall": 0.718,
+        "f1": 0.3871,
+        "macro_f1": 0.6697
+      },
+      "necessity": {
+        "precision": 0.5073,
+        "recall": 0.5046,
+        "f1": 0.1515,
+        "macro_f1": 0.4988
+      },
+      "positive_obligation": {
+        "precision": 0.9254,
+        "recall": 0.7892,
+        "f1": 0.7,
+        "macro_f1": 0.8427
+      }
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.6127,
+        "recall": 0.8805,
+        "f1": 0.3636,
+        "macro_f1": 0.6554
+      },
+      "interference": {
+        "precision": 0.661,
+        "recall": 0.8683,
+        "f1": 0.4815,
+        "macro_f1": 0.7035
+      },
+      "prescribed_by_law": {
+        "precision": 0.6451,
+        "recall": 0.7833,
+        "f1": 0.4,
+        "macro_f1": 0.6892
+      },
+      "legitimate_aim": {
+        "precision": 0.6053,
+        "recall": 0.9645,
+        "f1": 0.3478,
+        "macro_f1": 0.6555
+      },
+      "necessity": {
+        "precision": 0.4973,
+        "recall": 0.4939,
+        "f1": 0.0588,
+        "macro_f1": 0.489
+      },
+      "positive_obligation": {
+        "precision": 0.6827,
+        "recall": 0.7881,
+        "f1": 0.4615,
+        "macro_f1": 0.7224
+      }
+    },
+    "list3": {
+      "precision": 0.5726,
+      "recall": 0.7475,
+      "f1": 0.2537,
+      "macro_f1": 0.4579
+    }
+  },
+  "case": "case_624"
+}

@@ -1,0 +1,74 @@
+analysisWe need map. Likely violation due to pre‑trial detention interfering with assembly? Actually interference is police dispersal etc. But Court often finds no violation because conviction for violent conduct not protected. So scope: assembly existed, applicant participated, peaceful? He engaged in violence => not peaceful. So scope maybe yes for assembly but not peaceful -> fails element a(ii?) Need all three sub‑elements; if not peaceful then article not triggered. Conclusion no violation. Provide facts: F006,F010,F014,F032,F044 etc. Let's craft.
+
+Interference: police dispersed – yes. Facts F011-F017,F029,F032,F033,F035 etc.
+
+Prescribed by law: Russian law on assemblies? Not in atomic facts. No explicit. Might be missing -> assume no issue? Could say not assess -> no violation? We'll set conclusion yes (law exists) but lacking facts; maybe empty.
+
+Legitimate aim: public safety/order. Facts F014,F018 etc.
+
+Necessity: proportionality of dispersion vs aim. Likely Court says necessary. So conclusion no violation.
+
+Positive obligation: none.
+
+Thus overall violation false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": [
+        "F006",
+        "F010",
+        "F014",
+        "F032",
+        "F044"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F029",
+        "F032",
+        "F033",
+        "F035"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F014",
+        "F018",
+        "F019",
+        "F021",
+        "F022"
+      ]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": [
+        "F014",
+        "F015",
+        "F016",
+        "F029",
+        "F032",
+        "F044",
+        "F045"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

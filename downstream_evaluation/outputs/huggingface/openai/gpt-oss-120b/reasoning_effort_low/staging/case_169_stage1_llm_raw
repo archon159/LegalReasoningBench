@@ -1,0 +1,80 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F003,F004 (planned demos), F008 (dissemination maybe), F009 (intended peaceful), F010 (actually peaceful), F013,F014 (attended), also F011,F012 content but not needed. So include.
+
+Interference: police dispersion and arrest. Facts: F015,F016,F017,F018.
+
+Prescribed_by_law: need law requiring notice, etc. Facts: F005,F006,F007,F076,F078,F079,F080-F083 (law details). Also maybe F076 about spontaneous assemblies. Include.
+
+Legitimate_aim: need justification like public order etc. Not directly in facts; perhaps none. Could be inferred from government's claim but not given. So empty.
+
+Necessity: balancing – need info on severity of penalty, fines, etc. Facts: F063-F066 (convictions/fines), F080-F083 (penalties), F081,F082, also F091-94 context but maybe not. Use these.
+
+Positive_obligation: Court may have positive duty to ensure effective remedy, fair trial. Facts about lack of lawyer, access, fairness: F029,F030,F046,F047,F041,F042,F043,F044,F045,F052,F054 etc. Choose key: F029,F030,F046,F047,F041,F042,F043,F044,F045,F052,F054. Provide list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F003",
+        "F004",
+        "F009",
+        "F010",
+        "F013",
+        "F014"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F015",
+        "F016",
+        "F017",
+        "F018"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F005",
+        "F006",
+        "F007",
+        "F076",
+        "F078",
+        "F079",
+        "F080",
+        "F081",
+        "F082",
+        "F083"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": [
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F080",
+        "F081",
+        "F082",
+        "F083"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F029",
+        "F030",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F052",
+        "F054"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+analysisWe need map facts. Likely violation: peaceful demo, interference by arrest, lack of fair trial etc. So scope yes (assembly, participation, peaceful). Facts: F041,F043,F044,F045. Also maybe F042. Use those.
+
+Interference: arrest, detention, trial – yes. Facts: F054-F058,F069-F077,F098,F099,F105 etc.
+
+Prescribed by law: need law basis – TRNC law sections cited F146-F150,F168,F169,F170. Probably not sufficiently foreseeable? Might be questionable but likely yes prescribed. We'll say yes.
+
+Legitimate aim: authorities claim security/public order. Yes. Facts: F113-F120,F168-F170.
+
+Necessity: proportionality – force excessive, ill-treatment, unfair trial => not necessary. So conclusion no (i.e., not necessary). Facts: F054-F058,F070,F085-F090,F092,F095,F101,F122 etc.
+
+Positive obligation: state must protect right to peaceful assembly; failure -> violation. Yes. Facts: F041-F045,F053-F058 etc.
+
+Overall violation: yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F041", "F042", "F043", "F044", "F045"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F054", "F055", "F057", "F058", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F088", "F089", "F090", "F091", "F092", "F093", "F094", "F095", "F096", "F097", "F098", "F099", "F100", "F101", "F105"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F146", "F147", "F168", "F169", "F170"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F113", "F114", "F115", "F116", "F117", "F118", "F119", "F120", "F168", "F169", "F170"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F054", "F055", "F058", "F070", "F085", "F086", "F092", "F101", "F122", "F123", "F124", "F125", "F126", "F127"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F041", "F042", "F043", "F044", "F045", "F053", "F054", "F055", "F056", "F057", "F058"]
+    }
+  },
+  "violated": true
+}

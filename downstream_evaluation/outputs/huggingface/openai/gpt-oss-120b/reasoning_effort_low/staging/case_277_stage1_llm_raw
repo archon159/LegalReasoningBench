@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (they took part), F014-F016 describe gathering protest, F019-20 show rowdy behavior, so peacefulness assessment uses those. So include F006, F014, F015, F016, F019, F020.
+
+Interference: police dispersal, arrest. Facts: F007, F008, F009, F010.
+
+Prescribed_by_law: need law under which they were charged; also info about statutes. Fact F068 mentions sections 33,36,40 of Meetings and Demonstration Marches Act. Also maybe need that law exists. So include F068.
+
+Legitimate_aim: police justification – disturbance of traffic, public order. Facts: F017 (disturbing traffic), F018 (asked to disperse), F019-20 (rowdy behaviour, use of force). Also maybe F062-63 prosecutor reasoning. Include F017,F018,F019,F020,F062,F063.
+
+Necessity: balancing – need details of force used vs aim, injuries. Facts: F019,F020,F026-31 (injuries), F062,F063. Also maybe F021 (number arrested) but okay. Include F019,F020,F026,F027,F028,F029,F030,F031,F062,F063.
+
+Positive_obligation: Court may have positive duty to investigate ill-treatment. Need facts about investigation process: F046-65 showing complaints, investigation, closure, lack of effective remedy. So include F046,F047,F049,F050,F051,F052,F053,F054,F055,F056,F057,F058,F059,F060,F061,F064,F065,F067.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F014", "F015", "F016", "F019", "F020"]
+    },
+    "interference": {
+      "facts": ["F007", "F008", "F009", "F010"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F068"]
+    },
+    "legitimate_aim": {
+      "facts": ["F017", "F018", "F019", "F020", "F062", "F063"]
+    },
+    "necessity": {
+      "facts": ["F019", "F020", "F026", "F027", "F028", "F029", "F030", "F031", "F062", "F063"]
+    },
+    "positive_obligation": {
+      "facts": ["F046", "F047", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F064", "F065", "F067"]
+    }
+  }
+}

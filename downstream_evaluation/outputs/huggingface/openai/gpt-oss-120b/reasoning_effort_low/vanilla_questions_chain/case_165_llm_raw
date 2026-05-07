@@ -1,0 +1,45 @@
+analysisWe need assess. Likely violation because conviction for peaceful demonstration chanting slogans. Courts find no stone throwing. So interference yes, not prescribed? Law vague. Probably violation. Provide facts.
+
+Scope: assembly existed (demonstration), applicant participated, peaceful? He chanted slogans, no violence. So scope yes. Facts: F002,F018,F020,F021,F022 (acquittal of stone). Also maybe F023.
+
+Interference: conviction/detention interferes. Facts: F001,F003,F005,F006,F008,F009,F011,F012,F017 etc. Conclusion yes.
+
+Prescribed by law: law sections used but perhaps not foreseeable; but we just need factual link: law applied. Likely yes? However Court may find lack of foreseeability. But using existing criminal code articles, they are clear. Might be yes. Use F001,F008,F009,F014,F015.
+
+Legitimate aim: aim likely prevention of disorder/public safety. Government claims illegal org. So yes. Facts: F019,F020,F021,F017.
+
+Necessity: proportionality questionable; heavy sentence for peaceful speech. Likely no necessity => violation. Facts: F003,F012,F015,F028,F029.
+
+Positive obligation: state must protect peaceful assembly; failure to do so. Yes violation. Facts: F005,F006,F028.
+
+Thus overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F018", "F020", "F021", "F022", "F023"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F001", "F003", "F005", "F006", "F008", "F009", "F011", "F012", "F017"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F001", "F008", "F009", "F014", "F015"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F017", "F019", "F020", "F021"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F003", "F012", "F015", "F028", "F029"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F028"]
+    }
+  },
+  "violated": true
+}

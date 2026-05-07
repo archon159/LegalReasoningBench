@@ -1,0 +1,13 @@
+analysisWe need map facts per element. Scope: need evidence of assembly, participation, peacefulness. So F005, F006, F019, F020, F014, F015. Also maybe F013? but that's about location. Use those.
+
+Interference: acts of police dispersal, arrest. F021, F022, F023, F024, plus maybe F031 etc. Use F021,F023,F024.
+
+Prescribed_by_law: need legal basis, foreseeability, accessibility, safeguards. Facts about laws: F077, F078, F079, F080, F081, F082-87, F089, etc. Also procedural issues like lack of notice: F031? Actually administrative offense reports. Use F077, F078, F079, F080, F081, F082-87, F089.
+
+Legitimate aim: need justification: e.g., public safety, preventing disorder. Facts: F012 (heavy traffic), F013? But maybe F012 indicates reason for denial. Also F014/F015 peaceful. Might use F012. Also maybe F013? Not sure. Use F012.
+
+Necessity: balancing. Need intensity of intervention vs aim. Facts: F023, F024, F025-28 (ill-treatment), F029, F030, F031, F032, F033, F034, F035-37, F038-41, F042-44, etc. Use many. We'll list key ones: F023,F024,F025,F026,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036,F037,F038,F039,F040,F041,F042,F043,F044,F045,F046,F047,F048,F049,F050,F051,F052,F053,F054,F055,F056.
+
+Positive obligation: need facts about state duty to provide information, investigations. Use F070-F076, F073, F074, F075. Also maybe F080-81. Use F070,F071,F072,F073,F074,F075.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F005","F006","F019","F020","F014","F015"]},"interference":{"facts":["F021","F023","F024"]},"prescribed_by_law":{"facts":["F077","F078","F079","F080","F081","F082","F083","F084","F085","F086","F087","F089"]},"legitimate_aim":{"facts":["F012"]},"necessity":{"facts":["F023","F024","F025","F026","F027","F028","F029","F030","F031","F032","F033","F034","F035","F036","F037","F038","F039","F040","F041","F042","F043","F044","F045","F046","F047","F048","F049","F050","F051","F052","F053","F054","F055","F056"]},"positive_obligation":{"facts":["F070","F071","F072","F073","F074","F075"]}}}

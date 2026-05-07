@@ -1,0 +1,34 @@
+analysisWe need map facts per element. Scope: need existence of assembly, participation, peacefulness. Facts: F004 (organised march), F005,F006 purpose, F007 name, F010 date, F030 time, F031 participants, F032 route -> shows assembly. Peaceful? Not explicit but organizers intend peaceful; maybe F033 cooperation, F034 noise compliance indicate peaceful intent. Also later picket etc. So include F004,F033,F034.
+
+Interference: government act refusing permission, arrests. Facts: F035 refusal, F036 reasons, F041 challenge, F042 refusal picket, F049 dismissal, F065 arrest, F066 charge, F095 detention, F096 conviction. Include F035,F036,F042,F049,F065,F066,F095,F096.
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Facts about Assemblies Act sections: F022 notes law doesn't provide ban, F050- F058 court reasoning, also statutory provisions F131-F146. Provide key: F022,F050,F051,F052,F053,F054,F055,F141,F142,F143. Probably include these.
+
+Legitimate_aim: govt cites public order, health, morals, rights of others. Facts: F036 grounds, F037 petitions, F038 likely disorder, F020 health/morals, F021 will of petitioners, F024 interruption if threat, F025 action plan, F028 media campaign, F038 etc. Include F036,F037,F038,F020,F021,F024,F025.
+
+Necessity: balancing intensity vs aim. Need facts showing severity of ban, alternatives, proportionality. Include F033,F034 (cooperation), F055 (could suggest change), F058 applicant argument, F059-064 events showing risk, F069 OMON arrests, F070-072 reports, plus court judgments F056,F079 etc. Choose core: F033,F034,F055,F058,F059,F063,F064,F069,F070,F071,F072,F079.
+
+Positive_obligation: Court may have positive duty to protect peaceful assembly. Facts: Recommendations CM/Rec(2010)5 paragraphs 13-16 F147-F150, Commissioner statements F151-F153, also perhaps ECtHR jurisprudence not in facts. Use F147-F150,F151-F153.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F004", "F033", "F034"]
+    },
+    "interference": {
+      "facts": ["F035", "F036", "F042", "F049", "F065", "F066", "F095", "F096"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F022", "F050", "F051", "F052", "F053", "F054", "F055", "F141", "F142", "F143", "F131", "F132", "F133", "F134", "F135", "F136", "F137", "F138", "F139", "F140"]
+    },
+    "legitimate_aim": {
+      "facts": ["F036", "F037", "F038", "F020", "F021", "F024", "F025"]
+    },
+    "necessity": {
+      "facts": ["F033", "F034", "F055", "F058", "F059", "F063", "F064", "F069", "F070", "F071", "F072", "F079"]
+    },
+    "positive_obligation": {
+      "facts": ["F147", "F148", "F149", "F150", "F151", "F152", "F153"]
+    }
+  }
+}

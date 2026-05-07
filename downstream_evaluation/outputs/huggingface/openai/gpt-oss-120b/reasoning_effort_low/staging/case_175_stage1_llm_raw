@@ -1,0 +1,34 @@
+analysisWe need map facts. For scope: need assembly existence, participation, peacefulness. Facts: F007 (intended to take part), F013 (solo picket), F015 etc show police stopped; also F022 (second applicant solo demo). Also F036,37 indicate public event. So list relevant: F013,F015,F022,F036,F037 maybe. Provide.
+
+Interference: police ordering to stop, arrests. Facts: F015,F016,F019,F020,F021,F025,F026,F028-33, F034-35. Choose key: F015,F019,F025,F026,F034,F035.
+
+Prescribed_by_law: need law article 20.2 §2 and info about Public Events Act, amendment about distance. Facts: F034,F035 mention breach of Article 20.2 §2. Also F121,F122 about law. So include F034,F035,F121,F122.
+
+Legitimate aim: need justification like public order. Facts: F016 (formal warning for violation of public order). Also maybe F011 (large-scale festive events). So include F016,F011.
+
+Necessity: need balancing, proportionality. Need facts about fine, duration of detention, lack of evidence, etc. Include F019-F021 (detention length), F069 fine amount, F088 observation about inability to determine solo, F090 complaint. Might choose F019,F020,F069,F088.
+
+Positive obligation: Court may have positive duty to protect right to assemble, e.g., to allow solo demonstration. Facts about law requiring permits, maybe F005 notification, F008 suggestion, refusal. So include F005,F008,F012 (withdrawal), F011 (refusal to suggest alternative). Also maybe F124-128 about prosecutor role. But pick core: F005,F008,F011,F012.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F013", "F022", "F036", "F037", "F007"]
+    },
+    "interference": {
+      "facts": ["F015", "F016", "F019", "F020", "F021", "F025", "F026", "F034", "F035"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F034", "F035", "F121", "F122"]
+    },
+    "legitimate_aim": {
+      "facts": ["F016", "F011"]
+    },
+    "necessity": {
+      "facts": ["F019", "F020", "F069", "F088"]
+    },
+    "positive_obligation": {
+      "facts": ["F005", "F008", "F011", "F012"]
+    }
+  }
+}

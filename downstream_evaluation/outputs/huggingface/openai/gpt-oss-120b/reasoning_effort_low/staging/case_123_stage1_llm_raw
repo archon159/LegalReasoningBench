@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F007 (demonstration), F010 (intended peaceful), F011 (conducted peacefully), F013 (applicants participated). Also maybe F004 etc but specific to this demo. So include F007,F010,F011,F013.
+
+Interference: arrest after demo. Facts: F014 (arrest), also similarity to cases may show interference but primary is F014. Could also include F015-F020 showing context of interference. We'll list F014,F015,F016,F017,F018,F019,F020 perhaps. But minimal: F014 shows interference. Include related ones.
+
+Prescribed_by_law: Need law governing admin offences and procedural rights. Facts: F022,F023,F024,F025 provide law basis. Also possibly F026,F027 summarise but they refer to judgments not law. Use F022-F025.
+
+Legitimate_aim: Need justification by state – likely public order etc. Not in facts; none given. Might be absent -> empty. No atomic fact states aim. So [].
+
+Necessity: Need balancing info, maybe details of custody etc. Facts: F021 gives further details, plus F015-020 show similar cases where necessity judged. Could include F021,F015-F020. Provide.
+
+Positive_obligation: Court may have positive duty to protect assembly. Facts maybe F027,F030 summarise obligations. Use F027 and F030 as they discuss freedom of assembly provisions. Choose one. We'll include F027.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F010", "F011", "F013"]
+    },
+    "interference": {
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F021", "F015", "F016", "F017", "F018", "F019", "F020"]
+    },
+    "positive_obligation": {
+      "facts": ["F027"]
+    }
+  }
+}

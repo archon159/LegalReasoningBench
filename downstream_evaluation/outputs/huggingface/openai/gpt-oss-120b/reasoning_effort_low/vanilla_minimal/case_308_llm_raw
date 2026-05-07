@@ -1,0 +1,33 @@
+analysisWe need map. Likely violation: dismissal interferes with freedom of assembly. Not prescribed? Dismissal based on section 33 j referencing political restraint – law exists. Legitimate aim maybe public service neutrality—could be legitimate but not necessary proportionate. Court likely finds violation. So conclusions: scope yes (applicant exercised right to assemble). interference yes (dismissal, loss of job). prescribed_by_law yes (section 33 j). legitimate_aim yes (protect impartiality of civil service). necessity no (disproportionate). positive_obligation yes (state must protect). Overall violation yes.
+
+Select facts: scope: participation F021,F022,F016 etc. interference: dismissal F032,F033,F034,F035,F043,F044. prescribed: F033,F034,F056,F057. legit aim: F034,F056. necessity: need assessment of proportionality – facts showing no evidence of abuse: F045,F046,F047. positive: state duty – overall process maybe. Use those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F016", "F018"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F032", "F033", "F034", "F035", "F043", "F044"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F033", "F034", "F056", "F057"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F034", "F056", "F057"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F045", "F046", "F047"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F045", "F046", "F047"]
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,45 @@
+analysisWe need to map. Likely violation: yes. Provide facts per element.
+
+Scope: assembly existed, applicant participated, peaceful? He says peaceful until arrest. So yes. Facts: F315,F316,F317,F318,F319,F320,F321 etc. Also F090 peaceful march. Use F090,F317,F319.
+
+Interference: arrest/detention. Yes. Facts: F003,F004,F315-F324,F329 etc.
+
+Prescribed_by_law: need law basis. Public Events Act etc. Were procedures followed? Notification approved, but changes not communicated. Might be not sufficiently foreseeable. Likely no (not prescribed). But need conclude maybe no because law exists but lack of safeguards. I'd say no (not properly prescribed). Facts: F018,F019,F031,F032,F033,F034,F035,F036,F037,F038,F039,F040,F041-F050 etc plus law facts F351-F358. Conclude no.
+
+Legitimate aim: public safety/order. Authorities claim preventing disorder. Yes. Facts: F070-F074,F122-F133,F158 etc.
+
+Necessity: proportionality? Large force, preemptive cordon, denial of access leads to disorder. Likely not necessary. Conclusion no. Facts: F070-F074,F098-F105,F119-F133,F158-F162,F281 etc.
+
+Positive obligation: state must protect peaceful assembly. They failed. Yes. Facts: F380-F393 guidelines, F381 etc plus actual failures F187,F190,F191,F192,F193,F194 etc.
+
+Overall violation: yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F315", "F316", "F317", "F318", "F319", "F320", "F321", "F090"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F315", "F321", "F322", "F323", "F324", "F325", "F326", "F327", "F328", "F329", "F330", "F331", "F332", "F333", "F334", "F335", "F336", "F337", "F338", "F339", "F340", "F341", "F342"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F351", "F352", "F353", "F354", "F355", "F356", "F357", "F358", "F359", "F360", "F361", "F362", "F363", "F364", "F365", "F366", "F367", "F368", "F369", "F370", "F371", "F372", "F373", "F374", "F375", "F376", "F377", "F378", "F018", "F019", "F031", "F032", "F033", "F034", "F035", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F057", "F058", "F059", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F187", "F190", "F191", "F192"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F070", "F071", "F072", "F073", "F074", "F075", "F076", "F122", "F123", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131", "F132", "F133", "F134", "F135", "F136", "F137", "F138", "F139", "F140", "F141", "F142", "F143", "F158", "F159", "F160", "F161", "F281", "F282"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F070", "F071", "F072", "F073", "F074", "F075", "F076", "F098", "F099", "F100", "F101", "F102", "F103", "F104", "F105", "F106", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114", "F115", "F116", "F117", "F118", "F119", "F120", "F121", "F122", "F123", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131", "F132", "F133", "F134", "F135", "F136", "F137", "F138", "F139", "F140", "F141", "F142", "F143", "F151", "F152", "F155", "F156", "F157", "F281", "F282", "F285", "F286", "F287", "F288", "F289", "F290", "F291", "F292", "F293", "F294", "F295", "F296", "F297", "F298", "F299", "F300", "F301", "F302", "F303", "F304", "F305", "F306", "F307", "F308", "F309", "F310"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F380", "F381", "F382", "F383", "F384", "F385", "F386", "F387", "F388", "F389", "F390", "F391", "F392", "F393", "F187", "F190", "F191", "F192", "F193", "F194", "F195", "F196", "F197", "F198", "F199", "F200", "F201", "F202", "F203", "F204", "F205", "F206", "F207", "F208", "F209", "F210", "F211", "F212", "F213", "F214", "F215", "F216", "F217", "F218", "F219", "F220", "F221", "F222", "F223", "F224", "F225", "F226", "F227", "F228", "F229", "F230", "F231"]
+    }
+  },
+  "violated": true
+}

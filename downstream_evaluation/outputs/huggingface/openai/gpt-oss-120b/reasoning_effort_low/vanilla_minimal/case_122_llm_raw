@@ -1,0 +1,61 @@
+analysisWe need assess violations. Likely violation yes. Provide facts per element.
+
+Scope: applies to peaceful assembly. Facts showing applicant organized pride march etc. Use F004,F005,F007,F010,F011,F029 etc. Conclusion yes.
+
+Interference: denial of permission, arrests. So yes. Facts F035,F036,F038,F041,F049,F050... also arrests F065,F066. Conclusion yes.
+
+Prescribed_by_law: need law basis. Assemblies Act sections cited. Refusals based on law? They used law but maybe not proper. Still interference must be prescribed by law; there is law but refusal perhaps not lawful. But element asks whether interference was prescribed by law. There is law permitting ban on safety grounds, but authorities didn't follow procedural requirement to propose alternative. So arguably not properly prescribed. So conclusion no.
+
+Legitimate aim: public order, morals, health. Facts F036,F038,F043,F055 etc show aim. Conclusion yes.
+
+Necessity: must be necessary in democratic society. Given alternatives (police protection) not used, disproportionate. So conclusion no.
+
+Positive obligation: state must protect peaceful assembly. Failure to protect. Yes violation. Facts F063,F064,F069 etc. Conclusion yes.
+
+Overall violation: yes.
+
+Provide facts lists.
+
+Let's select minimal sets.
+
+Scope facts: F004,F005,F007,F010,F011,F029.
+
+Interference facts: F035,F036,F038,F041,F049,F065,F066.
+
+Prescribed_by_law facts: F050,F051,F052,F053,F054,F141,F142,F143 (law references). Also F036 shows grounds but not law. We'll list F050,F051,F052,F053,F054,F141.
+
+Legitimate_aim facts: F036,F038,F043,F055,F056.
+
+Necessity facts: F036,F038,F058,F063,F064,F069,F070,F071,F072.
+
+Positive_obligation facts: F063,F064,F069,F070,F071,F072,F149 (recommendation but not binding). Use F063,F064,F069.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F007", "F010", "F011", "F029"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F035", "F036", "F038", "F041", "F049", "F065", "F066"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F050", "F051", "F052", "F053", "F054", "F141"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F036", "F038", "F043", "F055", "F056"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F036", "F038", "F058", "F063", "F064", "F069", "F070", "F071", "F072"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F063", "F064", "F069"]
+    }
+  },
+  "violated": true
+}

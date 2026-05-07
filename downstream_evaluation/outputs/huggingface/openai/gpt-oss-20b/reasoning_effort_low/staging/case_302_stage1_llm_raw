@@ -1,0 +1,13 @@
+analysisWe need map. Scope: assembly? F009 shows unauthorized demonstration; F005 membership; F007 indicates participation. So scope needs F009, F005, F007. Also peaceful? Not stated but assume peaceful? No fact. So maybe none. We'll include those.
+
+Interference: arrest etc. F009, F010, F011, F012, F013, F014, F015, F016, F017, F018, F019, F020, F021, F022, F023, F024, F025, F026, F027, F028, F029, F030. Many. But key: arrest and detention. Use F009, F010, F011, F012, F013, F014, F015, F016, F017, F018, F019, F020, F021.
+
+Prescribed_by_law: need law basis: F010 (conviction under Article 310.1). Also F006, F007. So F010, F006, F007.
+
+Legitimate aim: need justification: likely public order. Need info that state claimed to prevent disorder. Not explicit. Maybe none. Could use F007 (preventing them from demonstrating). So F007.
+
+Necessity: need balancing: facts about severity: F011 (ten days detention), F012 (others), F013/F014 (no representation). So F011, F013, F014.
+
+Positive obligation: maybe none. So [].
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F005","F007","F009"]},"interference":{"facts":["F009","F010","F011","F012","F013","F014","F015","F016","F017","F018","F019","F020","F021"]},"prescribed_by_law":{"facts":["F006","F007","F010"]},"legitimate_aim":{"facts":["F007"]},"necessity":{"facts":["F011","F013","F014"]},"positive_obligation":{"facts":[]}}}

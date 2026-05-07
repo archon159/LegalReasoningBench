@@ -1,0 +1,37 @@
+analysisWe need determine likely conclusions. Facts show peaceful protest dispersed, arrests => interference yes. Prescribed by law? Not enough info about law accessibility; assume Azerbaijan code provides offences but maybe vague. Likely Court found violation of Art 11. So prescribe by law maybe yes? But could be insufficient safeguards -> violation. We'll output accordingly.
+
+Assume scope yes (assembly, participation, peaceful). Interference yes. Prescribed by law maybe no (insufficient foreseeability). Legitimate aim? Police may claim public order, but not proven. Probably no. Necessity then no. Positive obligation? No.
+
+Thus overall violation yes.
+
+Provide facts mapping: scope uses F006,F008,F007? Actually assembly participation F006,F007,F008. interference uses F009,F010. prescribed_by_law uses F012,F014,F016,F018 etc showing charges under codes. legitimate_aim uses F009 (police action) maybe implied aim but not explicit. necessity uses F009,F012 etc.
+
+Let's craft.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F012", "F014", "F016", "F018"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F009"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F009", "F012"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

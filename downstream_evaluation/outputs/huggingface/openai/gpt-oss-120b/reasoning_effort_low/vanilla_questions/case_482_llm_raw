@@ -1,0 +1,41 @@
+analysisWe need map facts. Scope: assembly existence, participation, peaceful. Facts: F006 (participated), F007 (theme nonviolent). So yes. Use those. Also maybe F005 etc but not needed. Conclusion yes.
+
+Interference: disciplinary sanction for participation => interference. Facts: F008,F009,F010. Yes.
+
+Prescribed by law: sanction under Article 125 Law 657. Need foreseeability etc. We have F010 referencing law; also maybe need law description (F016,F017) but they are references. Use F010. Likely yes as law exists and accessible. Conclusion yes.
+
+Legitimate aim: need justification—law likely aims to ensure efficiency of civil service, public order. Not given directly. No fact stating aim. Might infer but not present. So cannot conclude yes. Probably no because not shown. We'll say no.
+
+Necessity: depends on legit aim balancing; without legit aim can't be necessary. So no. Facts: same as above plus maybe F008-F010. Use them.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Here state punished for peaceful demo -> violation of positive obligation. Fact: F008-F010 show failure. So conclusion yes.
+
+Overall violation: Since interference not prescribed by law? Actually prescribed yes, but lack legit aim makes violation. So overall violation true.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F010"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F008", "F009", "F010"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010"]
+    }
+  },
+  "violated": true
+}

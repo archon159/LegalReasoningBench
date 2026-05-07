@@ -1,0 +1,13 @@
+analysisWe need to map facts to each element. For scope: need F007 (assembly), F010 (applicant participated), F011 (peaceful? maybe implied). Also F009 attendance. So list those.
+
+Interference: F012-F020 etc. Many. Include F012, F013, F014, F015, F016, F017, F018, F019, F020, F021, F025-029, F030-032, F035-036, F040-042, etc. But choose key ones: F012, F014, F019, F020, F021, F025, F026, F027, F028, F029, F030, F031, F035, F036, F040, F041, F042. Maybe enough.
+
+Prescribed_by_law: need law provisions: F140, F141, F142, F143, F144, F145, F146, F147, F148. Also maybe F140-145. So list those.
+
+Legitimate_aim: need justification: F050 (complaint about noise), F141 (law says reasons). Also F050 indicates reason. So F050, F141.
+
+Necessity: need balancing: F050, F141, F142, F143, F144, F145, F146, F147, F148. Also F124 (court found lawful). So include F124.
+
+Positive obligation: need constitutional article: F134, F135, F136. Also maybe F139. So list those.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F007","F009","F010"]},"interference":{"facts":["F012","F014","F019","F020","F021","F025","F026","F027","F028","F029","F030","F031","F035","F036","F040","F041","F042"]},"prescribed_by_law":{"facts":["F140","F141","F142","F143","F144","F145","F146","F147","F148"]},"legitimate_aim":{"facts":["F050","F141"]},"necessity":{"facts":["F050","F141","F142","F143","F144","F145","F146","F147","F148","F124"]},"positive_obligation":{"facts":["F134","F135","F136"]}}}

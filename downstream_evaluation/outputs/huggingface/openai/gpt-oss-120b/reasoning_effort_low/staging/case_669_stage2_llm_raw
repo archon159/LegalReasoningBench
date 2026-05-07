@@ -1,0 +1,25 @@
+analysisWe need assess based on selected facts. Likely scope yes, interference yes, prescribed by law unclear (no facts) => cannot assess maybe yes default? But without facts can't conclude; likely no because no law info provided thus cannot determine if prescribed -> assume no violation of justification -> then violation. Positive obligation likely yes (state failed). So overall violation true.
+
+Let's output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

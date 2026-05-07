@@ -1,0 +1,156 @@
+analysisWe need map facts per element across whole case. Likely all facts related. Provide lists.
+
+Scope: need facts showing assembly existence, participation, peacefulness. Relevant: F010,F011 (participation), F012 (authorised), F027-030 etc many. Also F067 indicates peaceful for 30 Apr. So include all assembly events: 27 Mar, 22 Apr, 30 Apr, 3 Feb, 18 Dec maybe. Peaceful? For 22 Apr they refused to leave, likely not peaceful? But still assembly. Include facts indicating peaceful nature: F067 for 30 Apr, maybe none for others. We'll list broad set: F010,F011,F012,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036,F037,F038,F039,F040,F041,F042,F043,F044,F047-F065 etc. Too many. Probably need just those that establish scope: existence of assembly (any), participation (applicants), peacefulness (where determined). So include: F010,F011,F012,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036,F037,F041?, F067. Also F089? that's protest but not necessarily assembly? It's demonstration. Could include F089. Let's include.
+
+Interference: arrests, detentions, charges. Facts: F013-F021, F032-F040, F035-F041, F060-F064, F078-F081, etc. List many.
+
+Prescribed_by_law: Need law provisions and applicability. Facts about Assemblies Act changes: F025,F026,F121,F122? Actually law facts: F025,F026,F121,F122? No F122 is criminal code. Also statutory provisions: F104-F119 etc. So include those.
+
+Legitimate aim: need justification by state – probably public order, safety. Not explicit in facts. Might be absent. Maybe no facts. So empty.
+
+Necessity: need balancing – facts about proportionality, length of detention, peacefulness, lack of evidence. Include acquittals, lack of evidence, peaceful nature. So include F020,F041,F042,F043,F044,F064,F080,F081,F085,F065,F067.
+
+Positive obligation: Court may have said state must investigate. Facts about complaints dismissed: F023,F024,F045,F046,F069,F070,F086,F087,F099,F100. Include these.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F010",
+        "F011",
+        "F012",
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F036",
+        "F037",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F051",
+        "F052",
+        "F053",
+        "F054",
+        "F055",
+        "F056",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F067",
+        "F089"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F022",
+        "F032",
+        "F033",
+        "F035",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F078",
+        "F079",
+        "F080",
+        "F081"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F025",
+        "F026",
+        "F121",
+        "F104",
+        "F105",
+        "F106",
+        "F107",
+        "F108",
+        "F109",
+        "F110",
+        "F111",
+        "F112",
+        "F113",
+        "F114",
+        "F115",
+        "F116",
+        "F117",
+        "F118",
+        "F119",
+        "F120",
+        "F124",
+        "F125",
+        "F126",
+        "F127",
+        "F128",
+        "F129"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": [
+        "F020",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F064",
+        "F080",
+        "F081",
+        "F085",
+        "F065",
+        "F067"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F023",
+        "F024",
+        "F045",
+        "F046",
+        "F069",
+        "F070",
+        "F086",
+        "F087",
+        "F099",
+        "F100"
+      ]
+    }
+  }
+}

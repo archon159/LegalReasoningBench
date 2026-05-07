@@ -1,0 +1,43 @@
+analysisWe need map. Scope: assembly? She planned picket (demonstration). Facts F002 shows plan, also F007 cancelled, but still attempt. Peaceful? No indication of violence. So yes scope satisfied. Use F002, maybe F007 indicates cancellation but intent. We'll say yes. Facts: F002.
+
+Interference: Government refusal to authorize picket = interference. Facts F004, F005, F006, F008 etc. Conclusion yes. Facts: F004,F005,F006,F008.
+
+Prescribed_by_law: Need law basis. We have Public Events Act definition (F011-F013). The refusal based on that law. Whether foreseeability etc. Likely yes because law defines public event narrowly; authorities applied it. So conclusion yes. Facts: F011,F012,F013.
+
+Legitimate aim: Authorities claim aim of preventing disorder? Not explicit. But they used law criteria, not stated legit aim. However typical justification is protection of health/public order. Not in facts. No explicit legit aim. So likely no. Facts: [] maybe F005 showing stats mismatch not legit aim. We'll put none. Conclusion no.
+
+Necessity: Since legitimate aim missing, necessity fails. Conclusion no. Facts maybe same as above.
+
+Positive obligation: Not about facilitating, just refusal. No positive duty identified. Conclusion no. Facts [].
+
+Overall violation: Since interference not justified -> violation. So true.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F006", "F008"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

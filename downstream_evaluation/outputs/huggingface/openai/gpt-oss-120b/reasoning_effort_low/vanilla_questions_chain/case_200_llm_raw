@@ -1,0 +1,29 @@
+analysisWe need assess overall likely violation. Facts show arrests despite lawful assemblies (authorized or after law change). Likely violation for multiple incidents. So scope yes, interference yes, prescribed by law maybe no because law unclear re 22 Apr demo near president prohibited by older act but new act removed authorization requirement but still distance restrictions. They were within 50m of presidential residence -> prohibited by Section 8(3)(a). So law does prescribe restriction => their arrest maybe justified. But they claimed right. Probably Court finds violation for 27 March authorized demo where they were arrested arbitrarily. That was authorized, yet police arrested without cause. So prescribed by law? No clear law allowing arrest. Thus violation. Provide facts: F010,F011,F012 for scope; F013-F020 for interference; F012 shows authorized thus no law permitting arrest => prescribed_by_law no; legitimate aim? none -> no; necessity no; positive obligation? perhaps duty to protect peaceful assembly -> yes violation. We'll output based on main incident (27 March).assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F015", "F016", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F012"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F010", "F012", "F013", "F014", "F020"]
+    }
+  },
+  "violated": true
+}

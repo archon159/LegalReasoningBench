@@ -1,0 +1,43 @@
+analysisNeed to map. Likely scope yes: assembly existed (F011,F012,F013). Applicant participated (F014,F015). Peaceful? Initially peaceful until police attack; but overall assembly peaceful per reports (F356 etc). So yes.
+
+Interference: police operation disrupted assembly (F027,F028,F029). Yes.
+
+Prescribed by law: Need law on assemblies (F332-F342). Were police actions authorized? They require order to terminate, warnings, time limit. Evidence shows no warning on 1 March (F365). So not prescribed. Conclusion no.
+
+Legitimate aim: aim to protect public safety/order etc. Government claims weapons (F032-F035). Could be legit aim of public safety. But if not prescribed maybe still? Usually need legitimate aim; likely yes (public safety). Use F032,F033,F034,F035.
+
+Necessity: Given questionable lawfulness and excessive force, not necessary. So no.
+
+Positive obligation: perhaps state to investigate ill-treatment (F384 etc). Court may find violation. Likely yes violation of positive obligation. Provide facts F384,F385,F386.
+
+Thus overall violation because failure at prescribed by law and necessity. So violated = true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F014", "F015"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F029", "F030"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F332", "F333", "F334", "F335", "F336", "F337", "F338", "F339", "F340", "F341", "F342", "F343", "F365"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F032", "F033", "F034", "F035"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F027", "F028", "F029", "F030", "F342", "F365"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F384", "F385", "F386"]
+    }
+  },
+  "violated": true
+}

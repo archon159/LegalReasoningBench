@@ -1,0 +1,45 @@
+analysisWe need assess likely violation. Facts show dismissal for participating in picket. Picketing is assembly, peaceful? No violence indicated. So scope yes. Interference: dismissal interferes. Yes. Prescribed by law: dismissal under Labour Code article 40§3; need foreseeability and safeguards. Likely law allows dismissal for systematic breach, but here maybe not systematic. Courts upheld dismissal. Might be considered prescribed. Probably yes. Legitimate aim: employer aims to maintain safety and discipline – legit aim of ensuring safety/public safety. Could be. Necessity: proportionality? Dismissal seems excessive for brief picket. Likely not necessary. So violation. Positive obligation none. Provide facts accordingly.
+
+Identify facts per element:
+
+Scope: need assembly existence F030, participation F030, peaceful? No violence mentioned, assume peaceful -> use F030, F031, F032. Also F014 formation of union etc. So facts: F030,F031,F032.
+
+Interference: dismissal F044.
+
+Prescribed by law: law articles F074, F075, also F094,F095 showing procedural requirements. Also F044 dismissal based on law. So facts: F074,F075,F094,F095,F044.
+
+Legitimate aim: safety (public safety) F028-F029, also employer's interest. Use F028,F029,F055.
+
+Necessity: need balancing - facts about short picket, notice given, no violence, dismissal disproportionate. Use F020,F021,F022 (notice), F030,F031, F044, plus law provisions about strike rights F070-F083 showing limited restrictions. So facts: F020,F021,F022,F030,F031,F044,F070,F081,F084 perhaps but not present. Use available: F020,F021,F022,F030,F031,F044,F070,F081.
+
+Positive obligation: none. Maybe state no.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F030", "F031", "F032"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F044"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F074", "F075", "F094", "F095", "F044"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F028", "F029", "F055"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F021", "F022", "F030", "F031", "F044", "F070", "F081"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

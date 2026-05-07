@@ -1,0 +1,43 @@
+analysisWe need map. Likely violation: interference yes, prescribed law yes, legitimate aim maybe public order, but necessity no, so violation. Provide facts.
+
+Scope: protest = peaceful assembly -> F004,F005,F006 etc. Conclusion yes.
+
+Interference: arrests, fines -> F005,F006,F020-F034. Yes.
+
+Prescribed by law: article 20.2 §1 and 19.3 §1 exist -> F025. Also law exists. So yes.
+
+Legitimate aim: protection of public safety, traffic -> F024,F010,F011. Yes.
+
+Necessity: need assess proportionality; given peaceful, large number, alternatives offered, refusal, disproportionate sanctions => No. Facts: F012-F014,F024,F025,F026,F034,F030-F032. So conclusion no.
+
+Positive obligation: state must protect right to assemble, ensure permits not arbitrarily denied. They failed by refusing reasonable alternative? Could be yes they breached positive duty. Use F012-F014,F017. Probably yes.
+
+Thus overall violation because one element (necessity) not met. JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F006"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F020", "F021", "F023", "F026", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F025"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F024"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014", "F024", "F025", "F026", "F030", "F031", "F032"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F017"]
+    }
+  },
+  "violated": true
+}

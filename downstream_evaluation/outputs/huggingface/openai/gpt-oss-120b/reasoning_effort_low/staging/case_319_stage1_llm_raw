@@ -1,0 +1,36 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F007 (decision to hold demo), F009 (intended peaceful), F010 (conducted peaceful), F011 (participants size), F013 (applicants attended). Also need that it was an assembly: F007, F011. So list.
+
+Interference: police dispersal/arrest. Facts: F014, F016, F017, F018, F023 etc. Use F014,F016,F017,F018,F023.
+
+Prescribed_by_law: need law requirements notification etc. Facts: F008 (no notification), F107,F108,F109,F110-F119 maybe. Provide key ones: F008,F107,F108,F109,F110,F111,F112,F113,F114,F115,F116,F117,F118,F119,F120.
+
+Legitimate aim: need justification like public order. Facts: police report statements about disturbance: F019,F020,F021,F024,F115,F116 etc. Use F019,F020,F024,F115,F116.
+
+Necessity: need balancing, proportionality. Facts: F014 (use of force), F023 (administrative offence), F025 refusal to sign, F030 etc. Also F120 (proportionality clause). Include F014,F023,F120.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Need law guaranteeing right: F106,F107,F108,F109. Also perhaps lack of protection. Use F106,F107,F108,F109.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F009", "F010", "F011", "F013"]
+    },
+    "interference": {
+      "facts": ["F014", "F016", "F017", "F018", "F023"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F008", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114", "F115", "F116", "F117", "F118", "F119", "F120"]
+    },
+    "legitimate_aim": {
+      "facts": ["F019", "F020", "F024", "F115", "F116"]
+    },
+    "necessity": {
+      "facts": ["F014", "F023", "F120"]
+    },
+    "positive_obligation": {
+      "facts": ["F106", "F107", "F108", "F109"]
+    }
+  }
+}

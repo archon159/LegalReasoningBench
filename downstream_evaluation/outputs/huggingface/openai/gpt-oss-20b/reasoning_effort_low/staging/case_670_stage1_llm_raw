@@ -1,0 +1,13 @@
+analysisWe need map facts per element. For scope: need assembly existence, participation, peaceful. Facts: F004,F005 (attendance), F006,F007 (intended peaceful, conducted peaceful). Also maybe F008-F010 show demands but not necessary. So scope facts: F004,F005,F006,F007.
+
+Interference: any governmental act interfering: arrests, detention, beating, denial of lawyer etc. Use F014,F015,F016,F017,F018,F019,F020,F021,F022,F023,F024,F025,F026,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036,F037,F038,F039,F040,F041,F042,F043... many. But minimal: F014 (arrest), F019/F020/F021 (beating), F026 (no medical aid), F034 (denied lawyer), F036 (conviction), F038 (detention). So list those.
+
+Prescribed_by_law: need law provisions foreseeability, accessibility, safeguards. Facts referencing laws: F133, F134, F132. Also maybe F037 (conviction under Article 310.1). So include F037, F133, F134, F132.
+
+Legitimate_aim: need justification: e.g., public safety, prevention of disorder. Facts: F037 (conviction under failure to comply with lawful order), maybe F093 (reprimand under Article 298). Also F093 indicates aim of preventing disorder. So include F037,F093.
+
+Necessity: balancing intensity vs aim. Need facts about severity: F019-F025 (beatings), F026 (lack medical), F038 (eight days detention). Also F037 convict. So include F019,F020,F021,F023,F025,F026,F038.
+
+Positive obligation: any positive duty? Maybe none; but facts about state obligations: F132 (law on ill-treatment). So include F132.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F005","F006","F007"]},"interference":{"facts":["F014","F019","F020","F021","F026","F034","F036","F038"]},"prescribed_by_law":{"facts":["F037","F132","F133","F134"]},"legitimate_aim":{"facts":["F037","F093"]},"necessity":{"facts":["F019","F020","F021","F023","F025","F026","F038"]},"positive_obligation":{"facts":["F132"]}}}

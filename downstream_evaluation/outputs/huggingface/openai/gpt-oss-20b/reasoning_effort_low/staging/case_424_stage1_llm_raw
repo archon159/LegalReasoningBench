@@ -1,0 +1,13 @@
+analysisWe need to map facts to each element. For scope: need assembly existence, participation, peacefulness. Facts: F008 (call to gather), F010 (rallies), F011 (meeting place), F012 (size), F013 (camp), F014 (applicant active participant), F022 (applicant says peaceful), maybe F019 etc. Also F015 arrival of police. So scope facts: F008,F010,F011,F012,F013,F014,F022.
+
+Interference: police operation interfering. Facts: F015,F016,F017,F018,F019,F020,F021,F023,F024. Also F025? but that's criminal case. So interference facts: F015-F024.
+
+Prescribed_by_law: need law provisions, foreseeability, accessibility, safeguards. Facts about law: F026-F028 provide criminal code articles. Also F040-F041 show charges. So prescribe facts: F026,F027,F028,F040,F041.
+
+Legitimate aim: need justification. Facts: F016 (arms claim), F018 (armed demonstrators), F019 (attack), F020 (injuries). Also maybe F026-F028. So use F016,F018,F019,F020.
+
+Necessity: balancing. Need intensity of intervention vs aim. Facts: F015 (police arrival), F023 (police used force), F024 (demonstrators fled), F025? maybe. Also F076 (court findings). Use F015,F023,F024,F076.
+
+Positive obligation: need court statement of positive obligation. Fact: F089 contains summary of case. Maybe also F081? But positive obligation arises from jurisprudence; fact may be F089. So list F089.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F008","F010","F011","F012","F013","F014","F022"]},"interference":{"facts":["F015","F016","F017","F018","F019","F020","F021","F023","F024"]},"prescribed_by_law":{"facts":["F026","F027","F028","F040","F041"]},"legitimate_aim":{"facts":["F016","F018","F019","F020"]},"necessity":{"facts":["F015","F023","F024","F076"]},"positive_obligation":{"facts":["F089"]}}}

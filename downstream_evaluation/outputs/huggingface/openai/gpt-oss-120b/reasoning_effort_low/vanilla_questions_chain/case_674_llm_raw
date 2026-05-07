@@ -1,0 +1,45 @@
+analysisWe need assess. Likely ECtHR found violation of Art 11 due to interference not necessary. So conclusions: scope yes (assembly existed, applicant participated, peaceful? The march was peaceful until police cordon, but sit‑in peaceful. So yes). Interference yes (arrest, conviction). Prescribed by law? Laws exist but foreseeability maybe lacking regarding tents etc. Probably yes (law exists). Legitimate aim: public safety/order – yes. Necessity: disproportionate -> no. Positive obligation? perhaps none. So violation yes.
+
+Provide facts: choose relevant ones.
+
+Scope: F039-F042 (march), F101 (applicant arrived), F040 (peaceful), maybe F051 etc but still peaceful initially. Use few.
+
+Interference: F003 (arrest), F007,F008 (detention/trial), F089 etc.
+
+Prescribed by law: F004,F005,F006 (legal provisions), plus notice F010-F016 showing permit etc.
+
+Legitimate aim: F028-F033 security plan, police actions, mass disorder etc F070 etc.
+
+Necessity: need facts showing disproportionate: police cordon, denial of access, use of force, arrests, long pre‑trial detention. Use F046-F053,F060-F077,F111-F115,F125-F136,F159 etc.
+
+Positive obligation: maybe none, so [].
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F039", "F040", "F041", "F042", "F101", "F102"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F003", "F007", "F008", "F089", "F090", "F091", "F092", "F093"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F006", "F010", "F011", "F012", "F013", "F014", "F015", "F016"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F028", "F029", "F030", "F031", "F032", "F033", "F060", "F069", "F070", "F071"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F046", "F047", "F048", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F056", "F060", "F062", "F065", "F069", "F074", "F076", "F077", "F078", "F079", "F111", "F112", "F113", "F115", "F125", "F126", "F127", "F128", "F131", "F133", "F134", "F135", "F136", "F159", "F165", "F166", "F167", "F168", "F169", "F170", "F171", "F185", "F186", "F187", "F188", "F189"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

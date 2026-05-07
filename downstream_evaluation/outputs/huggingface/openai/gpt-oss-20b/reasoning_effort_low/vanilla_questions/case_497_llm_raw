@@ -1,0 +1,15 @@
+analysisWe need to map facts. Scope: assembly existed? yes F010, F011 etc. Participation? yes F010, F013 etc. Peaceful? unclear; they were blocked but no violence reported by applicants. Use F010, F011, F012, F013, F014, F015. Conclude yes.
+
+Interference: police action forced arrest, use of force. Facts: F016, F017, F018, F026-31, F032-36. Conclusion yes.
+
+Prescribed by law: need foreseeability, accessibility, safeguards. Need info on law requiring permission? F015 says legislation requires no prior permission. But government says need permission? Actually F043 says no prior permission. So law allows. But police used force. Are provisions allowing force? Not explicit. Might lack safeguards. Use F015, F043, F047, F053. Conclusion maybe no? But likely yes interference prescribed? Probably yes because police had authority to enforce. We'll say yes.
+
+Legitimate aim: public safety, preventing disorder. Facts: F040, F041, F042, F046, F048, F049, F050, F051. Conclusion yes.
+
+Necessity: balance intensity vs aim. Need facts on proportionality. F017, F018, F026-31, F053, F107, F110, F117. Conclusion maybe no (not necessary). So article not violated? But interference may be excessive. Likely violation. Let's assume necessity fails -> violation.
+
+Positive obligation: none specified. So no.
+
+Final violated true.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"conclusion":"yes","facts":["F010","F011","F012","F013","F014","F015"]},"interference":{"conclusion":"yes","facts":["F016","F017","F018","F026","F027","F028","F029","F030","F031","F032","F033","F034","F035","F036"]},"prescribed_by_law":{"conclusion":"yes","facts":["F015","F043","F047","F053"]},"legitimate_aim":{"conclusion":"yes","facts":["F040","F041","F042","F046","F048","F049","F050","F051"]},"necessity":{"conclusion":"no","facts":["F017","F018","F026","F027","F028","F029","F030","F031","F053","F107","F110","F117"]},"positive_obligation":{"conclusion":"no","facts":[]}},"violated":true}

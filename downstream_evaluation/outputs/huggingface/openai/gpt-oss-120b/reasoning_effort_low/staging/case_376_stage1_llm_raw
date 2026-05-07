@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, applicant participation, peacefulness. Facts: F004 (time), F005 location, F006 purpose, maybe F003 notification shows intent to organize; but actual assembly didn't occur due to ban. Still scope: did they try to participate? Yes planning. So include F003, F004, F005, F006. Peaceful? Not mentioned; assume intended peaceful. No fact about violence. So maybe none. We'll include those.
+
+Interference: governmental act interfering – ban decision. Facts: F008 (ban), F009 (grounds), F013 (application for review), F015 dismissal etc show interference. Include F008, F009, F015 perhaps. Also F018 showing impact. Use F008, F009, F015.
+
+Prescribed by law: need law basis. Fact: F009 mentions section 8(1) of Assembly Act. Also maybe F010, F011 references conventions but law. So include F009.
+
+Legitimate aim: need justification – traffic safety. Facts: F009 (traffic could not be diverted), F018 (impossible traffic). Also possibly F017 expert opinion. So include F009, F018, F017.
+
+Necessity: balancing – need assessment of evidence, court satisfaction. Facts: F016 (assessment of 200 participants), F017, F018, F021-24 showing court found lawful and criteria. Choose key: F016, F017, F018, F021, F022, F023, F024. Provide few. We'll list F016, F017, F018, F021.
+
+Positive obligation: does Court spell out positive duty? Not in facts. Likely none. So empty list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F003", "F004", "F005", "F006"]
+    },
+    "interference": {
+      "facts": ["F008", "F009", "F015"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F009"]
+    },
+    "legitimate_aim": {
+      "facts": ["F009", "F017", "F018"]
+    },
+    "necessity": {
+      "facts": ["F016", "F017", "F018", "F021"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

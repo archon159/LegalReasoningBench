@@ -1,0 +1,57 @@
+analysisWe need conclusions. Likely scope yes (assembly, participation, peaceful). Facts F002,F003,F055,F056 indicate protest, obstruction but peaceful? Some clashes but guidelines treat as peaceful. So scope yes.
+
+Interference: arrests, police actions, security guards. Yes. Facts F121-F128,F122 etc.
+
+Prescribed_by_law: Need law permitting police orders. There is law article 185 etc. But were orders lawful? The tree felling authorized (F029,F030...). Police action plan authorized (F040-F043). So interference prescribed by law? Probably yes because police had authority under administrative code. So conclusion yes.
+
+Legitimate aim: public order, safety. Yes (F040-F043, F041). So yes.
+
+Necessity: Proportionality? Arrests for refusing to leave, detention up to 15 days maybe disproportionate. Courts upheld but ECtHR often finds excessive. Likely violation of necessity. So conclusion no (i.e., not necessary). Facts about severity, fines vs detention (F280,F282,F283). Also evidence of police passivity and violent guards. So necessity not met.
+
+Positive obligation: police failed to protect protesters from attacks (F058,F061,F216,F217,F241-244). Court likely finds violation of positive duty. So yes violation.
+
+Overall violation: Since necessity fails, Article 11 violated. Also positive obligation violation. So true.
+
+Provide facts lists.
+
+Scope facts: F002,F003,F055,F056,F058?,F061? Actually peace: despite clashes, assembly peaceful per guidelines. Use F002,F003,F055,F056,F058,F061.
+
+Interference: arrests F121-F128,F122,F123,F124,F130-F138,F141-F144,F151-F158,F194-F200.
+
+Prescribed_by_law: F040-F043,F041,F042,F279-F283,F185 etc. Use F040,F041,F042,F279,F280,F282,F283.
+
+Legitimate aim: F040-F043,F041,F042,F279,F280.
+
+Necessity: F121-F128,F123,F124,F158,F159,F160,F161,F162,F165,F166,F170,F174,F201,F202,F203,F204,F205,F206,F210,F211,F215,F216,F217,F241-F244,F260,F261,F262.
+
+Positive obligation: F058,F061,F216,F217,F241-F244,F267-F272,F326-F330.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F055", "F056", "F058", "F061"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F121", "F122", "F123", "F124", "F130", "F131", "F132", "F133", "F134", "F135", "F136", "F137", "F138", "F139", "F140", "F141", "F142", "F143", "F144", "F151", "F152", "F153", "F154", "F155", "F156", "F157", "F158", "F194", "F195", "F196", "F197", "F198", "F199", "F200"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F040", "F041", "F042", "F279", "F280", "F282", "F283"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F040", "F041", "F042", "F279", "F280"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F121", "F122", "F123", "F124", "F158", "F159", "F160", "F161", "F162", "F165", "F166", "F170", "F174", "F201", "F202", "F203", "F204", "F205", "F206", "F210", "F211", "F215", "F216", "F217", "F241", "F242", "F243", "F244", "F260", "F261", "F262"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F058", "F061", "F216", "F217", "F241", "F242", "F243", "F244", "F267", "F268", "F269", "F270", "F271", "F272", "F326", "F327", "F328", "F329", "F330"]
+    }
+  },
+  "violated": true
+}

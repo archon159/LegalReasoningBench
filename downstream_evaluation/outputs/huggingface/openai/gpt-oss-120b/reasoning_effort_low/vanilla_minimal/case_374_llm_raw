@@ -1,0 +1,33 @@
+analysisNeed determine if article 11 violation due to protest restrictions. Facts about protests: F140 onward. Need scope (peaceful assembly). Yes. Interference: charges, denial of permits. So yes interference. Prescribed by law? There are laws governing assemblies (Law 7-FZ). Not explicit but likely. Assume yes. Legitimate aim: protect public order/environment etc. Likely. Necessity: proportionality questionable; permits denied arbitrarily. Probably not necessary. Positive obligation: state must protect right to assemble, ensure permits. Might be breach. So overall violation yes.
+
+Select facts: scope F140,F141,F142,F143,F144,F145,F146,F147. Interference F141,F142,F143,F144,F145,F146. Prescribed_by_law maybe F247 (law regulating right to protest) but not atomic. Could use F247. Legitimate aim F140 (environment protection). Necessity F144,F145,F146 showing lack of necessity. Positive obligation F140,F141,F142,F143.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F140", "F141", "F142"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F141", "F142", "F143", "F144", "F145", "F146"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F247"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F140", "F202"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F144", "F145", "F146", "F147"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F140", "F141", "F142", "F143"]
+    }
+  },
+  "violated": true
+}

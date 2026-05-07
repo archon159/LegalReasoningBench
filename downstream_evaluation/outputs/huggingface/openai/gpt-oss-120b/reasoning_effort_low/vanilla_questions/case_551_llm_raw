@@ -1,0 +1,43 @@
+analysisWe need map facts. Likely violations: unauthorized march, admin detention. Court likely found violation of Art 11 (as in similar cases). So conclusions: scope yes (assembly, participation, peaceful). Interference yes (detention/fine). Prescribed by law maybe no (law vague). Legitimate aim maybe no (not necessary). Necessity no. Positive obligation maybe yes (state must protect). Overall violation yes.
+
+Select facts: scope: F008 (participation), F009 (march), assume peaceful not mentioned but protests generally peaceful; use F007 context. So facts [F008,F009,F007].
+
+Interference: F014-F020 detention, fines etc. Use F014,F015,F016,F020,F035.
+
+Prescribed by law: need law article 180.1; facts F020,F021,F022,F023 mention rule. Also maybe lack clarity. Use those.
+
+Legitimate aim: government may claim public order; not in facts. No explicit. So cannot determine; conclude no.
+
+Necessity: same, conclude no.
+
+Positive obligation: perhaps none specific. Might be no. But I think Court would find violation due to lack of procedural safeguards. Positive obligation maybe yes regarding effective remedy. Facts F024,F025,F026,F027 show limited appeal. Use them.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F020", "F035"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F020", "F021", "F022", "F023"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F035"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F024", "F025", "F026", "F027"]
+    }
+  },
+  "violated": true
+}

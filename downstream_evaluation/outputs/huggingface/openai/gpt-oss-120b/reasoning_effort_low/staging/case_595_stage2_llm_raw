@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful? Actually there were clashes, but the demonstration started peaceful; the meeting became violent due to police? The facts show clashes (F014). So assembly existed, applicant participated (F024). Peaceful? Not entirely; but article requires peaceful assembly; if violence occurred, may affect but Court often looks at overall peacefulness. Given clashes, maybe not peaceful => scope no? But typical cases find assembly peaceful until police intervene. Here F014 says numerous clashes. Might deem not peaceful -> scope fails => no violation. However likely Court finds violation of Article 11 regarding pre‑trial detention etc. In similar cases (Belousov, Frumkin) they found violation of Article 11 because interference with freedom of assembly via disproportionate detention. They considered assembly peaceful. So assume scope yes.
+
+Interference: police restrictions, early termination, arrests – yes.
+
+Prescribed_by_law: No facts provided, so cannot assess; likely no info => cannot conclude yes; but requirement is to determine if law was clear. Since no facts, we might say unknown -> default no? Probably can't establish, thus conclusion no (not prescribed). That would mean violation.
+
+Legitimate aim: crimes, public order – facts show criminal investigations, mass disorder – likely legit aim yes.
+
+Necessity: many extensions, harsh detention, perhaps not necessary – likely no.
+
+Positive obligation: conditions of detention etc. Facts about poor conditions – likely breach of positive obligation yes.
+
+Thus overall violation yes.
+
+Let's output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

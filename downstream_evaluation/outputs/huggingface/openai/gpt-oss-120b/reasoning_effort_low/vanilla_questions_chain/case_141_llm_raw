@@ -1,0 +1,33 @@
+analysisWe need determine likely conclusions. Facts show peaceful demo, applicant participated, was arrested, detained, etc. So scope yes. Interference yes (arrest, detention). Prescribed by law? Need law basis—Law No.5/72 etc applied, but was foreseeability? Likely not clear, but Court often finds lack of proper law for assembly in occupied area. Probably no because law not accessible, not foreseeable. Might conclude not prescribed => violation. Thus overall violation. Provide facts accordingly.
+
+Pick facts: F012,F015,F016,F017 for scope; F022-F028 etc for interference; F112-F119 for law; maybe F133,F134,F135. Conclude not prescribed -> violation. Legitimate aim: government claims security, but questionable. Likely not justified. So no legit aim => violation. Necessity also no. Positive obligation maybe none. We'll output.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F012", "F015", "F016", "F017"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F028", "F036", "F037", "F043", "F044", "F066"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F112", "F113", "F133", "F134", "F135"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F079", "F080", "F081", "F082", "F083", "F084", "F085"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F079", "F080", "F081", "F082", "F083", "F084", "F085", "F088", "F089"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

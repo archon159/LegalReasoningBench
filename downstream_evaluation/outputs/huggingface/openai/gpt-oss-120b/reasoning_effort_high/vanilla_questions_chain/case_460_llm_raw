@@ -1,0 +1,327 @@
+analysisWe need to parse the problem carefully. The user asks: "You are analyzing the facts of an Article 11 case ... Identify the facts needed to reason about the case. Provide conclusions per canonical element and final conclusion."
+
+Thus we need to produce a JSON object with keys: elements.scope, elements.interference, etc., each containing conclusion yes/no and list of fact IDs needed.
+
+We need to consider the entire case: multiple incidents (multiple arrests). The question: "identify the facts needed to reason about the case." So we need to map each canonical element to the relevant facts. We need to determine whether each element is satisfied (i.e., yes/no). Then overall violation.
+
+Given the facts, we need to assess whether Article 11 was violated. This is a complex case with many arrests across multiple dates. Likely the Court found violations for each incident. But we need to evaluate based on the facts.
+
+First, recall Article 11 ECHR: Right to freedom of peaceful assembly. The Court's jurisprudence: The elements: scope (assembly, participation, peacefulness); interference (government act interfering); prescribed by law (lawfulness, foreseeability, accessibility, safeguards); legitimate aim (one of listed aims); necessity in a democratic society (proportionality); positive obligation (state must facilitate).
+
+We need to see if any of the incidents constitute an interference with the applicant's freedom of assembly. There are many arrests: at Pushkinskaya Square (March 5, 2012), at Lubyanskiy Proyezd (May 8, 2012), at Bolshoi Nikitskaya Street (May 8, 2012), at Kudrinskaya Square (May 9, 2012), at Lubyanskaya Square (Oct 27, 2012), at Zamoskvoretskiy District Court (Feb 24, 2014), at Tverskaya Street (Feb 24, 2014). Also a static picket at Lubyanskaya Square (Oct 27, 2012). The applicant claims these were peaceful assemblies, often informal gatherings, not requiring prior notification (or were authorized). The government says they were irregular gatherings without notification, possibly illegal.
+
+Thus we need to assess each element across the whole case. Usually the Court looks at each incident individually, but here we might treat them collectively. However the question seems to ask to identify facts needed to reason about the case, not necessarily to decide each incident separately. It wants us to fill the JSON with conclusions for each element (overall). So we need to decide if the case meets each element.
+
+Let's go through each element.
+
+Scope: Need to show there was an assembly, applicant participated, and it was peaceful. Facts: F009 (applicant took part in meeting at Pushkinskaya Square), F010 (meeting started at 7pm), F011 (purpose protest), F012 (approved by municipal authorities), F017 (applicant stayed for meeting with deputy), F018 (according to applicant, remained peacefully, didn't obstruct traffic), F019 (Government says he was holding irregular gathering and shouting slogans) – conflicting accounts. Also other incidents: F045 (walking down Lubyanskiy Proyezd with ~170 people), F046 (Gov says same), F047 (stopped for photo), F048 (arrest), F054 (group on Bolshaya Nikitskaya Street staying on pavement, no banners, no noise), F055 (surrounded by police, arrested without warning), F080-84 (Kudrinskaya Square gathering, peaceful, no slogans), F112-115 (solo picket, not subject to prior notification), F114 (arrest), etc. So there are multiple assemblies. The applicant claims they were peaceful. Some government statements claim they were irregular, shouting slogans, obstructing traffic. The Court would look at factual evidence: video recordings, eyewitness testimonies, etc. Many of the facts indicate the applicant's version that the gatherings were peaceful, e.g., F018, F054, F083, F115, F125, F127, F139, F148, etc. Also the Court may find that the government's allegations are unsubstantiated or insufficient. So we can conclude that there was an assembly, the applicant participated, and it was peaceful (based on applicant's account and supporting evidence). Therefore scope = yes.
+
+Interference: Did a governmental act or omission interfere with the applicant's freedom of assembly? Yes, the police arrested the applicant on multiple occasions, preventing participation. Facts: F020 (police arrived and arrested), F021 (taken to police station), F026 (released later), F048 (arrest at Lubyanskiy Proyezd), F055 (arrest at Bolshaya Nikitskaya), F084 (arrest at Kudrinskaya Square), F114 (arrest at Lubyanskaya Square), F139 (arrest at Zamoskvoretskiy District Court), F147 (arrest at Tverskaya Street), etc. So interference = yes.
+
+Prescribed by law: Need to check if the intervention was prescribed by law, foreseeably, accessible, with safeguards. The relevant law is the Public Events Act (F175-183) and the Code of Administrative Offences (F186-204). The law requires notification of public events (Section 5 §4, Section 7). The applicant claims many events were either authorized (Pushkin Square meeting approved by municipal authorities - F012) or exempt (solo picket - F112). For the unauthorized events, the law imposes fines for failure to notify. The question is whether the law is sufficiently clear and accessible, and whether the authorities complied with procedures (e.g., ordering to disperse, providing warnings). The facts show that the police often arrested without warning (F020, F084, F139, F147). The law requires that police give an order to end the event and explain reasons (Section 17 §1). The police apparently did not give warnings (F020, F084, F139, F147). Also the law requires that the order be served in writing within 24h (but perhaps not relevant). The law also allows police to intervene if there's a genuine threat to public order, etc. The facts suggest no such threat existed (peaceful assembly, no obstruction). So the interference may not be properly prescribed by law. Additionally, the law's requirement for notification may be ambiguous for small gatherings; the applicant argued that solo picket is exempt (F112). The law says solo picket is exempt from notification (Section 7). So the arrest for solo picket (F114) may be unlawful. Similarly, the informal gatherings after the meeting (Pushkin Square) may have been considered continuation of authorized meeting, but the police treated them as irregular (F019). So the law may not have been applied correctly. Thus we may conclude that the interference was not prescribed by law (lack of proper legal basis, no warning, no order). So conclusion: no (not prescribed by law). However we need to list relevant facts: F012 (approval), F017 (participation), F018 (peaceful), F019 (gov claim), F020 (arrest), F021 (detention), F022-24 (admin report stating irregular gathering), F025 (charge under article 20 §2), F176-183 (legal provisions), F179 (notification requirement), F181-184 (order to end event), F185 (right to express opinion), F186-188 (penalties), F190-197 (procedural rules for detention), F199-204 (amendments), F205-210 (Supreme Court resolution clarifying classification), F210 (justification for detention). Also maybe F210 indicates that detention allowed only if risk of resumption, etc. Not present. So we can list key facts: F012, F017, F018, F019, F020, F021, F025, F179, F181, F182, F183, F184, F185, F186-188, F199-204, F205-210. But we need to keep list manageable. The instruction: "Only include fact IDs that appear in the atomic facts provided above". So we can include any relevant ones. We'll choose a subset that covers the main points: F012 (approval), F017 (participation), F018 (peaceful), F019 (gov claim), F020 (arrest), F025 (charge), F179 (notification requirement), F181 (order to end event), F182 (police measures), F183 (exception for mass disorder), F184 (failure to obey orders), F185 (right to express), F186-188 (penalties), F199-204 (amendments), F205-210 (Supreme Court resolution). That should suffice.
+
+Legitimate aim: Did the interference serve a legitimate aim? The government presumably invoked public safety, prevention of disorder, protection of rights of others. The facts: The government claimed the applicant was shouting slogans, holding irregular gathering, obstructing traffic (F019, F046, F130, F130 says group obstructed road). However the applicant's evidence suggests no obstruction (F018, F054, F083, F115, F125). The Court would assess whether the state's aim was legitimate. Even if the aim is public safety or order, it's still a legitimate aim under Art 11(2). So the existence of a legitimate aim is generally accepted if the state claims it. The question is whether the aim is actually pursued. The facts show that the police said they acted to maintain public order (implied). There's no explicit fact stating the aim, but we can infer from the government's position. The facts mention "irregular gathering without prior notification" (F019, F046, F130). The law permits restrictions for public safety, order, etc. So we can say that the interference was purportedly aimed at protecting public order / safety. So legitimate aim = yes (assuming the state invoked it). Fact: F019 (government claim), F046 (government claim), F130 (road obstruction), F184 (failure to obey orders). Also F180 (grounds for ending event includes genuine threat to life, health, property, or breach of procedure). So we can cite F180. So conclusion: yes.
+
+Necessity in a democratic society: Must be proportionate, necessary, balanced. Given the facts, the police used arrests without warnings, for peaceful gatherings, with no real threat. The Court would likely find the measures disproportionate and unnecessary. So conclusion: no (not necessary). Facts: F018 (peaceful), F054 (no banners, no noise), F083 (no slogans), F115 (no chanting), F125 (no slogans), F127 (arrest without warning), F139 (arrest without warning), F148 (no warning), F155 (eyewitness testifies no warning), F156 (video evidence), plus legal provisions about necessity (F181-184). So we can list relevant facts: F018, F054, F083, F115, F125, F127, F139, F148, F155, F156, F181-184.
+
+Positive obligation: Does the Court spell out a positive obligation for the government? Possibly the Court may find that the state had a positive obligation to facilitate peaceful assemblies, especially given the law's requirement to permit authorized events and to avoid arbitrary interference. The facts show that the authorities failed to allow the applicant to meet with the deputy (F013-16) and to hold the informal consultation after the meeting, despite the meeting being approved (F012). The state also failed to provide adequate procedural safeguards (refusal to call police officers, denial of video evidence, etc.). So there may be a positive obligation violation. The Court may find that the state failed to take positive steps to ensure the right to assemble, e.g., by refusing to allow the informal consultation, failing to inform the applicant of rights, etc. So conclusion: yes (violation of positive obligation). Facts: F012 (approval), F013-16 (informal consultation), F014 (invitation), F015-16 (consultation attendance), F018 (peaceful), F019 (government claim), F020 (arrest), F028-31 (court dismisses authenticity challenge), F032-40 (appeals uphold conviction), F041-49 (other arrests), F060-66 (denial of evidence), F70-78 (denial of evidence), F91-98 (denial of evidence), F122-133 (denial of evidence), F164-166 (denial of evidence), etc. But we need to select a few key facts showing positive obligation: F012 (approval), F013-16 (planned informal consultation), F018 (peaceful), F020 (arrest), F028-31 (court's handling), F060-66 (refusal to admit evidence), F70-78 (refusal to admit evidence), F91-98 (refusal to call police, video), etc.
+
+Finally, overall violation: Since scope and interference are established, and the interference is not prescribed by law, or not necessary, there is a violation. Also positive obligation violation. So overall Article 11 violated => true.
+
+Now we need to output JSON with each element's conclusion and list of fact IDs.
+
+But we need to be careful: The format expects each element's "facts" array to contain the IDs of atomic facts needed to answer that element. Should we include all relevant facts? Probably a concise selection covering the essential aspects. The instruction: "Identify which atomic facts are needed to answer its question". So we need to list the facts that are needed to reach the conclusion for each element. Could be many. But we need to include only those that are relevant. Let's think systematically.
+
+Element: scope.
+
+Need to know: (i) there was an assembly; (ii) applicant tried to participate; (iii) assembly peaceful.
+
+Relevant facts:
+
+- Existence of assembly: F009 (meeting at Pushkinskaya Square), F045 (overnight walkabout), F080 (gathering at Kudrinskaya Square), F112 (solo picket), F115 (picket details), F141? Actually F141 is charge. Also F146 (public gathering at Tverskaya Street). But we can just include a few representative facts: F009 (meeting), F045 (walkabout), F080 (gathering), F112 (solo picket), F146 (public gathering). Or we can include F018 (peaceful nature). For participation: F017 (applicant stayed), F045 (applicant walking with group), F080 (arrived to attend), F112 (solo picket). For peacefulness: F018 (remained peacefully), F054 (no banners, no noise), F083 (no slogans), F115 (no chanting), F125 (no slogans), F139 (standing silently), F148 (no warning, no resistance). So we need to include enough facts to support each sub-element. Perhaps we can include a representative set: F009, F017, F018, F045, F054, F083, F112, F115, F146, F148. That's okay.
+
+Conclusion: yes.
+
+Element: interference.
+
+Need facts showing governmental act interfering: arrests, detentions, charges.
+
+Relevant facts: F020 (police arrested at Pushkin), F021 (taken to police station), F025 (charged), F048 (arrest at Lubyanskiy Proyezd), F055 (arrest at Bolshaya Nikitskaya), F084 (arrest at Kudrinskaya), F114 (arrest at Lubyanskaya), F139 (arrest at Zamoskvoretskiy), F147 (arrest at Tverskaya). Also F158 (found guilty of disobeying order). So we can list a few: F020, F048, F055, F084, F114, F139, F147.
+
+Conclusion: yes.
+
+Element: prescribed_by_law.
+
+Need facts about legal framework and how the authorities applied it. Relevant facts: F012 (meeting approved), F179 (notification requirement), F181 (order to end event), F182 (police measures), F183 (mass disorder exception), F184 (failure to obey orders), F185 (right to express), F186-188 (penalties), F199-204 (amendments), F205-210 (Supreme Court resolution). Also facts indicating police didn't give warning: F020 (arrest without warning?), though not explicitly says no warning, but F020 says police arrived and arrested. F084 says arrested without issuing any orders or warning. F139 similar. F148 says no order/warning. So we need both law and lack of compliance. So we can list: F012, F179, F181, F182, F183, F184, F185, F186-188, F199-204, F205-210, F084, F139, F148. That's many. Maybe we can condense: F179, F181, F182, F183, F184, F185, F186-188, F199-204, F205-210, F084, F139, F148. Also F012 shows that the meeting was approved, yet police still arrested, indicating lack of legal basis. So include F012.
+
+Conclusion: no (not prescribed by law). Because the interference lacked proper legal basis, no prior warning, etc.
+
+Element: legitimate_aim.
+
+Need facts showing the state's aim: public safety, order, etc. The government claims irregular gathering, shouting slogans, obstructing traffic. So facts: F019 (government claim), F046 (government claim), F130 (obstructed road), F184 (failure to obey orders). Also legal provision: F180 (grounds for ending event include genuine threat to life, health, property, or breach of procedure). So we can list: F019, F046, F130, F180. Also maybe F184. Conclusion: yes (legitimate aim asserted).
+
+Element: necessity.
+
+Need facts showing balancing, proportionality. Evidence that assembly was peaceful, no threat, police used excessive force, no warning, etc. Facts: F018 (peaceful), F054 (no banners, no noise), F083 (no slogans), F115 (no chanting), F125 (no slogans), F127 (arrest without warning), F139 (same), F148 (no warning), F155 (eyewitness says no warning), F156 (video evidence), F181-184 (legal requirement for order). So we can list: F018, F054, F083, F115, F125, F127, F139, F148, F155, F156, F181, F182, F183, F184. Conclusion: no (not necessary/proportionate).
+
+Element: positive_obligation.
+
+Need facts showing state failed to take positive steps to facilitate assembly: e.g., meeting approved but police prevented informal consultation (F012, F013-16), refusal to admit evidence, refusal to call police, etc. Also the Supreme Court resolutions highlight positive obligations. So facts: F012 (approval), F013-16 (informal consultation invitation), F018 (peaceful), F020 (arrest), F028-31 (court dismiss authenticity), F060-66 (refusal to admit evidence), F70-78 (refusal to admit evidence), F91-98 (refusal to call police, video), F122-133 (refusal to admit evidence), F164-166 (refusal to examine witnesses/police), F205-210 (Supreme Court guidance). So we can list a subset: F012, F013-16, F020, F060-66, F70-78, F91-98, F122-133, F164-166, F205-210. Conclusion: yes (positive obligation violated).
+
+Now final conclusion: violated = true.
+
+Now we need to produce JSON accordingly.
+
+Make sure each element's "facts" array contains only IDs that exist. Use correct formatting.
+
+Potential nuance: The "prescribed_by_law" conclusion is "no" because the interference was not prescribed by law. However, the Court might find that the law exists but the application was not in line with the law (lack of warning). So "prescribed by law" is not satisfied. So "no".
+
+Similarly, "necessity" conclusion is "no". "positive_obligation" conclusion is "yes" (there is a violation of positive obligation). Wait: The element "positive_obligation" asks: "Has the Court spelled out a positive obligation for the government? If so, has it concluded that the defendant government violated this obligation?" So we need to answer yes/no to whether there is a violation of positive obligation. The question: "Has the Court spelled out a positive obligation for the government? If so, has it concluded that the defendant government violated this obligation?" So we need to answer "yes" if there is a violation of a positive obligation. The conclusion is "yes" if the Court finds a violation. So we can say "yes". Alternatively, if the Court hasn't identified a positive obligation, then "no". But given the facts, the Court likely identifies a positive obligation to facilitate peaceful assemblies and to ensure procedural fairness. So we can say "yes".
+
+Now we need to produce JSON.
+
+One thing: The "facts" arrays should contain only the IDs needed to answer the element. They don't need to be exhaustive, but must be relevant. We need to ensure we don't miss any ID referenced incorrectly. Also ensure we don't include duplicate IDs.
+
+We'll produce something like:
+
+{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009","F017","F018","F045","F054","F083","F112","F115","F146","F148"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F020","F048","F055","F084","F114","F139","F147"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F012","F179","F181","F182","F183","F184","F185","F186","F187","F188","F199","F200","F201","F202","F203","F204","F205","F206","F207","F208","F209","F210","F084","F139","F148"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F019","F046","F130","F180"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F018","F054","F083","F115","F125","F127","F139","F148","F155","F156","F181","F182","F183","F184"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F012","F013","F014","F015","F016","F020","F028","F029","F030","F031","F060","F061","F062","F063","F064","F065","F066","F070","F071","F072","F073","F074","F075","F076","F077","F078","F079","F091","F092","F093","F094","F095","F096","F097","F098","F099","F100","F101","F102","F103","F108","F109","F122","F123","F124","F128","F129","F130","F131","F132","F133","F134","F164","F165","F166","F167","F205","F206","F207","F208","F209","F210"]
+    }
+  },
+  "violated": true
+}
+
+Check that all IDs exist: F012, F013, F014, F015, F016, F020, F028, F029, F030, F031, F060, F061, F062, F063, F064, F065, F066, F070, F071, F072, F073, F074, F075, F076, F077, F078, F079, F091, F092, F093, F094, F095, F096, F097, F098, F099, F100, F101, F102, F103, F108, F109, F122, F123, F124, F128, F129, F130, F131, F132, F133, F134, F164, F165, F166, F167, F205, F206, F207, F208, F209, F210. All exist.
+
+Now double-check each element's conclusion.
+
+Scope: yes.
+
+Interference: yes.
+
+Prescribed_by_law: no.
+
+Legitimate_aim: yes.
+
+Necessity: no.
+
+Positive_obligation: yes.
+
+Overall violation: yes (since either prescription or necessity fails). Indeed, if any of the justification elements fail, there is a violation. So yes.
+
+Now we need to ensure the JSON is syntactically correct. Use double quotes around keys and values. Ensure no trailing commas.
+
+Now let's reflect if any element might be answered differently.
+
+Scope: Are there any doubts about the assembly being peaceful? The government claims the applicant shouted slogans (F019). However the applicant's own statements and eyewitnesses claim peace. The Court typically assesses credibility. The presence of contradictory evidence may lead to a finding that the assembly was peaceful. The Court may weigh the evidence. In many similar cases (e.g., Navalnyy v. Russia, etc.), the Court found that the assemblies were peaceful despite the state's claims. So we can stick with yes.
+
+Interference: definitely yes.
+
+Prescribed_by_law: The law does require notification, but the meeting was approved (F012). The subsequent informal consultation may be considered part of the meeting, but the police treated it as irregular. The law also requires police to give warning before dispersal. The police didn't. So not prescribed by law. So no.
+
+Legitimate aim: The state may argue public order. The Court may accept that as a legitimate aim, even if not convincingly proven. So yes.
+
+Necessity: The Court would find the measures disproportionate. So no.
+
+Positive obligation: The Court may find that the state failed to take positive steps to facilitate the assembly, particularly the informal consultation after the meeting, and the procedural fairness deficits. So yes.
+
+Thus overall violation: yes.
+
+Now we need to ensure the "facts" arrays are appropriate. The instruction: "Only include fact IDs that appear in the atomic facts provided above". All our IDs are present. Good.
+
+Now we need to verify that we haven't omitted any crucial facts for each element.
+
+Scope: We selected F009 (meeting), F017 (applicant stayed), F018 (peaceful), F045 (walkdown Lubyanskiy Proyezd), F054 (no banners, no noise), F083 (no slogans), F112 (solo picket), F115 (no chanting), F146 (public gathering at Tverskaya Street), F148 (no warning). These cover assembly existence, participation, peacefulness. Might also include F080 (arrival at Kudrinskaya Square) but we have enough.
+
+Interference: F020 (arrest at Pushkin), F048 (arrest at Lubyanskiy), F055 (arrest at Bolshaya Nikitskaya), F084 (arrest at Kudrinskaya), F114 (arrest at Lubyanskaya), F139 (arrest at Zamoskvoretskiy), F147 (arrest at Tverskaya). Good.
+
+Prescribed_by_law: We need to show the law and its requirements, and the lack thereof. Include F012 (approval), F179 (notification requirement), F181 (order to end event), F182 (police measures), F183 (exception for mass disorder), F184 (failure to obey orders), F185 (right to express), F186-188 (penalties), F199-204 (amendments), F205-210 (Supreme Court clarification). Also include F084, F139, F148 to illustrate lack of warning. Good.
+
+Legitimate_aim: F019 (government claim of irregular gathering and shouting slogans), F046 (government claim of walking with 170 people), F130 (obstruction of road), F180 (grounds for ending event). Good.
+
+Necessity: F018 (peaceful), F054 (no banners, no noise), F083 (no slogans), F115 (no chanting), F125 (no slogans), F127 (arrest without warning), F139 (arrest without warning), F148 (no warning), F155 (eyewitness says no warning), F156 (video evidence), F181-184 (legal requirements). Good.
+
+Positive_obligation: Many facts showing failure to facilitate assembly and procedural deficiencies. We listed many. Might be too many but acceptable.
+
+Now we need to ensure the JSON structure matches exactly: top-level "elements" object with nested objects for each element. Each nested object has "conclusion" string and "facts" array.
+
+Now produce final answer.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": [
+        "F009",
+        "F017",
+        "F018",
+        "F045",
+        "F054",
+        "F083",
+        "F112",
+        "F115",
+        "F146",
+        "F148"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F020",
+        "F048",
+        "F055",
+        "F084",
+        "F114",
+        "F139",
+        "F147"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": [
+        "F012",
+        "F179",
+        "F181",
+        "F182",
+        "F183",
+        "F184",
+        "F185",
+        "F186",
+        "F187",
+        "F188",
+        "F199",
+        "F200",
+        "F201",
+        "F202",
+        "F203",
+        "F204",
+        "F205",
+        "F206",
+        "F207",
+        "F208",
+        "F209",
+        "F210",
+        "F084",
+        "F139",
+        "F148"
+      ]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F019",
+        "F046",
+        "F130",
+        "F180"
+      ]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": [
+        "F018",
+        "F054",
+        "F083",
+        "F115",
+        "F125",
+        "F127",
+        "F139",
+        "F148",
+        "F155",
+        "F156",
+        "F181",
+        "F182",
+        "F183",
+        "F184"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": [
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F020",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F070",
+        "F071",
+        "F072",
+        "F073",
+        "F074",
+        "F075",
+        "F076",
+        "F077",
+        "F078",
+        "F079",
+        "F091",
+        "F092",
+        "F093",
+        "F094",
+        "F095",
+        "F096",
+        "F097",
+        "F098",
+        "F099",
+        "F100",
+        "F101",
+        "F102",
+        "F103",
+        "F108",
+        "F109",
+        "F122",
+        "F123",
+        "F124",
+        "F128",
+        "F129",
+        "F130",
+        "F131",
+        "F132",
+        "F133",
+        "F134",
+        "F164",
+        "F165",
+        "F166",
+        "F167",
+        "F205",
+        "F206",
+        "F207",
+        "F208",
+        "F209",
+        "F210"
+      ]
+    }
+  },
+  "violated": true
+}

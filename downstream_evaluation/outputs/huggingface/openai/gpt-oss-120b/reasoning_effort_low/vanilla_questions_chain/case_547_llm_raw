@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly existed? Yes: DİSK and KESK planned demonstration 1 May 2008 (F006,F007,F008,F009). Applicant participated (F012). Peaceful? Assume peaceful; not stated otherwise. So yes. Facts: F006,F007,F008,F009,F012.
+
+Interference: disciplinary sanction for absence due to participation = interference. Facts: F010,F011,F013,F014,F015,F016,F017,F018. Conclusion yes.
+
+Prescribed by law: sanction under Civil Servants Act section 125 (F014) and law details (F019,F020). Need foreseeability etc. Likely law allows sanction for unauthorized absence; but does it specifically restrict political activity? Probably not clear, but law exists. We'll say yes prescribed by law. Facts: F014,F019,F020.
+
+Legitimate aim: aim likely public service efficiency / discipline, maybe prevention of disorder. Could be protecting functioning of public administration. Not explicit but typical. Use F014 and general aim. We'll assume legitimate aim (public order/service). Facts: F014.
+
+Necessity: need balancing; sanction of warning may be disproportionate for peaceful assembly. Court often finds violation. Likely not necessary. So conclusion no. Facts: F013,F014,F012.
+
+Positive obligation: none indicated. No duty to facilitate. So no violation of positive obligation. Facts [].
+
+Overall violation because necessity fails => violation. So violated true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F013", "F014", "F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F014", "F019", "F020"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F014"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

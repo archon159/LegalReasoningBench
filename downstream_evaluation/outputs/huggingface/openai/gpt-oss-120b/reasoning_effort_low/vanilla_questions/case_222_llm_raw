@@ -1,0 +1,59 @@
+analysisWe need map facts. Likely scope yes: assembly occurred (demonstration). Facts F022, F025, F028 etc. So yes.
+
+Interference: police used force causing injury => interference yes. Facts F033-F038 etc.
+
+Prescribed by law: Need law governing assemblies. We have sections of criminal code (F093-F099). Also maybe law on prohibition. These indicate existence of law. Are they foreseeable? Probably yes. Use F093-F099. Conclusion likely yes (intervention prescribed by law).
+
+Legitimate aim: aim = prevention of disorder/public safety. Govt claims preventing breach of peace. Given violence? But demonstration peaceful per applicant. However state can invoke prevention of disorder. Likely legit aim accepted. Use govt allegations F067-F071 etc. So yes.
+
+Necessity: Was force proportionate? Evidence shows severe injury, possibly excessive. Court may find not necessary. So conclusion no (not necessary). Facts F033-F040, plus UN reports showing large crowd, but force seems disproportionate. We'll say no.
+
+Positive obligation: Not sure if Court identified positive duty to protect. Might be none. Likely no positive obligation. So conclusion no.
+
+Overall violation: Since one element (necessity) fails, violation yes. Actually violation occurs if any element not satisfied. Here necessity not met -> violation. So overall true.
+
+Provide facts lists.
+
+Let's craft.
+
+Scope facts: F022 (joined demo), F025 (peaceful), F028 (planned sit-in), maybe F030 etc. Provide subset.
+
+Interference facts: F033-F038,F039,F040,F041,F042,F043,F044.
+
+Prescribed by law facts: F093-F099 (law definitions), maybe also F101 etc but assembly law. Use F093-F099.
+
+Legitimate aim facts: Government allegations F067-F071, plus UN report showing tension F080-F083 indicating disorder. Use F067,F068,F069,F070,F071,F080,F081,F082.
+
+Necessity facts: same as interference plus UN report showing large crowd but also evidence of excessive force. Use F033-F040,F080-F083.
+
+Positive obligation facts: perhaps none; could use F093-F099 again? but likely none. Use [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F022", "F025", "F028", "F030"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F033", "F034", "F035", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F093", "F094", "F095", "F096", "F097", "F098", "F099"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F067", "F068", "F069", "F070", "F071", "F080", "F081", "F082"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F033", "F036", "F037", "F038", "F039", "F040", "F041", "F080", "F081", "F082"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

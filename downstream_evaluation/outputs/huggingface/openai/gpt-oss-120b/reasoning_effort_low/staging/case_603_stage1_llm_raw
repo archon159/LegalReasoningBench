@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope needs assembly existence, participation, peacefulness. Facts: F001 (spontaneous gathering), F002 (came to attend hearing), F012 similar, F013, F016 (forming gathering). Peaceful? Not explicit but maybe implied; none mention violence. So include those.
+
+Interference: arrests etc. F003, F018.
+
+Prescribed by law: need law provision. F020, F021, maybe F022 summaries. Use F020,F021.
+
+Legitimate aim: need justification by state—none in facts. Might be absent. No fact gives aim. So empty.
+
+Necessity: need balancing – likely not present. Could use F014 cordon, F015 inability to enter, maybe shows aim. Include F014,F015.
+
+Positive obligation: Court may have positive duty to protect assembly – not in facts. None. Empty.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002", "F012", "F013", "F016"]
+    },
+    "interference": {
+      "facts": ["F003", "F018"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F020", "F021"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F014", "F015"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

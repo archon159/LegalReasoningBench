@@ -1,0 +1,61 @@
+analysisWe need assess each element. Likely violation? Many cases find no violation if admin offense legit. Probably no violation. Provide facts.
+
+Scope: need to show activity is assembly -> yes. Facts: F011,F012,F013,F014,F016,F017 etc.
+
+Interference: arrest/detention interferes. Facts: F023,F028,F029,F030,F086.
+
+Prescribed by law: statutes exist Art166,173, Assemblies act. Facts: F129,F130,F131,F108,F123,F124,F125.
+
+Legitimate aim: public order, safety of police. Facts: F021,F098,F101,F109,F123,F124.
+
+Necessity: need assess proportionality. Likely not necessary, excessive 8 days. Might be no. Use facts about severity, alternatives, aggravating. Could conclude not necessary => violation. But many ECtHR finds administrative detention acceptable? Might be disproportionate. I'd say violation.
+
+Positive obligation: state must protect right to peaceful assembly, ensure police proportionate. Facts: F098,F099,F100,F101.
+
+Conclusion: violation true.
+
+Provide facts per element.
+
+Let's pick minimal.
+
+Scope facts: F011,F012,F013,F014,F016,F017.
+
+Interference facts: F023,F028,F029,F030,F086.
+
+Prescribed_by_law facts: F129,F130,F131,F108,F123,F124,F125.
+
+Legitimate_aim facts: F021,F098,F101,F109,F123,F124.
+
+Necessity facts: F086,F110,F127,F128,F129,F130,F131,F108,F109,F123,F124,F125.
+
+Positive_obligation facts: F098,F099,F100,F101,F108.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F014", "F016", "F017"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F023", "F028", "F029", "F030", "F086"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F129", "F130", "F131", "F108", "F123", "F124", "F125"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F021", "F098", "F101", "F109", "F123", "F124"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F086", "F110", "F127", "F128", "F129", "F130", "F131", "F108", "F109", "F123", "F124", "F125"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F098", "F099", "F100", "F101", "F108"]
+    }
+  },
+  "violated": true
+}

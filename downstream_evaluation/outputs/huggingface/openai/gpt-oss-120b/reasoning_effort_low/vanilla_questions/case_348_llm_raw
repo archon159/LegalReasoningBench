@@ -1,0 +1,45 @@
+analysisWe need map facts. We have limited facts: F001-F005. They mention protests, organizers, date, other complaints. No info on interference, law, legit aim, necessity, positive duty. So conclusions likely cannot be determined -> default no? But need based on available facts. Scope: yes there was assembly (protests), applicant participated as organizer/participant. Peaceful? Not stated. Can't confirm peacefulness. Might assume? Probably can't conclude peace => no. But need choose. I'd say scope partially satisfied but missing peace => cannot affirm. So conclusion no.
+
+Interference: no factual basis. conclusion no.
+
+Prescribed by law: none. no.
+
+Legitimate aim: none.
+
+Necessity: none.
+
+Positive obligation: none.
+
+Thus overall violation false.
+
+Provide facts used where possible: scope uses F002,F003,F004. interference none. etc.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "interference": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

@@ -1,0 +1,34 @@
+analysisNeed map. Scope: need assembly existence, participation, peacefulness. Facts: F002 (gathered), F003 (march), F005 (speech participation), maybe F010 slogans but peaceful? No info on violence. Use F002,F003,F005. Also F010 shows slogans but not violence. So include those.
+
+Interference: governmental act interfering = conviction. Facts: F007 indictment, F008 charge, F016 conviction, F017 sentence. Also F019/020 showing lack of notice. So include F007,F008,F016,F017.
+
+Prescribed by law: need law provision foreseeability. Facts: F008 (section 28(1) of Meetings and Demonstrations Act), F019/F020 (lack of prior notification requirement). So include F008,F019,F020.
+
+Legitimate aim: need justification by state. Not in facts; maybe none. Could be absent. So [].
+
+Necessity: balancing - need facts about seriousness, proportionality. Likely none. So [].
+
+Positive obligation: Court may have positive duty to protect assembly. No facts. [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F002", "F003", "F005"]
+    },
+    "interference": {
+      "facts": ["F007", "F008", "F016", "F017"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F008", "F019", "F020"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

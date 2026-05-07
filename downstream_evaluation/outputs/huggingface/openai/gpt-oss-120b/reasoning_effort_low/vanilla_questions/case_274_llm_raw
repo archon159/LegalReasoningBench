@@ -1,0 +1,59 @@
+analysisWe need map facts. Likely violations for scope: assembly existed (demonstration 7 Apr). Applicant observed, maybe participated? He was present near, encouraged women. That counts as participation? He was present to encourage, could be considered participation. So yes. Facts: F012-F018,F019,F021-F024 etc. Conclusion yes.
+
+Interference: police arrested, detained. Yes. Facts: F021-F028,F037-F043 etc.
+
+Prescribed by law: need law article 172 etc. Existence of law, foreseeability questionable. But law exists. However adequacy of safeguards? Likely not sufficient. But conclusion maybe no (i.e., not sufficiently prescribed). Yet typical ECtHR finds lack of clear law. Here law exists but vague. Might conclude no violation of prescribed? Actually requirement is that interference be prescribed by law. If law is ambiguous, violation. Probably conclusion no (i.e., not properly prescribed). We'll set no.
+
+Legitimate aim: public order. State claims. Facts: F017,F025-F027,F038. Likely legit aim yes.
+
+Necessity: proportionality – three days detention for minor hooliganism seems disproportionate. Also procedural deficiencies. So no necessity. Conclusion no.
+
+Positive obligation: Court may have positive duty to protect right to peaceful assembly. Govt failed to protect. Likely violation. So conclusion yes.
+
+Overall violation: Since multiple failures (prescribed, necessity, positive), overall violation true.
+
+Provide facts per element.
+
+Let's pick facts:
+
+Scope: F012,F013,F014,F015,F016,F017,F018,F019
+
+Interference: F021,F022,F023,F024,F028,F037,F038,F039,F040,F042,F043,F044,F045,F046,F047,F048
+
+Prescribed_by_law: F038,F104-F108,F255-F259 (but those are many). Choose representative: F038,F104,F108,F255,F259
+
+Legitimate_aim: F017,F025,F026,F027,F038
+
+Necessity: F038,F061,F062,F064,F065,F072,F074,F077-F080,F084-F086,F149-F152 (choose some): F038,F061,F062,F064,F072,F074,F077,F084,F149
+
+Positive_obligation: F090-F097 constitutional articles showing right to assemble and state duty; plus F086-F089 complaints. Use F090,F091,F092,F093,F094,F095,F096,F097,F086,F087,F088,F089.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F015", "F016", "F017", "F018", "F019"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F023", "F024", "F028", "F037", "F038", "F039", "F040", "F042", "F043", "F044", "F045", "F046", "F047", "F048"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F038", "F104", "F108", "F255", "F259"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F017", "F025", "F026", "F027", "F038"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F038", "F061", "F062", "F064", "F072", "F074", "F077", "F084", "F149"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F090", "F091", "F092", "F093", "F094", "F095", "F096", "F097", "F086", "F087", "F088", "F089"]
+    }
+  },
+  "violated": true
+}

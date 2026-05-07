@@ -1,0 +1,45 @@
+analysisWe need assess likely violation. Probably no violation because detention justified under law. So scope: assembly? They intended to join protests; but were they actually participating? They were detained before joining. Assembly peaceful? Not clear. Likely yes scope satisfied. Interference: detention = interference yes. Prescribed by law: sections cited exist, foreseeability maybe questionable but law exists -> yes. Legitimate aim: public security – yes. Necessity: proportionality doubtful but courts said indispensable. Might be violation? ECtHR often finds violation where pre‑emptive detention too broad. Here banners ambiguous. Likely violation of Art 11 due to lack of necessity. I'll choose violation yes.
+
+Identify facts per element.
+
+Scope: need F025 (they drove to Rostock to participate), F026-028 (identity check location), maybe F016 etc showing unrest. Also need peaceful assembly? Not proven they engaged in violence. Use F025, F016 shows violent context but they not violent. We'll list.
+
+Interference: detention F035, F037-038 orders.
+
+Prescribed by law: F039-F042 referencing PSOA sections, plus F107-F110 define law.
+
+Legitimate aim: security concerns F006-F009, F016-F019, F066-F068 show risk.
+
+Necessity: court findings F041-F044, F052, F058, F072, plus estimates F013,F015 etc.
+
+Positive obligation: perhaps none.
+
+Thus output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F025", "F026", "F027", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F035", "F037", "F038"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F039", "F040", "F107", "F108", "F109", "F110", "F111", "F112"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F010", "F011", "F013", "F015", "F016", "F017", "F018", "F019", "F066", "F067"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F041", "F042", "F043", "F044", "F045", "F052", "F058", "F072", "F068", "F069", "F071"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

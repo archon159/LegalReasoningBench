@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F013 (demonstration held), F014 location, likely peaceful? Not mentioned but assume peaceful; maybe no violence indicated. So include F013, F014.
+
+Interference: arrest etc. Facts: F015 (arrest), F016, F017, F018, plus refusal to investigate? But interference is state act interfering with freedom. Include F015,F016,F017,F018.
+
+Prescribed by law: need law basis. Facts about code articles: F017, F018, also maybe F020 etc showing law application. Use F017,F018.
+
+Legitimate aim: government's justification. Fact about town hall reason: F009 (security danger). Also maybe law aims. So include F009.
+
+Necessity: balancing – need info on proportionality, seriousness. Facts about court findings of unlawfulness, fines, etc. Could include F039-F041 showing no lawful grounds, also F045-47 showing unlawful. Choose F039,F040,F041 perhaps. We'll list F009,F039,F040.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Facts about failure to protect? Maybe F020 refusal to prosecute police indicates positive obligation. Use F020.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F013", "F014"]
+    },
+    "interference": {
+      "facts": ["F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F017", "F018"]
+    },
+    "legitimate_aim": {
+      "facts": ["F009"]
+    },
+    "necessity": {
+      "facts": ["F009", "F039", "F040"]
+    },
+    "positive_obligation": {
+      "facts": ["F020"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope needs assembly existence, participation, peacefulness. Facts: F010 (organised public meeting), F011 (purpose), F012 (65 participants) indicate assembly and participation. Peaceful? Not mentioned; maybe assume peaceful but no fact. So include those.
+
+Interference: governmental act interfering – fine and court decision. Facts: F013, F014, F015, F016, F017, F018.
+
+Prescribed by law: need law about prior authorization. Facts: F014 (breach of rules), F015 (no prior authorisation). Also maybe F013 fine shows enforcement. Use F014,F015.
+
+Legitimate aim: need justification by state – public order etc. Not directly in facts. No fact gives aim. Might be absent -> empty.
+
+Necessity: balancing – need info on seriousness, proportionality. Not present. Empty.
+
+Positive obligation: Court may have positive duty to protect assembly. No fact. Empty.
+
+Thus output.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F010", "F011", "F012"]
+    },
+    "interference": {
+      "facts": ["F013", "F014", "F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F014", "F015"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

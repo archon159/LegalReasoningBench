@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely F002-F004 cover scope/interference etc. Use them.
+
+Scope: need assembly existence, participation, peacefulness – none of atomic facts mention peace. So cannot conclude yes; likely no due to missing info. But we must use available facts only. We have restrictions on location, time, manner => indicates there was intended assembly. So scope maybe yes based on those complaints. We'll say yes using F002,F003,F004.
+
+Interference: restrictions constitute interference → yes using same facts.
+
+Prescribed by law: need law foreseeability – not in facts -> no.
+
+Legitimate aim: need justification – not in facts -> no.
+
+Necessity: need balancing – not in facts -> no.
+
+Positive obligation: not mentioned -> no.
+
+Overall violation? Since not all elements satisfied, violation false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

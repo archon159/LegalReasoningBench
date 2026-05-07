@@ -1,0 +1,45 @@
+analysisWe need assess each element.
+
+Scope: does case concern freedom of assembly? Applicant sought public service (religious). That's assembly under Art 11. Facts: F003 (pastor), F004 application for public service, F011 allegation of freedom of assembly. So scope yes.
+
+Interference: Did state interfere? Refusal of permission, denial => interference. Facts: F006 refusal, F014-15 law, F013 dismissal. Yes.
+
+Prescribed by law: Need law basis. There is decree 9306-XI (F024-26) and Freedom of Conscience Act (F022) plus domestic law requiring authorization. So yes prescribed. Use F022, F024-26.
+
+Legitimate aim: Aim must be public safety, order, health, morals, protection of rights. State argued preventing disorder due to differing religions. Facts: F018, F016, F017. So legitimate aim = prevention of public disorder. Acceptable. So yes.
+
+Necessity: Must be necessary in democratic society; proportional. Need assessment of whether less restrictive means exist. Facts: F018, F019 (they say can hold elsewhere), but likely Court will find restriction disproportionate because ban on public worship is too broad. But based on given facts, we need conclude maybe no necessity. We choose no (not necessary). Provide facts F018, F019.
+
+Positive obligation: State must protect right to peaceful assembly. Here they denied permit, perhaps failing positive duty to facilitate. Likely violation. Facts: F006 refusal, F014-15 law. Conclusion maybe yes (state failed). Actually positive obligation is about ensuring effective exercise; denial suggests breach. So conclusion yes (state breached positive obligation).
+
+Overall violation: If any element fails (necessity), then violation. So violated true.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F004", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F006", "F013", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F022", "F024", "F025", "F026"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F018", "F016", "F017"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F018", "F019"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F006", "F014", "F015"]
+    }
+  },
+  "violated": true
+}

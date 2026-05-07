@@ -1,0 +1,13 @@
+analysisWe need map facts to elements. Scope: assembly? yes F004, F005, F007, F008, F009, F010 maybe. Participation: F005, F007. Peaceful: not stated but assume peaceful. So scope facts: F004,F005,F007,F008,F009,F010.
+
+Interference: arrest etc. F011,F012,F013,F014,F015.
+
+Prescribed_by_law: need law provisions foreseeability, accessibility, safeguards. Facts: F022 (notification requirement), F020-F021 (definition of picket). Also F014? But law itself: F022. Maybe also F020-F021 show interpretation. So include F022,F020,F021.
+
+Legitimate aim: need justification: public safety, prevention of disorder? Not explicit. Might rely on general principle. No specific fact. Could use F014? But that's conviction. Probably none. So [].
+
+Necessity: balancing. Need facts about severity: fine amount F015, duration F013. Also F014? So include F013,F015.
+
+Positive obligation: any mention? None. So [].
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F005","F007","F008","F009","F010"]},"interference":{"facts":["F011","F012","F013","F014","F015"]},"prescribed_by_law":{"facts":["F022","F020","F021"]},"legitimate_aim":{"facts":[]}, "necessity":{"facts":["F013","F015"]},"positive_obligation":{"facts":[]}}}

@@ -1,0 +1,97 @@
+analysisNeed assess likely violation. Facts show demonstration, applicant participated, was minor, police intervened due to violence. Interference yes (arrest, conviction). Prescribed by law? Laws exist, foreseeability maybe questionable for minor. Likely Court finds interference justified for public safety etc. Necessity? Given violence, maybe proportionality issues especially for minor. But ECtHR cases often find violation when disproportionate punishment of child for protest. Might conclude violation. Provide facts accordingly.
+
+Select facts:
+Scope: F003,F004,F015-F020,F048,F049 indicate participation and peaceful? Not peaceful due to stone throwing. Need peaceful? Not entirely peaceful => scope fails? Article 11 protects peaceful assembly; violent acts fall outside. So maybe no violation because assembly not peaceful. Thus scope = no -> no violation overall. Probably Court would say no violation because not peaceful. We'll output accordingly.
+
+Interference: yes (arrest) F037 etc.
+
+Prescribed_by_law: yes (laws) F176 etc.
+
+Legitimate aim: yes (public safety) F014,F081 etc.
+
+Necessity: likely no (not necessary/proportionate) but since scope already no, overall violation false. Still need conclusion for necessity maybe no.
+
+Positive obligation: none.
+
+Thus final violated false.
+
+Provide facts lists.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": [
+        "F003",
+        "F004",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F048",
+        "F049"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F059",
+        "F060",
+        "F091",
+        "F092"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": [
+        "F176",
+        "F161",
+        "F162",
+        "F163",
+        "F164",
+        "F165",
+        "F166",
+        "F167"
+      ]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F014",
+        "F081",
+        "F082",
+        "F083",
+        "F084",
+        "F085"
+      ]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": [
+        "F014",
+        "F019",
+        "F020",
+        "F023",
+        "F025",
+        "F026",
+        "F091",
+        "F092",
+        "F095",
+        "F096"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

@@ -1,0 +1,125 @@
+analysisWe need map facts per element. Identify relevant ones.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F006-F010 (planning), F020 (applicant arrival), F021-24 (counter-demo aggression), F025 etc show inability to gather – indicates assembly attempted. Peaceful? Need info that assembly was peaceful; maybe F021-24 indicate disruption. Also F128-130 show activists couldn't start event, implying not peaceful due to counter. So include F006,F007,F008,F009,F010,F020,F021,F022,F023,F024,F025,F028?, but peace? Might need F128-130 showing they were peaceful. We'll list core: F006,F007,F008,F009,F010,F020,F021,F022,F023,F024,F025,F128,F129,F130.
+
+Interference: governmental act/omission interfering. Facts: police deployment (F014,F015,F017), lack of barriers (F018,F019), police inaction (F026,F027), arrests (F030-F034,F038-F042). Also reminders of liability (F012,F013) maybe. Include F014,F015,F017,F018,F019,F026,F027,F028,F030,F031,F032,F033,F034,F038,F040,F041,F042,F068,F069,F070.
+
+Prescribed by law: need law basis. Facts: F034 references Article 27.2, F040 Article 20.1, F042 etc, plus summary of code (F096,F097). Also maybe F012,F013 about criminal codes. So include F034,F040,F042,F096,F097.
+
+Legitimate aim: need justification like public order, prevention of disorder. Facts: police cited anticipated clashes (F015), breach of public order (F031), use of foul language (F042). Also maybe F012,F013 about hate incitement. So include F015,F031,F042,F012,F013.
+
+Necessity: balancing. Need facts on intensity of intervention vs aim: number of police (F014,F074), presence of counter-demonstrators (F021-24,F125-127), lack of protective measures (F130). Also court reasoning (F085,F086). So include F014,F015,F021,F022,F023,F024,F025,F074,F130,F085,F086.
+
+Positive obligation: Court's positive duties. Facts: recommendations (F099,F100,F102-F110,F112-F115) and HRW reports (F123-F133) indicating state's duty to protect. Also applicant's allegations (F078,F081). So include F099,F100,F102,F103,F104,F105,F106,F107,F108,F109,F110,F112,F113,F114,F115,F123,F124,F125,F126,F127,F128,F129,F130,F131,F132,F133,F078,F081.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F006",
+        "F007",
+        "F008",
+        "F009",
+        "F010",
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F128",
+        "F129",
+        "F130"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F014",
+        "F015",
+        "F017",
+        "F018",
+        "F019",
+        "F026",
+        "F027",
+        "F028",
+        "F030",
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F038",
+        "F040",
+        "F041",
+        "F042",
+        "F068",
+        "F069",
+        "F070"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F034",
+        "F040",
+        "F042",
+        "F096",
+        "F097"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F012",
+        "F013",
+        "F015",
+        "F031",
+        "F042"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F014",
+        "F015",
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F074",
+        "F130",
+        "F085",
+        "F086"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F078",
+        "F081",
+        "F099",
+        "F100",
+        "F102",
+        "F103",
+        "F104",
+        "F105",
+        "F106",
+        "F107",
+        "F108",
+        "F109",
+        "F110",
+        "F112",
+        "F113",
+        "F114",
+        "F115",
+        "F123",
+        "F124",
+        "F125",
+        "F126",
+        "F127",
+        "F128",
+        "F129",
+        "F130",
+        "F131",
+        "F132",
+        "F133"
+      ]
+    }
+  }
+}

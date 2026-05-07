@@ -1,0 +1,24 @@
+analysisWe need map facts. Scope: need existence of assembly, participation, peacefulness. Facts: F004 (participated in protest), maybe description of protest peaceful? Not explicit but assume protest; no violence by him. Could use F008, F009 etc. Peaceful nature maybe from lack of violence claim. Use F004, F008 (police say aggression) but to assess peace need both sides. We'll include F004, F008, F009. Interference: police ordering, handcuffing, prosecution. Facts: F005,F006,F011,F012,F013,F023,F024. Provide core: F005,F006,F012,F023. Prescribed_by_law: need law article 185. Fact referencing law: F007 mentions Article 185. Also maybe F012 judgement uses it. So include F007. Legitimate aim: need justification like public safety etc. Not in facts; maybe none. So empty. Necessity: need balancing – details of procedure, denial of witness, etc. Facts: F014,F017,F019,F020. Positive obligation: perhaps duty to protect right to peaceful assembly, ensure fair trial. Might reference need to allow witness questioning. Facts: F017,F019,F020. We'll output.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F004", "F008", "F009"]
+    },
+    "interference": {
+      "facts": ["F005", "F006", "F012", "F023"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F007"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F014", "F017", "F019", "F020"]
+    },
+    "positive_obligation": {
+      "facts": ["F017", "F019", "F020"]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+analysisWe determine: scope yes (assembly, participated, peaceful? march peaceful, meeting turned violent due to police; but applicant claims peaceful until police dispersed. Likely Court finds assembly was peaceful initially, but later violence. Probably scope satisfied.)
+
+Interference: police dispersed, detention – yes.
+
+Prescribed by law: Russian law allows restrictions for public order; foreseeability? barriers etc maybe lawful. Likely Court finds not sufficiently foreseeable? In similar cases (Frumkin, Belousov) Court found violations of Art 11 due to disproportionate police action and prolonged pre‑trial detention. Those cases involved same demo. So prescribed by law maybe yes but necessity fails. But we need yes/no for prescribed by law element: Usually Court says interference was prescribed by law (law exists) but may be insufficient safeguards. Might conclude no because lack of safeguards. In Frumkin, Court said interference not “prescribed by law” because the police acted beyond authority? I recall they found violation of Art 11 due to lack of legal basis for dispersal. So conclude no.
+
+Legitimate aim: public safety/order – yes.
+
+Necessity: disproportionate, long detention – no.
+
+Positive obligation: Court recognized positive obligation to protect peaceful assembly – likely yes violation of positive duty. So positive_obligation = yes (government failed).
+
+Thus overall violation = true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

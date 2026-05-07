@@ -1,0 +1,33 @@
+analysisWe need assess violation. Likely ECtHR found violations of Art 11 due to unlawful restrictions and detention. Use facts about police interference, pre‑trial detention excessive, conditions. So conclusions: scope yes (demonstration is protected); interference yes (police dispersed, detention); prescribed_by_law? Detention based on law but maybe not sufficiently precise; likely no (not properly prescribed). legitimate aim – public safety/order – yes. necessity – probably not necessary, disproportionate -> no. positive obligation – state failed to protect right to peaceful assembly – no. Overall violation yes.
+
+Select facts: scope F006-F010 etc. interference F011-F017,F036-F038,F054 etc. prescribed_by_law maybe F038 referencing detention order but law unclear; we can cite F038. legitimate aim F014,F015,F018 etc. necessity F054,F058,F082,F084 etc. positive_obligation F025-F033 (ill‑treatment) and F124-F128 (court conditions).
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F014", "F015", "F016", "F036", "F037", "F038", "F054", "F058", "F082", "F084"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F038"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F018", "F019"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F054", "F058", "F082", "F084"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F025", "F026", "F029", "F030", "F031", "F032", "F033", "F124", "F125", "F126", "F127"]
+    }
+  },
+  "violated": true
+}

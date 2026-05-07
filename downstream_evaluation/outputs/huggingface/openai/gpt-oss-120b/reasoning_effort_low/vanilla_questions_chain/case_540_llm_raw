@@ -1,0 +1,31 @@
+analysisWe need assess likely violation: many instances of failure to protect. Probably yes. Provide facts covering scope (peaceful assemblies etc). Use multiple facts. We'll pick representative ones: F008,F009,F010 (assembly); F013 police did not intervene; F047 similar; also F084 arrests. So interference yes. Prescribed by law? Likely no clear law protecting; but law exists allowing police to maintain order, but foreseeability? Might be no because lack of adequate safeguards. We'll say no -> violation. Legitimate aim maybe public safety but not necessary. So conclude violation. Positive obligation: state failed to investigate => yes violation. Provide facts accordingly.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010", "F058", "F059", "F060", "F084", "F085"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F013", "F047", "F064", "F084", "F085"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F009", "F059", "F060", "F084", "F085"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F013", "F047", "F064"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F013", "F047", "F064", "F084", "F085"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F027", "F028", "F042", "F051", "F057", "F075", "F076", "F077", "F120", "F124", "F127", "F141"]
+    }
+  },
+  "violated": true
+}

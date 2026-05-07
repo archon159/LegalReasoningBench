@@ -1,0 +1,45 @@
+analysisWe need assess each element.
+
+Scope: assembly? yes – demonstration blocking bridge qualifies as assembly (group gathering). Fact F003 (organised demonstration), F008 (blocking bridge), F009 start time. Peaceful? They blocked traffic but no violence. Courts considered non‑peaceful due to disruption. But factual peacefulness: they did not use violence, only passive obstruction. Likely peaceful assembly (no violent acts). So scope yes. Facts: F003,F008,F010 (refused police order) maybe indicates non‑peaceful? But factual peacefulness is about conduct, not legality. I'd say yes.
+
+Interference: police/toll? Fine, conviction – governmental act interfering with ability to assemble. Yes. Facts: F015,F016,F025 etc.
+
+Prescribed by law: Need law that authorises restriction. There is Act III 1989 on Right of Assembly, plus criminal code sections 260, 142. Are they sufficiently foreseeable? The decree about ballot papers not relevant. The restriction stems from criminal law on disturbance of public works. Is it clear? Probably yes, law exists. So conclusion yes. Facts: F016,F025,F043,F044.
+
+Legitimate aim: aim is protection of rights/freedoms of others / public safety/public order. Disruption of traffic, public works. So yes. Facts: F011,F012,F030,F031,F043.
+
+Necessity: Was restriction proportionate? Courts said disproportionate? Likely not necessary – ECtHR often finds blanket bans excessive. Here blocking main bridge causing citywide paralysis likely not necessary. Might be violation. I think necessity = no. Facts: F011,F012,F030,F031,F034-F039 show courts' reasoning that disturbance makes it non‑peaceful, but ECtHR might see that interference was not necessary. Use those facts.
+
+Positive obligation: No claim that state failed to facilitate; it's about negative interference. So not applicable => conclusion no, facts [].
+
+Overall violation: Since scope & interference yes, but justified? Prescribed by law yes, legit aim yes, necessity no -> violation. So violated true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F008", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F016", "F025", "F043", "F044"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F030", "F031", "F043"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F011", "F012", "F030", "F031", "F034", "F035", "F036", "F037", "F038", "F039"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

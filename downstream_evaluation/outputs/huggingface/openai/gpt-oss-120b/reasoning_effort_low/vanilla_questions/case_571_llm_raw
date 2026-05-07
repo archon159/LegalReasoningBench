@@ -1,0 +1,43 @@
+analysisWe need map. Scope: assembly existed, applicant participated, peaceful. Facts: F015 (picket took place), F016 (peaceful), F005/F006 show intent, also F017/F018 participation numbers. So yes. Use those.
+
+Interference: governmental act interfering – admin offence, fines. Facts: F020-F024, F036 etc. Yes.
+
+Prescribed by law: need foreseeability, accessibility, safeguards. Relevant facts about 1988 Decree, lack of implementing law, Constitution articles. Likely not sufficiently prescribed. Conclusion no (i.e., not prescribed). Facts: F009,F010,F011,F012,F013,F014,F039,F040,F058,F059,F060,F061,F066-F070,F071,F072-F076.
+
+Legitimate aim: aim was public order / procedure. Govt claimed to protect public order. But legit aim? They said violation of procedure. Could be public order. Need facts showing aim: F014 mentions administrative liability, F036 etc. Probably claim legit aim of public order. So yes.
+
+Necessity: balance; given lack of clear law, penalty disproportionate. Likely no necessity. Facts: F015-F019 (peaceful, no disorder), F036-F038 (ten‑day rule not law), F064-F065 (procedure not followed). So conclusion no.
+
+Positive obligation: Court has recognized positive duty to ensure legal framework. Here state failed. Facts: F058-F060 etc. Likely yes violation of positive obligation. So conclusion yes.
+
+Overall violation: Since not prescribed and not necessary => violation. So true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F017", "F018"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021", "F022", "F023", "F024", "F036", "F037"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F009", "F010", "F011", "F012", "F013", "F014", "F039", "F040", "F058", "F059", "F060", "F061", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F014", "F036", "F037", "F038", "F039", "F040", "F059"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F016", "F018", "F019", "F036", "F037", "F038", "F064", "F065"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F058", "F059", "F060", "F061", "F071", "F072", "F073", "F074", "F075", "F076"]
+    }
+  },
+  "violated": true
+}

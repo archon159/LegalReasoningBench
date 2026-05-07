@@ -1,0 +1,47 @@
+analysisWe need assess. Likely violation: dismissal for political activity = interference not justified. So scope yes, interference yes, prescribed by law? Dismissal under law but law restricts political activity; however application maybe vague. Probably not sufficiently precise => violation of prescribed by law. Also legitimate aim? none. So violation. Positive obligation? maybe none. Provide facts.
+
+Identify facts:
+
+Scope: assembly participation F021,F022 show protests, peaceful? Not explicit but assume peaceful. Use F021,F022.
+
+Interference: dismissal F032-F035 etc.
+
+Prescribed by law: sections mentioned F056,F057 give law basis. Need foreseeability etc maybe not satisfied -> conclude no.
+
+Legitimate aim: government might claim public order but not in facts. No fact showing aim. So conclusion no.
+
+Necessity: because no legit aim, also no.
+
+Positive obligation: none.
+
+Thus overall violation yes.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F032", "F033", "F034", "F035"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F056", "F057"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

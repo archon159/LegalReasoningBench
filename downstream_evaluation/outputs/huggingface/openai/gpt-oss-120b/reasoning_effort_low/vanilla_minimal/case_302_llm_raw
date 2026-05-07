@@ -1,0 +1,31 @@
+analysisWe need map. Likely violations: interference with freedom of assembly via arrest for peaceful demo, lack of fair trial etc. So scope yes (applicant intended to exercise right). Facts: F005, F009. Interference: arrest/detention. Facts: F009,F010,F011,F013,F014,F020,F021. Prescribed by law: conviction under Art310.1 code – seems law exists but maybe vague; still prescribed. Use F006,F010. Assume yes. Legitimate aim: public order? State may claim. Not in facts. No explicit. Might be absent => no. Necessity: not necessary proportionate. Facts: F009-F014 etc. Conclude no. Positive obligation: state must protect right to assemble; failure to ensure effective remedy. Facts: F028-030, F032-034. Conclude no. Overall violation likely yes because overall chain fails. But need each element satisfaction: For violation need one element not met. We have some not satisfied -> violation. Provide conclusions accordingly.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F013", "F014", "F020", "F021"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F006", "F010"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F009", "F010", "F011", "F013", "F014", "F020", "F021"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F028", "F029", "F030", "F032", "F033", "F034"]
+    }
+  },
+  "violated": true
+}

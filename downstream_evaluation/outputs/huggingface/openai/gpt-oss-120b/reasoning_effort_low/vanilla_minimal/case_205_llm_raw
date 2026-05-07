@@ -1,0 +1,49 @@
+analysisWe need map. Likely violation: interference yes, prescribed by law? law requires notification, they didn't, so interference lawful => no violation. So overall not violated. Provide facts.
+
+Scope: applies to peaceful assembly – facts F017-F023, F026 etc. Conclusion yes.
+
+Interference: police disbanded -> yes interference. Facts F021,F022,F039.
+
+Prescribed_by_law: law requires notification, police acted under law. Facts F051,F052,F039.
+
+Legitimate aim: protect security of reception, public order. Facts F021,F035.
+
+Necessity: proportional? likely court says yes; but maybe questionable due to spontaneity. We'll follow domestic finding that necessary and proportionate. Use F030,F045.
+
+Positive obligation: state must protect right; they failed to accommodate spontaneous assembly. Could be breach. But given law, maybe no positive obligation breach. Might be yes? Usually ECtHR finds violation when authorities fail to allow spontaneous assembly. Here police disbanded despite peaceful. Could be violation. I think ECtHR would find violation because requirement of prior notice cannot override spontaneous peaceful assembly. So positive obligation not met. So overall violation yes.
+
+Thus elements: scope yes, interference yes, prescribed_by_law yes (lawful), legitimate aim yes, necessity maybe no (not necessary). If necessity no then violation. Let's set necessity conclusion no. Facts F030,F045.
+
+Positive obligation: no (state failed) conclusion no. Facts F016,F051 etc.
+
+Violated true.
+
+Let's output.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F017", "F018", "F019", "F020", "F023", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F039"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F051", "F052", "F039"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F021", "F035"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F030", "F045"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F016", "F051", "F052"]
+    }
+  },
+  "violated": true
+}

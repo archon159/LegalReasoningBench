@@ -1,0 +1,39 @@
+analysisWe need assess based on selected facts.
+
+Scope facts: F004 (co‑workers wished assembly), F005 (applicant decided to help), F007 (distributed banners), F009 (suggested spacing). Need: assembly existed? They planned but did they actually assemble? Facts don't state actual gathering; only planning. Might be insufficient to say assembly occurred. So scope likely not satisfied -> no violation overall. But we must decide.
+
+Interference facts: arrest etc show interference yes.
+
+Prescribed_by_law: F022 (require prior notification) and F010 (no rule on distance). Need foreseeability etc. Likely not properly prescribed because law ambiguous re distance; but we have limited facts. Could conclude no.
+
+Legitimate aim: no facts given => cannot determine, assume none -> no.
+
+Necessity: no facts -> no.
+
+Positive obligation: none -> no.
+
+Given scope maybe not satisfied, then no violation. We'll output accordingly.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": false
+}

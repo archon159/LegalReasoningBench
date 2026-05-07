@@ -1,0 +1,37 @@
+analysisWe need assess quickly. Scope: facts show assembly, applicant participated, peaceful? The march was peaceful initially, but later sit‑down, some disorder. Applicant claims he did not partake in disorder; however evidence shows he threw object. Likely not entirely peaceful. But scope requires peaceful assembly. Since there was disorder, but does that make assembly non‑peaceful? Court often still considers assembly peaceful until disorder occurs. Here there was mass disorder. So maybe not peaceful => scope fails -> no violation. However many cases find assembly was peaceful until police response. Given mass disorder findings, likely not peaceful. I'd say scope = yes? Hmm. Probably scope satisfied because there was an assembly and applicant tried to take part. Peacefulness is questionable but majority of march peaceful. I'll conclude yes.
+
+Interference: arrest, detention etc clearly interference. Yes.
+
+Prescribed_by_law: charges based on statutes, but were they foreseeable? The requirement to not exceed 5k participants and no tents – warnings existed. The police actions (cordon, seizure of tents) were based on security plan. Likely considered prescribed. So yes.
+
+Legitimate aim: public order, prevention of disorder – yes.
+
+Necessity: Need to evaluate proportionality. Evidence shows heavy police force, break of cordon, use of truncheons, arrests, mass disorder already occurring. Courts have found violations in similar cases (e.g., Frumkin). Might deem disproportionate. So necessity = no.
+
+Positive obligation: Did state fail to take steps? Could be failure to negotiate, to allow access, to ensure medical exam. Likely yes violation of positive obligation. So conclusion yes.
+
+Overall violation: Since necessity no, violation yes.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,102 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.8435,
+        "recall": 0.64,
+        "f1": 0.4348,
+        "macro_f1": 0.6749
+      },
+      "interference": {
+        "precision": 0.815,
+        "recall": 0.7734,
+        "f1": 0.6154,
+        "macro_f1": 0.7924
+      },
+      "prescribed_by_law": {
+        "precision": 0.788,
+        "recall": 0.788,
+        "f1": 0.6,
+        "macro_f1": 0.788
+      },
+      "legitimate_aim": {
+        "precision": 0.8,
+        "recall": 0.9882,
+        "f1": 0.75,
+        "macro_f1": 0.869
+      },
+      "necessity": {
+        "precision": 0.5859,
+        "recall": 0.6558,
+        "f1": 0.3429,
+        "macro_f1": 0.5899
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.6484,
+        "recall": 0.6759,
+        "f1": 0.3636,
+        "macro_f1": 0.6606
+      },
+      "interference": {
+        "precision": 0.7439,
+        "recall": 0.8571,
+        "f1": 0.6,
+        "macro_f1": 0.788
+      },
+      "prescribed_by_law": {
+        "precision": 0.694,
+        "recall": 0.8157,
+        "f1": 0.5,
+        "macro_f1": 0.7381
+      },
+      "legitimate_aim": {
+        "precision": 0.6,
+        "recall": 0.977,
+        "f1": 0.3333,
+        "macro_f1": 0.6549
+      },
+      "necessity": {
+        "precision": 0.5469,
+        "recall": 0.6735,
+        "f1": 0.2069,
+        "macro_f1": 0.5252
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.6021,
+      "recall": 0.7513,
+      "f1": 0.36,
+      "macro_f1": 0.553
+    }
+  },
+  "case": "case_471"
+}

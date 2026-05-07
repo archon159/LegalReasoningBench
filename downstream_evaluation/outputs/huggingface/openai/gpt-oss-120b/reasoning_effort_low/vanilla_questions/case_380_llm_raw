@@ -1,0 +1,47 @@
+analysisWe need assess likely violation: Court likely found no violation as protest was unlawful blockage. So conclusions: scope yes (assembly peaceful? not peaceful as blockade -> not peaceful => fails scope maybe). But interference? Conviction is interference with assembly; but if not peaceful then not protected. Likely no violation. Provide facts accordingly.
+
+Scope: assembly existed (F011,F023,F024). Applicants participated (F023,F024). Peaceful? They blocked roads -> not peaceful (F025-F028). So scope partially fails peace requirement => conclusion no (not protected).
+
+Interference: state prosecuted (F048 onward). Yes interference but since not protected, still no violation overall? Need answer yes for interference existence. We'll set yes.
+
+Prescribed by law: law exists article 283 etc (F180,F181) and was in force (F179). So yes.
+
+Legitimate aim: public safety/order (F055,F056,F068 etc). Yes.
+
+Necessity: not necessary proportionate -> no.
+
+Positive obligation: none identified. So no.
+
+Overall violation false.
+
+Provide facts per element.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F011", "F023", "F024", "F025", "F026", "F027"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F048", "F049", "F080", "F108", "F110"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F179", "F180", "F181"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F055", "F056", "F068", "F069"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F088", "F089", "F090", "F127"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope: need assembly existence, participation, peacefulness. Facts: F007 (protest rallies organized), F008 (applicant participated in demonstration), maybe F016 says unauthorised demonstration but that's later. So scope facts: F008, F007 perhaps. Also need peace - not directly stated; maybe none. We'll include F008, F007.
+
+Interference: governmental act interfering: police taking him, detention. Facts: F009, F010, F011, F015, F017, etc. Include those.
+
+Prescribed by law: need law article 180.1 etc. Facts: F015 (sentenced under Article 180.1), F016 mentions unauthorized demonstration, also F029, F030. So include F015, F016, F029.
+
+Legitimate aim: need justification like public order. Facts: F029 (found violated public order), F028 (violation of prescribed rules for organising assemblies). So include F028, F029.
+
+Necessity: balancing intensity vs aim. Need info on severity of sanction, duration, fine, etc. Facts: F015 (15 days detention), F031 (fine), F032 release, plus F029 justification. So include F015, F031, F029.
+
+Positive obligation: Court may have positive duty to ensure effective remedy etc. Facts about appeal process, ability to review: F022 (court lacks competence), F023 (lawyer lodged appeal), F034, F035 letters. Might indicate lack of effective remedy. Use these. So include F022, F023, F034, F035.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F008"]
+    },
+    "interference": {
+      "facts": ["F009", "F010", "F011", "F015", "F017"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F015", "F016", "F029"]
+    },
+    "legitimate_aim": {
+      "facts": ["F028", "F029"]
+    },
+    "necessity": {
+      "facts": ["F015", "F029", "F031"]
+    },
+    "positive_obligation": {
+      "facts": ["F022", "F023", "F034", "F035"]
+    }
+  }
+}

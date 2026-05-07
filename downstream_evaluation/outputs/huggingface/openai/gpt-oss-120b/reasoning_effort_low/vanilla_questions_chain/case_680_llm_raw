@@ -1,0 +1,57 @@
+analysisWe need map facts. Scope: assembly? yes rally was assembly. Facts F048 (rally held), F049 (applicant took part). Peaceful? No evidence of violence; slogans political but peaceful. So assume peaceful => yes. So scope yes using F048,F049.
+
+Interference: arrest and fine constitute interference. Facts F050 (arrest), F055-58 (administrative finding and fine). So yes.
+
+Prescribed by law: Need law on assemblies, procedure. Facts about refusal of venue etc show lack of proper permit. But does law exist? Russian law requires permission. The authorities denied venue citing reasons, offered alternatives. Applicant proceeded anyway. The interference was based on procedural violation. Likely prescribed by law exists, but was it foreseeable? Probably yes. However Court may find deficiency because authorities didn't give clear info. We'll say yes (prescribed by law) maybe ambiguous. Choose yes.
+
+Legitimate aim: authorities cited public order, traffic, rights of others. Facts F043-F045. Those are legitimate aims under article 11(2). So yes.
+
+Necessity: need proportionality. Fine 500 rubles, arrest. Considering peaceful rally, denial of venue, alternatives offered. Might be disproportionate. Likely Court finds not necessary. So conclusion no.
+
+Positive obligation: government must facilitate peaceful assembly. They refused venue despite alternatives, perhaps violation of positive duty. Facts F042-F046,F047. Could be yes violation of positive obligation. But since we already have necessity no, overall violation yes. Provide positive obligation conclusion yes.
+
+Thus overall violated = true.
+
+Provide facts per element.
+
+Scope facts: F048,F049.
+
+Interference facts: F050,F055,F056,F057,F058,F059,F060 (maybe also F051-54 showing basis).
+
+Prescribed_by_law facts: F042,F043,F044,F045,F046,F047 (procedure existence) plus maybe F055 etc. Use few.
+
+Legitimate_aim facts: F043,F044,F045.
+
+Necessity facts: F042-F047 (authorities' reasons) and F058 (fine) maybe.
+
+Positive_obligation facts: F042-F047.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F048", "F049"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F050", "F055", "F056", "F057", "F058", "F059", "F060"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F043", "F044", "F045"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047", "F058"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047"]
+    }
+  },
+  "violated": true
+}

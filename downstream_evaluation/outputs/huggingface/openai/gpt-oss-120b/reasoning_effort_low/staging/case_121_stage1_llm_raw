@@ -1,0 +1,34 @@
+analysisWe map. Scope needs info about assembly existence, participation, peacefulness. Facts mention notices of LGBT public assemblies (F002) shows intent to assemble; but no fact about actual assembly or peace. So use F002 maybe. Also maybe none else. We'll list F002.
+
+Interference: need governmental act interfering – refusals. That's F003, F004 (refusal of dates and locations). Also perhaps F005 challenge shows act. Use F003,F004.
+
+Prescribed by law: need law basis. Provided references F010,F011,F012. Those give law context. So include those three.
+
+Legitimate aim: need justification by authorities; not in facts. None provided. So [].
+
+Necessity: need balancing, maybe dates of refusals and decisions timing (F007,F008,F009). Include those.
+
+Positive obligation: need if Court identified positive duty; likely from jurisprudence refs F010-F012 again. Use same law references. Maybe F010. We'll include F010.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F002"]
+    },
+    "interference": {
+      "facts": ["F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F010", "F011", "F012"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F007", "F008", "F009"]
+    },
+    "positive_obligation": {
+      "facts": ["F010"]
+    }
+  }
+}

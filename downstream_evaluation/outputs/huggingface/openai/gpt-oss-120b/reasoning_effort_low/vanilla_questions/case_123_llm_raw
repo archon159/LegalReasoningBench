@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly existed (F007), applicants participated (F013), peaceful (F010,F011). So yes. Facts list those.
+
+Interference: arrests after demo constitute interference. Facts F014 plus similarity references F015-F020 show arrest etc. So yes.
+
+Prescribed by law: Need law governing arrests/admin offences. We have law no.135 etc (F022-F025) describing procedural rights but not necessarily basis for arrest. Not enough to assess foreseeability. Likely no clear law authorising detention for peaceful demo => violation of prescribed by law. But we need facts showing lack of law. None directly. Might infer from absence. Could use F022-F025 as law but they pertain to admin offences, not criminal. Probably conclusion: no (not prescribed). Facts maybe F022-F025.
+
+Legitimate aim: Government may claim public order etc but not in facts. No explicit legit aim. So likely no. No facts indicating aim. So conclusion no, facts [].
+
+Necessity: Since no legit aim, fails necessity. Conclusion no, facts maybe same.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Here state failed. So yes violation of positive obligation. Facts F008-F011 (authorization) shows state had duty to ensure safety. Also F014 arrests. Use those. Conclusion yes.
+
+Overall violation: Yes.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F013", "F010", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F014", "F015", "F016", "F017", "F018", "F019", "F020"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F010", "F011", "F014"]
+    }
+  },
+  "violated": true
+}

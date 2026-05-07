@@ -1,0 +1,45 @@
+analysisWe need map. Likely violation due to interference: pre‑trial detention long etc. Need facts showing interference (detention). Also prescribed by law? Russian law exists. Legitimate aim: public safety. Necessity maybe not proportionate. Positive obligation maybe state failed to protect peaceful assembly. We'll select relevant facts.
+
+Scope: applies to peaceful assembly; facts show demonstration authorized (F008) and applicant participated peacefully (F025,F026,F118...). So scope yes. Facts F008,F025,F026,F118.
+
+Interference: pre‑trial detention (F036-F082) and restrictions. Yes. Facts F036,F037,F041,F042,F052,F058,F070,F073,F082.
+
+Prescribed by law: Russian Criminal Code articles cited (F018,F021,F022,F043,F069,F135-138) and procedural law for detention. So yes. Use F018,F021,F022,F043,F069,F135.
+
+Legitimate aim: prevention of crime, protection of public order (F018,F019,F021,F041,F042). Yes.
+
+Necessity: need assess proportionality – many extensions despite alternatives requested (F048-F051,F077). Likely not necessary. Conclude no. Facts F048,F049,F050,F051,F052,F058,F070,F073,F077.
+
+Positive obligation: State must ensure peaceful assembly; police barriers narrowed entrance (F011,F012,F013) possibly interfering. Could be breach. Probably yes. Facts F011,F012,F013,F014,F015,F016.
+
+Thus overall violation yes.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F025", "F026", "F118"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F036", "F037", "F041", "F042", "F052", "F058", "F070", "F073", "F082"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F018", "F021", "F022", "F043", "F069", "F135"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019", "F021", "F041", "F042"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F048", "F049", "F050", "F051", "F052", "F058", "F070", "F073", "F077"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F014", "F015", "F016"]
+    }
+  },
+  "violated": true
+}

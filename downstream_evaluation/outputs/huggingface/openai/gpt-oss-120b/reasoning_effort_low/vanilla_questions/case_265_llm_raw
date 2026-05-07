@@ -1,0 +1,59 @@
+analysisWe need assess likely violation. Facts show conviction for participation; demonstration turned violent. Likely interference justified? Probably Court finds violation of Article 11? Many cases find no violation when violent. Here involvement inciting violence. So maybe no violation. Provide facts.
+
+Scope: assembly existed (F006,F007). Applicant participated? Conviction suggests yes (F013,F014). Peaceful? No, violence occurred (F011,F012,F042 etc). So scope: assembly but not peaceful => Article 11 protects only peaceful assemblies. So requirement fails -> no violation? Actually scope element asks if assembly peaceful; answer no, thus article not engaged. So overall no violation.
+
+Interference: conviction = interference (F031 etc). Yes.
+
+Prescribed by law: statutes cited (F031-F035) clear law. Yes.
+
+Legitimate aim: aim public safety/prevention of disorder (violent protest) (F011,F042). Yes.
+
+Necessity: proportionality? Given violent conduct, conviction may be necessary. Likely Court says yes. So no violation.
+
+Positive obligation: none identified. So no.
+
+Thus overall not violated.
+
+Provide facts per element.
+
+Scope facts: F006,F007,F011,F012 (peacefulness) plus participation F013/F014.
+
+Interference facts: F031-F034 (convictions).
+
+Prescribed: F031,F032,F033,F034 (law references).
+
+Legitimate aim: F011,F012,F042,F043 (public safety, prevention of disorder).
+
+Necessity: F031-F035,F045-F050 (court reasoning) showing necessity.
+
+Positive: none [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F006", "F007", "F013", "F014", "F011", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F033", "F034"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F042", "F043"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F033", "F034", "F045", "F046", "F047", "F048", "F049", "F050"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

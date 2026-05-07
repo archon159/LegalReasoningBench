@@ -1,0 +1,47 @@
+analysisWe need assess likely violation. Police disbanded assembly due to lack of notice; Court says lawful. Usually ECtHR finds such blanket ban violates Art 11 (see cases like Škorjanec v. Croatia). Likely violation because not foreseeable, insufficient safeguards. So conclusions: scope yes (assembly, participation, peaceful claimed). Interference yes. Prescribed by law maybe no (law exists but not foreseeable, not adequate safeguards). So conclusion no -> meaning requirement not met => violation. Legitimate aim: security of reception – maybe yes. Necessity: not necessary/proportionate – conclusion no. Positive obligation: state must ensure effective remedy – perhaps violation. So overall violation true.
+
+Provide facts mapping.
+
+Scope facts: F017,F018,F020 (peaceful claim though noise) also F026 assertion but factual peace? Use F017,F018,F020. Conclusion yes.
+
+Interference: police forced away F021,F022. Yes.
+
+Prescribed by law: law sections F051,F052,F053 show requirement, but need foreseeability etc not in facts. Still law exists, but question is whether intervention prescribed by law. It was based on law, so yes? But jurisprudence may say law not sufficiently accessible. We'll put no? Need choose. I'll set conclusion no (i.e., not properly prescribed).
+
+Legitimate aim: security of reception F021 mentions risk to security. So yes.
+
+Necessity: proportionality – court found necessary but likely not. Use F021,F030 (detonation) maybe justify but still disproportionate. Conclude no.
+
+Positive obligation: need to protect right to assemble, ensure legislation compatible. Facts show lack of remedy? They got remedy denied. So violation yes.
+
+Thus overall violation true.
+
+JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F017", "F018", "F020"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F051", "F052", "F053"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F021"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F021", "F030"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F029", "F040", "F046", "F047"]
+    }
+  },
+  "violated": true
+}

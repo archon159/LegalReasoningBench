@@ -1,0 +1,36 @@
+analysisWe need map facts to each element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (demonstration), F007 purpose, F008 approval, F010 march peaceful, F014 clashes (shows not peaceful), F024 applicant took part, maybe F015 early finish etc. So include F006,F010,F014,F024.
+
+Interference: governmental act interfering – police barriers, dispersion, arrests. Facts: F011,F012,F013,F015,F016,F017,F036-F038 (arrest and detention), also F025 injury. Include F011,F013,F015,F016,F036,F038.
+
+Prescribed_by_law: need law basis for restrictions/detention. Facts about criminal code articles: F190,F191,F192,F193; also procedural law for detention maybe F194 summary but not atomic. Use F190-F193.
+
+Legitimate_aim: aims like public safety, prevention of disorder. Facts showing police acted to prevent disorder: F014 clashes, F015 early finish, F016 dispersion, F018-022 investigations, F021 etc. Choose F014,F015,F016,F018,F021.
+
+Necessity: balancing – need facts on proportionality of detention length, conditions, justification. Facts about extensions and reasoning: F039-F045, F054,F055,F057,F058,F062-F065 (charges), F082-F084, F089,F090, plus health condition F074. We'll pick representative: F039,F042,F043,F044,F045,F054,F082,F084,F089.
+
+Positive_obligation: Court may have positive duty to protect against ill‑treatment. Facts about complaint of ill‑treatment and investigation refusal: F025-F033 injuries, F070-F072 (refusal to open case). Also F176? Not. So include F025,F070,F071,F072.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F010", "F014", "F024"]
+    },
+    "interference": {
+      "facts": ["F011", "F013", "F015", "F016", "F036", "F038"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F190", "F191", "F192", "F193"]
+    },
+    "legitimate_aim": {
+      "facts": ["F014", "F015", "F016", "F018", "F021"]
+    },
+    "necessity": {
+      "facts": ["F039", "F042", "F043", "F044", "F045", "F054", "F082", "F084", "F089"]
+    },
+    "positive_obligation": {
+      "facts": ["F025", "F070", "F071", "F072"]
+    }
+  }
+}

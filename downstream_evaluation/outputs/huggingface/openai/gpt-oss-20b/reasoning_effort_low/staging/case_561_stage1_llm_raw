@@ -1,0 +1,11 @@
+analysisWe need map facts per element. Scope: assembly? F025 shows they went to participate; but did assembly occur? Not explicit. But likely yes. Peaceful? Not specified. So maybe none. We'll include F025. Also F005 indicates G8 summit. So scope includes F005, F025. Interference: detention etc. F035, F037, F038, F039, F040, F041, F042, F043, F044, F045, F046, F047, F048, F049, F050, F051, F052, F053, F054, F055, F056, F057, F058, F059, F060, F061, F062, F063, F064, F065, F066, F067, F068, F069, F070, F071, F072, F073, F074, F075, F076, F077, F078, F079, F080, F081, F082, F083, F084, F085, F086, F087, F088, F089, F090, F091, F092, F093, F094, F095, F096, F097, F098, F099, F100, F101, F102, F103, F104, F105, F106. That's huge. Maybe just key ones: detention orders: F037,F038,F039,F040,F041,F042,F043. Also arrest: F035. So interference facts: F035,F037,F038,F039,F040,F041,F042,F043.
+
+Prescribed by law: facts about PSOA provisions: F107,F108,F109,F110,F111,F112,F113,F114,F115,F116. Also application: F039,F040,F041,F042. So include those.
+
+Legitimate aim: need justification: F041,F042,F043,F058,F061,F062,F063,F064,F065,F066,F067,F068. Also F107? Actually PSOA gives aim: preventing imminent crime. So include F107,F108,F109.
+
+Necessity: balancing: F043,F072,F073,F074,F075? Also F110,F111. So include F043,F072,F073,F074,F110,F111.
+
+Positive obligation: maybe none. So empty.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F005","F025"]},"interference":{"facts":["F035","F037","F038","F039","F040","F041","F042","F043"]},"prescribed_by_law":{"facts":["F107","F108","F109","F110","F111","F112","F113","F114","F115","F116"]},"legitimate_aim":{"facts":["F107","F108","F109","F041","F042","F043","F058","F061","F062","F063","F064","F065","F066","F067","F068"]},"necessity":{"facts":["F043","F072","F073","F074","F110","F111"]},"positive_obligation":{"facts":[]}}}

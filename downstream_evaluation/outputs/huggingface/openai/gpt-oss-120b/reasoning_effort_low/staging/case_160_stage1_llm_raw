@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F004 application for public service, F005 details, maybe indicates intention to hold assembly. No fact about actual holding; but scope needs whether assembly was attempted. Use F004,F005,F006 (refusal) show attempt. Also F018 mentions potential disorder but not peace. So include F004,F005,F006.
+
+Interference: governmental act interfering – refusal. Facts: F006 (refusal), F014 (law requiring authorization), F015 ruling lawful, also F019. Include F006,F014,F015.
+
+Prescribed by law: need law basis. Facts: F014 (public worship subject to authorization), F022 (Act linking to assembly procedure), F024,F025,F026 (decree procedures). Also F023 about decree in force. Choose key: F022,F024,F025,F026,F023.
+
+Legitimate aim: reasons like public order. Facts: F018 (risk of disorder), F016 (different religion), F017 (many orgs), maybe F019. Use F018,F016.
+
+Necessity: balancing. Need both aim and interference and law. Facts: F018 (disorder risk), F015 (court said lawful), F019 (no impairment). Could use F018,F015.
+
+Positive obligation: Court may have positive duty to protect freedom of assembly. Facts: perhaps none directly; but could be F022 (procedure) indicating state must allow. Might be empty. We'll put [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F004", "F005", "F006"]
+    },
+    "interference": {
+      "facts": ["F006", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F022", "F023", "F024", "F025", "F026"]
+    },
+    "legitimate_aim": {
+      "facts": ["F018", "F016"]
+    },
+    "necessity": {
+      "facts": ["F018", "F015"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

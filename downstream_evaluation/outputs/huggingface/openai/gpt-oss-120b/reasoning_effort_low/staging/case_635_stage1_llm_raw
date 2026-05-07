@@ -1,0 +1,36 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (intent), F008 (decided), F009 (positioned with banners), maybe F024 indicates picket of 50 people but for scope we need that they held solo picket – F009 shows they were there; also F010 references case but not needed. So include F009, F006 perhaps. Also F024 about group picket but that's for second applicant claim of group; still relevant to determine if assembly existed. Use F009, F024 maybe.
+
+Interference: arrest etc. Facts: F011 (arrest), F012, F013, F014, F017 (accusation), F018 (offence time), F020,F021 releases. So include F011,F012,F013,F014,F017.
+
+Prescribed by law: need law requiring notification. Facts: F017 (article 20.2 §2 CAO), F025 (justice finding requirement of notification under PEA), F042 (distance rule), F043 (definition solo). Also F018 times. Probably include F017,F025,F042,F043.
+
+Legitimate aim: justification by authorities—public order etc. Need facts showing police claimed violation of law to prevent disorder. Not explicit. Maybe none. Could use F025 (unlawful because no notification) implies aim of public order. But not clear. Might leave empty.
+
+Necessity: need balancing – facts about duration, seriousness, fines. Could include F025, F027 (didn't comply order), F028-31 sentencing. Include F025,F027,F028.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Facts about lack of proper notification exemption for solo pickets. Could include F042,F043 showing law ambiguous. Use those.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F009", "F006", "F024"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013", "F014", "F017"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F017", "F025", "F042", "F043"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F025", "F027", "F028"]
+    },
+    "positive_obligation": {
+      "facts": ["F042", "F043"]
+    }
+  }
+}

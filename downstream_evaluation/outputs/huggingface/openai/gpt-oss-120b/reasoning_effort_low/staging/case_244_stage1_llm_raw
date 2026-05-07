@@ -1,0 +1,95 @@
+analysisWe need map facts to elements. Scope: need assembly existence, participation, peacefulness. Facts about movement organizing meetings etc. So F013 (organises bi-communal meetings), maybe F021,22,23 etc show attempts to assemble. Also F027 shows meeting organized by applicant. So include those. Also F001 etc maybe identity not needed. We'll list relevant: F013, F021,F022,F023,F024,F025,F026,F027. Also F019,F020 etc refusals indicate attempted assemblies. Include.
+
+Interference: need governmental act interfering – refusals of permits, letters, etc. Facts: F014-F025, F019-25, F027, F028-31, F32-39, F35 etc. So include many: F014,F015,F016,F017,F018,F019,F020,F021,F022,F023,F024,F025,F026,F027,F028,F029,F030,F031,F032,F033,F034,F035,F036,F037,F038,F039,F040,F041.
+
+Prescribed_by_law: need law basis. Not many facts mention law; perhaps none given. Could be missing. Might be no atomic fact about law. So empty [].
+
+Legitimate aim: need justification given by authorities – security, public interest, propaganda. Facts: F035 gives reason security/public interest/propaganda. Also F028-30 maybe decision. So include F035, maybe F028-30.
+
+Necessity: need balancing – info about severity, alternatives. Facts about limited permits granted vs refusals, proportionate? Use F016,F017,F018 showing few permits granted. Also F035 reasoning. So include F016,F017,F018,F035.
+
+Positive obligation: Court may impose duty to provide info, procedural guarantees. Facts about lack of response to inquiries: F031-F039, F040,F041. So include those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F013",
+        "F019",
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F026",
+        "F027"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F026",
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F028",
+        "F029",
+        "F030",
+        "F035"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F016",
+        "F017",
+        "F018",
+        "F035"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F031",
+        "F032",
+        "F033",
+        "F034",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041"
+      ]
+    }
+  }
+}

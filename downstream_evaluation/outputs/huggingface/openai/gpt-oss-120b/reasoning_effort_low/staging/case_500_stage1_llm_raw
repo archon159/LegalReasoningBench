@@ -1,0 +1,109 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F011 (joined demo), F014 (peaceful), maybe F012,F013 similar but same. Also need that it's an assembly: demonstration qualifies. So include F011,F014.
+
+Interference: governmental act interfering – arrest, detention, ill-treatment. Facts: F017-F021 etc, F030-F032, F036-F038, F045 etc. Choose key: F017,F018,F019,F020,F021,F030,F036,F037,F038. Provide list.
+
+Prescribed_by_law: need law basis. Facts about charges and statutes: F112,F113,F135,F136,F137, plus maybe F127-F138 but those are Cypriot law not TRNC. Use F112,F113,F135,F136,F137.
+
+Legitimate aim: need government's justification – security, public order. Facts: Government allegations F077-F085 etc showing aim of preventing disorder/security. Include F077-F085.
+
+Necessity: need balancing – proportionality of force vs aim. Need facts on force used and context: F017-F021,F030-F032,F036-F038,F045-F049,F050,F051,F052, plus government allegations about necessity F084-F086. Provide selection: F017,F018,F019,F020,F021,F030,F036,F037,F038,F045,F046,F047,F048,F049,F050,F084,F085,F086.
+
+Positive_obligation: Court may have positive duty to protect against ill-treatment. Facts about lack of investigation, UN involvement? Maybe F024 (UN soldiers present), F053 (UN officer exam). But likely need facts about state's failure to investigate/detain. Use F024,F053,F055-F064 etc. We'll pick F024,F053,F055,F056,F057,F058,F059,F060,F061-F070,F071-F074,F075,F076.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F011", "F014"]
+    },
+    "interference": {
+      "facts": [
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F030",
+        "F031",
+        "F032",
+        "F036",
+        "F037",
+        "F038"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F112",
+        "F113",
+        "F135",
+        "F136",
+        "F137"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F077",
+        "F078",
+        "F079",
+        "F080",
+        "F081",
+        "F082",
+        "F083",
+        "F084",
+        "F085",
+        "F086"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F030",
+        "F036",
+        "F037",
+        "F038",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F084",
+        "F085",
+        "F086"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F024",
+        "F053",
+        "F055",
+        "F056",
+        "F057",
+        "F058",
+        "F059",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "F066",
+        "F067",
+        "F068",
+        "F069",
+        "F070",
+        "F071",
+        "F072",
+        "F073",
+        "F074",
+        "F075",
+        "F076"
+      ]
+    }
+  }
+}

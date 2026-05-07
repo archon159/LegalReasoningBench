@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful). Use F013,F014 show gathering and march; F046 says silent, no violence => peaceful. So yes.
+
+Interference: police stopped, dispersed, injuries, arrests -> yes.
+
+Prescribed_by_law: need foreseeability etc. Facts: F047 indicates law requires warning, F048 shows police didn't warn, F049 says demonstrators not violating law. This suggests law exists but police acted contrary to procedure. But question: was interference prescribed by law? Since police acted without lawful basis (no warning), likely no. So conclusion no (not prescribed).
+
+Legitimate aim: No facts given about aim. We have none, so cannot establish. Probably no because not shown. So conclusion no.
+
+Necessity: Since not prescribed and no legit aim, necessity irrelevant but we still evaluate: facts show injuries etc, likely not necessary. So no.
+
+Positive obligation: facts about complaints, appeals, refusal to prosecute. Shows state failed to investigate. Could be positive duty to ensure effective remedy. Likely yes violation of positive obligation. But need conclusion yes if gov failed. Facts indicate they refused to prosecute, appellate upholding refusal. That may constitute failure. So conclusion yes (violation of positive obligation).
+
+Overall violation? Since interference established and justification fails, article violated. Also positive obligation violation reinforces. So violated true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

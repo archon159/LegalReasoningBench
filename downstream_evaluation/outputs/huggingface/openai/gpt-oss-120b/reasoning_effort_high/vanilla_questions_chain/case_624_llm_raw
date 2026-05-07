@@ -1,0 +1,428 @@
+analysisWe need to parse the problem carefully. We have a long list of atomic facts describing many events involving Ilinden, an association seeking to organize assemblies (commemorations, meetings, etc.) in various locations in Bulgaria (Rozhen monastery, Samuilova krepost, memorial of Gotze Delchev). The case likely concerns multiple instances of alleged violations of Article 11 (freedom of assembly). The user asks: "For each canonical element, identify which atomic facts are needed to answer its question, and provide a conclusion. Then provide a final conclusion on whether Article 11 has been violated."
+
+Thus we need to produce a JSON object with keys: elements.scope, elements.interference, elements.prescribed_by_law, elements.legitimate_aim, elements.necessity, elements.positive_obligation; each containing conclusion yes/no and facts array listing relevant atomic fact IDs.
+
+We need to consider the whole case: The applicant (Ilinden) claims that the Bulgarian authorities interfered with its ability to hold peaceful assemblies. The Court must assess each element.
+
+First, we need to determine what the facts show about scope: i.e., whether there was an assembly, whether the applicant tried to participate, and whether it was peaceful.
+
+Given the facts, there are numerous attempts to hold assemblies (meetings, commemorations) at various places. Some were blocked, some proceeded peacefully (like 2 Aug 2000 meeting at Samuilova krepost, 2 Aug 2003 meeting at Samuilova krepost). Also 22 Apr 2001 meeting at Rozhen monastery where some participants assembled, albeit police presence and some restrictions. So there were assemblies (some successful, some attempted but blocked). The question is whether the applicant tried to participate. Yes, Ilinden members and followers attempted to attend. Were the assemblies peaceful? The facts describe that the gatherings were largely peaceful, though there were some incidents: e.g., 12 Sep 2002 there were clashes with a hostile group, police cordon, some attacks. But overall the applicant asserts peaceful nature; the government alleges incitement, extremist statements, etc. However, the Court typically assesses whether the assembly itself was peaceful, not necessarily the behavior of all participants. Many of the events were peaceful until police intervened. Even the 12 Sep 2002 incident involved hostility from a third party, not necessarily the organizers. The Court might find that the assembly was peaceful, but the authorities had a duty to protect it. So for scope, we need to establish that there was an assembly (or attempted assembly) and that the applicant tried to participate, and that it was peaceful. Since there are multiple events, we can pick representative ones. The facts that demonstrate an assembly: F124 (members assembled at Rozhen monastery), F170 (members gathered at Samuilova krepost for a four-hour program), F106 (members laid flowers and gave speech at Rozhen monastery), F158 (members accessed memorial and laid wreath). These show actual assembly occurred. Also F126-F130 show police interaction. So scope is satisfied: yes.
+
+Thus scope conclusion: yes. Facts: maybe F124, F170, F106, F158.
+
+Second, interference: Did some governmental act or omission interfere with the applicant's freedom of assembly? There are many acts: bans, police blocking, decrees, fines, arrests, confiscation, denial of permits, etc. So yes. Facts: F012 (mayor prohibited meeting), F014 (mayor refused assent), F021 (prosecutor decree ordering police to prevent meeting), F025 (written warnings), F027 (police turned back participants), F028 (bus driver fined), F029 (detention and ill-treatment), F030 (court refused to examine), F032 (complaints about search), F033 (no reply), F035 (no reply), F041 (court dismisses), F045 (decree ordering police), F048 (roads blocked), F050 (police warn at bus station), F053 (arrest), F064 (read out decree), F065 (refused copy), F084 (military prosecutor refuses to open criminal proceedings), F095 (no meeting by other org), F100 (drivers fined), F101 (seizure of stage material), F102 (vehicle denied), F103 (materials impounded), F105 (plainclothes officer filmed), F106 (speech), F127 (wreath seized, arrest), F128 (poster taken), F129 (loudspeaker prevented), F131 (government says extremist statement), F132 (drunk person removed), F136 (band removal), F137 (diverted), F138 (shouting insulting words), F139 (camera seized), F146 (blocked at 2 km), F147 (military exercises claim), F150 (arrests), F155 (hostile group attack), F156 (camera cable torn), F157 (police cordon but failed to prevent), F160 (retreat under police escort), F165 (refusal to open criminal proceedings), etc. So interference yes.
+
+Third, prescribed by law: Need to see if the interference was based on law, foreseeability, accessibility, safeguards. The relevant law is the Meetings and Marches Act of 1990 (sections 12(2)-(5)), plus the Code of Criminal Procedure article 185 §1, and the Criminal Code article 174a. The facts mention that the mayor's prohibition was based on the Meetings and Marches Act (though not explicitly referenced in facts, but we know from law). The prosecutors issued decrees under Article 185 §1 of the Code of Criminal Procedure (F022, F213). The police actions were based on those decrees. The law requires written reasoned act within 24h (section 12(3)). The facts show that the mayor's prohibitions were communicated via letters (F012, F014, F025, etc.). Are they sufficiently foreseeable? The law states that the mayor can prohibit meetings if reliable info exists that it threatens public order, etc. The authorities invoked that. However, the Court often finds that the law is insufficiently precise or lacks adequate safeguards if it's too broad or gives excessive discretion. In previous cases (Stankov v. Bulgaria, Ilinden v. Bulgaria), the Court found that the law's requirement for prior authorization and the discretionary powers of the mayor were not sufficiently clear, especially given the 1990 Act predates the 1991 Constitution. Indeed, the Court previously ruled that the Meetings and Marches Act of 1990 was incompatible with Article 11 due to lack of clear criteria and procedural safeguards. In the case at hand, the facts refer to the same law. So we need to evaluate whether the interference was prescribed by law. Likely the Court will find that while there is a law, it fails to meet the "prescribed by law" requirement because the law is not sufficiently accessible or does not provide adequate safeguards. However, the question is to identify which facts are needed to answer this element. The facts referencing the law: F198 (notification requirement), F202 (authority to prohibit), F203 (grounds for prohibition), F204 (must be written reasoned act within 24h), F205 (appeal process), F206 (if no decision, meeting may proceed), F207 (final decision within five days). Also F208-212 about the law's enactment under old constitution. Additionally, the facts showing that the mayor's prohibitions were communicated (F012, F014, F025, F064, F65). Also the fact that the court refused to examine applications (F030, F041, F42, etc.) shows lack of effective remedy. So we need to decide if the interference was "prescribed by law". The Court's jurisprudence: In Ilinden v. Bulgaria (multiple judgments), the Court found that the law was not sufficiently precise and lacked safeguards, thus the interference was not "prescribed by law". Actually, I recall that the Court in Ilinden v. Bulgaria (2005) found that the law requiring prior authorization for outdoor meetings was compatible with Article 11, but the practice of the authorities was not. Let's check: The case "United Macedonian Organization Ilinden – PIRIN and Others v. Bulgaria" (2005) concerned the same organization. The Court found that the authorities' refusal to grant permission and the subsequent bans constituted a violation of Article 11. The Court said that the law (the Meetings and Marches Act) allowed for prohibitions only in limited circumstances, and the authorities misapplied it. The Court also emphasized the need for a clear legal basis and procedural safeguards. So perhaps the Court concluded that the interference was not "prescribed by law" because the law didn't guarantee the right to apply for permission and the authorities didn't follow the procedures. Or maybe the Court concluded that the law was "prescribed by law" but the authorities abused it. Let's recall specifics: In Ilinden v. Bulgaria (2005), the Court held that the authorities' refusal to permit the meeting was not justified under the law, and that the law's provisions on prohibition require a written reasoned act within 24 hours, which was not complied with. The Court also found that the law's requirement for prior notification was not a precondition for exercising the right to assemble, but a procedural step. The Court found that the authorities' blanket bans without proper justification violated Article 11. So the "prescribed by law" element may be satisfied (i.e., there is a law), but the law may not be sufficiently accessible or predictable. However, the Court's test for "prescribed by law" includes foreseeability, accessibility, and safeguards. The law existed, but the authorities' use of it may have lacked safeguards (e.g., no proper reasons, no effective remedy). So the conclusion may be "no" for "prescribed by law" because the interference was not sufficiently prescribed by law (lack of safeguards). But we need to base our conclusion on the facts presented. The facts show that the law (Meetings and Marches Act) sets out the procedure, but the authorities sometimes did not follow it (e.g., no written reasoned act, no timely decision, no effective remedy). This suggests that the interference was not properly prescribed by law. Therefore, conclusion: no.
+
+But we need to be careful: The element "Prescribed by law" asks: i) Is the intervention sufficiently foreseeable given the wording of the law? ii) Is the provision that empowers government sufficiently accessible? iii) Does the provision come with sufficient safeguards against abuse? So we need to answer yes if all three sub-elements are met. Based on facts, the law is somewhat ambiguous, and the authorities' actions lacked proper written reasons and appeals. So likely the answer is "no".
+
+Nevertheless, the Court may separate the existence of a law from its adequacy. In many cases, the Court finds that the law is "prescribed by law" even if the authorities misuse it, but then the violation arises under the necessity test. However, the Court also sometimes finds that the law is not sufficiently precise, causing a violation of the "prescribed by law" requirement. For example, in "Kudła v. Poland", the Court found that the law was not sufficiently precise. In "Mikhalchuk v. Russia", the Court found that the law was not sufficiently accessible. In "Ilinden v. Bulgaria", I'm not entirely sure. Let's research mental recollection: The case "United Macedonian Organization Ilinden – PIRIN and Others v. Bulgaria" (application No. 59489/00, judgment 20 Oct 2005) dealt with the ban on a meeting at Samuilova Krepost. The Court found a violation of Article 11. The Court held that the authorities' refusal to grant permission was not justified under the law, and that the law's provisions on prohibition were not complied with. The Court also found that the authorities failed to provide a reasoned decision within the required timeframe, thereby breaching the procedural safeguards. The Court concluded that the interference was not "prescribed by law" because the law was not applied correctly. So likely the conclusion is "no".
+
+Thus for "prescribed_by_law", we conclude "no". Facts needed: F202, F203, F204, F205, F206, F207 (law provisions); F012, F014, F025, F064, F065 (authorities' actions lacking proper written reasoned act); F030, F041, F42, F43, F44, F45 (court refusals). Also F213 (former article 185). So we can list a few key facts: F202, F203, F204, F012, F014, F025, F064, F065, F030, F041.
+
+Fourth, legitimate aim: Did the interference serve one of the legitimate aims listed in Art 11(2)? The authorities claimed public order, public safety, prevention of disorder, protection of rights of others, national security, territorial integrity. The facts show that the authorities cited potential threats to public order (F202, F203), that the meeting would threaten territorial integrity (F111, F112), that the organization advocated changes to constitutional order (F46, F47, F60, F61). They also mentioned that the meeting would cause disorder due to overlapping events (F92). So the legitimate aim is arguably public order / protection of rights of others / national security. The question is whether the interference actually pursued a legitimate aim. The Court generally accepts that protecting public order is a legitimate aim, but must be proportionate. So we answer "yes" for legitimate aim, because the authorities argued it. Facts: F202, F203, F111, F112, F46, F47, F60, F61, F92. So conclusion: yes.
+
+Fifth, necessity in a democratic society: Did the government adequately balance the intensity of the intervention with the weight of the legitimate aim? Here we need to assess proportionality. The authorities used heavy-handed measures: bans, police blockades, fines, arrests, seizing materials, denying permits, etc. The Court in similar cases found that the bans were disproportionate, especially when alternative measures (e.g., allowing the meeting with police presence) were possible. The authorities also failed to consider less restrictive alternatives. Thus the necessity test likely fails: the interference was not necessary in a democratic society. So conclusion: no. Facts: F012, F014, F025, F027, F028, F029, F030, F041, F045, F48, F50, F53, F64, F65, F84, F95 (where meeting eventually allowed), F100, F101, F102, F103, F105, F106 (peaceful assembly), F127, F128, F129, F131, F132, F136, F137, F138, F139, F146, F147, F150, F155, F156, F157, F160, etc. Also the fact that the authorities could have allowed the meeting (as they did on 2 Aug 2000 and 2 Aug 2003) indicates that the bans were unnecessary. So we can cite F095 (no other meeting), F170 (meeting held successfully), F171 (filming), etc. So conclusion: no.
+
+Sixth, positive obligation: Has the Court spelled out a positive obligation for the government? If so, has it concluded that the government violated this? The Court often imposes a positive obligation to protect the right to peaceful assembly from third-party interference. In this case, the authorities failed to protect the applicants from hostile groups (e.g., 12 Sep 2002 incident). The facts show that police were present but failed to prevent attacks by hostile group (F155, F156, F157). The Court may find a violation of the positive obligation to protect. The facts also show that the authorities did not investigate complaints (F33, F35, F162, etc.). So there is a positive obligation. The Court may have recognized it in its judgment. So we need to answer yes if there is a positive obligation and it was breached. The question: "Has the Court spelled out a positive obligation for the government? If so, has it concluded that the defendant government violated this obligation?" In the context of the case, the Court likely found that the state had a positive obligation to protect the peaceful assembly from third parties and to investigate violations. The facts show failures. So we answer "yes" for positive obligation (i.e., there is a positive obligation and it was violated). Facts: F155, F156, F157 (failure to protect), F162 (preliminary verification), F165, F166, F167 (refusal to open criminal proceedings), F33, F35 (no reply to complaints), F41 (court refusal), etc.
+
+Now we need to compile the JSON accordingly.
+
+But we need to be systematic: For each element, list the atomic facts needed to answer its question. Provide a conclusion yes/no.
+
+Scope: Which facts needed? Must show that there was an assembly, applicant participated, and it was peaceful. Relevant facts: F124 (assembly at Rozhen monastery), F170 (assembly at Samuilova krepost), F106 (lay flowers and speech), F158 (access to memorial and wreath laying). Also F155 (attack by hostile group) shows that there was a hostile group, but the assembly remained peaceful until police intervene. Could also include F106 (short speech). So we can list F124, F170, F106, F158.
+
+Interference: Show governmental act interfering. Facts: F012 (mayor prohibited meeting), F014 (mayor refused assent), F025 (written warnings), F027 (police turned back participants), F028 (bus driver fined), F029 (detention), F030 (court refused to examine), F045 (decree ordering police), F048 (roads blocked), F050 (police warn at bus station), F064 (reading decree), F065 (refusing copy), F84 (military prosecutor refusal), F95 (no meeting by other org), F100 (drivers fined), F101 (material seized), F102 (vehicle denied), F103 (materials impounded), F105 (filming), F127 (wreath seized, arrest), F128 (poster taken), F129 (loudspeakers prevented), F131 (extremist statement), F136 (band removal), F137 (diversion), F138 (insulting words), F139 (camera seized), F146 (blocked at 2km), F147 (military exercises claim), F150 (arrests), F155 (hostile group attack), F156 (camera cable torn), F157 (cordon but failed), F160 (retreat under police escort). That's a lot; we can choose a subset that clearly demonstrates interference: F012, F025, F027, F028, F029, F045, F048, F064, F065, F101, F102, F103, F127, F128, F129, F146, F150, F155, F157. We'll list a selection.
+
+Prescribed by law: Need facts about the law and its application. Facts: F202 (authority to prohibit), F203 (grounds for prohibition), F204 (written reasoned act), F205 (appeal), F206 (if no decision, meeting may proceed), F207 (court decision final), F208-212 (context of law's enactment), F213 (article 185), F214 (offence for holding prohibited meeting), F215 (chapter 1 offenses). Also factual evidence of how authorities used the law: F012 (mayor prohibition), F014 (mayor refusal), F025 (warnings), F064 (reading decree), F065 (refuse copy), F030 (court refusal), F041 (court dismissal), F045 (decree), F48 (roadblocks). So we can list F202, F203, F204, F205, F206, F207, F012, F014, F025, F064, F065, F030, F041.
+
+Legitimate aim: Facts indicating the aim: F202, F203 (public order, territorial integrity), F111, F112 (threat to territorial integrity), F46, F47, F60, F61 (advocating change to constitutional order), F92 (another meeting), F94 (offences). So we can list F202, F203, F111, F112, F46, F47, F60, F61, F92.
+
+Necessity: Need facts showing the intensity of interference vs legitimate aim, and availability of less restrictive means. Facts: F012 (ban), F025 (warning), F027 (turn backs), F028 (fine), F029 (detention), F045 (decree), F048 (block roads), F095 (no other meeting), F170 (successful meeting later), F171 (filming), F155 (hostile group attack), F157 (police fail to protect), F160 (retreat under police escort). Also facts showing that the authorities could have allowed meeting with police presence: F095 (no other meeting), F170 (meeting held successfully later). So we can list F012, F025, F027, F028, F029, F045, F048, F095, F170, F155, F157.
+
+Positive obligation: Facts showing state's duty to protect and investigate, and failure: F155 (hostile group attack), F156 (camera cable torn), F157 (cordon but failed), F162 (preliminary verification), F165 (refusal to open criminal proceedings), F166 (upheld refusal), F167 (state complied?), but the applicant alleges failure. Also F33, F35 (no replies to complaints), F41 (court refusal), F162 (verification). So we can list F155, F156, F157, F162, F165, F166, F33, F35.
+
+Now we need to produce final conclusion: Whether Article 11 has been violated. Given scope yes, interference yes, prescribed by law no, legitimate aim yes, necessity no, positive obligation yes. Since either "prescribed by law" or "necessity" is negative, the interference is unlawful => violation. Also positive obligation violation. So overall, Article 11 violated. So "violated": true.
+
+Now we need to output JSON with structure:
+
+{
+  "elements": {
+    "scope": {"conclusion":"yes","facts":[...]},
+    "interference": {"conclusion":"yes","facts":[...]},
+    "prescribed_by_law": {"conclusion":"no","facts":[...]},
+    "legitimate_aim": {"conclusion":"yes","facts":[...]},
+    "necessity": {"conclusion":"no","facts":[...]},
+    "positive_obligation": {"conclusion":"yes","facts":[...]},
+  },
+  "violated": true
+}
+
+Make sure to include only fact IDs that appear in the atomic facts list. Use correct formatting.
+
+Now let's refine the fact selections.
+
+Scope: Choose facts that directly show an assembly took place, participants present, and it was peaceful. F124: "On 22 April 2001 members and followers of Ilinden assembled at the Rozhen monastery site." That shows assembly. F170: "On 2 August 2003 members and followers of Ilinden gathered at Samuilova krepost for a four‑hour programme." That shows assembly. F106: "On 22 April 2001 members and followers of Ilinden laid flowers and made a short speech, apparently denouncing the 'assimilation policy'..." This shows peaceful expression. F158: "On 12 September 2002 the police secured members and followers of Ilinden access to the memorial of Gotze Delchev in Blagoevgrad, where they laid a wreath." That shows peaceful assembly. So we can list F124, F170, F106, F158.
+
+Interference: Choose facts that illustrate governmental interference. F012 (Mayor prohibited meeting), F025 (written warnings), F027 (police turned back participants), F028 (bus driver fined), F029 (detention and ill-treatment), F045 (decree ordering police to prevent meeting), F048 (roads blocked), F064 (police read decree), F065 (refused copy), F101 (seizure of stage material), F102 (vehicle denied), F103 (impounded materials), F127 (wreath seized, arrest), F128 (poster taken), F129 (prevented loudspeakers), F146 (blocked at 2 km), F150 (arrests), F155 (hostile group attack), F157 (cordon but failed). That's many; we can include a representative sample: F012, F025, F027, F028, F029, F045, F048, F064, F065, F101, F102, F103, F127, F128, F129, F146, F150, F155, F157. That's okay.
+
+Prescribed by law: Include law provisions and authority actions. F202 (authority to prohibit), F203 (grounds), F204 (written reasoned act), F205 (appeal), F206 (if no decision, meeting may proceed), F207 (court final), F012 (mayor prohibition), F014 (mayor refusal), F025 (warnings), F064 (reading decree), F065 (refuse copy), F030 (court refusal to examine), F041 (court dismissal). So list F202, F203, F204, F205, F206, F207, F012, F014, F025, F064, F065, F030, F041.
+
+Legitimate aim: F202, F203 (public order), F111, F112 (territorial integrity), F46, F47, F60, F61 (advocating changes to constitutional order), F92 (other meeting). So list F202, F203, F111, F112, F46, F47, F60, F61, F92.
+
+Necessity: Need facts showing the interference was disproportionate relative to aim, and less restrictive means available. Use F012 (ban), F025 (warnings), F027 (turn backs), F028 (fine), F029 (detention), F045 (decree), F048 (block roads), F095 (no other meeting), F170 (meeting held successfully later), F155 (hostile group attack), F157 (cordon but failed). So list F012, F025, F027, F028, F029, F045, F048, F095, F170, F155, F157.
+
+Positive obligation: Facts showing failure to protect and investigate. F155 (hostile group attack), F156 (camera cable torn), F157 (cordon but failed), F162 (preliminary verification), F165 (refusal to open criminal proceedings), F166 (upheld refusal), F33 (no reply to complaints), F35 (no reply to complaint). So list F155, F156, F157, F162, F165, F166, F33, F35.
+
+Now we need to double-check each fact ID exists in the list.
+
+List of atomic facts includes:
+
+- F012: Mayor prohibited meeting (Yes)
+- F014: Mayor cannot assent (Yes)
+- F025: Written warnings (Yes)
+- F027: Turned back by police (Yes)
+- F028: Bus driver fined (Yes)
+- F029: Person detained and ill-treated (Yes)
+- F045: Decree ordering police to prevent meeting (Yes)
+- F048: Roads blocked (Yes)
+- F064: Police read decree (Yes)
+- F065: Refused copy (Yes)
+- F101: Seized stage material (Yes)
+- F102: Vehicle not allowed (Yes)
+- F103: Materials impounded (Yes)
+- F127: Wreath seized, arrest (Yes)
+- F128: Poster taken (Yes)
+- F129: Prevented loudspeakers (Yes)
+- F146: Blocked at 2 km (Yes)
+- F150: Arrests (Yes)
+- F155: Hostile group attack (Yes)
+- F157: Cordon but failed (Yes)
+
+All exist.
+
+Prescribed by law facts:
+
+- F202: Authority to prohibit (Yes)
+- F203: Grounds for prohibition (Yes)
+- F204: Written reasoned act within 24h (Yes)
+- F205: Appeal (Yes)
+- F206: If no decision, meeting may proceed (Yes)
+- F207: Final decision within five days (Yes)
+- F012, F014, F025, F064, F065, F030, F041 all exist.
+
+Check F030: "Sandanski District Court informed Ilinden of its refusal to examine the applications for judicial review on the merits, as they had been submitted on behalf of an unregistered organisation and were vague." Yes.
+
+F041: "Petrich District Court dismissed Ilinden's application for judicial review." Yes.
+
+Legitimate aim facts:
+
+- F202, F203 (already)
+- F111: "In its judgment of 24 July 2000 the Petrich District Court found that Ilinden had links with a political party, UMO Ilinden – PIRIN, which had been declared unconstitutional for acting against the territorial integrity of the country." Yes.
+- F112: "In its judgment of 24 July 2000 the Petrich District Court found that the holding of a meeting by Ilinden could therefore pose a threat to the territorial integrity of Bulgaria." Yes.
+- F46: "Blagoevgrad Regional Prosecutor's Office decree of 28 July 1998 reasoned that Ilinden was not registered and hence had no right to organisational or political activities, and that the holding of a meeting would therefore constitute an offence under Article 174a of the Criminal Code." Actually F46 is about 28 July 1998 decree; but it mentions no right to organizational/political activities. It's more about registration. But F46 also says "Ilinden was advocating changes in the constitutional order in Bulgaria and that the holding of a meeting would therefore also constitute an offence under Chapter 1 of the Criminal Code." Wait that's F47. Let's verify: F46: "The Blagoevgrad Regional Prosecutor's Office decree of 28 July 1998 reasoned that Ilinden was not registered and hence had no right to organisational or political activities, and that the holding of a meeting would therefore constitute an offence under Article 174a of the Criminal Code." That's about registration, not necessarily legit aim. But it implies that the meeting would be illegal. Might not be a legitimate aim. Better to use F47: "The Blagoevgrad Regional Prosecutor's Office decree of 28 July 1998 reasoned that Ilinden was advocating changes in the constitutional order in Bulgaria and that the holding of a meeting would therefore also constitute an offence under Chapter 1 of the Criminal Code." That indicates the aim is to protect constitutional order (national security). So we can use F47.
+
+Similarly, F60: "The Blagoevgrad Regional Prosecutor's Office decree of 11 September 1998 reasoned that Ilinden was advocating changes in the constitutional order of Bulgaria and expressed anti-Bulgarian views." Yes.
+
+F61: "The Blagoevgrad Regional Prosecutor's Office decree of 11 September 1998 stated that the holding of a meeting by Ilindo would lead to the commission of offences under Article 174a § 2 and Chapter 1 of the Criminal Code." Yes.
+
+F92: "In its judgment of 26 July 1999 the Petrich District Court held that another meeting had been scheduled for the same date and place as Ilinden's planned meeting." Yes.
+
+So we can list F202, F203, F111, F112, F47, F60, F61, F92.
+
+Now necessity: Facts selected: F012, F025, F027, F028, F029, F045, F048, F095, F170, F155, F157.
+
+Check F095: "It appears that no meeting was held on 1 August 1999 at Samuilova krepost by any other organisation." Yes.
+
+F170: "On 2 August 2003 members and followers of Ilinden gathered at Samuilova krepost for a four‑hour programme." Yes.
+
+F155: "On 12 September 2002 several persons from the hostile group attacked individual members and followers of Ilinden..." Yes.
+
+F157: "On 12 September 2002 the police were present at the memorial of Gotze Delchev in Blagoevgrad and had formed a cordon between the members and followers of Ilinden and the hostile group, but apparently failed to prevent the above incidents." Yes.
+
+Now positive obligation: Facts: F155, F156, F157, F162, F165, F166, F33, F35.
+
+Check F156: "On 12 September 2002 a member of Ilinden was filming with a camera when one person from the hostile group attacked him from behind and tore the electrical cables of the camera." Yes.
+
+F162: "The Blagoevgrad Regional Prosecutor's Office ordered a preliminary verification in response to Ilinden's complaint of 23 September 2002, but apparently nothing ensued." Yes.
+
+F165: "On appeal by Ilinden, the Sofia Military Prosecutor's Office decree of 10 December 2002 refusing to open criminal proceedings was upheld by the Sofia Military Appellate Prosecutor's Office on 20 February 2003." Yes.
+
+F166: "Ilinden further appealed to the Chief Prosecutor's Office, which upheld the refusal to open criminal proceedings in a decree of 6 October 2003, reasoning that Ilinden's allegations were not supported by the facts established during the preliminary verification." Yes.
+
+F33: "It appears that no reply was received by Ilinden from the Regional Police Directorate in response to the complaints filed on 29 April 1998 about the 16 April 1998 search and seizure." Yes.
+
+F35: "It appears that the second applicant did not receive an answer from the Sofia Military Prosecutor's Office in response to his complaint of 13 May 1998." Yes.
+
+Thus positive obligation conclusion: yes.
+
+Now we need to produce JSON.
+
+One nuance: The "prescribed_by_law" conclusion is "no". The "necessity" conclusion is "no". The "positive_obligation" conclusion is "yes". The "legitimate_aim" conclusion is "yes". The "interference" conclusion is "yes". The "scope" conclusion is "yes". Overall violation: true.
+
+Now we need to ensure the JSON format matches exactly. Provide arrays of strings like ["F124","F170","F106","F158"].
+
+Potentially we need to sort facts ascending? Not required. Just include relevant IDs.
+
+Now we need to think about whether any element might be answered differently. Let's double-check each element thoroughly.
+
+### Scope
+
+Definition: (a) Scope: i) Has there been an assembly? ii) Did the applicant (try to) participate in the assembly? iii) Was the assembly peaceful?
+
+We need to confirm that there was an assembly. The facts show multiple attempts, some blocked, some succeeded. The question is whether there was an assembly at all. The Court may consider that the right to assemble includes the right to attempt to assemble, even if prevented. However, the first sub-element is "has there been an assembly?" Usually the Court looks at the existence of an assembly (actual gathering). In many cases, the Court finds that the right was infringed even if the assembly never took place because the authorities prevented it. But the element of scope may be satisfied if the applicant attempted to assemble. The Court's jurisprudence: The existence of an "assembly" includes both the planning and the attempt to gather. For instance, in "Bărbulescu v. Romania", the Court considered that the right to peaceful assembly includes the right to plan and hold a demonstration, even if it is prevented. So we can say yes.
+
+The applicant tried to participate: yes, they organized and attempted to attend.
+
+Was the assembly peaceful? The facts show that the assemblies themselves were peaceful (e.g., laying wreaths, speeches). The only violent incidents involve third parties (hostile group) and possibly some statements by participants. The Court tends to treat the assembly as peaceful unless there is evidence of violence by the organizers. The facts do not show that the organizers engaged in violence. So we can say yes.
+
+Thus scope = yes.
+
+Facts: F124 (assembly at Rozhen monastery), F170 (assembly at Samuilova krepost), F106 (peaceful speech), F158 (wreath laying). Good.
+
+### Interference
+
+Government action interfering: yes. Many facts.
+
+Thus interference = yes.
+
+Facts: F012 (mayor prohibition), F025 (written warnings), F027 (turned back), F028 (fine), F029 (detention), F045 (decree), F048 (blocked roads), F064 (read decree), F065 (refuse copy), F101 (seize stage), F102 (deny vehicle), F103 (impound materials), F127 (wreath seized, arrest), F128 (poster taken), F129 (prevent loudspeakers), F146 (blocked at 2 km), F150 (arrests), F155 (hostile group attack), F157 (cordon but failed). That's plenty.
+
+### Prescribed by law
+
+Need to see if the interference was "prescribed by law". The law exists, but the question is whether the interference was sufficiently foreseeable, accessible, and with safeguards. The facts show that the law (Meetings and Marches Act) contains provisions for prohibition, but the authorities often did not comply with the procedural requirements (e.g., no written reasoned act, no timely decision, no effective remedy). The Court may find that the interference was not "prescribed by law" because the authorities' actions were not in line with the law's requirements. So conclusion: no.
+
+Facts: F202 (authority to prohibit), F203 (grounds), F204 (written reasoned act), F205 (appeal), F206 (if no decision, meeting may proceed), F207 (court final), F012 (mayor prohibition), F014 (mayor refusal), F025 (warnings), F064 (reading decree), F065 (refuse copy), F030 (court refusal to examine), F041 (court dismissal). Good.
+
+### Legitimate aim
+
+Authorities claim public order, territorial integrity, etc. The facts support that they aimed to protect public order, territorial integrity, etc. So yes.
+
+Facts: F202, F203, F111, F112, F47, F60, F61, F92.
+
+Note: F47 is about advocating changes in constitutional order, which is a legitimate aim (protecting constitutional order). So yes.
+
+### Necessity
+
+Assess proportionality. The authorities used severe measures (blocking roads, fines, arrests) even when there was no real risk (no other meeting). The Court likely finds that the interference was not necessary. So no.
+
+Facts: F012 (ban), F025 (warnings), F027 (turn backs), F028 (fine), F029 (detention), F045 (decree), F048 (blocked roads), F095 (no other meeting), F170 (meeting held successfully later), F155 (hostile group attack), F157 (cordon but failed). Good.
+
+### Positive Obligation
+
+State must protect peaceful assembly from third parties. The police failed to protect against hostile group (F155, F156, F157). Also failed to investigate (F162, F165, F166, F33, F35). So yes.
+
+Facts: F155, F156, F157, F162, F165, F166, F33, F35.
+
+Now final conclusion: Violation.
+
+Thus produce JSON.
+
+Double-check that all fact IDs are valid and correspond to atomic facts.
+
+Let's list all chosen facts:
+
+Scope:
+- F124
+- F170
+- F106
+- F158
+
+Interference:
+- F012
+- F025
+- F027
+- F028
+- F029
+- F045
+- F048
+- F064
+- F065
+- F101
+- F102
+- F103
+- F127
+- F128
+- F129
+- F146
+- F150
+- F155
+- F157
+
+Prescribed_by_law:
+- F202
+- F203
+- F204
+- F205
+- F206
+- F207
+- F012
+- F014
+- F025
+- F064
+- F065
+- F030
+- F041
+
+Legitimate_aim:
+- F202
+- F203
+- F111
+- F112
+- F47
+- F60
+- F61
+- F92
+
+Necessity:
+- F012
+- F025
+- F027
+- F028
+- F029
+- F045
+- F048
+- F095
+- F170
+- F155
+- F157
+
+Positive_obligation:
+- F155
+- F156
+- F157
+- F162
+- F165
+- F166
+- F33
+- F35
+
+Now we need to ensure that each fact ID appears exactly as defined. Check each:
+
+- F124: "On 22 April 2001 members and followers of Ilinden assembled at the Rozhen monastery site." Yes.
+- F170: "On 2 August 2003 members and followers of Ilinden gathered at Samuilova krepost for a four‑hour programme." Yes.
+- F106: "On 22 April 2001 members and followers of Ilinden laid flowers and made a short speech, apparently denouncing the 'assimilation policy'..." Yes.
+- F158: "On 12 September 2002 the police secured members and followers of Ilinden access to the memorial of Gotze Delchev in Blagoevgrad, where they laid a wreath." Yes.
+
+- F012: "On 3 April 1998 the mayor of Sandanski informed the second applicant and the other members of Ilinden that he prohibited the meeting planned for 19 April 1998 at the Rozhen monastery, as the municipality was preparing a commemoration." Yes.
+- F025: "On 17 April 1998 the second applicant and several other members of Ilinden were issued written warnings informing them that the planned meeting had been banned by the Blagoevgrad Regional Prosecutor's Office." Yes.
+- F027: "On 18 April 1998 all members and followers of Ilinden trying to approach the Rozhen monastery were turned back by the police who were placed at checkpoints on the roads leading to the monastery." Yes.
+- F028: "On 18 April 1998 the passengers of one bus travelling to the Rozhen monastery were forced off and the driver was fined for allegedly driving a vehicle in a state of disrepair." Yes.
+- F029: "On 18 April 1998 one person coming by car to the Rozhen monastery was apparently taken into custody by the Sandanski police for ten hours for allegedly failing to produce an identification document, and was ill-treated." Yes.
+- F045: "On 28 July 1998 the Blagoevgrad Regional Prosecutor's Office issued a decree under Article 185 § 1 of the Code of Criminal Procedure, ordering the police to take measures to prevent Ilinden from holding a meeting." Yes.
+- F048: "On 2 August 1998 a number of members and followers of Ilinden travelled by car to Samuilova krepost, but all roads leading to the site were blocked by the police who were stopping the cars and turning them back." Yes.
+- F064: "On 12 September 1998 the police informed members and followers of Ilinden that the Blagoevgrad Regional Prosecutor's Office had banned the event and read them the decree, but refused to give them a copy." Yes.
+- F065: "On 12 September 1998 the police informed members and followers of Ilinden that the Blagoevgrad Regional Prosecutor's Office had banned the event and read them the decree, but refused to give them a copy." Actually F065 is "On 12 September 1998 the police informed members and followers of Ilinden that the Blagoevgrad Regional Prosecutor's Office had banned the event and read them the decree, but refused to give them a copy." Yes.
+- F101: "On 22 April 2000 the police seized material intended for the decoration of a stage which members of Ilinden planned to set up at the Rozhen monastery site." Yes.
+- F102: "On 22 April 2000 a vehicle transporting musicians and their instruments to the Rozhen monastery was not allowed to continue by the police." Yes.
+- F103: "On 22 April 2000 the cars of members and followers of Ilinden were stopped again at a second police post near the Rozhen monastery and some written materials were impounded." Yes.
+- F127: "The applicants averred that on 22 April 2001, when the persons carrying the wreath refused to remove the band, the police seized the wreath and arrested one of them, taking him to a nearby village, releasing him and warning him not to try to return to the meeting." Yes.
+- F128: "The applicants alleged that on 22 April 2001 a poster brought by members of Ilinden to the Rozhen monastery was taken away by a plainclothes police officer." Yes.
+- F129: "The applicants alleged that on 22 April 2001 the police prevented the placing on the podium of loudspeakers that members of Ilinden had brought to the Rozhen monastery." Yes.
+- F146: "On 29 July 2001 a group of approximately two hundred and fifty people tried to approach Samuilova krepost by buses and cars, but were turned back by the police two kilometres before the site." Yes.
+- F150: "On 29 July 2001 the second applicant, Mr Ivanov, and another person were apparently arrested and kept several hours in custody in connection with the events in Petrich." Yes.
+- F155: "On 12 September 2002 several persons from the hostile group attacked individual members and followers of Ilinden, broke the flagstaff one of them was carrying, tried to take another flag, tore a poster and took the ribbon from a wreath carried by one of the members of Ilinden." Yes.
+- F157: "On 12 September 2002 the police were present at the memorial of Gotze Delchev in Blagoevgrad and had formed a cordon between the members and followers of Ilinden and the hostile group, but apparently failed to prevent the above incidents." Yes.
+
+Prescribed_by_law facts:
+
+- F202: "Section 12(1) of the Meetings and Marches Act of 1990 provides that where the time or venue of the meeting or rally or the itinerary of the march would create a situation endangering public order or traffic safety, the President of the Executive Committee of the People's Council, or the mayor, respectively, shall propose their modification."
+Actually F202 is "Section 12(1)"? Wait reading: F202: "Section 12(1) of the Meetings and Marches Act of 1990 provides that where the time or venue of the meeting or rally or the itinerary of the march would create a situation endangering public order or traffic safety, the President of the Executive Committee of the People's Council, or the mayor, respectively, shall propose their modification." Yes.
+
+- F203: "Section 12(2) of the Meetings and Marches Act of 1990 provides that the President of the Executive Committee of the People’s Council or the mayor shall be competent to prohibit the holding of a meeting, rally or march where reliable information exists that it aims at the violent overthrow of constitutional public order or is directed against the territorial integrity of the country, would endanger public order in the local community, or would breach the rights and freedoms of others."
+
+- F204: "Section 12(3) of the Meetings and Marches Act of 1990 provides that the prohibition shall be imposed by a written reasoned act not later than twenty‑four hours after the notification."
+
+- F205: "Section 12(4) of the Meetings and Marches Act of 1990 provides that the organiser of the meeting, rally or march may appeal to the Executive Committee of the People’s Council against the prohibition, and the Executive Committee shall decide within twenty‑four hours."
+
+- F206: "Section 12(5) of the Meetings and Marches Act of 1990 provides that where the Executive Committee of the People’s Council has not decided within the applicable time‑limit, the march, rally or meeting may proceed."
+
+- F207: "Section 12(6) of the Meetings and Marches Act of 1990 provides that if the appeal is dismissed, the dispute shall be referred to the respective district court which shall decide within five days, and that court’s decision shall be final."
+
+- F012 (already used)
+- F014: "On 14 April 1998 the mayor of Sandanski replied that he could not assent to the meeting being held on 18 April 1998, as in the meantime the other association had informed him that their commemoration would last from 18 until 22 April." This is a refusal, but not necessarily a written reasoned act. Still relevant.
+
+- F025 (already used)
+- F064 (already used)
+- F065 (already used)
+- F030: "On 24 April 1998 the Sandanski District Court informed Ilinden of its refusal to examine the applications for judicial review on the merits, as they had been submitted on behalf of an unregistered organisation and were vague." Shows lack of examination.
+
+- F041: "In a judgment of 20 July 1998 the Petrich District Court dismissed Ilinden's application for judicial review." Shows dismissal.
+
+Legitimate aim facts:
+
+- F202, F203 (already)
+- F111: "In its judgment of 24 July 2000 the Petrich District Court found that Ilinden had links with a political party, UMO Ilinden – PIRIN, which had been declared unconstitutional by the Bulgarian Constitutional Court on 29 February 2000 for acting against the territorial integrity of the country." Yes.
+- F112: "In its judgment of 24 July 2000 the Petrich District Court found that the holding of a meeting by Ilinden could therefore pose a threat to the territorial integrity of Bulgaria." Yes.
+- F47: "The Blagoevgrad Regional Prosecutor's Office decree of 28 July 1998 reasoned that Ilinden was advocating changes in the constitutional order in Bulgaria and that the holding of a meeting would therefore also constitute an offence under Chapter 1 of the Criminal Code." Yes.
+- F60: "The Blagoevgrad Regional Prosecutor's Office decree of 11 September 1998 reasoned that Ilinden was advocating changes in the constitutional order of Bulgaria and expressed anti‑Bulgarian views." Yes.
+- F61: "The Blagoevgrad Regional Prosecutor's Office decree of 11 September 1998 stated that the holding of a meeting by Ilindo would lead to the commission of offences under Article 174a § 2 and Chapter 1 of the Criminal Code." Yes.
+- F92: "In its judgment of 26 July 1999 the Petrich District Court held that another meeting had been scheduled for the same date and place as Ilinden's planned meeting." Yes.
+
+Necessity facts:
+
+- F012, F025, F027, F028, F029, F045, F048, F095, F170, F155, F157.
+
+Check F095: "It appears that no meeting was held on 1 August 1999 at Samuilova krepost by any other organisation." Yes.
+
+F170 already used.
+
+F155, F157 already used.
+
+Positive obligation facts:
+
+- F155, F156, F157, F162, F165, F166, F33, F35.
+
+Check F156: "On 12 September 2002 a member of Ilinden was filming with a camera when one person from the hostile group attacked him from behind and tore the electrical cables of the camera." Yes.
+
+F162: "The Blagoevgrad Regional Prosecutor's Office ordered a preliminary verification in response to Ilinden's complaint of 23 September 2002, but apparently nothing ensued." Yes.
+
+F165: "On appeal by Ilinden, the Sofia Military Prosecutor's Office decree of 10 December 2002 refusing to open criminal proceedings was upheld by the Sofia Military Appellate Prosecutor's Office on 20 February 2003." Yes.
+
+F166: "Ilinden further appealed to the Chief Prosecutor's Office, which upheld the refusal to open criminal proceedings in a decree of 6 October 2003, reasoning that Ilinden's allegations were not supported by the facts established during the preliminary verification." Yes.
+
+F33: "It appears that no reply was received by Ilinden from the Regional Police Directorate in response to the complaints filed on 29 April 1998 about the 16 April 1998 search and seizure." Yes.
+
+F35: "It appears that the second applicant did not receive an answer from the Sofia Military Prosecutor's Office in response to his complaint of 13 May 1998." Yes.
+
+Thus all good.
+
+Now we need to produce JSON.
+
+One nuance: The "prescribed_by_law" conclusion is "no". However, the Court may find that the law is "prescribed by law" but the authorities' actions were not. The question is about the interference: was it prescribed by law? The answer depends on whether the interference was based on a law that meets the criteria. The facts show that the law exists, but the authorities didn't follow the procedural safeguards. So the interference may not be "prescribed by law". So we keep "no".
+
+Now final JSON.
+
+Be careful to include quotes around keys and values, and ensure proper syntax.
+
+Also note that the "elements" object must contain each element with "conclusion" and "facts". Ensure that the "facts" arrays contain string IDs.
+
+Now produce final answer.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F124", "F170", "F106", "F158"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F025", "F027", "F028", "F029", "F045", "F048", "F064", "F065", "F101", "F102", "F103", "F127", "F128", "F129", "F146", "F150", "F155", "F157"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F202", "F203", "F204", "F205", "F206", "F207", "F012", "F014", "F025", "F064", "F065", "F030", "F041"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F202", "F203", "F111", "F112", "F47", "F60", "F61", "F92"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F025", "F027", "F028", "F029", "F045", "F048", "F095", "F170", "F155", "F157"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F155", "F156", "F157", "F162", "F165", "F166", "F33", "F35"]
+    }
+  },
+  "violated": true
+}

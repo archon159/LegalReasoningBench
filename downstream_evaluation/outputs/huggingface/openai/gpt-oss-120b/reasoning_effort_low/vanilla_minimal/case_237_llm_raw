@@ -1,0 +1,31 @@
+analysisWe need map facts. Likely all pertain to arrests and admin proceedings => interference etc. Assume violation yes. Provide facts per element: scope needs F001,F002,F003,F004 maybe. Interference: arrests and convictions -> F001,F002,F003,F004. Prescribed by law: not given; assume unknown -> no, facts none. Legitimate aim: public order? not in facts -> no. Necessity: need info on proportionality not given -> no. Positive obligation: state must protect right; lack of protection maybe not shown -> no. But overall violation? If some elements fail, violation likely. We'll output accordingly.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F003", "F004"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,102 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.6468,
+        "recall": 0.5567,
+        "f1": 0.1818,
+        "macro_f1": 0.5779
+      },
+      "interference": {
+        "precision": 0.9971,
+        "recall": 0.9167,
+        "f1": 0.9091,
+        "macro_f1": 0.9531
+      },
+      "prescribed_by_law": {
+        "precision": 0.6341,
+        "recall": 0.6856,
+        "f1": 0.3333,
+        "macro_f1": 0.6551
+      },
+      "legitimate_aim": {
+        "precision": 0.6193,
+        "recall": 0.6581,
+        "f1": 0.2857,
+        "macro_f1": 0.6357
+      },
+      "necessity": {
+        "precision": 0.8607,
+        "recall": 0.8124,
+        "f1": 0.7027,
+        "macro_f1": 0.8342
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.6638,
+        "recall": 0.7444,
+        "f1": 0.4,
+        "macro_f1": 0.6958
+      },
+      "interference": {
+        "precision": 0.8,
+        "recall": 0.9943,
+        "f1": 0.75,
+        "macro_f1": 0.8721
+      },
+      "prescribed_by_law": {
+        "precision": 0.6429,
+        "recall": 0.9859,
+        "f1": 0.4444,
+        "macro_f1": 0.7151
+      },
+      "legitimate_aim": {
+        "precision": 0.4971,
+        "recall": 0.4888,
+        "f1": 0.0,
+        "macro_f1": 0.4929
+      },
+      "necessity": {
+        "precision": 0.6115,
+        "recall": 0.7958,
+        "f1": 0.3478,
+        "macro_f1": 0.6515
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.5655,
+      "recall": 0.7306,
+      "f1": 0.2439,
+      "macro_f1": 0.5731
+    }
+  },
+  "case": "case_335"
+}

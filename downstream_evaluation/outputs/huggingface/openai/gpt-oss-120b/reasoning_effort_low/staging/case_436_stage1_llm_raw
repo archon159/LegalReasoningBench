@@ -1,0 +1,115 @@
+analysisWe need map facts per element. Likely many. Provide lists.
+
+Scope: need assembly existence, applicant participation, peacefulness. Facts: F014-F020 describe call, protests, location, size, camp. F023,F024 applicant attendance and speeches. Peaceful? Need info about peacefulness – maybe F034 clashes, but that's after. So peace assessment uses F034 etc. Include both. So list: F014,F015,F016,F017,F018,F019,F020,F023,F024,F034 (clashes indicate not peaceful). Also F029,F030 attacks. But for scope we need whether assembly was peaceful; facts indicating violence. So include those.
+
+Interference: governmental act interfering – police operation, arrests. Facts: F028,F029,F030,F031,F032 (government contest), F033 (reason), F035-044 (criminal case), F045-048 relocation, F075-077 detention, etc. We'll list key: F028,F029,F030,F031,F032,F033,F035,F036,F037,F038,F039,F040,F041,F042,F043,F044,F045,F046,F047,F048,F049,F050,F051,F052,F053,F054,F055,F056,F057,F058,F059-F064,F069,F070,F071,F072,F073,F074,F075-F077,F078-F080,F081,F082-F084,F085,F086-F091,F092-F094,F095-F104,F105,F106-F108,F109-F126 perhaps too many. But we can include representative subset. Probably need all showing interference. I'll include major ones: F028,F029,F030,F031,F032,F033,F035,F036,F037,F038,F039,F040,F041,F042,F043,F044,F045,F046,F047,F048,F049,F075,F076,F077.
+
+Prescribed_by_law: need law provisions. Facts about Assemblies, Rallies, Marches and Demonstrations Act, section 14. That's in F043 mentions. Also mention procedure prescribed by law in F040,F041. So include F040,F041,F043.
+
+Legitimate_aim: need government's justification – national security, public safety, preventing disorder. Facts: F033 (weapons threat), F049 (clashes), F050-052 damages, F053 state of emergency, F054 allegations of incitement. So include F033,F049,F050,F051,F052,F053,F054.
+
+Necessity: balancing – need facts about proportionality, scale of disturbance, evidence of weapons, etc. Use same as above plus maybe F034 clashes, F055 dispute, F056-058 criminal cases, F064-066 evidence, F069 lifting immunity, etc. Provide list: F033,F034,F049,F050,F053,F054,F064,F065,F066,F069,F070,F071,F106-F108 (sentencing). Might be enough.
+
+Positive_obligation: Court may have positive duty to protect peaceful assembly. Facts about failure to protect – police violence, failure to investigate properly, denial of witness summons. Include F029,F030,F031,F032,F105 (refusal to summon head), F095-F104 (witness issues). So list those.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F023",
+        "F024",
+        "F034"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F033",
+        "F035",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "F075",
+        "F076",
+        "F077"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F040",
+        "F041",
+        "F043"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F033",
+        "F049",
+        "F050",
+        "F051",
+        "F052",
+        "F053",
+        "F054"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F033",
+        "F034",
+        "F049",
+        "F050",
+        "F053",
+        "F054",
+        "F064",
+        "F065",
+        "F066",
+        "F069",
+        "F070",
+        "F071",
+        "F106",
+        "F107",
+        "F108"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F029",
+        "F030",
+        "F031",
+        "F032",
+        "F105",
+        "F095",
+        "F096",
+        "F097",
+        "F098",
+        "F099",
+        "F100",
+        "F101",
+        "F102",
+        "F103"
+      ]
+    }
+  }
+}

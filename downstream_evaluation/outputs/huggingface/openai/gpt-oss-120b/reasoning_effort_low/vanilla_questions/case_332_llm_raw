@@ -1,0 +1,46 @@
+analysisWe need map. Likely violation found in case law similar to Stankov. Here bans without proper reason, procedural defects. So scope yes (assembly planned, peaceful). Interference yes (ban). Prescribed by law maybe no because law not foreseeable due to outdated exec committee. So violation. Provide facts accordingly.
+
+Select facts:
+Scope: F016-F020,F026-F030 show planned peaceful assemblies. Also F019,F029 numbers. So choose few.
+
+Interference: F021,F031 bans.
+
+Prescribed by law: need foreseeability, accessibility, safeguards. Facts about Meetings Act sections and constitutional mismatch: F070-F077, F078-F082, F089-F091 showing lack of clear procedure, plus F073-F075 etc. Also F040-F042 showing referral to non-existent body. So conclude not prescribed properly => violation.
+
+Legitimate aim: Government claimed public order. Facts: F023,F033 statements. So legit aim asserted but not proven. Conclusion likely no legitimate aim accepted.
+
+Necessity: Given lack of reasoned act, short time limit, not necessary. Use same facts.
+
+Positive obligation: State must ensure effective remedy. Facts about appeal process failures: F035-F043,F055-F058,F089-F091. Conclude violation.
+
+Thus overall violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018", "F019", "F020", "F026", "F027", "F028", "F029", "F030"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F023", "F031", "F032", "F033"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F078", "F081", "F082", "F089", "F090", "F091", "F040", "F041", "F042"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F023", "F033"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F023", "F033", "F074", "F075", "F076", "F077", "F089", "F090", "F091"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F035", "F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F055", "F056", "F057", "F058", "F089", "F090", "F091"]
+    }
+  },
+  "violated": true
+}

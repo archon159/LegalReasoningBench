@@ -1,0 +1,13 @@
+analysisWe need map facts to elements. Scope: assembly? F007 shows protests; F008 participation; F016 says participated in unauthorized demonstration. So scope facts: F007, F008, F016. Also peaceful? Not stated. But maybe assume peaceful? No fact. So just those.
+
+Interference: police action, detention etc. Facts: F009, F010, F011, F012, F015, F017. Also F013-14 hearings. So list: F009,F010,F011,F012,F015,F017.
+
+Prescribed_by_law: need law provisions: F015 uses Article 180.1; also F028 mentions rule for organizing assemblies. So F015, F028. Also maybe F036/F037 references but those are summaries. Use F015, F028.
+
+Legitimate aim: need justification: public order, preventing disorder. F028 states violation of rules for organizing assemblies, public order. So F028.
+
+Necessity: need balancing: intensity of intervention vs aim. Need facts about severity: 15 days detention, then fine. So F015, F017, F031, F032. Maybe also F013-14. We'll pick F015,F017,F031,F032.
+
+Positive obligation: does court impose? Not in facts. So none. []
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F007","F008","F016"]},"interference":{"facts":["F009","F010","F011","F012","F015","F017"]},"prescribed_by_law":{"facts":["F015","F028"]},"legitimate_aim":{"facts":["F028"]},"necessity":{"facts":["F015","F017","F031","F032"]},"positive_obligation":{"facts":[]}}}

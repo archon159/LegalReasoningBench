@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (rally organized), F007 (part of series), F013 (applicants attended), need peace – maybe F016 etc showing violence; but peacefulness assessment uses facts of violence. Include F016, F021-24 show unrest. So list: F006,F013,F016,F021,F022,F023,F024.
+
+Interference: police actions interfering. Facts: F010,F011,F012,F016,F018,F019,F025,F027,F028,F029,F033,F034. Also F014-15 direction. Choose key: F010,F011,F012,F016,F018,F019,F025,F027,F028,F029,F033,F034.
+
+Prescribed_by_law: need law authorising rally and restrictions. Facts: F008 (authorization), maybe info about law not present but that's the only. So include F008.
+
+Legitimate_aim: government justification – public order, prevent disorder. Facts: Government version about group trying to break cordon: F021-F025. Also maybe F011-12 about police deployment. Use F021-F025.
+
+Necessity: balancing intensity vs aim. Need facts about force used and threat level. Include F016 (indiscriminate beating), F021-24 (group violent), F025 (need to disperse), plus perhaps F010 (cordon). We'll list F016,F021,F022,F023,F024,F025,F010.
+
+Positive_obligation: duty to investigate, identify perpetrators. Facts: complaints filed F043,F044, opening case F045, victim status F046,F054,F055, attempts to identify F056-F071, failures F062,F064,F072, etc. Choose core: F043,F044,F045,F056,F059,F060,F061,F062,F064,F071. Provide list.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F013", "F016", "F021", "F022", "F023", "F024"]
+    },
+    "interference": {
+      "facts": ["F010", "F011", "F012", "F016", "F018", "F019", "F025", "F027", "F028", "F029", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F008"]
+    },
+    "legitimate_aim": {
+      "facts": ["F021", "F022", "F023", "F024", "F025"]
+    },
+    "necessity": {
+      "facts": ["F010", "F016", "F021", "F022", "F023", "F024", "F025"]
+    },
+    "positive_obligation": {
+      "facts": ["F043", "F044", "F045", "F056", "F059", "F060", "F061", "F062", "F064", "F071"]
+    }
+  }
+}

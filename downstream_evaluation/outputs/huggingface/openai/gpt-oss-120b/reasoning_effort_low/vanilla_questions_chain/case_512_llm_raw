@@ -1,0 +1,31 @@
+analysisWe need map facts. Likely scope needs info about assembly etc but none given. So cannot conclude yes. Probably no due lack of facts -> can't establish. We'll output conclusions based on available facts: only F002,F003,F004 relate to restrictions => interference, prescribed, legit aim, necessity. No facts about existence of assembly => scope no. Positive obligation maybe no.
+
+Thus overall violation? Since scope no, no violation.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

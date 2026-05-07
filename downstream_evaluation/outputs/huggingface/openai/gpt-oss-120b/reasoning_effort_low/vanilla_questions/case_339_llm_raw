@@ -1,0 +1,43 @@
+analysisWe need determine likely violation. Given case, ECtHR often finds violation due to political persecution. Likely yes for scope, interference, prescribed by law maybe no (law exists). Legitimate aim maybe questionable. Necessity probably no. So overall violation yes.
+
+Select facts: scope: F022-F025 show assembly, participation, peaceful? It's protest; assume peaceful. Use those.
+
+Interference: dismissal etc F030,F031, detention F095 etc.
+
+Prescribed by law: law requiring prosecutor neutrality? Not given. Might be unclear. Probably yes (law exists). Use F029 (law requirement).
+
+Legitimate aim: public order, prevent disorder – government claims. Use F029,F030,F031,F095 etc.
+
+Necessity: likely not necessary. Use F095-F102 etc.
+
+Positive obligation: Court may have positive duty to protect. Use F027 (persecution) maybe.
+
+We'll output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F030", "F031", "F095", "F096", "F118", "F119", "F131", "F132", "F133"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F029"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029", "F030", "F031", "F095", "F096"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F095", "F096", "F118", "F119", "F131", "F132", "F133"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F027"]
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,93 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F016-F018 describe march but our case is picket. For picket: F035 (organisers opted to picket), F036 expectation, F037 intent, F038 note not direct reply, also F052 arrests show it occurred. Need peace: no mention of violence; maybe assume peaceful. So include F035,F036,F037,F038,F052 (to know it happened). Also F020-023 about slogans maybe affect peacefulness but still assembly. Include them.
+
+Interference: governmental act interfering – denial of permit, arrest. Facts: F029-F031 (conditions), F042-045 (suggestions), F051 (they held anyway), F052 arrests, F053 lack of dispersal order, F056-058 convictions. So include those.
+
+Prescribed_by_law: need law details – F080-F089 etc plus F083-085 about procedure, also F081 requirement notice, F041 notice given, F039 notice given, F042 suggestion, F084 refusal, F085 cannot proceed. Also F095-096 about parking restrictions affecting venue. So include these.
+
+Legitimate aim: need reasons given by authority – security, obstruction, service vehicles. Facts: F044, F045, F046, F047 (organisers disagree), F053 maybe. Also F090 etc but those are law. Use F044,F045,F046.
+
+Necessity: balancing – need info on intensity of interference vs aim. Facts: F044-046 (reasons), F052-053 (arrest), F058 fines, perhaps F020-023 content of original march showing potential disorder? Might include F020-023 to assess aim of preventing disorder. But likely include F044-046 and F052-053.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly. Need facts about failure to allow picket despite meeting procedural requirements. Relevant: F041 (notice given), F039 (notice), F083-085 (authority didn't approve alternative), F051 (they held anyway), F052 arrests. So include those.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F035",
+        "F036",
+        "F037",
+        "F038",
+        "F052",
+        "F053",
+        "F020",
+        "F021",
+        "F022",
+        "F023"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F029",
+        "F030",
+        "F031",
+        "F042",
+        "F043",
+        "F044",
+        "F045",
+        "F046",
+        "F051",
+        "F052",
+        "F053",
+        "F056",
+        "F057",
+        "F058"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F080",
+        "F081",
+        "F082",
+        "F083",
+        "F084",
+        "F085",
+        "F041",
+        "F039",
+        "F042",
+        "F043",
+        "F095",
+        "F096"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F044",
+        "F045",
+        "F046"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F044",
+        "F045",
+        "F046",
+        "F052",
+        "F053"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F041",
+        "F039",
+        "F083",
+        "F084",
+        "F085",
+        "F051",
+        "F052"
+      ]
+    }
+  }
+}

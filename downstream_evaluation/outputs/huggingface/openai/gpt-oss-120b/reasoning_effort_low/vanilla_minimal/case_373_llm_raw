@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations: interference yes (arrest, detention). Prescribed by law? admin offence law exists, so yes. Legitimate aim: public safety/order – likely claimed. Need facts showing aim. Not given but can infer from law. Might be yes. Necessity: proportionality questionable; detention conditions etc. Probably not necessary => violation. Positive obligation: state must protect right to peaceful assembly; failure to protect after arrest maybe violation. So overall violation.
+
+Provide facts per element.
+
+Scope: need F005-F007 showing peaceful assembly protest. Use those.
+
+Interference: arrests, detention, convictions -> F010,F014,F015,F019,F020.
+
+Prescribed by law: F019,F020,F026.
+
+Legitimate aim: public safety/order – inferred from law but not explicit fact; use F019 (law aims to maintain order) maybe also F023,F024 indicating disorder. Use those.
+
+Necessity: need facts about necessity/proportionality: detention conditions (F016-F018), lack of prior notice for second assembly (F025) etc.
+
+Positive obligation: need facts that state failed to ensure peaceful assembly – perhaps F008 (notification) and then arrest despite notification, plus F025. Use F008,F025.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F014", "F015", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F019", "F020", "F026"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F019", "F023", "F024"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F016", "F017", "F018", "F025"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F008", "F025"]
+    }
+  },
+  "violated": true
+}

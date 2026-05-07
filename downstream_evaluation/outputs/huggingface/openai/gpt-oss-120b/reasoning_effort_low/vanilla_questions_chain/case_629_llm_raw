@@ -1,0 +1,31 @@
+analysisWe need assess. Facts show police dismissed notification, later court quashed. So interference occurred (dismissal). Scope: assembly planned, peaceful? It's demonstration calling president not to assent; likely peaceful. No fact stating violence. So yes scope. Interference: yes because police denied permission. Prescribed by law: need foreseeability etc. Not enough facts about law details. We have only that police said area closed by Anti‑Terror Centre. No info on legal basis. Likely not sufficiently accessible; but can't conclude definitively. Might say insufficient facts -> cannot establish compliance => assume no? Probably Court would find lack of proper legal basis thus not prescribed by law. So conclusion no. Legitimate aim: anti‑terror security maybe. But closure was for security. Could be legit aim. So yes. Necessity: if not prescribed by law then necessity irrelevant but still evaluate; likely not necessary. So no. Positive obligation: none indicated. So no. Overall violation because failure of prescribed by law and necessity. Provide JSON.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014", "F018", "F019"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F013", "F014", "F018", "F019"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

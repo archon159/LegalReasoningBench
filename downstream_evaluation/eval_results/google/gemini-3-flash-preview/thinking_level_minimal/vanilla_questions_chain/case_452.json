@@ -1,0 +1,92 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "no",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.7575,
+        "recall": 0.6783,
+        "f1": 0.4667,
+        "macro_f1": 0.708
+      },
+      "interference": {
+        "precision": 0.6867,
+        "recall": 0.6781,
+        "f1": 0.4324,
+        "macro_f1": 0.6822
+      },
+      "prescribed_by_law": {
+        "precision": 0.4824,
+        "recall": 0.491,
+        "f1": 0.0,
+        "macro_f1": 0.4866
+      },
+      "legitimate_aim": null,
+      "necessity": {
+        "precision": 0.6186,
+        "recall": 0.7351,
+        "f1": 0.3571,
+        "macro_f1": 0.6503
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.7469,
+        "recall": 0.9105,
+        "f1": 0.6316,
+        "macro_f1": 0.8051
+      },
+      "interference": {
+        "precision": 0.626,
+        "recall": 0.7381,
+        "f1": 0.3704,
+        "macro_f1": 0.6585
+      },
+      "prescribed_by_law": {
+        "precision": 0.4824,
+        "recall": 0.491,
+        "f1": 0.0,
+        "macro_f1": 0.4866
+      },
+      "legitimate_aim": null,
+      "necessity": {
+        "precision": 0.5725,
+        "recall": 0.7524,
+        "f1": 0.25,
+        "macro_f1": 0.597
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.5784,
+      "recall": 0.8697,
+      "f1": 0.2712,
+      "macro_f1": 0.5607
+    }
+  },
+  "case": "case_452"
+}

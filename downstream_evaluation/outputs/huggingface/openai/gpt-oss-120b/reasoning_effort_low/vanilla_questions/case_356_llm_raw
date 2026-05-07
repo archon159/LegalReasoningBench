@@ -1,0 +1,47 @@
+analysisWe need map. Likely all yes for scope, interference, prescribed? Law requires prior notice but spontaneous no need, yet they charged under article requiring organization. So maybe not properly prescribed => violation. So prescribe_by_law = no (i.e., not prescribed). Legitimate aim? Government may claim public order. But given peaceful, not necessary. So legit aim maybe yes? They could argue prevention of disorder but not convincing. Probably no legitimate aim. Necessity also no. Positive obligation? Court may have positive duty to protect peaceful assembly – violated yes.
+
+Thus overall violation true.
+
+List facts per element:
+
+Scope: F006,F010,F011 (assembly, participation, peaceful)
+
+Interference: F011,F012 (police dispersed, arrests)
+
+Prescribed_by_law: F017,F054,F058,F059,F060,F061,F062 (law requirements, spontaneity)
+
+Legitimate_aim: maybe F011 (public order) but need justification. Use F011,F009 etc. We'll pick F011,F009.
+
+Necessity: need facts showing imbalance: F010,F011,F012,F016,F017,F018,F019,F020,F021,F027,F028 etc. Choose few.
+
+Positive_obligation: F010,F011,F018,F020,F021 etc.
+
+We'll output.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F010", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F017", "F054", "F058", "F059", "F060", "F061", "F062"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F011", "F009"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F010", "F011", "F012", "F016", "F017", "F018", "F020", "F021", "F027", "F028"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F018", "F020", "F021"]
+    }
+  },
+  "violated": true
+}

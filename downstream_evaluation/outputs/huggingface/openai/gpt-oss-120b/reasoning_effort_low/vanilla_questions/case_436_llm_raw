@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely violations found in case law (Malkhasyan). Probably yes for scope, interference, prescribed_by_law maybe questionable but law exists. Legitimate aim: public safety etc. Might be not necessary proportionate => violation. Positive obligation maybe state must protect peaceful assembly; likely violation. So overall violation true.
+
+Select facts:
+
+Scope: F023,F024,F020 (assembly, participation, peaceful?). Also need peace – not explicit but protests were initially peaceful until clashes. Use F023,F024,F020.
+
+Interference: F028-F032 (police operation, termination). Choose F028,F031,F032.
+
+Prescribed_by_law: need law – Assemblies, Rallies, Marches and Demonstrations Act referenced F043 mentions section 14. So facts F043,F040 perhaps. Use F043.
+
+Legitimate aim: Government claim security/public safety – F033,F034,F050 (disorder). Use F033,F034,F050.
+
+Necessity: Need balancing – evidence of excessive force, deaths – F029,F030,F050,F051. Use those.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly – facts showing failure to protect – F029,F030,F049,F050. Use F029,F049.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F023", "F024", "F020"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F028", "F031", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F043"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F033", "F034", "F050"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F029", "F030", "F050", "F051"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F029", "F049"]
+    }
+  },
+  "violated": true
+}

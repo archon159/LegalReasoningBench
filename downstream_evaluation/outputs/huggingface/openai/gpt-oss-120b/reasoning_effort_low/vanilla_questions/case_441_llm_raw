@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely all show violations. Provide conclusions yes for scope, interference, prescribed_by_law maybe no? Law requires notice; they didn't give notice -> violation of procedural guarantee. Probably court finds violation. So all yes. Provide facts per element.
+
+Scope: need evidence of assembly, participation, peaceful => F005,F006,F011,F012,F013,F016,F022 etc. Use few.
+
+Interference: police dispersed => F022-F025 plus arrests.
+
+Prescribed_by_law: need law requiring notice and authorization; facts about BCEA refusing, proposal, organizers ignoring => F007-F010,F014. Also law provisions maybe but not listed; assume yes violation because lack of foreseeability. Use F007,F008,F009,F010,F014.
+
+Legitimate aim: government may claim public order etc not in facts; none provided, so cannot establish legit aim => conclusion no. But need facts showing absence of aim: none. We'll list [].
+
+Necessity: since no legit aim, not necessary => no.
+
+Positive obligation: Court may have positive duty to protect peaceful assembly; facts show failure => yes, using F022-F025 etc.
+
+Overall violation: yes.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F011", "F012", "F013", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009", "F010", "F014"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025"]
+    }
+  },
+  "violated": true
+}

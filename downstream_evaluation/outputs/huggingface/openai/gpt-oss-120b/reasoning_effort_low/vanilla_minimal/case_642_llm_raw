@@ -1,0 +1,35 @@
+analysisWe need map. Likely scope yes (demonstration is peaceful assembly). Facts F001-F012 etc. interference: police forbid => yes interference. prescribed_by_law: need law – we have Section 8(1) Act III 1989 (F032) shows basis, so yes. legitimate aim: protect traffic safety/public order – police cited danger (F022,F023,F024) so yes. necessity: assess proportionality – likely not necessary because alternatives offered; court maybe violation. Need facts showing alternative location offered (F016) and assurances (F017-20). So conclude no necessity -> violation. positive obligation: state must protect right to assemble by allowing unless justified; they failed – so violation yes. Overall violated true.
+
+Provide facts per element.
+
+Scope facts: demonstration, peaceful, etc F006-F012, F001 maybe. Interference facts: prohibition F021. Prescribed_by_law: F032. Legitimate aim: F022,F023,F024. Necessity: need facts showing less restrictive means: F016 suggestion alternative, assurances F017-20, also that ban disproportionate compared to roadworks argument (maybe F028,F029 but not atomic). Use F016,F017,F018,F019,F020. Positive obligation: same as necessity plus overall duty – use F021,F032 perhaps.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F010", "F011", "F012"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F021"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F032"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F016", "F017", "F018", "F019", "F020"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F021", "F032"]
+    }
+  },
+  "violated": true
+}

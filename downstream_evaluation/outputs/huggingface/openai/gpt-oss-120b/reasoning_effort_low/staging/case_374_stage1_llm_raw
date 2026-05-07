@@ -1,0 +1,34 @@
+analysisWe need map facts. For scope: need assembly existence, participation, peacefulness. Relevant facts: F140 (organising protests), F141 (charged), F142 (charges details), F143-146 (notice of public event not approved). Also F003 mentions issue concerning freedom of peaceful assembly. So include F003, F140, F141, F142, F143, F144, F145, maybe F146. 
+
+Interference: governmental act interfering with assembly: denial of permits, arrests, charges. Facts: F143-146, F141, F142, F145 (not approved), F146 complaint, also F142 details. So same.
+
+Prescribed by law: need law governing assemblies. Which facts mention law? Not directly; maybe F247 (right to protest) but that's a law reference not factual. No specific fact about law content. Could be none. Might include F247 as law but it's not an atomic fact about foreseeability. Probably empty.
+
+Legitimate aim: need justification like public safety etc. Facts about health, environment, safety of airbase. F020, F021, F202, F203 show safety of aircraft. Also F157 etc about pollution. So include F020,F021,F202,F203,F157,F158,F152 etc. Choose key: F020 (birds threaten air safety), F202 (Ministry of Defence request to close due to safety), F203 (authorities response). Also maybe F157 (pollution high). 
+
+Necessity: need balancing. Facts showing severity of interference vs aim: charges, denial of permits, evidence of pollution, etc. Include F141,F142,F145,F146,F152,F157,F158,F202,F203.
+
+Positive obligation: Court may have positive duty to protect environment affecting assembly? Possibly about protecting right to peaceful assembly by ensuring safe environment? Not sure. Maybe none. Could be F003 indicates issue. But likely no explicit positive obligation identified. So empty.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F003", "F140", "F141", "F142", "F143", "F144", "F145", "F146"]
+    },
+    "interference": {
+      "facts": ["F141", "F142", "F143", "F144", "F145", "F146"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": ["F020", "F021", "F157", "F158", "F202", "F203"]
+    },
+    "necessity": {
+      "facts": ["F141", "F142", "F145", "F146", "F152", "F157", "F158", "F202", "F203"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

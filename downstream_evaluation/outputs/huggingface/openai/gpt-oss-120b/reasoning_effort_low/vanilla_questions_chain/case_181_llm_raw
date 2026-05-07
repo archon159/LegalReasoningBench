@@ -1,0 +1,59 @@
+analysisWe need assess likely violation: picket was authorized? They got notice but authority changed venue/time; they ignored and held anyway -> interference = yes (arrest). Prescribed by law? Law requires approval of venue/timing; they didn't get approval, so interference may be lawful. So no violation. Provide facts accordingly.
+
+Scope: assembly? picket is a form of assembly, peaceful? No violence reported. Facts: F051 (held gathering), F052 arrests, F053 etc. Also F040 applicant gave notice. So scope yes.
+
+Interference: arrests => yes. Facts F052-F055.
+
+Prescribed_by_law: need facts about law requirements and lack of approval. Use F080-F085, F041, F042-45, F083-85, F090-92. Conclusion: interference was prescribed by law because they lacked proper authorization. So yes (i.e., it was prescribed). Wait element asks "Is the intervention sufficiently foreseeable...?" We conclude yes, it's prescribed. So conclusion yes.
+
+Legitimate aim: authorities cite security, traffic, service vehicle zone. Facts F044,F045,F046,F090,F091,F092. Likely legit aim: public safety/order. So yes.
+
+Necessity: need balancing; likely Court finds not necessary because they could have allowed picket at proposed spot. But given facts, maybe deemed necessary. Hard. Usually ECtHR finds violations where authorities impose disproportionate restrictions. Here they changed venue and time, but organizers could have complied; they chose not and were arrested. Might be considered proportionate. I'd say necessity satisfied => no violation. So conclusion yes (necessary).
+
+Positive obligation: none. So conclusion no.
+
+Overall violation? Since all justification elements satisfied, no violation. So false.
+
+Provide facts per element.
+
+Scope facts: F051 (gathering), F053? Actually peace not indicated violent. Use F051,F052? but interference separate. Use F051,F053? We'll list F051,F053 maybe. Also F040 shows applicant participation. Use F040.
+
+Interference facts: F052,F053,F054,F055.
+
+Prescribed_by_law facts: F080,F081,F082,F083,F084,F085,F041,F042,F043,F044,F045,F046,F090,F091,F092.
+
+Legitimate aim facts: F044,F045,F046,F090,F091,F092.
+
+Necessity facts: F042,F043,F044,F045,F046,F090,F091,F092 (balancing). Could also include F051 (they persisted). We'll list subset.
+
+Positive obligation: none relevant maybe F078 constitutional right but not positive duty. So [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F040", "F051", "F053"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F052", "F053", "F054", "F055"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F080", "F081", "F082", "F083", "F084", "F085", "F041", "F042", "F043", "F044", "F045", "F046", "F090", "F091", "F092"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F044", "F045", "F046", "F090", "F091", "F092"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F090", "F091", "F092"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

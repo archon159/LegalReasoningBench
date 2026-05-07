@@ -1,0 +1,36 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F001 (case concerns restrictions...), F002 (applicant planned to hold a demonstration). Also maybe F007 cancellation indicates no actual assembly but intention. So scope uses F001,F002.
+
+Interference: governmental act interfering – refusals. Facts: F004 (refused authorization), F005 (reason), F006 invitation to remedy, F007 cancellation maybe consequence, also F008 complaint shows interference. Use F004,F005,F006,F007.
+
+Prescribed by law: need law basis. Facts: F011 (definition), F012 (content), F013 (court reasoning), maybe F010 judgement referencing law. So include F011,F012,F013.
+
+Legitimate aim: need justification. Facts: perhaps none directly stating aim; the authority cited mismatch stats, not legit aim. Might be absent. Could use F005 (authority note) but that's not legit aim. Probably no atomic fact indicating legit aim, so [].
+
+Necessity: balancing – need info on seriousness, proportionality. Facts: F005,F006,F007, plus court judgments F010,F014 showing assessment. Include F005,F006,F007,F010,F014.
+
+Positive obligation: Court may have positive duty to provide effective remedy before picket. Fact F016 (Article 13 claim lack of procedure). Also maybe F008 complaint shows lack. So include F016.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002"]
+    },
+    "interference": {
+      "facts": ["F004", "F005", "F006", "F007"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F011", "F012", "F013"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F005", "F006", "F007", "F010", "F014"]
+    },
+    "positive_obligation": {
+      "facts": ["F016"]
+    }
+  }
+}

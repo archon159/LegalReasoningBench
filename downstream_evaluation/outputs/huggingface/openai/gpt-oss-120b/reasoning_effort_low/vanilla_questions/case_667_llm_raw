@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations: scope yes, interference yes, prescribed by law maybe no (law unclear). So violation. Provide facts.
+
+Scope: assembly occurred F013, peaceful? description says peaceful demonstration; no violence. So yes. Facts F013,F014,F015? peace. Use F013,F014,F015.
+
+Interference: police removal and prohibition. Facts F015-F023,F020 etc. Yes.
+
+Prescribed by law: need foreseeability etc. Issues: law ambiguous, procedure 2 days not codified, reliance on outdated USSR decree. So likely not properly prescribed. Conclusion no (i.e., not prescribed). Facts F094-F098,F102,F104-F108,F112,F113 etc. Choose relevant: F094,F097,F098,F102,F104,F105,F106,F107,F108,F112,F113,F115.
+
+Legitimate aim: authorities claimed public order, traffic. So aim maybe public safety/order. So yes. Facts F015,F016,F018,F099.
+
+Necessity: balance? Given lack of clear law, disproportionate detention. Likely not necessary. So no. Facts F015-F023,F040-F045,F048-F049.
+
+Positive obligation: Court may have positive duty to ensure effective remedy. Probably yes violation of positive obligation. Facts F029,F036,F037,F038,F039,F060,F062,F063.
+
+Thus overall violation true.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F015"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F018", "F020", "F023", "F040", "F041"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F094", "F097", "F098", "F102", "F104", "F105", "F106", "F107", "F108", "F112", "F113", "F115"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F018", "F099"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F016", "F018", "F023", "F040", "F041", "F048", "F049"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F029", "F036", "F037", "F038", "F039", "F060", "F062", "F063"]
+    }
+  },
+  "violated": true
+}

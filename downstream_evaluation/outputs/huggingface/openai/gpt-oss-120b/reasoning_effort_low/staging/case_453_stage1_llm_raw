@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts showing attempt to hold public event (F001-F005), actual joining (F007-F010). Peaceful? No violence mentioned. So include F001,F007,F008,F009,F010 maybe.
+
+Interference: police ordering, arrest. Include F011,F012,F013.
+
+Prescribed_by_law: need law basis – mention article 20.2 etc. Fact about conviction under code (F014,F015). Also refusal to approve (F004,F005). So pick F004,F005,F014.
+
+Legitimate_aim: need justification by authorities—public safety, order. Not explicit but could infer from refusal due to scheduling conflict. Might use F011 (order to stop unauthorized meeting) as basis. But we lack explicit aim. Could be none of facts show aim. Maybe empty.
+
+Necessity: need balancing – facts about refusal, police action, fine. Use F011,F013,F014,F015.
+
+Positive_obligation: Court may have positive duty to protect assembly. Facts about refusals to permit events (F019,F020,F021). Use those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F007", "F008", "F009", "F010"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F004", "F005", "F014"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F011", "F013", "F014", "F015"]
+    },
+    "positive_obligation": {
+      "facts": ["F019", "F020", "F021"]
+    }
+  }
+}

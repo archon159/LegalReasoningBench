@@ -1,0 +1,34 @@
+analysisWe need map facts related to assembly: F037-F054,F048-F060. So scope: existence of assembly (F048 rally held), participation (F049), peacefulness (need info if peaceful; not given maybe assume peaceful but slogans political—still peaceful). Facts indicating nature: F048, F049, maybe F052-54 show political speech but not violence. So include those.
+
+Interference: arrest and penalty. Facts: F050 arrest, F051 record unauthorized gathering, F055-58 findings, F058 fine, F059 appeal, F060 upheld. Also F055 finding organized contravention. So include.
+
+Prescribed by law: need law requiring permission, procedure. Facts showing notification and refusal: F037-46, F047, also Justice of peace finding contravention (F055). So include those.
+
+Legitimate aim: authorities' reasons: archaeological work, traffic disruption, rights of others. Facts: F042-45, plus maybe F046 alternatives. So include.
+
+Necessity: balancing – need both interference and legitimate aim and prescribed by law facts. Could include same as above plus perhaps evidence of proportionality: fine small, etc. Use F058 fine, F060 upheld. Include.
+
+Positive obligation: maybe state duty to protect right to peaceful assembly; facts about authorities refusing venue despite peaceful intent. Could include F042-46, F048, F049. We'll list.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F048", "F049", "F052", "F053", "F054"]
+    },
+    "interference": {
+      "facts": ["F050", "F051", "F055", "F056", "F057", "F058", "F059", "F060"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F037", "F038", "F042", "F043", "F044", "F045", "F046", "F047", "F055"]
+    },
+    "legitimate_aim": {
+      "facts": ["F042", "F043", "F044", "F045"]
+    },
+    "necessity": {
+      "facts": ["F050", "F058", "F060", "F042", "F043", "F044", "F045"]
+    },
+    "positive_obligation": {
+      "facts": ["F037", "F038", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049"]
+    }
+  }
+}

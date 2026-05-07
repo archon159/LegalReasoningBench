@@ -1,0 +1,31 @@
+analysisWe need map facts. Likely scope: peaceful assembly? He participated in unauthorized demo -> still within scope of article 11 (assembly). So yes, facts F008,F016. interference: detention etc => yes facts F015-F017. prescribed by law: based on Article 180.1 CAO - exists law, but was applied incorrectly? Still prescribed. Yes facts F015,F016. legitimate aim: public order. Facts F029. necessity: proportionality? 15 days admin detention for participation seems disproportionate; also procedural deficiencies. Likely no (not necessary). positive obligation: state must protect right to assemble; they interfered. Probably yes they had duty but breached. So overall violation because lack of necessity and maybe procedural. Provide conclusions.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F017"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F016", "F029", "F031"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F008", "F015", "F016"]
+    }
+  },
+  "violated": true
+}

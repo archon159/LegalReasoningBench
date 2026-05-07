@@ -1,0 +1,43 @@
+analysisWe need map. Likely scope needs info about assembly etc none given. So cannot conclude yes; assume no? But we must use only given facts. No facts about assembly existence. So scope conclusion = no (cannot establish). Facts maybe [].
+
+Interference: need act—restrictions etc F002,F003,F004 indicate restrictions => interference yes. Use those facts.
+
+Prescribed by law: need law foreseeability not given -> cannot confirm, likely no. No fact about law. So conclusion no, facts [].
+
+Legitimate aim: not given -> no.
+
+Necessity: depends on legit aim, also no.
+
+Positive obligation: maybe lack of effective remedy F005 indicates breach of positive duty. Could be yes. Use F005.
+
+Overall violation? Since scope not met, no violation overall even if other breaches. So false.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F005"]
+    }
+  },
+  "violated": false
+}

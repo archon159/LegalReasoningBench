@@ -1,0 +1,45 @@
+analysisWe need map. Likely violations: interference yes, not prescribed, etc. Provide conclusions.
+
+Scope: applies to peaceful assembly – facts show gathering intended Labour Day, peaceful. So scope yes. Facts F001,F002,F003.
+
+Interference: police dispersed, use of force. Yes. Facts F020-F027,F023 etc.
+
+Prescribed_by_law: law 2911 restricts; authorities denied permit. The denial may be lawful? Need see if restriction prescribed. They invoked law sections 22,24. So yes prescribed. Use facts F004,F005,F057,F058,F059.
+
+Legitimate aim: security, public order. Facts F006-F013,F009. So yes.
+
+Necessity: proportionality questionable. Force excessive, gas in hospital. Likely not necessary. So no.
+
+Positive obligation: state must protect right, investigate. They failed to prosecute, denied. So no.
+
+Thus overall violation because interference not justified necessity lacking. Violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F003"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F020", "F021", "F023", "F024", "F025", "F026", "F027", "F032", "F033", "F034"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F057", "F058", "F059"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F006", "F007", "F008", "F009", "F010", "F011", "F012", "F013"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F023", "F024", "F025", "F026", "F027", "F032", "F033", "F034"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049", "F050"]
+    }
+  },
+  "violated": true
+}

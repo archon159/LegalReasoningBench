@@ -1,0 +1,45 @@
+analysisWe need map. Likely violation found in case (Zakharov v Russia?) Actually known case: Zakharov v Russia (Article 11) found violation due to lack of effective investigation. So all elements: scope yes, interference yes, prescribed by law maybe yes (law allows force but prohibition on head hits makes illegal -> still interference). Legitimate aim? police aimed at preventing disorder; but use of force disproportionate. So legitimate aim yes (public safety). Necessity no (not necessary). Positive obligation yes (investigate). Thus overall violation. Provide facts accordingly.
+
+Select facts:
+
+Scope: F012 participation, F014 claim peaceful, also F001 assembly. So facts list.
+
+Interference: police hit – F015,F016 etc.
+
+Prescribed by law: need law sections prohibiting head hits – F111,F112. Also existence of law – F104-110. Use these.
+
+Legitimate aim: police action to disperse – F104-110 show allowed for preventing disorder. So facts.
+
+Necessity: need facts about disproportionality and investigation failures – F015-F018 etc plus investigation refusal facts F042-... maybe F042 dismissal, F052 not examined, F065 findings not confirmed. Choose few.
+
+Positive obligation: need facts about duty to investigate – F039 onward, failures – F042, F052, F065, F080 etc.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F012", "F014"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F023", "F027", "F031", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F104", "F105", "F106", "F107", "F108", "F109", "F110", "F111", "F112"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F104", "F105", "F106", "F107", "F108", "F109", "F110"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F016", "F111", "F112", "F042", "F052", "F065"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F039", "F040", "F042", "F052", "F065", "F080", "F081", "F082", "F083"]
+    }
+  },
+  "violated": true
+}

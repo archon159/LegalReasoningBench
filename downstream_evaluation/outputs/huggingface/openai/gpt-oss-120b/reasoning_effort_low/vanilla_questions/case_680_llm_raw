@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly? yes rally was assembly, applicant participated (F049). Peaceful? slogans anti-government but still peaceful likely. No violence mentioned. So scope yes, facts F048,F049 maybe also F052-54 show speech but peaceful. Use those.
+
+Interference: arrest and fine constitute interference. Facts F050,F055-F58. So yes.
+
+Prescribed by law: Need law on procedure for assemblies; facts about refusal, alternative venues, etc. We have that authorities required permission, they denied venue, rally held unauthorized => law exists. But foreseeability? Likely law vague. Probably not sufficiently accessible. Conclusion maybe no (violation of prescribed by law). Use facts F042-F047,F055.
+
+Legitimate aim: authorities cited public safety, traffic, rights of others. Those are legitimate aims under Art 11(2). So yes, facts F042-F45.
+
+Necessity: Balance – likely disproportionate because allowed alternative venues, yet they forced fine. Court may find not necessary. So conclusion no (not necessary). Facts F042-F47,F055-F58.
+
+Positive obligation: State must protect right to peaceful assembly, ensure procedures not overly restrictive. Violation likely. Facts F042-F47,F055.
+
+Thus overall violation yes.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F048", "F049", "F052", "F053", "F054"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F050", "F055", "F056", "F057", "F058"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047", "F055"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047", "F055", "F058"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047", "F055"]
+    }
+  },
+  "violated": true
+}

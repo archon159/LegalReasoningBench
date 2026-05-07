@@ -1,0 +1,15 @@
+analysisNeed list per element. Provide relevant facts. Let's pick key ones.
+
+Scope: need assembly existence, applicant participation, peacefulness. Facts: F006 (notifications), F008 (attendance), F036 (meeting held), F037/F039 attendance, F038 duration, F040 police orders, F041 no announcements, F042 police approach, F043 reply, F044 no further action. Also F013 aim. So list those.
+
+Interference: government act interfering: F014 refusal, F015 claim, F019 refusal picket, F020 proposal, F021 acceptance, F035 warning, F040 police order, F045 arrest. So list.
+
+Prescribed_by_law: foreseeability, accessibility, safeguards. Need laws: references to Public Events Act etc. But atomic facts: F031-F034 court findings, F035 warning, F050-055 police reports, F056-061, F067-069, F070, F071-072, F073-076 appeals, F077 constitutional rule, F078-080 arguments, F081-086 Supreme Court rulings, F107-112 etc. Too many. Maybe just core: F031-F034, F035, F050-055, F056-061, F070, F081-086, F107-112. We'll list subset.
+
+Legitimate aim: need justification like public safety, order. Facts: F040 police order, F041 no announcement, F042 police approach, F043 reply, F044 no action, F045 arrest, F050-055 police notes, F056-061, F067-069, F070, F081-086. Also F013 aim of protest. So list.
+
+Necessity: balancing. Need facts about risk, size, police reasoning. Use F040, F041, F042, F043, F044, F045, F050-055, F056-061, F067-069, F070, F081-086, F107-112 maybe.
+
+Positive obligation: need facts indicating Court's positive obligation. That comes from Supreme Court rulings? Might be none. So empty.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F006","F008","F013","F036","F037","F038","F039","F040","F041","F042","F043","F044"]},"interference":{"facts":["F014","F015","F019","F020","F021","F035","F040","F045"]},"prescribed_by_law":{"facts":["F031","F032","F033","F034","F035","F050","F051","F052","F053","F054","F055","F056","F057","F058","F059","F060","F061","F070","F081","F082","F083","F084","F085","F086","F107","F108","F109","F110","F111","F112"]},"legitimate_aim":{"facts":["F013","F040","F041","F042","F043","F044","F045","F050","F051","F052","F053","F054","F055","F056","F057","F058","F059","F060","F061","F067","F068","F069","F070","F081","F082","F083","F084","F085","F086"]},"necessity":{"facts":["F040","F041","F042","F043","F044","F045","F050","F051","F052","F053","F054","F055","F056","F057","F058","F059","F060","F061","F067","F068","F069","F070","F081","F082","F083","F084","F085","F086","F107","F108","F109","F110","F111","F112"]},"positive_obligation":{"facts":[]}}}

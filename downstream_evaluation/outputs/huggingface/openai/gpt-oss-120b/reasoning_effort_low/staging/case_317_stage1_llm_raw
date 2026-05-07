@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F027 (application to hold meeting), F028 purpose, F031 location, F032 commitment peace, maybe F016 (continued staging protests). Also F016 indicates actual protests after removal. So include those.
+
+Interference: governmental act interfering – rejection etc. Facts: F033, F034, F041, F042, F043, F051, F052, F053, F054, F071 (law allowing rejection), maybe F069 etc. Choose key: F033, F034, F041, F042, F051, F052.
+
+Prescribed_by_law: need law details – Sections 11,12,71 etc. Facts: F066-F072, F071. Also F074, F075 about change. So include F066,F067,F071,F072,F074,F075.
+
+Legitimate_aim: need justification – public order, image of state. Facts: F052, F057 (prejudice image), also maybe F043 (police info about breach of sections 6&7). So include F052,F057,F043.
+
+Necessity: balancing – need assessment of evidence lacking, proportionality. Facts: F050 (no evidence), F043 (lack of evidence), F052 (prejudice image), F057, F071 (standard). Include F050,F052,F057,F071.
+
+Positive_obligation: perhaps duty to protect freedom of assembly – need facts about state's failure to allow lawful assembly. Could be F033 rejection, F071 requirement. Might be none. But likely includes F071 (requirement to have convincing evidence) showing state didn't meet. Use F071.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F027", "F028", "F031", "F032", "F016"]
+    },
+    "interference": {
+      "facts": ["F033", "F034", "F041", "F042", "F051", "F052"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F066", "F067", "F071", "F072", "F074", "F075"]
+    },
+    "legitimate_aim": {
+      "facts": ["F043", "F052", "F057"]
+    },
+    "necessity": {
+      "facts": ["F050", "F052", "F057", "F071"]
+    },
+    "positive_obligation": {
+      "facts": ["F071"]
+    }
+  }
+}

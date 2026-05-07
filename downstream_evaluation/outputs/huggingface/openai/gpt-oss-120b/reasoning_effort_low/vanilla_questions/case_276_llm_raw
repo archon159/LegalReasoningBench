@@ -1,0 +1,43 @@
+analysisWe need map facts. Scope: assembly? He attended rally (F008 says attended; but F009 denies). Need factual determination—court found he participated. Use both. So yes assembly, he tried to participate, peaceful? protests likely peaceful. No fact stating violence. Assume peaceful. So scope yes, facts F008,F021 maybe.
+
+Interference: police arrest etc. Yes. Facts F010-F020.
+
+Prescribed by law: need law article 172 etc. Facts F014,F015 show basis. Also need foreseeability etc not detailed but assume law exists. So yes.
+
+Legitimate aim: public order. Fact F015 mentions violation of public order. So yes.
+
+Necessity: need proportionality. Ten days admin detention for minor hooliganism seems disproportionate. Facts F020,F021,F032-F034 showing reduction. Likely not necessary. So conclusion no (i.e., not necessary). Provide facts F020,F032,F033.
+
+Positive obligation: Court may have positive duty to protect right to peaceful assembly, ensure fair trial. Here violation already covered. Might be no separate positive obligation. Probably none. So conclusion no.
+
+Overall violation: Since necessity fails, violation. So true.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F021"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012", "F013", "F014", "F015", "F016", "F019", "F020"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F015"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F032", "F033"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,36 @@
+analysisWe map facts.
+
+Scope: need assembly existence, participation, peaceful. Facts: F030 (pickett), F031,32 content, also F029? that's reprimand. Need peacefulness maybe no violence indicated. So include F030,F031,F032.
+
+Interference: governmental act interfering – dismissal etc. Facts: F044 dismissal, F045-48 proceedings, also F036-43 claim. So include F044,F045,F046,F048,F049,F050,F051,F052,F054,F055,F056-F60 etc. Probably core: F044,F045,F046,F048,F049,F050,F051,F052,F054,F055.
+
+Prescribed_by_law: need law governing strike/dismissal. Facts: F074 (labour code article), F076-89 (Resolution act), F090-93, F094-95, also constitutional articles F070-73. So include those.
+
+Legitimate_aim: need aim like public safety, etc. Here justification could be safety instruction compliance. Facts: F028-29 safety findings, F024-27 equipment issues, F028 conclusion, F029 reprimand. Also maybe F040-41 employer argument. So include F028,F029,F024-27,F040,F041.
+
+Necessity: balancing. Need both interference and aim and proportionality. Include facts about seriousness of safety breach and attendance. So include F028,F029,F044,F045,F050,F051,F052,F054,F055,F056-F60.
+
+Positive_obligation: Court may require state to protect right to strike. Need law guaranteeing strike right. Facts: F070-73, F078-84, F90-93. So include those.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F030", "F031", "F032"]
+    },
+    "interference": {
+      "facts": ["F044", "F045", "F046", "F048", "F049", "F050", "F051", "F052", "F054", "F055"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F074", "F076", "F077", "F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F088", "F089", "F090", "F091", "F092", "F093", "F094", "F095", "F070", "F071", "F072", "F073"]
+    },
+    "legitimate_aim": {
+      "facts": ["F024", "F025", "F026", "F027", "F028", "F029", "F040", "F041"]
+    },
+    "necessity": {
+      "facts": ["F028", "F029", "F044", "F045", "F050", "F051", "F052", "F054", "F055", "F056", "F057", "F058", "F059", "F060"]
+    },
+    "positive_obligation": {
+      "facts": ["F070", "F071", "F072", "F073", "F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085", "F086", "F087", "F090", "F091", "F092", "F093"]
+    }
+  }
+}

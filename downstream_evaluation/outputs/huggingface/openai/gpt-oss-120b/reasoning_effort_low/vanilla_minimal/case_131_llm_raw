@@ -1,0 +1,41 @@
+analysisWe need map. Likely scope yes (peaceful assembly). Facts: F026-F028 etc. interference yes (denied access). prescribed by law? No clear law; private property rule, so no. legitimate aim? security/neutrality maybe. So legit aim yes. necessity? probably not necessary => no. positive obligation? state may have duty to ensure effective enjoyment in public spaces; here maybe no. So overall violation yes because lack of necessity and perhaps lack of positive obligation. Provide facts accordingly.
+
+Let's select facts:
+scope: F026,F027,F028,F030,F031 show assembly/petition.
+interference: F029,F030,F031,F037,F038,F039,F040.
+prescribed_by_law: none -> [].
+legitimate_aim: F029 (security), F038-40 (neutrality), maybe F029 shows security guard action. Use F029,F038,F039.
+necessity: need assess proportionality – compare with permissions given to others (F049-F056). So facts: F049-F056 showing less restrictive alternatives. Also F032-F034 showing partial permission. Use F032,F034,F049-F056.
+positive_obligation: need state ensure effective freedom; facts about council allowing consultation in gallery (F058) shows they can. But state didn't intervene. Might use F058 to show they could have. We'll list F058.
+
+Conclusion: scope yes, interference yes, prescribed_by_law no, legitimate_aim yes, necessity no, positive_obligation no. Violation true.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F026", "F027", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F029", "F030", "F031", "F037", "F038", "F039", "F040"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029", "F038", "F039", "F040"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F032", "F034", "F049", "F050", "F051", "F052", "F053", "F054", "F055", "F058"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F058"]
+    }
+  },
+  "violated": true
+}

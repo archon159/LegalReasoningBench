@@ -1,0 +1,15 @@
+analysisNeed map. Provide relevant facts per element. Let's pick key ones.
+
+Scope: need facts about assembly, participation, peacefulness. Facts: F003 (demonstration), F004 (purpose), F015 (assembly started), F016 (mayors etc), F017 (size), F018 (march), F019 (stone throwing). Also F020-F023 show slogans, flags. So scope facts: F003,F004,F015,F016,F017,F018,F019,F020,F021,F022,F023.
+
+Interference: facts about police action, arrest. F026 (police intervention), F037 (arrest), F038-039 (video evidence), F040 (rights informed), F041 (transfer to children's branch). Also F024-025 (warnings). So interference facts: F026,F037,F038,F039,F040,F041,F024,F025.
+
+Prescribed_by_law: need facts about legal provisions, foreseeability, accessibility, safeguards. Facts: F011 (organiser info), F014 (police measures), F161-163 (law definitions), F166 (section 34/A), F167-168 (PTA provisions). Also F151-152 (membership). So maybe F161,F162,F163,F166,F167,F168.
+
+Legitimate aim: need facts about legitimate aims: national security, public safety, etc. Facts: F006 (PKK illegal armed org), F014 (suspected violent protests), F019 (stones thrown), F020-023 (propaganda). So F006,F014,F019,F020.
+
+Necessity: need facts about balancing intensity vs aim. Facts: F026 (use of tear gas), F028-029 (participation), F030-036 (photos). Also F041 (minor status). Maybe F041, F026.
+
+Positive obligation: need facts about Court's positive obligation. Not sure any fact indicates that. Might be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F003","F004","F015","F016","F017","F018","F019","F020","F021","F022","F023"]},"interference":{"facts":["F024","F025","F026","F037","F038","F039","F040","F041"]},"prescribed_by_law":{"facts":["F161","F162","F163","F166","F167","F168"]},"legitimate_aim":{"facts":["F006","F014","F019","F020"]},"necessity":{"facts":["F026","F041"]},"positive_obligation":{"facts":[]}}}

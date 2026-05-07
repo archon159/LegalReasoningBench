@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F008 (organised protest), F009 (approx 20 participants), F010 (third applicant participated), F011-014 show violence -> peaceful? Actually attack by third parties, assembly itself peaceful before attack. So peace before attack maybe F011 shows attack, but peaceful nature prior. Use F008,F009,F010,F011? Might include F011 to assess if assembly remained peaceful; but peaceful means non-violent. Since attack came from outsiders, assembly was peaceful. So include F008,F009,F010,F011 perhaps.
+
+Interference: government act/omission interfering. Need police failure to protect. Facts: F020 (police observed), F022/F023 (dispute about filming), F024 (no police intervened), F025 (call police no help), F026 (patrol arrived late). Also possibly F027 etc. So list those.
+
+Prescribed by law: need notice requirement etc. Facts: F005 (notification lodged), F006 (spontaneous claim), F007 (relied on Section 12(1)), F034, F035, F036, F037, F038. Also maybe F005 shows they notified, so compliance. So include those.
+
+Legitimate aim: need justification for police inaction? Not present. Maybe none of facts indicate legit aim. Could be public safety etc but not in facts. So empty list.
+
+Necessity: need balancing of interference vs aim. Again likely none. Empty.
+
+Positive obligation: Court may have positive duty to protect assemblies. Facts showing failure: F024-F027, F033 (no action on complaint). So include those.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F008", "F009", "F010", "F011"]
+    },
+    "interference": {
+      "facts": ["F020", "F022", "F023", "F024", "F025", "F026", "F027"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F005", "F006", "F007", "F034", "F035", "F036", "F037", "F038"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": ["F024", "F025", "F026", "F033"]
+    }
+  }
+}

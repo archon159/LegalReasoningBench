@@ -1,0 +1,45 @@
+analysisWe need assess if violation. Likely ECtHR found breach of Art 11. Use facts: disciplinary sanction interferes with freedom of assembly. So scope yes, interference yes, prescribed by law? law exists, foreseeability maybe ok -> yes. Legitimate aim? aim to protect rights of others/judiciary – maybe. Necessity? Court found disproportionate => violation. Positive obligation? none. So overall violation true.
+
+Select facts per element.
+
+Scope: assembly existed F004,F005,F007,F008 etc. Peaceful? demonstration had violence, but applicant's participation peaceful? He carried placard, no incitement. Need facts showing he participated peacefully: F007,F008,F030 (banner). Also note violence by others F014,F028,F037 etc show overall not wholly peaceful but requirement is assembly peaceful overall? Usually if overall not peaceful can affect. But Court still found violation. We'll pick facts indicating his role peaceful: F007,F008,F030,F047.
+
+Interference: disciplinary sanction F081-F099 etc.
+
+Prescribed by law: disciplinary regime based on Decree no.72-468 articles 106 etc F056-F058,F118 etc.
+
+Legitimate aim: protect rights of others / judiciary (Article 11(2)). Facts: F058,F059,F090 etc.
+
+Necessity: evaluate proportionality – facts showing severity of sanction vs aim: F081-F099, plus that his conduct minimal. Use F081,F082,F089,F091,F092,F093.
+
+Positive obligation: none indicated. So conclusion no.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F007", "F008", "F030", "F047"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F081", "F082", "F099"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F056", "F058", "F118", "F119"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F058", "F059", "F090", "F091"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F081", "F082", "F089", "F091", "F092", "F093"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

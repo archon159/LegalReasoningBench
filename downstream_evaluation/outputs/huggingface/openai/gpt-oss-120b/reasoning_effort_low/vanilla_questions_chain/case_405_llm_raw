@@ -1,0 +1,45 @@
+analysisWe need determine likely conclusions: There was assembly, participation, peaceful -> yes. Interference: police dispersed, use force => yes. Prescribed by law: need info about law; not given in facts. Likely no info, assume not established => cannot conclude compliance, maybe violation because not clearly prescribed. But typical ECtHR finds lack of clear law => violation. So conclusion no (i.e., not prescribed). Legitimate aim: authorities said public order etc. Facts show court said they violated public order. So claim legit aim maybe accepted but need evidence of aim. We have F070 stating removal for violating public order. So likely legitimate aim yes. Necessity: given excessive force, not necessary => violation. Positive obligation: state must investigate properly; they failed investigations – so violation of positive obligation. So overall violation.
+
+Provide facts per element:
+
+Scope: F004,F005,F009,F010.
+
+Interference: F011 plus many injury facts F012-F023 etc.
+
+Prescribed_by_law: need law reference not present; none of facts give law details. So [] maybe. Conclusion no.
+
+Legitimate_aim: F070 (court rationale) maybe also F011 police dispersal for public order. Use F070.
+
+Necessity: facts showing disproportionate force: F012-F023, F025-F032, etc plus failure to investigate F042-F068. Choose representative: F012,F014,F021,F025,F028,F030,F040,F041,F060,F061,F067,F070.
+
+Positive_obligation: failures of investigation: F042-F068, F060,F061,F063-F067. Provide few.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F009", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F014", "F015", "F016", "F017", "F018", "F019", "F020", "F021", "F022", "F023", "F024", "F025", "F026", "F027", "F028", "F029", "F030", "F031", "F032", "F033", "F034", "F035", "F036", "F037", "F038", "F039", "F040", "F041"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F070"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F012", "F014", "F021", "F025", "F028", "F030", "F040", "F041", "F060", "F061", "F067", "F070"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F046", "F047", "F048", "F049", "F050", "F051", "F052", "F055", "F056", "F057", "F058", "F060", "F061", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072"]
+    }
+  },
+  "violated": true
+}

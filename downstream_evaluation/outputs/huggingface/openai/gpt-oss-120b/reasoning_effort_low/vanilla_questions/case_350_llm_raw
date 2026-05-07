@@ -1,0 +1,43 @@
+analysisWe need map. Likely violation: interference etc. Provide conclusions yes for scope, interference, prescribed_by_law?, legitimate aim maybe yes, necessity likely no (not necessary), positive obligation maybe yes. So overall violation true.
+
+Select facts: scope: F007,F008,F009,F010,F011,F015,F016 show assembly and participation peaceful? Need peace – no violence indicated. Use those.
+
+Interference: F015,F016,F017.
+
+Prescribed_by_law: need law article 20.2 §2 and 19.3; existence of code shows law but foreseeability? Use F022-F025,F026.
+
+Legitimate aim: government claims public safety/order; use F015 block, F017 excessive force maybe aim of preventing disorder. Not explicit but assume.
+
+Necessity: evaluate balancing – facts showing disproportionate detention, denial of witnesses etc: F030-F038,F040-F048,F053-F058,F060-F068.
+
+Positive obligation: Court may require protection of peaceful assembly; facts showing failure to protect: F015 blocking, F017 force, F030-032 court cordon.
+
+Thus produce JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F009", "F010", "F011", "F015", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F015", "F016", "F017"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023", "F024", "F025", "F026"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F015", "F017"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F030", "F031", "F032", "F034", "F040", "F041", "F042", "F045", "F046", "F047", "F048", "F049", "F053", "F054", "F055", "F056", "F058", "F060", "F061", "F062", "F063", "F064", "F068", "F069", "F070"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F015", "F017", "F030", "F031", "F032"]
+    }
+  },
+  "violated": true
+}

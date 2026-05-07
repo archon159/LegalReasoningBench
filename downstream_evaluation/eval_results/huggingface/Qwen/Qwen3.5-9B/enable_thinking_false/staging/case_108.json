@@ -1,0 +1,97 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "no",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.7638,
+        "recall": 0.7433,
+        "f1": 0.5714,
+        "macro_f1": 0.7529
+      },
+      "interference": {
+        "precision": 0.5678,
+        "recall": 0.6408,
+        "f1": 0.2388,
+        "macro_f1": 0.3392
+      },
+      "prescribed_by_law": {
+        "precision": 0.5286,
+        "recall": 0.7857,
+        "f1": 0.1081,
+        "macro_f1": 0.4177
+      },
+      "legitimate_aim": {
+        "precision": 0.5513,
+        "recall": 0.6558,
+        "f1": 0.2439,
+        "macro_f1": 0.4895
+      },
+      "necessity": {
+        "precision": 0.5455,
+        "recall": 0.589,
+        "f1": 0.1667,
+        "macro_f1": 0.2345
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.7,
+        "recall": 0.96,
+        "f1": 0.5714,
+        "macro_f1": 0.7649
+      },
+      "interference": {
+        "precision": 0.5339,
+        "recall": 0.6333,
+        "f1": 0.127,
+        "macro_f1": 0.274
+      },
+      "prescribed_by_law": null,
+      "legitimate_aim": {
+        "precision": 0.5588,
+        "recall": 0.8,
+        "f1": 0.2105,
+        "macro_f1": 0.4803
+      },
+      "necessity": {
+        "precision": 0.5303,
+        "recall": 0.5867,
+        "f1": 0.1143,
+        "macro_f1": 0.2049
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.5411,
+      "recall": 0.5411,
+      "f1": 0.1519,
+      "macro_f1": 0.1519
+    }
+  },
+  "case": "case_108"
+}

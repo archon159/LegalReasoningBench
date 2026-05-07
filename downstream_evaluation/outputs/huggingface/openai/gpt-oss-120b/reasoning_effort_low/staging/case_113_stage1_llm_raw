@@ -1,0 +1,38 @@
+analysisWe need map facts. F001 is list of applicants etc – needed for scope (who participated). Also maybe for interference. F002 complaint under Art11 about disproportionate measures – relevant to interference, prescribed by law, legitimate aim, necessity. F003 is about Art6, irrelevant.
+
+Thus produce mapping.
+
+Scope needs who assembled -> F001, also F002 indicates they were participants of public assemblies. So both.
+
+Interference: need that measures interfered – F002.
+
+Prescribed_by_law: need law basis – not in given facts; none. So [].
+
+Legitimate_aim: need justification – F002 mentions disproportionate measures but not aim; still maybe needed. Use F002.
+
+Necessity: need balancing – F002 again. Could also need F001? Probably just F002.
+
+Positive obligation: maybe none given. So [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002"]
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": ["F002"]
+    },
+    "necessity": {
+      "facts": ["F002"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

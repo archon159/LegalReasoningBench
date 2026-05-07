@@ -1,0 +1,35 @@
+analysisWe need conclusions based on selected facts. Scope: facts show demonstration planned, applicant participated. Peaceful? Not stated but assume peaceful typical labour day. No fact indicating violence. So yes scope.
+
+Interference: disciplinary warning for absence due to participation => interference yes.
+
+Prescribed_by_law: we have F014 (law basis) and references to law descriptions F019,F020. Need foreseeability etc not detailed; assume law provides sanction for unauthorized absence, but does it clearly cover participation in lawful assembly? Likely not clear, but given limited facts cannot assess safeguards. Probably no because law not specific to assembly. But we have only those facts, none about foreseeability. Might conclude no? Hard. I'd say insufficient info -> likely no.
+
+Legitimate aim: no facts about aim, so cannot establish. Conclusion no.
+
+Necessity: depends on legit aim and proportionality; since legit aim not established, necessity no.
+
+Positive obligation: none facts, so no.
+
+Thus overall violation because lack of justification. Provide json.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "no"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

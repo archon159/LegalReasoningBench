@@ -1,0 +1,97 @@
+{
+  "violated_gold": true,
+  "violated_pred": false,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "no"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "no"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "no"
+    },
+    "legitimate_aim": {
+      "gold": "yes",
+      "pred": "no"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.8333,
+        "recall": 0.9286,
+        "f1": 0.8,
+        "macro_f1": 0.8615
+      },
+      "interference": {
+        "precision": 0.4375,
+        "recall": 0.4375,
+        "f1": 0.0,
+        "macro_f1": 0.4375
+      },
+      "prescribed_by_law": {
+        "precision": 0.9706,
+        "recall": 0.75,
+        "f1": 0.6667,
+        "macro_f1": 0.8182
+      },
+      "legitimate_aim": {
+        "precision": 0.4444,
+        "recall": 0.5,
+        "f1": 0.0,
+        "macro_f1": 0.4706
+      },
+      "necessity": {
+        "precision": 0.7,
+        "recall": 0.625,
+        "f1": 0.4444,
+        "macro_f1": 0.6296
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.5833,
+        "recall": 0.8529,
+        "f1": 0.2857,
+        "macro_f1": 0.5567
+      },
+      "interference": {
+        "precision": 0.4688,
+        "recall": 0.4412,
+        "f1": 0.0,
+        "macro_f1": 0.4545
+      },
+      "prescribed_by_law": {
+        "precision": 0.9706,
+        "recall": 0.75,
+        "f1": 0.6667,
+        "macro_f1": 0.8182
+      },
+      "legitimate_aim": null,
+      "necessity": {
+        "precision": 0.5667,
+        "recall": 0.5536,
+        "f1": 0.2857,
+        "macro_f1": 0.5567
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.7273,
+      "recall": 0.7692,
+      "f1": 0.625,
+      "macro_f1": 0.6625
+    }
+  },
+  "case": "case_577"
+}

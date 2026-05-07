@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F005 (participated), F006 (purpose protest), maybe F025 about later assembly without notice but still assembly. Also F008 notification shows assembly planned. So include F005,F006,F008,F025? Peacefulness not directly stated; maybe implied none. No fact about violence. Could use lack of fact. We'll include those.
+
+Interference: arrest etc. Facts: F010,F011,F014,F015.
+
+Prescribed_by_law: need law basis. Facts: F026 (law), also F025 about lack of notification showing law requirement. Maybe also F008 notification shows foreseeability. Use F026,F025,F008.
+
+Legitimate_aim: need justification. Not explicit in facts; perhaps domestic courts considered disorder etc. Facts: F023,F024 indicate courts saw unlawful behavior, implying aim of preventing disorder. Include F023,F024.
+
+Necessity: balancing. Need facts about conditions of detention etc. F016,F017,F018 show harshness. Also F019,20 convictions. Use F016,F017,F018,F019,F020.
+
+Positive_obligation: Court may have positive duty to ensure humane treatment. Facts: F016,F017,F018 illustrate violation. Choose those. Also maybe F012-13 records. But pick F016,F017,F018.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F005", "F006", "F008", "F025"]
+    },
+    "interference": {
+      "facts": ["F010", "F011", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F008", "F025", "F026"]
+    },
+    "legitimate_aim": {
+      "facts": ["F023", "F024"]
+    },
+    "necessity": {
+      "facts": ["F016", "F017", "F018", "F019", "F020"]
+    },
+    "positive_obligation": {
+      "facts": ["F016", "F017", "F018"]
+    }
+  }
+}

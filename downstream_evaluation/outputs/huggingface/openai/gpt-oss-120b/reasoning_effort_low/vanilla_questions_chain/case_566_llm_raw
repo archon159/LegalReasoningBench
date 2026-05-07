@@ -1,0 +1,45 @@
+analysisWe need determine likely outcome: seems interference and violation. Likely ECtHR finds violation due to lack of necessity, procedural issues. So conclusions: scope yes, interference yes, prescribed_by_law maybe yes (law exists but vague?), legit aim maybe yes (public order), necessity no -> violation. Positive obligation maybe no. So overall violation true.
+
+List facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F009 (assembly held), F010,F011 (activities), maybe peaceful? No violence reported. So peaceful yes. Use F009,F010,F011,F041-F044 indicate conduct but no violence. So scope yes.
+
+Interference: government acted via fines etc. Facts: F026-F040 etc showing sanction. So yes.
+
+Prescribed_by_law: need law requirement of 10 days notice etc. Facts: F065,F066,F067,F068,F069,F070 plus F037,F038 showing law applied. Conclusion yes (prescribed).
+
+Legitimate aim: public order etc. Facts: F042-F048 show obstruction, authorities claim public order. So yes.
+
+Necessity: need proportionality. Likely no because fine disproportionate, notice period maybe ambiguous, content of picket political. Use facts about notice timing (F037,F038) and that actual conduct was political. So conclude no.
+
+Positive obligation: none (state didn't fail to facilitate). So no.
+
+Thus violation because interference not necessary. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F041", "F042", "F043", "F044"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F026", "F027", "F028", "F029", "F036", "F037", "F038", "F039", "F040", "F045", "F046", "F047", "F048", "F058", "F059", "F060", "F061"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F065", "F066", "F067", "F068", "F069", "F070", "F037", "F038"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F047", "F048"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F037", "F038", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F059"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

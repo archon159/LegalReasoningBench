@@ -1,0 +1,39 @@
+analysisWe need assess using listed facts.
+
+Scope: facts show assembly (F011 gathering), attempt to march (F015), peaceful? They were chanting, reading declaration; no indication of violence. So peaceful yes. Thus scope yes.
+
+Interference: police ordered disperse (F012,F013) and used force (F016) arrests (F017). That's interference. Yes.
+
+Prescribed_by_law: Need law requirements. Facts: F046 requirement notice 72h, F047 prohibition on streets, F048 security instructions, F049 force dispersion allowed after warning. We have that they lacked notice, street demonstration maybe prohibited. So the interference was based on law? The law exists but applicability? The question: was the interference prescribed by law? Since law requires notice etc, and they didn't have, the police acted pursuant to law allowing dispersion of unauthorized demo. So yes it's prescribed by law (the law existed and gave authority). But also foreseeability etc not in facts. We'll assume yes.
+
+Legitimate aim: facts indicate security concerns: intelligence report (F008) indicates potential protest, incident report says force because refusal (F023) and officer wounded (F024). Aim likely public safety/prevention of disorder. So yes.
+
+Necessity: need proportionality. Facts: use of truncheons and tear gas (F016); injuries (F020,F021). Prosecutor said force proportionate (F032-F034). Court later acquitted noting unclear warning (F042) and constitutional right (F043). Need evaluate necessity. Given injuries and possibly disproportionate, but we only have facts. We must conclude based on facts: there is evidence of injuries and perhaps excessive force. However prosecutor deemed proportionate. Need choose. Likely Court would find not necessary => violation. Use facts of injuries plus questionable warning. So conclusion no (not necessary).
+
+Positive obligation: facts about filing petition, non‑prosecution, dismissal. This relates to remedy. Positive obligation to investigate? They did investigation but non‑prosecution. Could be breach. Using facts, seems state failed to provide effective remedy. So conclusion yes (violation of positive obligation). But positive obligation is separate; if interference already unlawful, violation already. Still we answer.
+
+Overall violation: since necessity no, violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

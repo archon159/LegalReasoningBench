@@ -1,0 +1,45 @@
+analysisWe need assess each element.
+
+Scope: assembly? yes – organized demonstration blocking bridge (F003,F008). Applicant participated (F003,F010). Peaceful? They blocked traffic, caused disruption, but no violence. Jurisprudence says passive conduct can make non‑peaceful. But factual question: was it peaceful? Likely not peaceful because caused major disturbance. So scope: assembly existed, participation, but peacefulness negative => overall scope maybe fails because not peaceful -> then Article 11 not engaged? Usually if not peaceful, still assembly but protection limited. Need answer yes for existence, but peacefulness? We'll say no (not peaceful).
+
+Interference: state acted (police ordered removal, towing, fines, conviction). Yes interference. Facts F010,F013,F015,F025 etc.
+
+Prescribed_by_law: law on assembly (Act III 1989) and criminal code sections used. Were they foreseeable? The decree about ballot papers (F004,F005,F006) relates to purpose, not restriction. The offences (section 260) were clear. Probably yes prescribed by law. Use F016,F028,F043 etc.
+
+Legitimate aim: aim was protection of rights/freedoms of others / public safety / public works. Disruption of traffic, public works → legit aim of protecting rights of others/public safety. So yes.
+
+Necessity: was measure proportionate? Courts said disproportionate? Likely not necessary, as conviction for disturbance of public works seems excessive for peaceful protest. So conclude no necessity.
+
+Positive obligation: ECtHR may have positive duty to protect assembly. Here state failed to protect? Might be violation of positive obligation if they didn't allow peaceful assembly. Since not peaceful, perhaps no positive duty. Conclude no.
+
+Overall violation? Because lack of peacefulness and lack of necessity, likely no violation. Provide JSON.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F003", "F008", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F010", "F013", "F015", "F025"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F016", "F028", "F043", "F044"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F010", "F011", "F012", "F031", "F043"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F030", "F031", "F034", "F038", "F039"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

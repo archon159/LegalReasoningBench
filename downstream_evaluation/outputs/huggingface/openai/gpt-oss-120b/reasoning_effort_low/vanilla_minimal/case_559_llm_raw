@@ -1,0 +1,45 @@
+analysisWe need map. Likely scope yes (demonstration). interference yes (forbidden). prescribed_by_law? prohibition based on Assembly Act section 8(1) – that's law, so yes. legitimate aim? protecting functioning of Parliament – legitimate aim (public safety/order). So yes. necessity? Need assess proportionality; given alternative offered, small number, other demo allowed, likely not necessary => no. positive obligation? State must protect right to peaceful assembly; they failed maybe yes? Actually positive obligation is satisfied if state took steps? They prohibited, but could have facilitated. Probably violation due to failure of necessity, thus overall violation. So elements conclusions: scope yes, interference yes, prescribed_by_law yes, legitimate_aim yes, necessity no, positive_obligation yes? Positive obligation means ensure effective respect; they didn't, so violation of positive duty -> conclusion no? Wait positive obligation satisfied if state ensures right; here they denied, so not satisfied => conclusion no. But overall violation requires all elements satisfied except necessity which must be met; since necessity fails, violation occurs. Provide facts per element.
+
+Identify facts:
+
+scope: F002,F003,F004,F005,F006,F007 (demonstration nature)
+
+interference: F012 (forbiddance)
+
+prescribed_by_law: F014 (law basis), maybe also mention Assembly Act but not listed; use F014.
+
+legitimate_aim: F013,F015,F016,F017,F018,F019 (protect functioning of Parliament)
+
+necessity: need facts showing less restrictive measures offered (F010,F011), estimate numbers (F016), comparison with other demo (F021,F022,F023), court endorsement (F025). Use those.
+
+positive_obligation: need fact that state must protect right; perhaps F020 (application for review) shows attempt, but not. Might use F024,F025 showing denial. We'll pick F024,F025.
+
+Now produce JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004", "F005", "F006", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F014"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F013", "F015", "F016", "F017", "F018", "F019"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F010", "F011", "F016", "F021", "F022", "F023", "F025"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F024", "F025"]
+    }
+  },
+  "violated": true
+}

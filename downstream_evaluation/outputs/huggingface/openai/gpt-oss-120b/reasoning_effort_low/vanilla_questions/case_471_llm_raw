@@ -1,0 +1,106 @@
+analysisWe need map facts. Likely scope: assembly occurred, applicants participated, peaceful? They blocked street, tried to march, some violence. So not fully peaceful. Thus scope maybe yes for assembly but peace? Since violent acts, not peaceful => fails scope requirement for protection of peaceful assembly only. But Article 11 protects also peaceful assembly; if not peaceful, state can intervene. So conclusion for scope: assembly existed, participants, but not peaceful -> scope not satisfied => no? Usually need peaceful assembly for protection. So answer no.
+
+Interference: police dispersed, used force => interference yes.
+
+Prescribed by law: law exists sections etc, circular, requirements. So yes prescribed.
+
+Legitimate aim: maintain public order, prevent disorder, protect rights of others. Yes.
+
+Necessity: Given violence, force may be necessary proportionate. Likely Court finds necessity met. So no violation.
+
+Positive obligation: State must investigate ill-treatment. Complaints filed, but prosecutor non‑prosecution, ministry refused. Might be breach of positive duty to effectively investigate. Could be yes. However if overall article not violated due to lack of peaceful assembly, positive obligation maybe irrelevant. We'll say no.
+
+Overall violation false.
+
+Provide facts lists.
+
+Scope facts: F012-F019 (gatherings), F020-F024 etc show assembly, participation, and violence -> not peaceful. Also F022, F023, F027 indicate violence. Use those.
+
+Interference facts: F020-F026, F024-026 etc.
+
+Prescribed by law facts: F009,F010,F011,F072-F079,F080.
+
+Legitimate aim facts: F028-F029 (injury to police), plus law purpose.
+
+Necessity facts: same as interference + legitimate aim.
+
+Positive obligation facts: F053-F056, F069, plus perhaps F065-F068 showing court recognized right.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": [
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F022",
+        "F023",
+        "F027"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F020",
+        "F021",
+        "F024",
+        "F025",
+        "F026"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": [
+        "F009",
+        "F010",
+        "F011",
+        "F072",
+        "F073",
+        "F074",
+        "F075",
+        "F076",
+        "F077",
+        "F078",
+        "F079",
+        "F080"
+      ]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F028",
+        "F029",
+        "F024",
+        "F025",
+        "F026"
+      ]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": [
+        "F024",
+        "F025",
+        "F026",
+        "F028",
+        "F029"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": [
+        "F053",
+        "F054",
+        "F055",
+        "F056",
+        "F069"
+      ]
+    }
+  },
+  "violated": false
+}

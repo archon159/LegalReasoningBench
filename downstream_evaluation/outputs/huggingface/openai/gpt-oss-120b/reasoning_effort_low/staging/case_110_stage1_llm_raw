@@ -1,0 +1,132 @@
+analysisWe need map facts to each element. Likely many. Provide lists.
+
+Scope: need assembly existence etc. Here no assembly, it's about freedom of expression? Actually Article 11 assembly maybe not relevant. But facts about attempts to organize ceremony? F101 (organised ceremony) maybe assembly. Also denial of crossing etc. So scope facts: F101 (ceremony), F102 (digging machines interfering), F98 (press card?), maybe F097 (association). Also F100 (prevented crossing to attend meeting). Those relate to assembly participation. So include those.
+
+Interference: actions preventing assembly: F097 refusal to register association, F098 press card rejection, F100 prevent crossing, F102 digging machines, F101 ceremony maybe disrupted. Also harassment may be interference. Include F091-... but focus on assembly. So list.
+
+Prescribed_by_law: need law governing assemblies, permits. Facts about legal framework: F176 (procedure to register foundation), F178-179 (crossings regulated by law), F179 right to suspend permission, F176 shows requirement of court order. Also F176 indicates law. So include.
+
+Legitimate aim: need justification by authorities. Facts where gov states legit aim: F172 public condemnation, F171 public opinion supportive, F124 tip-off, F125 police response citing public safety, F126 etc. Also F180-183 about security operation. So include.
+
+Necessity: balancing – need facts about proportionality: F102 digging machines, F100 crossing denial, F97 refusal, F98 press card, F101 ceremony etc showing intensity vs aim. Also F124-129 police actions.
+
+Positive obligation: Court may have positive duty to protect freedom of assembly. Facts about failure to protect: F091-95 harassment, F100 crossing denial, F102 digging, F097 refusal to register foundation. So include.
+
+We'll output lists.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F101",
+        "F102",
+        "F097",
+        "F098",
+        "F100",
+        "F176"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F097",
+        "F098",
+        "F100",
+        "F102",
+        "F101",
+        "F091",
+        "F092",
+        "F093",
+        "F094",
+        "F095"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F176",
+        "F178",
+        "F179",
+        "F176",
+        "F178",
+        "F179"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F124",
+        "F125",
+        "F126",
+        "F127",
+        "F128",
+        "F129",
+        "F130",
+        "F131",
+        "F132",
+        "F133",
+        "F134",
+        "F135",
+        "F136",
+        "F137",
+        "F138",
+        "F139",
+        "F140",
+        "F141",
+        "F142",
+        "F143",
+        "F144",
+        "F172",
+        "F171",
+        "F180",
+        "F181",
+        "F182",
+        "F183"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F102",
+        "F100",
+        "F097",
+        "F098",
+        "F124",
+        "F125",
+        "F126",
+        "F127",
+        "F128",
+        "F129",
+        "F130",
+        "F131",
+        "F132",
+        "F133",
+        "F134",
+        "F135",
+        "F136",
+        "F137",
+        "F138",
+        "F139",
+        "F140",
+        "F141",
+        "F142",
+        "F143",
+        "F144",
+        "F172",
+        "F171"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F097",
+        "F098",
+        "F100",
+        "F102",
+        "F091",
+        "F092",
+        "F093",
+        "F094",
+        "F095",
+        "F176",
+        "F178",
+        "F179"
+      ]
+    }
+  }
+}

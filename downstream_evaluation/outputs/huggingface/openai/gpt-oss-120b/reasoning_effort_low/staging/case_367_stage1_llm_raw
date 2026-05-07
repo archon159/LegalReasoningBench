@@ -1,0 +1,36 @@
+analysisWe need map. Given only three atomic facts, likely all relate to scope and interference etc. F002 mentions disproportionate measures against participants -> interference, legitimacy, necessity. F003 other complaints maybe not. So assign:
+
+scope: need info about assembly participation – not in given facts. None.
+
+interference: F002.
+
+prescribed_by_law: none.
+
+legitimate_aim: F002 maybe indicates justification but not explicit. Could still need.
+
+necessity: F002.
+
+positive_obligation: F003 maybe other complaints? Not sure. Probably none.
+
+Thus output.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": []
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": []
+    },
+    "legitimate_aim": {
+      "facts": ["F002"]
+    },
+    "necessity": {
+      "facts": ["F002"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

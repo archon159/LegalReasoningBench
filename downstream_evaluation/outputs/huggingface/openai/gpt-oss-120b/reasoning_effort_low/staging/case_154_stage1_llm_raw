@@ -1,0 +1,36 @@
+analysisWe map facts: F002 prohibition on holding peaceful assemblies -> scope & interference. F003 location restrictions -> interference, prescribed_by_law, legitimate aim, necessity. Same for F004 time, F005 manner. So compile.
+
+Scope needs facts showing assembly existence and peacefulness: F002 maybe. Also could need F003-F005 but they are about restrictions not necessarily peace. We'll include F002.
+
+Interference: any restriction => F002,F003,F004,F005.
+
+Prescribed by law: need facts about legal basis of restrictions: F003,F004,F005.
+
+Legitimate aim: need facts about reasons for restrictions: likely same F003-F005.
+
+Necessity: need facts about balancing: again F003-F005.
+
+Positive obligation: perhaps none of these atomic facts directly indicate positive duty; maybe none. Could be F006 but that's article 13 not 11. So empty.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F002"]
+    },
+    "interference": {
+      "facts": ["F002", "F003", "F004", "F005"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F003", "F004", "F005"]
+    },
+    "legitimate_aim": {
+      "facts": ["F003", "F004", "F005"]
+    },
+    "necessity": {
+      "facts": ["F003", "F004", "F005"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

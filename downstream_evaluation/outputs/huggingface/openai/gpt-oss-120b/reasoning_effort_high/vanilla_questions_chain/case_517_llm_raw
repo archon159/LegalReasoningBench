@@ -1,0 +1,239 @@
+analysisWe need to parse the scenario. This appears to be a complex case involving multiple applicants: first applicant (Primov), second applicant (?), third applicant (Askerov). The case concerns a demonstration scheduled for 25 April 2006 in Usukhchay, then moved to Miskindzha, resulting in violent police response, deaths, injuries, arrests. Also there is a prior incident on 19 April 2006 in Khiv, leading to arrests/detentions of second applicant etc.
+
+The question asks: "identify the facts needed to reason about the case. For each canonical element, identify which atomic facts are needed to answer its question, and provide a conclusion. Then provide a final conclusion on whether Article 11 has been violated."
+
+Thus we need to produce a JSON object with elements: scope, interference, prescribed_by_law, legitimate_aim, necessity, positive_obligation. Each includes conclusion yes/no and list of fact IDs needed.
+
+We need to determine for each element whether the condition is satisfied (i.e., does a violation exist?). Let's recall the doctrine:
+
+Article 11 ECHR protects freedom of peaceful assembly. The analysis:
+
+(a) Scope: There must be an assembly, the applicant attempted to participate, and it must be peaceful. If any missing, no violation.
+
+(b) Interference: Must be a governmental act or omission interfering with the applicant's freedom of assembly.
+
+If both scope and interference are established, then examine justification: prescribed by law, legitimate aim, necessity.
+
+If any of those fails, violation.
+
+Positive obligations: separate track - state must protect the right, e.g., ensure safe environment, allow peaceful assembly, refrain from excessive force, etc. If state fails to fulfill positive obligations, violation.
+
+Given the facts, we need to see if the applicants (first, third) were participants in the demonstration, which was unauthorized per law, but they still assembled. The demonstration turned violent due to police action. So we need to assess if the assembly was peaceful. The demonstration at Miskindzha initially peaceful (F058 says "The demonstration at Miskindzha on 25 April 2006 was peaceful.") However later there was violence: police opened fire, etc. But the question of "peaceful assembly" refers to the nature of the assembly itself, not necessarily subsequent police reaction. The Court often looks at whether the assembly was peaceful at the outset, and whether the state's response was proportionate. Even if the assembly became violent due to police provocation, the initial assembly may be considered peaceful. However here there are conflicting accounts: some witnesses say protesters threw stones, some say police threw stones, some say protesters were armed with iron rods, etc. The Court would evaluate overall. But for our analysis, we need to identify facts needed to answer each element. We don't need to weigh contradictory evidence fully; just indicate which facts are needed and conclude yes/no.
+
+Let's go step by step.
+
+First, define the applicants: The first applicant (Primov) and third applicant (Askerov) participated in the demonstration. The second applicant was detained for unrelated events (Khiv). The question likely focuses on the first and third applicants' claims of violation of Article 11 due to police interference with their assembly. They claim they participated in the demonstration, which was dispersed violently, leading to arrests, injuries, death. They also claim the authorities prevented them from assembling peacefully.
+
+Thus we need to answer for each element:
+
+Scope: Did an assembly occur? Yes, there was a demonstration on 25 April 2006 in Usukhchay/Miskindzha. Did the applicants try to participate? Yes, F045 (first applicant took part), F046 (third applicant took part). Was the assembly peaceful? There's mixed info. F058 says demonstration at Miskindzha was peaceful. However later police used force. The question is whether the assembly was peaceful at the time of the interference. The interference (police dispersal) occurred after the demonstration began, possibly after it turned violent. The Court's approach: The requirement is that the assembly must be peaceful for the protection under Article 11. If the assembly becomes violent, the state may intervene. However, the presence of violence among participants may affect the assessment of "peaceful". Here there are reports of protesters being armed, stone-throwing, etc. So we need to consider whether the assembly was peaceful. The facts show both sides: F058 says peaceful; F099, F100, F099 indicates protesters armed with cold weapons; F099 says "some of the protesters... were armed with cold weapons such as iron rods, which they used as bats while attacking the police." That suggests non-peaceful behavior. Also F158 says some protesters were throwing stones at police. F162 says some eyewitnesses said adolescents threw stones at police. F163 says police used firearms by shooting in the air, demonstrators had no firearms. So there's conflict.
+
+But for the purpose of answering the element, we need to identify facts needed to answer the question: i.e., facts about existence of assembly, participation, peace. And then we need to give a conclusion: yes or no. We need to decide if the assembly qualifies as peaceful under Article 11. Usually, the Court distinguishes between "peaceful assembly" meaning the assembly is not violent. If there is violence, the state may restrict. In many cases, the Court found violations even when some participants engaged in violence, if the state's response was disproportionate. But the key is whether the applicants themselves participated in violence. The facts suggest the first applicant left before the clash (F202, F203). He tried to persuade police to obey (F204). Video shows he asked protesters not to react (F206). So his personal involvement was peaceful. Similarly third applicant presumably also peaceful. So the assembly may have been partially peaceful, but there were violent elements. The Court may still treat the assembly as peaceful for the purposes of protecting the right, especially if the majority were peaceful and the state's response was disproportionate.
+
+Thus we can conclude that the scope element is satisfied: there was an assembly, the applicants attempted to participate, and the assembly was at least partly peaceful (we can note that the demonstration was peaceful before police intervention). So conclusion: yes.
+
+Interference: Did the government act or omit interfering with the applicants' freedom of assembly? Yes, police blocked roads, prevented access, used force, dispersed demonstration, made arrests, detained applicants. So yes.
+
+Prescribed by law: Need to see if the interference (blocking, dispersal, arrests) was based on law, foreseeability, clarity, safeguards. The law is the Public Gatherings Act (Federal Law no. 54-FZ). The notice was filed late (outside time limit). The head of district administration said the demonstration was not authorized (F014, F015). The law required notice 15-10 days before; they sent notice on 10 April for 25 April, that's 15 days exactly? Actually 10 April to 25 April = 15 days inclusive? The law says not earlier than 15 days and not later than 10 days before. So sending on 10 April is exactly 15 days before? Wait: Not earlier than fifteen days and not later than ten days before. Means you cannot send earlier than 15 days before, and cannot send later than 10 days before. So the window is between 15 and 10 days before. Sending on 10 April for 25 April is exactly 15 days before? Let's calculate: 25 - 10 = 15 days difference. So it's within the window (not earlier than 15 days, i.e., earliest day is 15 days before; not later than 10 days before, i.e., latest day is 10 days before). So sending on 10 April is exactly 15 days before, which is permissible. However the district administration says it was outside the time-limit (F015). Possibly they interpret differently. But the law also requires municipal authority to approve, and they didn't get approval. The authorities responded that the demonstration was not authorized. So the interference (preventing demonstration) may be justified under law requiring authorization. However the law also imposes procedural safeguards. The question is whether the interference was "prescribed by law" – i.e., the restriction must be based on law that is accessible and foreseeable. The law exists (Public Gatherings Act). The authorities invoked it. So yes, the interference was prescribed by law. However we need to consider if the law is sufficiently precise and accessible. The law sets deadlines and procedures. The notice was sent via registered mail (F012). Received on 17 April (F013). The head responded on 17 April saying it was outside time-limit (F015). So perhaps the law was applied incorrectly. But the question is whether the interference (police blocking, dispersal) was prescribed by law. The police used force beyond what law permits? Use of lethal force may exceed law. The law may permit police to maintain public order, but the proportionality is separate (necessity). So for "prescribed by law", we focus on whether the restriction (dispersion, arrests) was based on a law that is accessible and foreseeable. The law is the Public Gatherings Act, plus criminal code articles for mass riots, etc. The arrests were based on suspicion of crimes (mass riots, use of violence). Those are codified. So yes, the interference is prescribed by law.
+
+Legitimate aim: The government's aim: maintain public order, prevent disorder, protect life, health, etc. The police aimed to secure public order, prevent clashes (F081). Also to prevent road blockage (F095). So legitimate aim: public safety, prevention of disorder. So yes.
+
+Necessity in a democratic society: Need to assess proportionality. The police used lethal force, fired 747 shots, killed one protester, injured many, used tear gas, stun grenades, etc. The demonstration was largely peaceful (according to some facts). The police blocked roads, used force to clear road. The question is whether the level of force was necessary. Likely the Court would find it disproportionate, thus violation. So conclusion: no (i.e., not necessary). So the element "necessity" is not satisfied (i.e., the interference was not necessary). Therefore violation.
+
+Positive obligation: Did the state fail to take positive steps to protect the right? The police failed to protect the demonstrators from excessive force, maybe failed to provide adequate protection. The state also failed to ensure safe environment, allowed violence. So there is a positive obligation to protect the right to peaceful assembly. The state arguably violated that. So conclusion: yes (violation of positive obligation).
+
+However the final conclusion: Article 11 violation occurs if any of the justification elements fails (prescribed by law, legitimate aim, necessity). Since necessity fails, there is a violation. Additionally positive obligation violation supports that.
+
+Thus final output: "violated": true.
+
+Now we need to list for each element the atomic facts needed.
+
+Scope: Facts establishing assembly, participation, peacefulness.
+
+- Assembly: F048 (group of approx 1,000 gathered), F058 (demonstration at Miskindzha was peaceful), F049 (others couldn't reach due to police block), F050 (organisers tried to negotiate), F051 (police blocked movement), F052 (other group stopped), F053 (ordered to return), F054 (moved to Miskindzha), F055 (walk), F056 (some gave up), F057 (arrived at Miskindzha 200-300 participants), F058 (peaceful). Also F045 (first applicant took part), F046 (third applicant took part). So we need to pick a subset: F045, F046, F048, F058.
+
+- Peacefulness: F058 (peaceful), but also contradictory facts like F099, F100, F158, etc. But we can mention both. For the sake of analysis, we need to include facts that speak to peacefulness. We'll include F058 (peaceful) and also F099 (armed protesters) and F158 (protesters throwing stones). However the conclusion will be "yes" for scope, acknowledging that the assembly was peaceful enough. Might need to note that there is evidence of peacefulness (F058) and that the applicants themselves acted peacefully (F202, F204, F206). So we can include F058, F202, F204, F206.
+
+Thus for scope, facts: F045, F046, F048, F058, F202, F204, F206.
+
+Interference: Facts showing police interference: road blocks (F049, F051, F052, F053), police use of force (F060-F104, F105, F106, F107-F115, etc.), arrests (F069, F070, F165, F166, F167, F169, F172, F173, F174, F176, F177, F178, F179, F180, F181, F182, F183, F184, F185, F186, F187, F188, F189, F190). Also the detention of first applicant (F165 onward). So we can list a few core facts: F049 (road blocked preventing access), F060 (police opened fire), F061 (tear gas), F062 (smoke bombs), F063 (stun grenades), F064 (crowd ran), F065 (police beat them), F066 (one person shot dead), F067 (five severely injured), F068 (dozens injured), F069 (67 arrested), F070 (organizers charged). Also F165 (first applicant arrested). So include those.
+
+Prescribed by law: Facts about the Public Gatherings Act, notice timing, law's provisions, letters referencing law, etc. Relevant facts: F015 (letter states notice outside time-limit), F014 (head informs organizers opposition), F255-F260 (legal provisions). Also F253 (law exists). F255-260 describe law details. Also F259 (organizer can't hold if notice not submitted timely). Also F260 (notice period). Also F012 (notice posted), F013 (received). So we need to include facts that show the law existed and was applied. So include F015, F014, F255-F260, F259, F260.
+
+Legitimate aim: Facts about police aiming to secure public order, prevent clashes, protect safety. Include F081 (aim of police operation), F095 (warning about road block), F083 (government claim about incitement), F082 (alcohol/drugs distribution), F084 (groups gathered), F085-87 (supporters vs opponents), F088 (risk of clashes), F089 (negotiations), F090 (offer of garage), F095 (warning about liability), F096 (refusal), F097 (stones thrown), etc. So choose F081, F095, F083, F082.
+
+Necessity: Facts about the level of force used relative to threat. Include F058 (peaceful demonstration), F060-F104 (force used), F099 (some protesters armed), F100 (tried to grab guns), F101-104 (specific numbers of grenades, rubber bullets, shots). Also F106 (pump-action shotguns). Also F107-111 (injuries to police). Also F112-115 (injuries to protesters). Also F119 (claims of beating). Also F130-138 (police authorized to use firearms). Also F138 (authorised to use firearms above heads). Also F140-144 (witness accounts). Also F147-149 (witness accounts). Also F150-151 (shots). Also F152-154 (reports). Also F191-196 (investigator's findings). Also F197-199 (testimony). Also F200-203 (retractions). All these help assess necessity. For brevity, we can list key facts: F058 (peaceful), F060 (firearms used), F061 (tear gas), F062 (smoke bombs), F063 (stun grenades), F064 (crowd fled), F065 (beatings), F066 (death), F067 (injuries), F099 (some protesters armed), F100 (attempt to grab guns), F101-104 (numbers of grenades, tear gas, rubber bullets, shots). Also F138 (authorization to use firearms above heads). Also F191-196 (investigator's findings of ammunition). So we can include those.
+
+Positive obligation: Facts showing state failed to protect peaceful assembly, e.g., failure to ensure safety, failure to avoid excessive force, failure to investigate properly, failure to provide effective remedies. Include F081 (aim to secure public order), but also F105 (arrests), F106 (use of shotgun), F107-111 (police injuries), F112-115 (protester injuries), F119 (claims of beating), F120 (rubber bullet injuries), F121 (beating after arrest), F122-124 (police statements), F125-130 (negotiations), F131-138 (police attempts to clear road, authorisation to use firearms), F139 (road cleared), F140-144 (witness accounts of police aggression), F145-146 (contradictory witness accounts), F147-149 (witness accounts of police firing), F150-151 (shots), F152-154 (report of police being attacked), F155-160 (stone dumping), F161-165 (various witness testimonies), F166-170 (charges), F171-176 (detention issues), F177-179 (appeals), F180-182 (court rulings), F183-185 (indictment), F186-189 (release), F190 (case discontinued), F191-196 (investigator's findings), F197-204 (testimonies), F205-207 (video), F208-215 (third applicant), F216-221 (detention), F222-224 (investigation), F225-227 (crimes), F228-236 (internal inquiry), F237-240 (applicant's account), F241-250 (investigation of murder), F251-260 (constitutional and law context). That's huge. But we need to select a subset that demonstrates the state's failure to protect the right. Key facts: F058 (peaceful), F060-F104 (excessive force), F069 (arrests), F070 (charging organizers), F081 (state's aim), F095 (warning about liability), F096 (refusal to unblock road), F097 (stones thrown at police), F098 (shots fired from garden), F099 (protesters armed), F100 (grab guns), F101-104 (use of special equipment), F106 (pump-action shotguns), F107-115 (injuries), F119 (beatings), F120 (rubber bullet injuries), F121 (beating after arrest), F122-124 (police statements), F125-130 (negotiations), F131-138 (authorisation to use firearms), F140-144 (witness accounts of police aggression), F145-146 (conflicting witness accounts), F147-149 (witness accounts of police firing), F150-151 (shots), F152-154 (report of police being attacked), F155-160 (stone dumping forced), F191-196 (investigator's findings of ammunition). Also F207 (right to claim damages). So we can list a selection: F058, F060, F061, F062, F063, F064, F065, F066, F067, F068, F069, F070, F099, F100, F101, F102, F103, F104, F106, F107, F108, F109, F110, F111, F112, F113, F114, F115, F119, F120, F121, F122, F123, F124, F125, F126, F127, F128, F129, F130, F131, F132, F133, F134, F135, F136, F137, F138, F140, F141, F142, F143, F144, F145, F146, F147, F148, F149, F150, F151, F152, F153, F154, F155, F156, F157, F158, F159, F160, F191, F192, F193, F194, F195, F196, F197, F198, F199, F200, F201, F202, F203, F204, F205, F206, F207.
+
+That's a lot, but we can include many. The format expects a list of fact IDs. It's okay to include many.
+
+Now we need to produce conclusions:
+
+Scope: yes (assembly existed, applicants participated, demonstration was peaceful at least initially). Provide facts: F045, F046, F048, F058, F202, F204, F206.
+
+Interference: yes (government interfered via police blocking, use of force, arrests). Facts: F049, F060, F061, F062, F063, F064, F065, F066, F067, F068, F069, F070, F165, F166, F167, F169, F172, F173, F174, F176, F177, F178, F179, F180, F181, F182, F183, F184, F185, F186, F187, F188, F189, F190.
+
+Prescribed_by_law: yes (restriction based on Public Gatherings Act and criminal code). Facts: F015, F014, F255, F256, F257, F258, F259, F260, F261, F262, F263, F264, F265, F266, F267, F268, F269, F270, F271, F272, F273, F274. Also F012, F013 (notice timeline). Maybe also F253 (law exists). So include those.
+
+Legitimate_aim: yes (public order, safety). Facts: F081, F095, F083, F082, F088, F089, F090, F091, F095, F096, F097, F098, F099 (maybe). Choose F081, F095, F083, F082.
+
+Necessity: no (intervention not necessary/proportionate). Facts: F058 (peaceful), F060-F104 (excessive force), F099 (some protesters armed), F100 (attempt to grab guns), F101-104 (number of grenades, shots), F106 (pump-action shotguns), F107-115 (injuries), F119-121 (beatings), F138 (authorisation to use firearms above heads), F191-196 (investigator's findings of ammunition), F197-199 (testimony of police ordering protesters to disobey), F200-203 (retraction, leaving early), F204-206 (applicants urging calm). So conclusion: no.
+
+Positive_obligation: yes (state failed to protect peaceful assembly). Facts: same as necessity plus additional ones about failure to investigate, failure to provide remedy, etc. So we can list many.
+
+Finally, overall violation: true.
+
+Now we need to produce JSON accordingly.
+
+Make sure each element includes "conclusion": "yes"/"no". Provide list of fact IDs.
+
+Potential nuance: The "prescribed_by_law" element may be contested: The law requires notice within 10-15 days; the notice was sent on 10 April, which is exactly 15 days before, so technically within timeframe. However the head of district said it was outside time-limit. The Court may find that the law was not correctly applied, but the question is whether the interference was prescribed by law. The interference includes police blocking roads, using force, etc. The law may not prescribe such force for an unauthorized demonstration. The police may rely on criminal law for mass riots. The law is accessible. So we can say yes.
+
+Alternatively, the Court may find that the law is insufficiently precise regarding the use of lethal force, thus not "prescribed by law". But typical ECtHR case law: Restrictions must be "prescribed by law" meaning there must be a legal basis. The use of force must be based on law. The law may allow police to use force to restore public order, but the extent must be proportionate. So we can say yes.
+
+Now let's craft the JSON.
+
+We'll include for each element a concise list of fact IDs. Ensure they are strings.
+
+One thing: The "positive_obligation" element: The Court sometimes finds positive obligations to protect the right to peaceful assembly, requiring the state to take reasonable steps to ensure safety. The facts show the state used excessive force, didn't protect demonstrators, etc. So conclusion: yes (there is a violation of positive obligation). Or the question: "Has the Court spelled out a positive obligation for the government? If so, has it concluded that the defendant government violated this obligation?" In this case, the Court may have recognized a positive obligation to protect peaceful assembly. So we answer yes.
+
+Now produce JSON.
+
+Be careful: The "facts" arrays should contain only fact IDs referenced. Should we include duplicates? Probably not.
+
+Now compile.
+
+Elements:
+
+- scope:
+   - conclusion: "yes"
+   - facts: ["F045","F046","F048","F058","F202","F204","F206"]
+
+- interference:
+   - conclusion: "yes"
+   - facts: ["F049","F060","F061","F062","F063","F064","F065","F066","F067","F068","F069","F070","F165","F166","F167","F169","F172","F173","F174","F176","F177","F178","F179","F180","F181","F182","F183","F184","F185","F186","F187","F188","F189","F190"]
+
+- prescribed_by_law:
+   - conclusion: "yes"
+   - facts: ["F012","F013","F014","F015","F255","F256","F257","F258","F259","F260","F261","F262","F263","F264","F265","F266","F267","F268","F269","F270","F271","F272","F273","F274","F253"]
+
+- legitimate_aim:
+   - conclusion: "yes"
+   - facts: ["F081","F095","F083","F082","F088","F089","F090","F091"]
+
+- necessity:
+   - conclusion: "no"
+   - facts: ["F058","F060","F061","F062","F063","F064","F065","F066","F067","F068","F099","F100","F101","F102","F103","F104","F106","F107","F108","F109","F110","F111","F112","F113","F114","F115","F119","F120","F121","F138","F191","F192","F193","F194","F195","F196","F197","F198","F199","F200","F201","F202","F203","F204","F205","F206"]
+
+- positive_obligation:
+   - conclusion: "yes"
+   - facts: ["F058","F060","F061","F062","F063","F064","F065","F066","F067","F068","F069","F070","F081","F095","F099","F100","F101","F102","F103","F104","F106","F107","F108","F109","F110","F111","F112","F113","F114","F115","F119","F120","F121","F122","F123","F124","F125","F126","F127","F128","F129","F130","F131","F132","F133","F134","F135","F136","F137","F138","F140","F141","F142","F143","F144","F145","F146","F147","F148","F149","F150","F151","F152","F153","F154","F155","F156","F157","F158","F159","F160","F191","F192","F193","F194","F195","F196","F197","F198","F199","F200","F201","F202","F203","F204","F205","F206","F207"]
+
+Now final "violated": true.
+
+Check that all fact IDs exist in the atomic list. Yes.
+
+Double-check each ID:
+
+- F045: first applicant took part. Yes.
+- F046: third applicant took part. Yes.
+- F048: group of ~1,000 gathered. Yes.
+- F058: demonstration at Miskindzha peaceful. Yes.
+- F202: police officer testifies first applicant left before clash. Yes.
+- F204: witness says first applicant tried to persuade police. Yes.
+- F206: video shows first applicant & third applicant ask protesters not to react. Yes.
+
+Interference facts:
+
+- F049: other demonstrators unable to reach due to police block. Yes.
+- F060: police opened fire with automatic rifles above heads. Yes.
+- F061: police used tear gas. Yes.
+- F062: police used smoke bombs. Yes.
+- F063: police used stun grenades. Yes.
+- F064: demonstrators started to run. Yes.
+- F065: police beat them with truncheons. Yes.
+- F066: one person shot dead. Yes.
+- F067: five severely injured. Yes.
+- F068: dozens injured by tear gas shells. Yes.
+- F069: 67 arrested. Yes.
+- F070: organisers charged. Yes.
+- F165: first applicant arrested. Yes.
+- F166: suspected of hooliganism. Yes.
+- F167: suspected of use of violence against public official. Yes.
+- F169: police applied for detention. Yes.
+- F172: court placed first applicant in pre-trial detention. Yes.
+- F173: court notes seriousness. Yes.
+- F174: court refers to personality. Yes.
+- F176: lawyer says not contacted before arrest. Yes.
+- F177: lawyer notes pre-trial detention only in exceptional circumstances. Yes.
+- F178: lawyer notes lack of specific facts. Yes.
+- F179: lawyer points irregularities. Yes.
+- F180: Supreme Court dismissed appeal. Yes.
+- F181: Supreme Court reasoning identical. Yes.
+- F182: first applicant charged. Yes.
+- F183: indictment refers to organizer. Yes.
+- F184: indictment mentions ordering protesters to block road, throw stones, use firearms. Yes.
+- F185: first applicant confronted witnesses, they denied. Yes.
+- F186: court refused to extend detention. Yes.
+- F187: court says need to question not reason to extend. Yes.
+- F188: court notes no previous convictions. Yes.
+- F189: first applicant released. Yes.
+- F190: case discontinued. Yes.
+
+Prescribed_by_law facts:
+
+- F012: payment slip showing notice posted. Yes.
+- F013: notice received by district admin on 17 April. Yes.
+- F014: head of district informs organisers opposition. Yes.
+- F015: letter says notice lodged outside time-limit. Yes.
+- F255-F274: sections of law. These are generic facts about law. They exist. Good.
+
+Legitimate aim facts:
+
+- F081: aim of police operation: secure public order, guarantee rights, prevent clashes. Yes.
+- F095: authorities warned organisers they'd be held liable and police would use force. Yes.
+- F083: government claim about incitement. Yes.
+- F082: government claim about alcohol, drugs. Yes.
+- F088: risk of clashes, negotiation. Yes.
+- F089: negotiations. Yes.
+- F090: offer to hold demonstration in garage. Yes.
+- F091: offer declined. Yes.
+
+Necessity facts: Already listed.
+
+Positive obligation facts: Many.
+
+Now final JSON.
+
+Note: The "facts" array should be strings, not numbers. Ensure correct quoting.
+
+Now produce final answer.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F045", "F046", "F048", "F058", "F202", "F204", "F206"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F049", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F165", "F166", "F167", "F169", "F172", "F173", "F174", "F176", "F177", "F178", "F179", "F180", "F181", "F182", "F183", "F184", "F185", "F186", "F187", "F188", "F189", "F190"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F014", "F015", "F255", "F256", "F257", "F258", "F259", "F260", "F261", "F262", "F263", "F264", "F265", "F266", "F267", "F268", "F269", "F270", "F271", "F272", "F273", "F274", "F253"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F081", "F095", "F083", "F082", "F088", "F089", "F090", "F091"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F058", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F099", "F100", "F101", "F102", "F103", "F104", "F106", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114", "F115", "F119", "F120", "F121", "F138", "F191", "F192", "F193", "F194", "F195", "F196", "F197", "F198", "F199", "F200", "F201", "F202", "F203", "F204", "F205", "F206"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F058", "F060", "F061", "F062", "F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F081", "F095", "F099", "F100", "F101", "F102", "F103", "F104", "F106", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114", "F115", "F119", "F120", "F121", "F122", "F123", "F124", "F125", "F126", "F127", "F128", "F129", "F130", "F131", "F132", "F133", "F134", "F135", "F136", "F137", "F138", "F140", "F141", "F142", "F143", "F144", "F145", "F146", "F147", "F148", "F149", "F150", "F151", "F152", "F153", "F154", "F155", "F156", "F157", "F158", "F159", "F160", "F191", "F192", "F193", "F194", "F195", "F196", "F197", "F198", "F199", "F200", "F201", "F202", "F203", "F204", "F205", "F206", "F207"]
+    }
+  },
+  "violated": true
+}

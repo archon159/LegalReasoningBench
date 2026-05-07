@@ -1,0 +1,100 @@
+analysisWe need map facts per element. Identify needed facts.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F010 (assembly), F011 maybe police cordon but still assembly, F012 warning, F014 etc showing participation. Peaceful? Need info about violence; perhaps F018, F017 indicate police violence not protesters. Also govt claims they impeded traffic etc. But peacefulness of assembly: need whether assembly itself was peaceful – facts about protesters behavior: F045, F048, F049, F051 show they continued protest, possibly not violent. So include those. Provide list: F010, F014, F015, F016?, actually participation: F010, F014, F015, F019? second applicant presence. Include F019, F020, F021 etc. We'll list core: F010, F014, F015, F019, F020, F021, F045, F048, F049, F051.
+
+Interference: facts showing police action interfering: F011, F012, F016, F017, F018, F032, F036, F052, F053, F068, F069, F070, F072 maybe. List key: F011,F012,F016,F017,F018,F032,F036,F052,F053,F068,F069,F070.
+
+Prescribed_by_law: need law requiring permission etc. Facts about legislation: F015 (applicant says law requires no prior permission), F043, F044 (government says no permission). Also circular F075-F080 shows guidance. Also maybe F120 (prosecutor statement about lack of prior permission). So list: F015,F043,F044,F075,F076,F077,F078,F079,F080,F120.
+
+Legitimate_aim: need reasons police gave: public order, traffic, etc. Facts: F040 (traffic), F045-48 (blocking street), F046, F049, F050, F067, F068, F069, F070, F115, F121. Choose representative: F040,F045,F046,F047,F048,F067,F068,F069,F070,F115,F121.
+
+Necessity: need balancing, proportionality, evidence of necessity. Facts: F053 (force not disproportionate), F068 (resisted arrest), F069, F070, F107 (police chief said force proportionate), F110 (minor injuries), F115, F117 (prosecutor said not excessive), F121 (impelled to use force). Include these.
+
+Positive_obligation: Court may have positive duty to investigate effectively. Facts about investigation: F104 (video transcription), F105 (statements taken), F114 (prosecutor report), F118 (decision not to prosecute), F123 (objection), F129 (court rejection). Also F112-113 about police statements. So list: F104,F105,F114,F118,F123,F129.
+
+Construct JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": [
+        "F010",
+        "F014",
+        "F015",
+        "F019",
+        "F020",
+        "F021",
+        "F045",
+        "F048",
+        "F049",
+        "F051"
+      ]
+    },
+    "interference": {
+      "facts": [
+        "F011",
+        "F012",
+        "F016",
+        "F017",
+        "F018",
+        "F032",
+        "F036",
+        "F052",
+        "F053",
+        "F068",
+        "F069",
+        "F070"
+      ]
+    },
+    "prescribed_by_law": {
+      "facts": [
+        "F015",
+        "F043",
+        "F044",
+        "F075",
+        "F076",
+        "F077",
+        "F078",
+        "F079",
+        "F080",
+        "F120"
+      ]
+    },
+    "legitimate_aim": {
+      "facts": [
+        "F040",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F067",
+        "F068",
+        "F069",
+        "F070",
+        "F115",
+        "F121"
+      ]
+    },
+    "necessity": {
+      "facts": [
+        "F053",
+        "F068",
+        "F069",
+        "F070",
+        "F107",
+        "F110",
+        "F115",
+        "F117",
+        "F121"
+      ]
+    },
+    "positive_obligation": {
+      "facts": [
+        "F104",
+        "F105",
+        "F114",
+        "F118",
+        "F123",
+        "F129"
+      ]
+    }
+  }
+}

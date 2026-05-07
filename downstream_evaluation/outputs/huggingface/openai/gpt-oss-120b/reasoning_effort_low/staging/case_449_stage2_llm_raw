@@ -1,0 +1,37 @@
+analysisNeed to evaluate based on selected facts. Likely scope yes (assembly, participation, peaceful). Peaceful? Facts show peaceful until police attack. So yes.
+
+Interference: police operation interfered. Yes.
+
+Prescribed_by_law: Need law on assemblies. Facts include sections of law. But were the protests authorized? They were unauthorized (no notification). So the interference might be based on law permitting termination of unauthorized mass events. However requirement is foreseeability etc. Given facts, law exists but perhaps not applied correctly (lack of warning). Might conclude no (not prescribed by law). But typical ECtHR finds violation when police use force disproportionate and fail to follow procedural safeguards. Here law allows termination but requires warnings etc. Facts show no warning. So likely not compliant => no.
+
+Legitimate aim: Government claims security, public order. Acceptable. So yes.
+
+Necessity: Force excessive, not proportionate. So no.
+
+Positive obligation: State failed to investigate ill-treatment. So yes (violation of positive obligation). Actually positive obligation is about ensuring right to assemble, e.g., protect demonstrators. Failure = violation. So conclusion yes.
+
+Overall violation: Since prescribed_by_law or necessity negative -> violation. So true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

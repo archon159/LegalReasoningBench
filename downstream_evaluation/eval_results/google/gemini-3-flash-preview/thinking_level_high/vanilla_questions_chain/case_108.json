@@ -1,0 +1,97 @@
+{
+  "violated_gold": true,
+  "violated_pred": true,
+  "element_conclusions": {
+    "scope": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "interference": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "prescribed_by_law": {
+      "gold": "yes",
+      "pred": "yes"
+    },
+    "legitimate_aim": {
+      "gold": "no",
+      "pred": "yes"
+    },
+    "necessity": {
+      "gold": "no",
+      "pred": "no"
+    },
+    "positive_obligation": null
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": {
+        "precision": 0.9533,
+        "recall": 0.6818,
+        "f1": 0.5333,
+        "macro_f1": 0.7422
+      },
+      "interference": {
+        "precision": 0.9147,
+        "recall": 0.868,
+        "f1": 0.8,
+        "macro_f1": 0.8895
+      },
+      "prescribed_by_law": {
+        "precision": 0.75,
+        "recall": 0.987,
+        "f1": 0.6667,
+        "macro_f1": 0.8268
+      },
+      "legitimate_aim": {
+        "precision": 0.98,
+        "recall": 0.7857,
+        "f1": 0.7273,
+        "macro_f1": 0.8534
+      },
+      "necessity": {
+        "precision": 0.8,
+        "recall": 0.9726,
+        "f1": 0.75,
+        "macro_f1": 0.8609
+      },
+      "positive_obligation": null
+    },
+    "list2": {
+      "scope": {
+        "precision": 0.8683,
+        "recall": 0.8683,
+        "f1": 0.75,
+        "macro_f1": 0.8683
+      },
+      "interference": {
+        "precision": 0.7857,
+        "recall": 0.98,
+        "f1": 0.7273,
+        "macro_f1": 0.8534
+      },
+      "prescribed_by_law": null,
+      "legitimate_aim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "macro_f1": 1.0
+      },
+      "necessity": {
+        "precision": 0.7,
+        "recall": 0.96,
+        "f1": 0.5714,
+        "macro_f1": 0.7649
+      },
+      "positive_obligation": null
+    },
+    "list3": {
+      "precision": 0.6875,
+      "recall": 0.9315,
+      "f1": 0.5455,
+      "macro_f1": 0.736
+    }
+  },
+  "case": "case_108"
+}

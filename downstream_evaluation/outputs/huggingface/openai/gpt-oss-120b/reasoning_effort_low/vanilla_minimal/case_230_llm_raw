@@ -1,0 +1,47 @@
+analysisWe need assess. Likely violation: interference with peaceful assembly, not necessary. So scope yes, interference yes, prescribed by law? evacuation order maybe not lawful. Might be no. legitimate aim: health/public order yes. necessity: likely not necessary proportionate. positive obligation: state must protect. Probably violation. Provide facts accordingly.
+
+Select facts:
+
+Scope: F001-F010 etc showing assembly. Use F005,F006,F010,F011.
+
+Interference: evacuation, police stop, detention. Use F013-F018,F035-F043,F046-F053.
+
+Prescribed by law: evacuation order based on police commissioner authority? Need law basis. Facts about legal basis: F013, F014-F017, plus statutes F076-F082, F083-F091. But we need atomic facts indicating law. We have F076-F082 describing police powers. Use those.
+
+Legitimate aim: health, safety, public order – facts F014-F017,F025-F028,F034.
+
+Necessity: evaluate proportionality – facts about sanitary conditions, hunger strike, alternatives, medical assistance, etc. Use F025,F028,F032,F033,F034,F040-F045,F060-F063.
+
+Positive obligation: state must facilitate peaceful assembly; failure to protect – facts about police irregularities, lack of protection. Use F045,F044,F041-F043.
+
+Conclusion violation true.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F002", "F005", "F006", "F010", "F011"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F015", "F016", "F017", "F035", "F036", "F039", "F040", "F041", "F042", "F043", "F045", "F046", "F047", "F052", "F053"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F076", "F077", "F078", "F079", "F080", "F081", "F082"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F017", "F025", "F026", "F027", "F028", "F029", "F034"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F025", "F028", "F032", "F033", "F034", "F040", "F041", "F042", "F043", "F044", "F045", "F060", "F061", "F062", "F063"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": ["F045", "F044", "F041", "F042", "F043"]
+    }
+  },
+  "violated": true
+}

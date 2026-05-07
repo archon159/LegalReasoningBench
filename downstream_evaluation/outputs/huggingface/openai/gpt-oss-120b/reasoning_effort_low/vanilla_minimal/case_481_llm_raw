@@ -1,0 +1,43 @@
+analysisWe need assess each element. Likely violation? Court seems upheld prohibition; but ECtHR may find violation if not necessary. Given facts, authorities gave reasons, but constitutional court said justified. Probably no violation. We'll map facts.
+
+Scope: need that it's a public assembly. Facts: F003,F005,F009,F010,F011 show planning of meeting, public? It's in cemetery open to public. So yes scope. Use F003,F005,F009,F010.
+
+Interference: prohibition = interference. Facts: F012,F013,F015,F026,F027. Conclusion yes.
+
+Prescribed by law: prohibition based on Assembly Act sections 5&6. Facts: F013,F014,F056,F060. Yes.
+
+Legitimate aim: public order/security, protection of rights of others. Facts: F015,F025,F035,F036,F053. Yes.
+
+Necessity: need assess proportionality. Facts: many showing risk, past disruptions etc. But maybe not necessary because less restrictive means? Hard. Likely Court finds necessity satisfied per domestic. We'll say yes. Facts: F025,F030,F031,F032,F033,F046,F047,F048,F049,F053.
+
+Positive obligation: state must protect others' religious rights (Article9). Here they protect cemetery visitors. Facts: F050,F051,F052,F053. Yes.
+
+Thus all elements satisfied => no violation. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F005", "F009", "F010"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F013", "F015", "F026", "F027"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F013", "F014", "F056", "F060"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F015", "F025", "F035", "F036", "F053"]
+    },
+    "necessity": {
+      "conclusion": "yes",
+      "facts": ["F025", "F030", "F031", "F032", "F033", "F046", "F047", "F048", "F049", "F053"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F050", "F051", "F052", "F053"]
+    }
+  },
+  "violated": false
+}

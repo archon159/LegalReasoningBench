@@ -1,0 +1,45 @@
+analysisWe need map facts. Likely all elements yes except maybe prescribed_by_law? The ban was illegal because non‑commercial org can't organize? Actually law allows NGOs? Assume violation. So all yes. Provide facts lists.
+
+Scope: assembly planned, applicants tried to participate, peaceful intent. Facts: F004,F005,F011,F012?,F013,F014 indicates insults but still peaceful intention. Use F004,F005,F011,F013.
+
+Interference: police dispersed, arrests. Facts: F012,F014,F015,F017-F019,F021,F022.
+
+Prescribed_by_law: need law on assemblies; notification submitted per law (F003) and ban based on misinterpretation. So conclusion yes (interference not prescribed). Facts: F003,F008,F009.
+
+Legitimate aim: authorities claimed public order etc? Not explicit but likely claim of preventing disorder. No factual basis. Might conclude no legitimate aim. But typical ECtHR finds none. Use F008 (ban grounds) showing no legit aim. So conclusion no.
+
+Necessity: since no legit aim, not necessary. Facts: F008,F014,F015.
+
+Positive obligation: state must protect applicants from police violence. They failed. Facts: F014-F018,F032-F038,F040-F047,F054. Conclusion yes.
+
+Overall violation: yes.
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F004", "F005", "F011", "F013"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F012", "F014", "F015", "F017", "F018", "F019", "F021", "F022"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F003", "F008", "F009"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": ["F008"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F008", "F014", "F015"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F017", "F018", "F032", "F033", "F034", "F036", "F037", "F038", "F040", "F041", "F042", "F043", "F045", "F054"]
+    }
+  },
+  "violated": true
+}

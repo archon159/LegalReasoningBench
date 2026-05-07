@@ -1,0 +1,13 @@
+analysisWe need map facts per element. Scope: need assembly existence, participation, peacefulness. Facts: F004 (attempted participation), F008 (organisers held), F009/F010 (peaceful), maybe F011 (demands). Also F016 etc but scope includes both events. So include F004,F008,F009,F010,F011,F016,F020,F021? For scope of 6 May event: F016-F021. We'll list all relevant.
+
+Interference: any governmental act interfering: arrests, denial of authorization. Facts: F006 (refusal to authorize), F014 (arrest), F021 (dispersal), also F013? but that's action. Include F006,F014,F021.
+
+Prescribed_by_law: foreseeability, accessibility, safeguards. Need laws: F053, F054, F055, F056-66, F058-61. Also procedural issues: F027-F029, F030-36, F038-44. So many. But just list key: F053,F054,F055,F058,F059,F060,F061,F063,F065,F066, plus procedural facts like F027,F028,F029,F030,F036,F038,F040,F042,F043,F044.
+
+Legitimate aim: need justification: public safety, prevention of disorder, etc. Facts: F006 (authority's refusal maybe for public safety?), F021 (dispersal). Also F053 indicates no prior notice requirement. Might include F053,F006,F021.
+
+Necessity: balancing intensity vs aim. Need facts about severity: F043,F044 sentencing, F029 lack of counsel, F030 state lawyer, F038 brief defense. Also F053. So include F043,F044,F029,F030,F038.
+
+Positive obligation: any positive duty? Maybe none. Could be none. So empty list.
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F004","F008","F009","F010","F011","F016","F020","F021"]},"interference":{"facts":["F006","F014","F021"]},"prescribed_by_law":{"facts":["F053","F054","F055","F058","F059","F060","F061","F063","F065","F066","F027","F028","F029","F030","F036","F038","F040","F042","F043","F044"]},"legitimate_aim":{"facts":["F006","F021","F053"]},"necessity":{"facts":["F043","F044","F029","F030","F038"]},"positive_obligation":{"facts":[]}}}

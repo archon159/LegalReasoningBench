@@ -1,0 +1,44 @@
+analysisWe need assess likely violation. Facts show admin detention for unauthorized march; law maybe vague. Likely Court found violation. So conclusions: scope yes (assembly, participation, peaceful?). Need peace - not stated but protests likely peaceful. assume yes. interference yes (detention, fine). prescribed_by_law maybe no because law insufficient foreseeability. So violation. legitimate aim maybe public order but not necessary. necessity no. positive obligation maybe no. Provide facts accordingly.
+
+Select facts:
+Scope: F008 (participation), F009 (march), maybe F007 (protest rallies) indicate peaceful. Use those.
+
+Interference: F014-F020 etc showing detention.
+
+Prescribed_by_law: need law article 180.1 details not given; but we have references to judgments indicating issues. Use F020,F021,F045,F046.
+
+Legitimate aim: government may claim public safety/order; not explicit. No fact shows aim. Might infer from law. But we lack fact. Could use none? maybe [].
+
+Necessity: need assessment of proportionality; facts about fine vs detention. Use F020,F035,F036.
+
+Positive obligation: none.
+
+Let's craft JSON.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F007"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F014", "F015", "F016", "F020", "F021", "F044"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F020", "F021", "F045", "F046"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F020", "F035", "F036"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

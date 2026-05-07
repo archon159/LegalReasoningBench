@@ -1,0 +1,38 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (gathered to protest), F008 (peaceful), maybe F007 (attempted march). So include F006,F008,F007.
+
+Interference: police dispersed, arrests. Facts: F009,F010,F011.
+
+Prescribed_by_law: need law basis. Facts: F012 (reports), F014,F015,F016,F017,F018,F019 show charges under articles. Also maybe mention code of administrative offences. Use F012,F014,F016,F018 etc. Choose those indicating legal provisions. Probably F012,F014,F016,F018.
+
+Legitimate_aim: need justification like public order etc but not in facts. No explicit legit aim facts given. Might be none. Could use F009 (police action) but not legit aim. Likely empty.
+
+Necessity: need balancing info – not present. Maybe none.
+
+Positive_obligation: Court may have positive duty to protect assembly; not in facts. None.
+
+Thus output.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F008"]
+    },
+    "interference": {
+      "facts": ["F009", "F010", "F011"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F012", "F014", "F016", "F018"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

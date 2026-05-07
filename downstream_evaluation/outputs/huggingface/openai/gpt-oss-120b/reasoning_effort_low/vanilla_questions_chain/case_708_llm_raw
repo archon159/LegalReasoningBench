@@ -1,0 +1,45 @@
+analysisWe need determine likely conclusions. Facts show applicant convicted for participation in demonstration; demonstration was violent. But Article 11 scope: assembly existed (demonstration). Applicant tried to participate? He denies but court finds he did. We consider factual uncertainty; but for scope we need existence of assembly and attempt. Likely yes (assembly, attempted participation). Peaceful? It was not peaceful (clashes, stone throwing). So scope requires peaceful? Actually requirement: assembly must be peaceful for protection; if not peaceful, may still be protected but less. Usually Court says non‑peaceful assemblies also fall within scope but may be restricted. However element (a) includes "Was the assembly peaceful?" Probably need yes for full protection; if not peaceful, still scope but maybe justification different. I'd say assembly existed, applicant tried to join, but it was not peaceful => scope partly satisfied but peace condition fails -> No violation? Typically Court still assesses interference even if not peaceful. But they treat peacefulness as part of scope: if not peaceful, then no violation of article 11 because state can restrict. So conclude scope = no (because not peaceful). Then overall no violation regardless of later. Let's output accordingly.
+
+Identify facts: F003/F004 for assembly, F014/F015 etc for participation, F005-F009 for violence indicating not peaceful. Use those.
+
+Interference: There was arrest/detention etc. Yes interference. Facts: F024,F025,F031 etc.
+
+Prescribed by law: Turkish criminal code articles etc. Assume yes. Facts: F021,F022,F023,F031 etc.
+
+Legitimate aim: public order, prevention of disorder. Facts: F005-F009, F046 etc.
+
+Necessity: assess proportionality; likely not necessary given lack of evidence, but could be questionable. Might conclude no (not necessary). Need facts showing severity vs sanction. Use F037-F040 sentencing heavy vs minor involvement. Also F055 finding insufficient evidence. So necessity = no.
+
+Positive obligation: none.
+
+Thus overall violation? Since scope fails, no violation. Even if other elements fail, but scope is prerequisite. So violated false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F003", "F004", "F014", "F015", "F005", "F006", "F007", "F008", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F024", "F025", "F031"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F021", "F022", "F023", "F031"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006", "F007", "F008", "F009", "F046"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F037", "F038", "F039", "F040", "F055", "F056"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

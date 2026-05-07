@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F003 (wish to hold march), F028 (march took place), F030 (attendance), F031 (police protected), maybe F032 (stationary assemblies). Also peaceful? Not explicit but protected suggests peaceful. Use F028,F030,F031,F032.
+
+Interference: governmental act interfering. Facts: refusal of permission F010, mayor bans F016,F024,F018 etc. So include F010,F011,F016,F024,F018,F025,F026 perhaps. We'll list key: F010,F011,F016,F024,F018,F025,F026.
+
+Prescribed_by_law: need foreseeability, accessibility, safeguards. Facts about law: F007 (instruction), F011 (refusal based on missing plan), F091-F092 (road traffic act), F080,F081 etc. Also findings of lack of legal basis: F034,F035,F041,F042,F055,F056. Choose representative: F007,F011,F091,F092,F041,F042,F055,F056.
+
+Legitimate_aim: need aim like public safety, prevent disorder. Facts: Mayor cited threat of violence F024,F059,F060, also claim of road safety F011. So include F024,F059,F060,F018.
+
+Necessity: balancing. Facts: Governor observations on proportionality F058,F057,F059,F060,F056,F055,F050,F051. Include F058,F057,F059,F060,F056,F055.
+
+Positive_obligation: Court may have positive duty to ensure effective participation. Facts: Local Govt Appeals Board findings about participation F039,F040,F041,F042. Also maybe F052-F054 about guarantee. Use F039,F040,F041,F042.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F003", "F028", "F030", "F031", "F032"]
+    },
+    "interference": {
+      "facts": ["F010", "F011", "F016", "F018", "F024", "F025", "F026"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F007", "F011", "F091", "F092", "F041", "F042", "F055", "F056"]
+    },
+    "legitimate_aim": {
+      "facts": ["F018", "F024", "F059", "F060"]
+    },
+    "necessity": {
+      "facts": ["F057", "F058", "F059", "F060", "F055", "F056"]
+    },
+    "positive_obligation": {
+      "facts": ["F039", "F040", "F041", "F042"]
+    }
+  }
+}

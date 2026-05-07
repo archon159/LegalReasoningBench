@@ -1,0 +1,25 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful). Interference yes (police stopped). Prescribed by law? Facts show law unclear for private venue; law says not regulated -> maybe not prescribed => no. So violation. Also legitimate aim? Government claims noise – could be public order. Might be legit but if not prescribed then violation anyway. Necessity likely no. Positive obligation? Probably yes violation of duty to investigate. So overall violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,29 @@
+analysisWe need map facts. Likely scope: protests = peaceful assembly => yes, using F002,F003,F004. interference: measures taken => yes, F002. prescribed_by_law: not given -> cannot determine, so no. legitimate aim: public order etc not given, assume no info -> no. necessity: need proportionality not given -> no. positive obligation: state must protect right; not enough -> no. Overall violation? If interference not lawful then violation yes? But missing law leads violation. We'll output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F004"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

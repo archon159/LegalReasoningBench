@@ -1,0 +1,13 @@
+analysisWe need map facts per element. Scope: need facts about assembly existence, participation, peace. Facts: F059, F060, F078, F079 show meeting attempted, participants gathered, police told disperse. Also F060 says rejected notification. So scope: F059, F060, F078, F079. Also maybe F060 indicates not assembly? But still. Use those.
+
+Interference: government acts interfering: F060 (rejection), F079 (police dispersal). Also F058 etc. Use F060, F079.
+
+Prescribed_by_law: need facts about law provisions: F094, F095, F092, F093, F090, F091, F092. Also F094 defines public event. So include F094, F095, F092, F093, F090, F091.
+
+Legitimate aim: need facts about aims: F021 (prevent negative activities), F088, F089. Also maybe F021. So include F021, F088, F089.
+
+Necessity: need balancing facts: maybe F070, F071, F072, F073 show justification. Also F068, F069. Use F068, F069, F070, F071, F072, F073.
+
+Positive obligation: maybe none. So [].
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F059","F060","F078","F079"]},"interference":{"facts":["F060","F079"]},"prescribed_by_law":{"facts":["F090","F091","F092","F093","F094","F095"]},"legitimate_aim":{"facts":["F021","F088","F089"]},"necessity":{"facts":["F068","F069","F070","F071","F072","F073"]},"positive_obligation":{"facts":[]}}}

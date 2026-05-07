@@ -1,0 +1,36 @@
+analysisWe map.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006 (notice intent), F007 (planned), F008 location, F010 (no info if actually held) maybe indicates uncertainty. Also need peaceful nature – not mentioned; assume peaceful intent. So include F006,F007,F008,F010.
+
+Interference: governmental act interfering – prohibition. Facts: F011,F012,F013 (court prohibition), also appeals F025,F026 etc show continuation. Include F011-F013,F025,F026,F027,F028.
+
+Prescribed by law: need law basis, foreseeability. Facts: F014-F017 mention temporary regulations, F015, F030- F037, F048- F056. Core: F014,F015,F052,F053,F054,F055,F056, plus constitutional articles F030,F031. Choose key: F014,F015,F052,F053,F054,F055,F056,F030,F031.
+
+Legitimate aim: reasons for ban – public order, health, rights of others. Facts: F017-F024, F023, F024, F026-F028. Include F017-F024,F023,F026-F028.
+
+Necessity: balancing – need court reasoning, proportionality. Facts: same as legitimate aim plus procedural timing: F018 (late notice), F019 (indefinite), F020,F021, also F036 (time limit decision). Include F018,F019,F020,F021,F023,F026-F028,F036 perhaps. We'll list core: F018,F019,F020,F021,F023,F026,F027,F028.
+
+Positive obligation: Court may have said state must ensure effective remedy etc. Not in facts. Maybe none. Could be F033- F037 showing procedural safeguards. But positive obligation refers to duty to protect. Might be derived from constitutional article. No explicit fact. So empty [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F008", "F010"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013", "F025", "F026", "F027", "F028"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F014", "F015", "F030", "F031", "F052", "F053", "F054", "F055", "F056"]
+    },
+    "legitimate_aim": {
+      "facts": ["F017", "F018", "F019", "F020", "F021", "F022", "F023", "F024", "F026", "F027", "F028"]
+    },
+    "necessity": {
+      "facts": ["F018", "F019", "F020", "F021", "F023", "F026", "F027", "F028"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

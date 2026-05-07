@@ -1,0 +1,29 @@
+analysisWe need assess. Likely violation: interference yes, not prescribed by law maybe no, etc. Given many cases, courts found lack of justification. Probably violation. Provide facts: scope: F003 (announcement), also need assembly peaceful – not held but intent counts. So yes. Interference: F005 refusal, plus zone designation F006. So yes. Prescribed by law: need law foreseeability – unclear; likely no because zone indefinite without basis. Use F006,F007,F008. Conclusion no. Thus violation. Legitimate aim: security (F007). Yes. Necessity: probably no because disproportionate (F040,F041,F043). Positive obligation none. So overall violation because missing law & necessity. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F005", "F006"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F006", "F007", "F008"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F007"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F040", "F041", "F043"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

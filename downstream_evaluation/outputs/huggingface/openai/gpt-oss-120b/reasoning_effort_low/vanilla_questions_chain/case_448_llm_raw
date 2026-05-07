@@ -1,0 +1,45 @@
+analysisWe need assess. Likely violation because arrests pre-demonstration interfered. Scope: assembly planned, they intended to participate; peaceful? assumed peaceful. So scope yes using facts about demonstration planning F025,F026,F006 etc. Interference: arrests/detention yes F004,F006,F028-F030. Prescribed by law: there is law article 296,310 but foreseeability? likely not sufficient safeguards. Might conclude no -> violation. Legitimate aim: maybe public order but not justified. Likely no. Necessity: no. Positive obligation: perhaps state must protect right, they failed – yes violation. So overall violation true.
+
+Provide facts per element.
+
+Scope facts: F006 (first arrested before demo), F025,F026 (second planned participation), assume peaceful => no explicit fact but implied. Use those.
+
+Interference facts: F004,F006,F028-F030,F032 (court). 
+
+Prescribed by law facts: F010,F033 (offences), plus maybe law existence but not enough info about foreseeability. We'll list F010,F033.
+
+Legitimate aim facts: none directly stating aim; maybe claim of preventing disorder but not present. So [].
+
+Necessity facts: same as legit aim plus maybe lack of necessity -> use F010,F033.
+
+Positive obligation facts: F043 (complaint) maybe indicates duty. Use F043.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006", "F025", "F026"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F004", "F006", "F028", "F029", "F030", "F032"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F010", "F033"]
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F010", "F033"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F043"]
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,34 @@
+analysisWe need map facts to elements. Identify relevant ones: scope – existence of assembly/picket, participation, peacefulness. Facts: F029 (four people started picket), F030 (rain shelter), F031 (placards), maybe F032 arrests show they were peaceful? No violence mentioned. So include F029,F030,F031,F032 perhaps for peace. Also F013 solo demonstration earlier but that's separate; main case is picket. Use those.
+
+Interference – governmental act interfering: refusal to approve (F027,F028), arrest (F032), conviction (F034-F036). So include F027,F028,F032,F034,F035,F036.
+
+Prescribed by law – need law details: F055,F056,F057 give requirements; also F041,F042 about timing; plus F059 interpretation. So include those.
+
+Legitimate aim – government's justification: public order, prevention of disorder etc. Need facts showing reason for refusal: time limit violation (F041,F042) and possibly law aims. Might include F028 (refusal based on time-limit) indicating aim of orderly administration. So include F028,F041,F042.
+
+Necessity – balancing – need both interference and legit aim and proportionality: include facts about arrest, fine, refusal, and maybe that only one person picket no notification required per law (F057). So include F032,F036,F028,F057.
+
+Positive obligation – does Court spell out? Not in facts. Likely none. So empty.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F029", "F030", "F031", "F032"]
+    },
+    "interference": {
+      "facts": ["F027", "F028", "F032", "F034", "F035", "F036"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F055", "F056", "F057", "F041", "F042", "F059"]
+    },
+    "legitimate_aim": {
+      "facts": ["F028", "F041", "F042"]
+    },
+    "necessity": {
+      "facts": ["F032", "F036", "F028", "F057"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

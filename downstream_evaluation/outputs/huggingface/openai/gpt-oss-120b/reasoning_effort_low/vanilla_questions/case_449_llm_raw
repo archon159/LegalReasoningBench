@@ -1,0 +1,178 @@
+analysisNeed to map. Likely yes for scope (assembly, participation, peaceful). Peaceful? claims peaceful, but police says violent. Applicant says peaceful. Need facts showing peaceful nature: F012, F013, F014, F015, F025, F026 indicates peaceful. So conclude yes.
+
+Interference: police operation interfered. Facts F020-F028 etc. Yes.
+
+Prescribed by law: need law requirement for assembly permits. They were unauthorized mass event lacking notification. Law requires notification for mass events. So the prohibition was lawful? The interference was due to lack of permit, so it's prescribed by law. But need foreseeability and safeguards. Probably yes that there is law (Section 10 etc). Use F332-F342. Conclusion yes.
+
+Legitimate aim: security, public order. Govt claims weapons. So legitimate aim maybe public safety. Yes.
+
+Necessity: Proportionality questionable. Excessive force. Likely not necessary. So conclusion no (not necessary).
+
+Positive obligation: Court may have positive duty to protect against police abuse. Here likely violated. So yes.
+
+Overall violation because failure of necessity leads to violation. So violated = true.
+
+Provide facts lists.
+
+Scope facts: assembly existence F011,F012,F013; participation F014,F015; peaceful F025,F026,F012 etc.
+
+Interference facts: F020-F028,F030.
+
+Prescribed by law facts: F332-F342 (law on assemblies), also F335-F341 about notification. Also F337 etc.
+
+Legitimate aim facts: F032-F035 (security), F049-F050 (state of emergency), F341 etc.
+
+Necessity facts: F025 (peaceful instruction), F027 (police attacked without warning), F354-F366 (reports of excess), F342 (require warnings), F365 (no warning given). Show disproportionality.
+
+Positive obligation facts: F354-F366 (state duty), F385 etc show ill-treatment not investigated. Use F385-F388.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F025",
+        "F026"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F027",
+        "F028",
+        "F030"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": [
+        "F332",
+        "F333",
+        "F334",
+        "F335",
+        "F336",
+        "F337",
+        "F338",
+        "F339",
+        "F340",
+        "F341",
+        "F342"
+      ]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F032",
+        "F033",
+        "F034",
+        "F035",
+        "F049",
+        "F050",
+        "F341",
+        "F342"
+      ]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": [
+        "F025",
+        "F026",
+        "F027",
+        "F354",
+        "F355",
+        "F356",
+        "F357",
+        "F358",
+        "F359",
+        "F360",
+        "F361",
+        "F362",
+        "F363",
+        "F364",
+        "F365",
+        "F366",
+        "F367",
+        "F368",
+        "F369",
+        "F370",
+        "F371",
+        "F372",
+        "F373",
+        "F374",
+        "F375",
+        "F376",
+        "F377",
+        "F378",
+        "F379",
+        "F380",
+        "F381",
+        "F382",
+        "F383",
+        "F384",
+        "F385",
+        "F386",
+        "F387",
+        "F388",
+        "F389",
+        "F390",
+        "F391",
+        "F392",
+        "F393",
+        "F394",
+        "F395",
+        "F396",
+        "F397",
+        "F398",
+        "F399",
+        "F400",
+        "F401",
+        "F402",
+        "F421",
+        "F422",
+        "F423",
+        "F424",
+        "F425",
+        "F426",
+        "F427",
+        "F428",
+        "F429"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": [
+        "F354",
+        "F355",
+        "F356",
+        "F357",
+        "F358",
+        "F359",
+        "F360",
+        "F361",
+        "F362",
+        "F363",
+        "F364",
+        "F365",
+        "F366",
+        "F367",
+        "F368",
+        "F383",
+        "F384",
+        "F385",
+        "F386",
+        "F387",
+        "F388"
+      ]
+    }
+  },
+  "violated": true
+}

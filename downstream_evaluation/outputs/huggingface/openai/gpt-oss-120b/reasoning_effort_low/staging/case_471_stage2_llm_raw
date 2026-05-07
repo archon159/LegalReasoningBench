@@ -1,0 +1,39 @@
+analysisWe need conclusions based on selected facts. Quick assessment:
+
+Scope: facts show gatherings, participants, but also note violent acts (F027). Still assembly existed, participants tried to assemble, but was it peaceful? Since there were attacks on police, not peaceful. So scope requires peaceful assembly; since not peaceful, scope maybe not met. But Court sometimes still consider scope even if some violence? Usually requirement: assembly must be peaceful; if not, then Article 11 not engaged. So conclusion no.
+
+Interference: there was police dispersal etc. Even if not peaceful, interference exists. But if scope fails, overall no violation. Yet we still answer yes? Probably no because threshold not met? Actually interference can be answered yes regardless, but if scope no, overall no violation. We'll set interference yes (there was interference).
+
+Prescribed_by_law: facts show law requiring permits, circular stating area not permitted, etc. Likely not sufficiently foreseeable? The law required permit, they didn't get it, so interference was prescribed. So yes.
+
+Legitimate aim: government claimed maintain order due to violence, protect rights of others. Facts show attacks causing injuries, so legit aim likely yes.
+
+Necessity: Need proportionality. Use of truncheons, tear gas etc vs small protest. Might be excessive. Given violence, could be deemed necessary. Hard. Probably no, because force disproportionate. We'll say no.
+
+Positive obligation: facts about complaints and lack of investigation, non‑prosecution. Could be breach of positive duty to investigate. Likely yes violation of positive obligation. But if scope fails, maybe irrelevant. We'll answer yes.
+
+Overall violation: Since scope not satisfied, no violation? Actually if assembly not peaceful, Article 11 not triggered. So violated false. Let's output.
+
+assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": false
+}

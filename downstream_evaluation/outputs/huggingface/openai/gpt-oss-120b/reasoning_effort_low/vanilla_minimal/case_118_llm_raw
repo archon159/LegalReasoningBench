@@ -1,0 +1,33 @@
+analysisWe need map. Likely scope yes (political demonstration). interference yes (arrest, conviction). prescribed by law? there are codes cited, so yes. legitimate aim? public safety/order – likely yes. necessity? probably not necessary proportionate -> maybe no. positive obligation? state must protect right; they failed – maybe yes? Actually positive obligation means ensure effective exercise; here violation if fail. We conclude violation because necessity fails. So overall violation true.
+
+Select facts: scope uses F001,F009. interference uses F002,F003,F010,F011,F016 etc. prescribe law uses F017,F019,F024,F025. legit aim uses F022,F023. necessity uses F021,F022,F023 perhaps. positive obligation uses F011,F012,F013,F021.
+
+Provide lists.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F001", "F009"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F003", "F010", "F011", "F016"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F017", "F019", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F022", "F023"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F021", "F022", "F023"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012", "F013", "F021"]
+    }
+  },
+  "violated": true
+}

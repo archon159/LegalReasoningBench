@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, applicant tried to organize, peacefulness. Facts: F003 (intention to organise demonstration), F004 (announcement as required), maybe F005 refusal shows attempt. No fact about actual assembly happening – none. So scope facts: F003, F004, maybe note peacefulness not contested; no violence info. Use those.
+
+Interference: governmental act interfering. Facts: F005 refusal, F006 declaration zone, F007 reason, F008 observation of jurisdiction, also later refusals etc. So include F005, F006, F007, F008, plus perhaps later court dismissals showing lack of remedy but primary interference is refusal. We'll list these.
+
+Prescribed by law: need foreseeability, accessibility, safeguards. Relevant facts about Assembly Act requirement (F004) and police's authority to designate security zone (maybe not in facts). Also about indefinite zone and procedural issues (F016 instruction to substitute indefinite with definite). But law basis unclear. Likely F004 shows law requirement, and F006/F016 show measures not clearly prescribed. We'll include F004, F006, F016.
+
+Legitimate aim: need justification like public safety, order. Facts: F007 states designation due to tumultuous events Sep 2006. Also maybe general security. So include F007.
+
+Necessity: need balancing, proportionality. Facts: F040, F041, F043 indicate court found lack of necessity/proportionality. Also F042 partial sustain. Include F040, F041, F042, F043.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Facts about failure to provide alternative venue? Not explicit. Maybe F005 refusal without offering alternatives indicates violation of positive obligation. Could use F005. Also F018 endorsement etc. We'll pick F005.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F003", "F004"]
+    },
+    "interference": {
+      "facts": ["F005", "F006", "F007", "F008"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F004", "F006", "F016"]
+    },
+    "legitimate_aim": {
+      "facts": ["F007"]
+    },
+    "necessity": {
+      "facts": ["F040", "F041", "F042", "F043"]
+    },
+    "positive_obligation": {
+      "facts": ["F005"]
+    }
+  }
+}

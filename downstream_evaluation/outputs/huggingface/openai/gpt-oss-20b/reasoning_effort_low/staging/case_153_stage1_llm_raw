@@ -1,0 +1,13 @@
+analysisWe need map. scope: need F006 (assembly), F007 (attempt to march), F008 (peaceful). Also maybe F009? but that's interference. So scope facts: F006, F007, F008.
+
+Interference: F009 (police dispersed), F010 (arrested), F012 (reports), etc. Key: F009, F010, F012.
+
+Prescribed_by_law: need facts about law provisions: F014 (conviction under Art 296), F016/17 (Art 298). Also F012 reports. So maybe F012, F014, F016, F017.
+
+Legitimate aim: need facts indicating purpose: maybe F005 info about ill-treatment? But legit aim could be public order. Facts: F009 (dispersal due to disorder). Might use F009. Also F014 convict under hooliganism. So F009, F014.
+
+Necessity: need balancing facts: severity of interference vs aim. Use F009, F010, F014, F016, F017. Maybe also F008 (peaceful). So list: F009, F010, F014, F016, F017, F008.
+
+Positive obligation: need facts showing Court's positive obligation? Not in atomic facts. Probably none. So [].
+
+Let's craft JSON.assistantfinal{"elements":{"scope":{"facts":["F006","F007","F008"]},"interference":{"facts":["F009","F010","F012"]},"prescribed_by_law":{"facts":["F012","F014","F016","F017"]},"legitimate_aim":{"facts":["F009","F014"]},"necessity":{"facts":["F008","F009","F010","F014","F016","F017"]},"positive_obligation":{"facts":[]}}}

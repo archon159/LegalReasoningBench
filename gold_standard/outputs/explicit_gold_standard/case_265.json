@@ -1,0 +1,123 @@
+{
+  "case_name": "case_265",
+  "conclusion": {
+    "violated": true,
+    "elements": {
+      "scope": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_assembly_exists": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_participation": {
+        "conclusion": "yes",
+        "discussed": "implied"
+      },
+      "scope_peaceful": {
+        "conclusion": null,
+        "discussed": "not_discussed"
+      },
+      "interference": {
+        "conclusion": "yes",
+        "discussed": "explicit"
+      },
+      "prescribed_by_law": {
+        "conclusion": "yes",
+        "discussed": "explicit"
+      },
+      "prescribed_by_law_foreseeable": {
+        "conclusion": null,
+        "discussed": "not_discussed"
+      },
+      "prescribed_by_law_accessible": {
+        "conclusion": null,
+        "discussed": "not_discussed"
+      },
+      "prescribed_by_law_safeguards": {
+        "conclusion": null,
+        "discussed": "not_discussed"
+      },
+      "legitimate_aim": {
+        "conclusion": "yes",
+        "discussed": "explicit",
+        "aims": [
+          "national_security",
+          "prevention_of_disorder",
+          "prevention_of_crime"
+        ]
+      },
+      "necessity": {
+        "conclusion": "no",
+        "discussed": "explicit"
+      },
+      "positive_obligation": {
+        "conclusion": null,
+        "discussed": "not_discussed"
+      }
+    }
+  },
+  "fact_mapping": {
+    "list1": {
+      "scope": [
+        "F006",
+        "F007",
+        "F033",
+        "F004",
+        "F014",
+        "F045",
+        "F049"
+      ],
+      "interference": [
+        "F033",
+        "F002"
+      ],
+      "prescribed_by_law": [
+        "F033"
+      ],
+      "legitimate_aim": [
+        "F033",
+        "F036",
+        "F052"
+      ],
+      "necessity": [
+        "F004",
+        "F033",
+        "F054",
+        "F056",
+        "F059"
+      ],
+      "positive_obligation": []
+    },
+    "list2": {
+      "scope": [
+        "F006",
+        "F004"
+      ],
+      "interference": [
+        "F033"
+      ],
+      "prescribed_by_law": [
+        "F033"
+      ],
+      "legitimate_aim": [
+        "F033"
+      ],
+      "necessity": [
+        "F033",
+        "F054",
+        "F056",
+        "F059"
+      ],
+      "positive_obligation": []
+    },
+    "list3": [
+      "F006",
+      "F004",
+      "F033",
+      "F054",
+      "F056"
+    ]
+  }
+}

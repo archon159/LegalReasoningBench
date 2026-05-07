@@ -1,0 +1,57 @@
+analysisWe need map facts. Likely scope: assembly? They held picket – that's a form of assembly? Yes peaceful? No violence reported. So yes. Facts: F051 (held gathering), F052 (arrest), maybe F036 expectation peaceful. Use F051,F052,F053 etc. Conclusion yes.
+
+Interference: police arrested, fines => interference. Facts F052-F058. conclusion yes.
+
+Prescribed by law: need notice deadlines etc. They gave notice (F039,F040,F041). Authority suggested changes (F042-46). Organizer didn't accept? They proceeded anyway violating? Law requires approval. So interference may be prescribed. But question: was the interference prescribed by law? The arrests based on violation of procedural law. Need facts showing law exists and was applied. Use F080-F085, F083-85. Conclusion yes (it was prescribed).
+
+Legitimate aim: authority cited security, obstruction (F044,F045). So aim is public safety/order. Conclusion yes.
+
+Necessity: assess proportionality. Arrests for peaceful picket, refusal to move, but no violent. Likely not necessary. Need facts showing duration, size small, alternatives offered. Use F042-45, F053 (no warning). Conclude no (not necessary).
+
+Positive obligation: State must protect right to peaceful assembly; perhaps failure to allow lawful picket. Facts F080-85 show procedural safeguards; authority's refusal maybe violation. Conclusion yes.
+
+Overall violation because all elements satisfied except necessity -> violation. So violated true.
+
+Provide facts per element.
+
+Scope facts: F051 (gathering), F053 (peaceful?), actually F053 says no warning before arrests, but peace indicated none. Use F036 (expected 50, peaceful). Also F052 shows police action. We'll list F051,F036.
+
+Interference facts: F052,F053,F054,F055,F056,F057,F058.
+
+Prescribed_by_law facts: F080,F081,F082,F083,F084,F085,F042,F043,F044,F045,F046.
+
+Legitimate_aim facts: F044,F045,F046,F086? Not needed. Use F044,F045.
+
+Necessity facts: F042,F043,F044,F045,F053,F052,F056.
+
+Positive_obligation facts: F078,F079,F080,F081,F082,F083,F084,F085.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F051", "F036"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F052", "F053", "F054", "F055", "F056", "F057", "F058"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F080", "F081", "F082", "F083", "F084", "F085", "F042", "F043", "F044", "F045", "F046"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F044", "F045"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F042", "F043", "F044", "F045", "F053", "F052", "F056"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F078", "F079", "F080", "F081", "F082", "F083", "F084", "F085"]
+    }
+  },
+  "violated": true
+}

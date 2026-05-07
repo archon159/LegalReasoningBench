@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: need assembly existence, participation, peacefulness. Facts showing attempt to hold assembly: F004 (co-workers wish), F005 (applicant decides to help), F007 (distributed banners), F009 suggestion to disperse, maybe F010 shows no law on distance. Also need whether assembly was peaceful – none mention violence. No fact about violence, so assume peaceful but not explicit. Use F004,F005,F007,F009.
+
+Interference: arrest etc. Facts: F011 arrest, F012 taken to police station, F013 held three hours, F014 conviction, F015 fine. So those show interference.
+
+Prescribed by law: need law on notification. Facts: F022 (requirement to lodge prior notification per Public Events Act), also perhaps F010 (no requirement on distance). Also F024-25 definitions. But primary is F022. Could include F010 to assess foreseeability. We'll list F022, F010.
+
+Legitimate aim: need justification by state; not present in facts. None of atomic facts give state's aim. So empty list.
+
+Necessity: need balancing info, again not in facts. Empty.
+
+Positive obligation: any positive duty? Not in facts. Empty.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F004", "F005", "F007", "F009"]
+    },
+    "interference": {
+      "facts": ["F011", "F012", "F013", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F022", "F010"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": []
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

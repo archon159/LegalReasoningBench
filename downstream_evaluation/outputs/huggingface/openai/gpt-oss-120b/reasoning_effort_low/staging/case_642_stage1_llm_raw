@@ -1,0 +1,36 @@
+analysisWe map facts.
+
+Scope: need existence of assembly, participation, peacefulness. Facts showing intention to demonstrate, participants, speeches etc. So F006-F012 show planning, F010 participants, F011 speeches, assume peaceful? Not explicit but no violence. Use those.
+
+Interference: government act forbidding demo. Facts: F021 (forbade), maybe F022-24 reasons. Also F025 request judicial review shows interference. So include F021, maybe F022-24 as justification but core act is F021.
+
+Prescribed_by_law: need law provision. Fact F032 gives law. Also maybe F013 registration shows notice. So include F032, F013.
+
+Legitimate_aim: need reasons like traffic safety, public safety. Facts F022,F023,F024 give aims. Also maybe F021 decision based on these. Include F022,F023,F024.
+
+Necessity: need balancing, alternatives, proportionality. Facts: F016 suggestion alternative location, F028 argument about alternatives, F029 comparison to roadworks, also F031 court endorsement. So include F016,F028,F029,F031.
+
+Positive_obligation: Court may have positive duty to protect right to assemble; need law requiring permit not refusal arbitrarily. Might use F032 (law sets procedure) and perhaps F013 registration. But pick F032.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F009", "F010", "F011", "F012"]
+    },
+    "interference": {
+      "facts": ["F021"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F013", "F032"]
+    },
+    "legitimate_aim": {
+      "facts": ["F022", "F023", "F024"]
+    },
+    "necessity": {
+      "facts": ["F016", "F028", "F029", "F031"]
+    },
+    "positive_obligation": {
+      "facts": ["F032"]
+    }
+  }
+}

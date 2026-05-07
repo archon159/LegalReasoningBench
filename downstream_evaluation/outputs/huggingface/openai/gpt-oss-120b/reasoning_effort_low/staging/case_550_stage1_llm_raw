@@ -1,0 +1,36 @@
+analysisWe need map facts.
+
+Scope: assembly existence, participation, peacefulness. Facts: F007 (gathering), F011 (sat down), F015 (two continued), F008-010 (content maybe shows non‑peaceful?). Peaceful? Banners inc. "Wanted Ariel Sharon war‑criminal" could be seen as provocative but still peaceful. Use F007,F011,F015. Also applicant participation F017. So list.
+
+Interference: police force/arrest. Facts: F012 warning, F013 opening passage, F014 dispersion, F015 continuation, F016 police used force to arrest, F022 beating, F023 arrest, etc. Include F016,F022,F023.
+
+Prescribed_by_law: need law reference. Facts about Articles 24 of Assemblies and Marches Act Law no.2911 referenced in F055. Also maybe F061 describing law. So include F055,F061.
+
+Legitimate_aim: need justification like public order, prevention of disorder. Not directly in facts; perhaps police claim based on unauthorized demonstration. Facts showing police acted because unauthorised demo: F004,F005 (info about unauthorised demo). Also F012 warnings. So include F004,F005,F012.
+
+Necessity: balancing – need facts about intensity of force vs aim. Include details of force (F016,F022,F025) and aim (F004,F005). Also maybe F055 (law says force allowed). So include F016,F022,F025,F004,F005,F055.
+
+Positive_obligation: Court may have positive duty to protect against ill‑treatment. Facts about investigations insufficiency: F039-F047, F046, F047, F026 etc. Choose ones showing failure to investigate: F039,F040,F041,F042,F046,F047,F026,F029. Probably include F039,F041,F042,F046,F047.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F011", "F015", "F017"]
+    },
+    "interference": {
+      "facts": ["F012", "F015", "F016", "F022", "F023"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F055", "F061"]
+    },
+    "legitimate_aim": {
+      "facts": ["F004", "F005", "F012"]
+    },
+    "necessity": {
+      "facts": ["F004", "F005", "F016", "F022", "F025", "F055"]
+    },
+    "positive_obligation": {
+      "facts": ["F039", "F041", "F042", "F046", "F047"]
+    }
+  }
+}

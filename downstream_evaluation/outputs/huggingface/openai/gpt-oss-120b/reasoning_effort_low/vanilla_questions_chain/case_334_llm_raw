@@ -1,0 +1,43 @@
+analysisWe need assess likely violation: Conviction for attending protests. ECtHR case likely Yıldırım v. Turkey etc. Usually violation found. So conclusions: scope yes (assembly peaceful? were illegal but peaceful). Interference yes (conviction). Prescribed by law maybe no due to vagueness -> violation. Legitimate aim maybe yes (public safety). Necessity maybe no (disproportionate). Positive obligation maybe no. Overall violation yes.
+
+Select facts: scope: F075 (attended marches), F076 (illegal slogans), need peaceful? unclear but assume peaceful assembly? Might note F030 etc. We'll pick F075,F076.
+
+Interference: F054 conviction, F056 sentence. Also F034 remand. Choose F054,F056.
+
+Prescribed by law: need law foreseeability – facts about law articles F099-F103, plus amendment F086 etc. Use F099,F100,F101.
+
+Legitimate aim: law aims public safety – maybe F078 finding illegal under law, plus F078 indicates public order. Use F078,F079.
+
+Necessity: need balancing – facts about severity vs aim – use F070,F071 showing praising PKK, suggests not necessary. Use F070,F071.
+
+Positive obligation: none – [].
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F075", "F076"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F054", "F056"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F099", "F100", "F101"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F078", "F079"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F070", "F071"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

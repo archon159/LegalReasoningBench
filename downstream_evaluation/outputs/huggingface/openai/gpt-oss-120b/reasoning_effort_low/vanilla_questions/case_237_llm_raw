@@ -1,0 +1,45 @@
+analysisWe need map facts. Scope: need assembly existence, participation intent, peaceful. Facts: F018/F019 (intended to participate), they are peaceful demonstrations planned; also F020/F021 (leaflet distribution). So scope yes. Use those facts.
+
+Interference: arrests etc. Facts F001,F002,F003,F020,F021 indicate interference. Conclusion yes.
+
+Prescribed by law: need info about law foreseeability – not in atomic facts. No fact gives law details. So cannot conclude? Likely unknown -> can't affirm. We must use only provided facts; none address prescribed by law, so conclusion maybe no (cannot establish). But requirement is to answer yes/no; likely no because lacking evidence that it was prescribed by law. Use [].
+
+Legitimate aim: need aim like public order. Not in facts. So no.
+
+Necessity: need balancing – not in facts. So no.
+
+Positive obligation: any positive duty? Not indicated. So no.
+
+Overall violation: Since scope and interference satisfied but lack of lawful basis etc., violation likely yes because interference not prescribed by law nor legitimate aim. But our conclusions for later elements are no, meaning requirements not met => violation. So violated true.
+
+Provide facts per element: scope uses F018,F019,F020,F021. interference uses F001,F003,F020,F021. prescribed_by_law none -> []. legitimate_aim none -> []. necessity none -> []. positive_obligation none -> [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019", "F020", "F021"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F001", "F003", "F020", "F021"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

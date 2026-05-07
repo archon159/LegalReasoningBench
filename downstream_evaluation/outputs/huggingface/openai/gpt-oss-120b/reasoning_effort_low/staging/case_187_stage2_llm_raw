@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly, participation, peaceful?). Facts show press conference demonstration, no evidence of violence; assume peaceful => yes.
+
+Interference: arrest, use of force – yes.
+
+Prescribed by law: need law basis. Facts show Meetings and Demonstration Marches Act, but also note lack of permission etc. Might be questionable whether foreseeability/safeguards met. Probably no because arrest without clear lawful order and insufficient warning. So conclusion no -> violation.
+
+Legitimate aim: authorities claim public order. Facts show they said illegal gathering, disturbance. Could be legit aim yes.
+
+Necessity: proportionality disputed. Injuries suggest disproportionate. Likely no.
+
+Positive obligation: complaints, investigations inadequate; likely breach yes.
+
+Thus overall violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

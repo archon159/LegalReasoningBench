@@ -1,0 +1,34 @@
+analysisWe need map facts. Scope needs evidence of assembly, participation, peacefulness. Facts: F001/F009 indicate participation in political demonstrations (assembly). Need peacefulness – maybe domestic courts considered shouting slogans unlawful suggests not peaceful; but factual basis of peace maybe not given. Still use F022 (shouted slogans) indicates non‑peaceful behavior. So scope facts: F001,F009,F022.
+
+Interference: arrest etc. Facts: F002,F010,F011 (apprehended), also conviction F003,F016 etc. Core interference is arrest/detention. Use F002,F010,F011,F016 perhaps. We'll pick F002,F010,F011.
+
+Prescribed by law: need law basis. Facts about code articles: F017,F019,F023,F024,F025 give legal provisions. Also mention Code of Administrative Offences. So include F017,F019,F023,F024,F025.
+
+Legitimate aim: need justification by state – likely public order, safety. Facts showing they considered illegal because no notification, shouting slogans. So F022,F023.
+
+Necessity: need balancing – facts about severity of penalty vs aim. Include conviction details F018,F020 plus the reasons. So F018,F020,F022,F023.
+
+Positive obligation: Court may have positive duty to protect right to assemble. Facts about procedural safeguards maybe F021 (reliance on police reports) or F026,F027 about enforcement periods not directly. Probably F021 shows lack of proper safeguards. Use F021.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F009", "F022"]
+    },
+    "interference": {
+      "facts": ["F002", "F010", "F011"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F017", "F019", "F023", "F024", "F025"]
+    },
+    "legitimate_aim": {
+      "facts": ["F022", "F023"]
+    },
+    "necessity": {
+      "facts": ["F018", "F020", "F022", "F023"]
+    },
+    "positive_obligation": {
+      "facts": ["F021"]
+    }
+  }
+}

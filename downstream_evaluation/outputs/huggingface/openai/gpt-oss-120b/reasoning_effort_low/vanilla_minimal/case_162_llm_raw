@@ -1,0 +1,33 @@
+analysisWe need map. Likely violation: interference yes, prescribed? law exists but maybe not clear applicability due emergency. Probably Court finds violation. So conclusions: scope yes (peaceful assembly). interference yes. prescribed_by_law no (order not lawful). legitimate aim yes (public order). necessity no (not necessary). positive_obligation yes (state must allow). Overall violation true.
+
+Select facts: scope F008,F009,F030,F031 etc. interference F031-F035,F064-F072. prescribed_by_law F064-F068,F082-F084. legitimate aim F070,F071,F077. necessity F070,F071,F099 etc. positive_obligation F091-F101 perhaps.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F008", "F009", "F030", "F031"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F031", "F032", "F033", "F034", "F035", "F064", "F065", "F072"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": ["F064", "F065", "F066", "F067", "F068", "F082", "F083"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F070", "F071", "F077"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F070", "F071", "F099", "F100", "F101"]
+    },
+    "positive_obligation": {
+      "conclusion": "yes",
+      "facts": ["F091", "F099", "F100", "F101"]
+    }
+  },
+  "violated": true
+}

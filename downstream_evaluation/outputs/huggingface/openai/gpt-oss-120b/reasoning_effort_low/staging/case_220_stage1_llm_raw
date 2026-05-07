@@ -1,0 +1,36 @@
+analysisWe need map facts per element. Identify relevant ones.
+
+Scope: need existence of assembly, participation, peacefulness. Facts: F022 (gathering held), F023 (other gatherings), F025 (no authorization), F080 (speeches critical), F081 (traffic not disrupted), F082 (no violence), maybe F084 lyrics incite violence? Peaceful? So include F022,F023,F080,F081,F082. Also F007 location Great National Assembly Square indicates assembly. Include F007. 
+
+Interference: governmental act/omission interfering. Facts: F026 warning, F028, F029, F030, F031, F032, F036 ban, F037 basis, F038 dismissal, F039 decision classification, F040-46 violations, F048 slogan incitement, F052 lifting ban, F056 appellate decision, F064 Supreme Court judgment, F071 ruling illegal, F075 final. Also F068,69 lack of interpretation. Choose key: F026,F028,F029,F030,F031,F032,F036,F037,F039,F040,F041,F042-F48,F056,F064,F071,F075,F068,F069. 
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Relevant facts about Assemblies Act, Status Act, notifications, contradictions, municipal decisions. Include F010,F011,F012,F013,F014,F015,F016,F019,F020,F021,F093-F108 etc. From atomic list: F010,F011,F012,F013,F014,F015,F016,F019,F020,F021,F093,F094,F095,F096,F097,F098,F099,F100,F101,F102,F103,F104,F105,F106,F107,F108,F109,F110,F111,F112,F113,F114.
+
+Legitimate aim: government justification. Need statements about public order, safety, etc. Facts: F027 (breach of Assemblies Act), F028, F029, F030, F040-45 mention public order, minors, etc. Also F060 loss, F061 breach of child rights. So include F027,F028,F029,F030,F040,F041,F042,F043,F044,F045,F046,F047,F048,F060,F061.
+
+Necessity: balancing. Need assessment of proportionality, ban effect, etc. Facts: F052 (justified), F055 (did not set aside), F056 (court upheld), F060 loss, F067 (no negative effects), F068,F069 (lack of interpretation), F070-75 rulings, F081-82 peacefulness showing less need. Include F052,F055,F056,F060,F067,F068,F069,F070,F071,F072,F073,F074,F075,F081,F082.
+
+Positive obligation: Court may have positive duty to protect assembly. Need facts about failure to interpret law, to allow meeting, to protect. Relevant: F013-21 (municipality seeking interpretation), F068,F069 (Ministry didn't respond), F070-75 (government action to stop), perhaps F076-84 video evidence showing peaceful. So include F013,F014,F015,F016,F019,F020,F021,F068,F069,F070,F071,F072,F073,F074,F075.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F007", "F022", "F023", "F080", "F081", "F082"]
+    },
+    "interference": {
+      "facts": ["F026", "F028", "F029", "F030", "F031", "F032", "F036", "F037", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F056", "F064", "F071", "F075", "F068", "F069"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F010", "F011", "F012", "F013", "F014", "F015", "F016", "F019", "F020", "F021", "F093", "F094", "F095", "F096", "F097", "F098", "F099", "F100", "F101", "F102", "F103", "F104", "F105", "F106", "F107", "F108", "F109", "F110", "F111", "F112", "F113", "F114"]
+    },
+    "legitimate_aim": {
+      "facts": ["F027", "F028", "F029", "F030", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F048", "F060", "F061"]
+    },
+    "necessity": {
+      "facts": ["F052", "F055", "F056", "F060", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F081", "F082"]
+    },
+    "positive_obligation": {
+      "facts": ["F013", "F014", "F015", "F016", "F019", "F020", "F021", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075"]
+    }
+  }
+}

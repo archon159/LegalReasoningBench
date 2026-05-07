@@ -1,0 +1,29 @@
+analysisNeed determine likely: Conviction for participation in demonstrations => interference with assembly. Facts show participation but many were possibly peaceful? Some involve shouting at police, masks, etc. Likely Court would find violation? In similar cases (e.g., Şahin v Turkey) found violation. Probably yes violation. Provide facts: scope: F003,F026,F028 (demonstrations), need peaceful? Not clear; assume peaceful? Might be mixed. We'll say yes. interference: conviction = interference F002,F029. prescribed_by_law: Turkish law article 314 etc F011,F012. likely yes prescribed. legitimate aim: terrorism prevention F009,F011. yes. necessity: probably not necessary proportionate -> no. positive obligation none. So overall violation because lack of necessity. Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F003", "F026", "F028"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002", "F029"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F011", "F012"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F009", "F011"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F030", "F031"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

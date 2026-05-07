@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly peaceful? demonstration turned violent). But peace requirement maybe not fully peaceful overall; however part was peaceful until police use. Still assembly existed, applicants participated, but not entirely peaceful. Might still count as assembly even if later violent? Jurisprudence requires peaceful nature; if violence occurs, may affect necessity but not scope? Usually if assembly turns violent, state may intervene. So scope likely yes (there was assembly, applicants participated). Peacefulness maybe questionable but assume yes enough.
+
+Interference: police dispersed, arrests etc. Yes.
+
+Prescribed_by_law: need foreseeability etc. Facts show notice late, law requires 15-10 days, they sent 10 Apr for 25 Apr = 15 days exactly? Received 17 Apr, maybe within window? Law says not earlier than 15 days and not later than 10 days before event. They sent 10 Apr, that's 15 days prior, acceptable. However authorities said it was outside time limit. Need assess if law clear. Probably not sufficiently clear; but many cases find law insufficient. Given facts include law sections. I'd say prescribed_by_law not satisfied (no).
+
+Legitimate aim: security, public order etc. Facts show aim to maintain order, prevent disorder. Yes.
+
+Necessity: proportionality of force excessive (deadly force). Likely not necessary. So no.
+
+Positive obligation: government failed to protect demonstrators, provide police protection requested. Facts show they asked police for protection (F009) but police blocked etc. Likely yes that positive obligation breached. So conclusion yes for positive obligation.
+
+Overall violation: since prescribed_by_law or necessity fails, violation. So true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

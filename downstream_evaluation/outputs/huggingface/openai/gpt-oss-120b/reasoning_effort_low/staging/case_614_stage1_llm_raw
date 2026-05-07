@@ -1,0 +1,36 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F001 (attempted to participate), F002 (event authorized), F004 (disrupted by violent counter-demonstrators) indicates not peaceful maybe; also F005 arrests etc. So include F001,F002,F004.
+
+Interference: governmental act interfering – arrest, police action. Facts: F005,F006,F007,F008,F016,F020 etc. Use those showing interference. Include F005,F006,F007,F008,F016,F020.
+
+Prescribed by law: need law basis. Fact about charge under Article 20.1 admin offences F008 shows law. Also perhaps mention law being applied. So include F008.
+
+Legitimate aim: need justification like public order. Facts: F018,F019,F020 indicate aim of preventing disorder/public order. Also maybe F016 (refused ID). But main: F018,F019,F020.
+
+Necessity: balancing. Need facts about tension, breach of order, justification, termination of proceedings. Include F018,F019,F020,F021 maybe. Use F018,F019,F020,F021.
+
+Positive obligation: Court may have positive duty to protect assembly. Facts about failure to ensure public order/safety: F026,F027,F032. Also complaints under Art11+14. Choose F026,F027,F032.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002", "F004"]
+    },
+    "interference": {
+      "facts": ["F005", "F006", "F007", "F008", "F016", "F020"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F008"]
+    },
+    "legitimate_aim": {
+      "facts": ["F018", "F019", "F020"]
+    },
+    "necessity": {
+      "facts": ["F018", "F019", "F020", "F021"]
+    },
+    "positive_obligation": {
+      "facts": ["F026", "F027", "F032"]
+    }
+  }
+}

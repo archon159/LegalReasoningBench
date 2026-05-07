@@ -1,0 +1,38 @@
+analysisWe need map. F001 is list of applicants; useful for scope (who participated). F002 complaint about disproportionate measures as organizers/participants – relevant to interference, prescribed by law, legitimate aim, necessity. F003 other complaints – maybe not needed.
+
+Thus assign:
+
+scope: needs F001 (identify assembly, participation) possibly also F002 (to know they were organizers/participants). So include both.
+
+interference: F002 shows measures interfering.
+
+prescribed_by_law: F002 indicates measures but need law info not present; still use F002.
+
+legitimate_aim: F002.
+
+necessity: F002.
+
+positive_obligation: maybe F003? No, positive obligation relates to state duty; not in facts. Could be none. Use [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F001", "F002"]
+    },
+    "interference": {
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F002"]
+    },
+    "legitimate_aim": {
+      "facts": ["F002"]
+    },
+    "necessity": {
+      "facts": ["F002"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

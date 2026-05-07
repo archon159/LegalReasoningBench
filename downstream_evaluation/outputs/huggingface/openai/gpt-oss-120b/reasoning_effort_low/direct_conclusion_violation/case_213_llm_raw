@@ -1,0 +1,25 @@
+analysisWe determine: scope yes (assembly intended, peaceful). interference yes (court prohibited). prescribed_by_law? Laws vague, temporary regs require 10 days etc; applicant gave 2 days notice, also indefinite, location prohibited. Likely not sufficiently foreseeable? Court said not clear details. Might be violation of prescribed by law because regulations overly restrictive and not accessible. Probably no – not prescribed properly => violation. So prescribed_by_law = no -> leads to violation. legitimate aim? They cited public order, health, rights of others. Could be legit but maybe not proportionate. But since prescribed fails, overall violation. necessity likely no. positive obligation? Not relevant maybe no. Final violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

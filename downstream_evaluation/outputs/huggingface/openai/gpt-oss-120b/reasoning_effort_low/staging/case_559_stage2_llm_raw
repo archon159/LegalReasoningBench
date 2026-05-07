@@ -1,0 +1,37 @@
+analysisWe need assess based on selected facts. Likely scope yes (assembly planned, applicant wanted to participate, peaceful assumed). Facts don't show violence; assume peaceful. So yes.
+
+Interference: police forbid demonstration => yes.
+
+Prescribed_by_law: need law basis; we have F014 stating police considered legit ground under section 8(1) of Assembly Act. But do we know law foreseeability etc? Not enough facts; but we only use mapped facts. Those facts just state they considered it legit ground, not that law is clear. Probably cannot conclude yes -> likely no due to insufficient info. However typical analysis may find law exists. Given limited facts, maybe conclude no because lack of detail on foreseeability/safeguards. I'll say no.
+
+Legitimate aim: police cited gravely endangering functioning of Parliament, disturbance, impediment. Those relate to public safety/order? Could be protection of rights of others (MPs). Likely yes.
+
+Necessity: need balancing; facts show alternative offered (secluded part) refused, police still forbid. Might be disproportionate. Likely no.
+
+Positive obligation: none -> no.
+
+Thus overall violation because prescribed_by_law no or necessity no. Violation true.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

@@ -1,0 +1,31 @@
+analysisWe lack facts to assess; only generic facts. Likely cannot determine, but need map. Probably none apply => conclusions unknown -> default no? We must use given facts only. They mention applicants complained of disproportionate measures against them as participants of public assemblies → indicates scope (assembly, participation) and interference. So use F002 for scope and interference. No facts about law, aim, necessity, positive. So those conclusions cannot be affirmed -> likely no. Thus overall violation cannot be established -> false.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F002"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F002"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "legitimate_aim": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": []
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

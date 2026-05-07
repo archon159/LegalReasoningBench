@@ -1,0 +1,45 @@
+analysisWe need assess likely violation. Facts show police dispersed meetings, locked people etc. Likely interference yes, not prescribed? Law prohibits assemblies in university buildings (Article9). So maybe lawful. But they were staff, not public assembly? Could be considered unlawful => no violation. I'd say no violation. Provide facts.
+
+Scope: assembly occurred (meetings) peaceful? Some force? Dispute. Assume peaceful assembly internal. Use F023,F027,F028,F031,F032. Conclusion yes.
+
+Interference: police forced out, locked hall -> yes. Facts F024-F028,F036-F038,F047-F048.
+
+Prescribed_by_law: law prohibits assemblies inside certain buildings incl. universities? Article9 prohibits on premises of governmental institutions; university is state institution => prohibition. So interference prescribed by law -> yes (lawful). Need facts F158 (law prohibition) and maybe F156,F157 showing notification required. Also note they didn't get permission. So conclusion yes (prescribed).
+
+Legitimate aim: aim public order, safety. Govt says restoring order. Use F042-F045,F060 etc. Conclusion yes.
+
+Necessity: proportionality? Locking overnight seems excessive. Might be not necessary. Need facts about duration, lack of force. Use F047-F048,F070-F071. Probably not necessary => conclusion no.
+
+Since necessity fails, violation occurs even though prescribed. So overall violation yes.
+
+Positive obligation none.
+
+Thus output.assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F023", "F027", "F028", "F031", "F032"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F024", "F025", "F026", "F036", "F037", "F047", "F048"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F158", "F156", "F157"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F042", "F043", "F044", "F045", "F060"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F047", "F048", "F070", "F071"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

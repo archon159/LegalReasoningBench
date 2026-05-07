@@ -1,0 +1,49 @@
+analysisWe need assess. Facts show he participated in demo (F008). Was it peaceful? Not stated; authorities say unauthorized, violated public order. No info on violence. Likely considered peaceful? Unclear. Assume peaceful assembly claim but state says unauthorised demonstration, maybe not peaceful. We'll assume not established peace => scope fails -> no violation. But need choose.
+
+Given limited facts, cannot determine peace. Might conclude insufficient evidence => cannot confirm peaceful => scope not satisfied => no violation.
+
+Thus elements: scope yes for assembly and participation, but peace unknown => likely no. So overall no violation.
+
+Provide facts F008 for assembly/participation, maybe F016 indicates unauthorised demonstration but not necessarily violent. Use F016 for nature.
+
+Interference: police arrest etc. Yes (F009-F015).
+
+Prescribed by law: Article 180.1 CAO exists, but foreseeability? unclear. Probably yes.
+
+Legitimate aim: public order. Yes (F029).
+
+Necessity: 15 days admin detention for participation seems disproportionate. Could be no necessity. Use F015,F029.
+
+Positive obligation: none.
+
+Conclusion: because scope questionable, overall violation? If scope fails then no violation. We'll output accordingly.
+
+assistantfinal JSON{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": ["F008", "F016"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F012", "F015", "F017"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F015"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F029"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F015", "F029"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

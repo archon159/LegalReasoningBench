@@ -1,0 +1,36 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F012 (authorization of celebration), F013 (gathered), F014 (walk towards), F015 (stopped), maybe F046 says they walked silently, no violence. So include F013,F014,F046.
+
+Interference: police stopping/dispersal, injuries. Facts: F015,F017,F018,F019.
+
+Prescribed by law: need law info about requirement to warn etc. Facts: F047,F048,F049 (section 24 of Assemblies and Marches Act).
+
+Legitimate aim: need justification like public order etc. Not directly in facts; perhaps none. Could be inferred from police action but no explicit statement. Might be absent -> [].
+
+Necessity: need balancing, assessment of proportionality. Facts: medical reports showing injuries (F027-F033) plus police didn't warn (F048) and prosecutor said no danger (F046). Also maybe F045 decision not to prosecute. Include injury facts and lack of warning. So list F027-F033,F046,F048.
+
+Positive obligation: Court may have positive duty to investigate. Facts: filing complaints (F036), appeal (F041), decision not to prosecute (F045), refusal to initiate (F040). Choose those showing state's duty to investigate. So include F036,F041,F045,F040.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F013", "F014", "F046"]
+    },
+    "interference": {
+      "facts": ["F015", "F017", "F018", "F019"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F047", "F048", "F049"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F027", "F028", "F029", "F030", "F031", "F032", "F033", "F046", "F048"]
+    },
+    "positive_obligation": {
+      "facts": ["F036", "F040", "F041", "F045"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+analysisWe need map facts. For scope: need assembly existence, participation, peacefulness. Facts: F014 (call to gather), F017 location, F018 size, F019 camp, F023 attendance, F024 speeches, also peacefulness maybe F056 tensions escalated, but peaceful? Need both peaceful and not. So include F018,F019,F023,F024,F056. 
+
+Interference: police operation etc. Facts: F032 police operation, F033 applicant alleges aim, F034 violent attack, F035 forced to flee, F036 govt contest, F037 govt claim reason, F038 claim armed demo, F040 criminal case, etc. Include F032-F038.
+
+Prescribed by law: need law on assemblies. Facts: F045- F051 mention procedure prescribed by law, section 14 of Assemblies Act. Also F050 mentions compliance with section 14. So include F045,F046,F047,F048,F049,F050,F051.
+
+Legitimate aim: govt justification – public safety, prevention of disorder. Facts: F037 (prevent riots), F038 (armed demonstrators), F039 injuries, F056 escalation, F057 deaths, F058 injuries, F059 damage, F060 state of emergency. Also F025-028 allegations of usurping power (maybe legit aim?). Use F037,F038,F039,F056,F057,F058,F059,F060.
+
+Necessity: balancing – need facts about proportionality, police action vs threat. Include F034 (violent), F037 (reason), F038 (armed), F039 injuries, F056 escalation, F057 deaths, F060 emergency. Also F095- F099 details of police trying to prevent. So include F034,F037,F038,F039,F056,F057,F060,F095,F099.
+
+Positive obligation: Court may have duty to protect peaceful assembly. Facts about failure to protect? Maybe F034, F035, F036, F037 show omission. Use F034,F035,F036,F037.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F014", "F017", "F018", "F019", "F023", "F024", "F056"]
+    },
+    "interference": {
+      "facts": ["F032", "F033", "F034", "F035", "F036", "F037", "F038", "F039"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F045", "F046", "F047", "F048", "F049", "F050", "F051"]
+    },
+    "legitimate_aim": {
+      "facts": ["F037", "F038", "F039", "F056", "F057", "F058", "F059", "F060"]
+    },
+    "necessity": {
+      "facts": ["F034", "F037", "F038", "F039", "F056", "F057", "F060", "F095", "F099"]
+    },
+    "positive_obligation": {
+      "facts": ["F034", "F035", "F036", "F037"]
+    }
+  }
+}

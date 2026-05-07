@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F003,F004 (planned demos); F012 (organisers held despite refusal) indicates assembly took place; F017,F018 attendance; F013 peace intention; F014 actual peaceful conduct. Also maybe F015,F016 content but not needed. So list relevant: F003,F004,F012,F017,F018,F013,F014.
+
+Interference: governmental act interfering – police dispersal, arrests. Facts: F019,F020,F021,F022. Also BCEA refusal? That's prior authorization but interference maybe. Include F008,F009 etc. But core interference is police action. We'll include F008 (refusal to authorize) also interference. So list: F008,F019,F020,F021,F022.
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Facts about law: F063 (no prior notice required), F064-F069 (provisions of CAO), F070-F078 (amendments), F064 etc. Also F065 about penalty. So include F063,F064,F065,F066,F067,F068,F069,F070,F071,F072,F073,F074,F075,F076,F077,F078,F079.
+
+Legitimate_aim: need aim like public order. Facts: police dispersed for public order? Not explicit. Maybe F019 says police started to disperse those gathered – implies maintenance of public order. Also F011 notes heavy traffic areas. Could infer aim. Use F011,F019,F020. Also maybe F010 about public leisure areas. We'll list F011,F019,F020.
+
+Necessity: balancing. Need info on proportionality, severity of sanction, short detention, etc. Facts about fines, detention length, lack of lawyer, brief hearing. So include F049,F050,F051,F052,F053,F054,F055,F056,F057,F058,F059,F060,F036,F037,F038,F039,F040,F041,F042,F043,F044,F045,F046,F047. Might be many. Provide key ones: F049,F050,F051,F059,F060,F036,F037,F038,F039,F040,F041,F042,F043,F044,F045,F046,F047.
+
+Positive_obligation: Court may have positive duty to ensure effective remedy, procedural guarantees. Facts about lack of lawyer, access to counsel, information about offences. So include F031,F032,F033,F034,F035,F040,F041,F042,F043,F044,F045,F046,F047,F066,F067,F068,F069. Choose subset: F031,F032,F040,F041,F042,F043,F044,F045,F046,F047,F066,F067,F068,F069.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F003", "F004", "F012", "F017", "F018", "F013", "F014"]
+    },
+    "interference": {
+      "facts": ["F008", "F019", "F020", "F021", "F022"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F063", "F064", "F065", "F066", "F067", "F068", "F069", "F070", "F071", "F072", "F073", "F074", "F075", "F076", "F077", "F078", "F079"]
+    },
+    "legitimate_aim": {
+      "facts": ["F011", "F019", "F020"]
+    },
+    "necessity": {
+      "facts": ["F036", "F037", "F038", "F039", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F049", "F050", "F051", "F059", "F060"]
+    },
+    "positive_obligation": {
+      "facts": ["F031", "F032", "F040", "F041", "F042", "F043", "F044", "F045", "F046", "F047", "F066", "F067", "F068", "F069"]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+analysisWe need determine likely: Assembly peaceful? It turned violent, police used force. So scope: assembly existed, participants tried, but not peaceful => fails peace requirement -> no violation? Actually if not peaceful, still assembly but not peaceful may affect necessity. Scope includes peaceful? Yes need peaceful assembly. Since violence occurred, scope maybe not satisfied => no violation. So overall no violation. Provide facts showing violence etc. Use F022-F028 etc. Also interference yes but if scope fails then no violation. We'll output accordingly.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "no",
+      "facts": [
+        "F022",
+        "F023",
+        "F027",
+        "F028"
+      ]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": [
+        "F020",
+        "F021",
+        "F024",
+        "F025",
+        "F026"
+      ]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": [
+        "F009",
+        "F010",
+        "F011",
+        "F072",
+        "F073",
+        "F074",
+        "F075",
+        "F076",
+        "F077",
+        "F078",
+        "F079",
+        "F080"
+      ]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": [
+        "F062",
+        "F063",
+        "F064",
+        "F079"
+      ]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": [
+        "F027",
+        "F028",
+        "F024",
+        "F025",
+        "F026",
+        "F079"
+      ]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": false
+}

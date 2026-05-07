@@ -1,0 +1,27 @@
+analysisWe need determine likely ECtHR case Saghatelyan v. Armenia. I recall that Court found violation of Art 11 due to disproportionate police action and failure to protect peaceful assembly. So conclusions: scope yes, interference yes, prescribed_by_law maybe no? Actually law on assemblies exists; but police used force unlawfully – still interference may be unjustified. Prescribed_by_law likely yes (law existed), but the application of law not foreseeable? Might be no. But typical finding: violation of Art 11 because authorities failed to ensure peaceful assembly and used disproportionate force. They also had positive obligation. So final: violation true.
+
+Thus fill: scope yes, interference yes, prescribed_by_law yes? Need choose. In many cases, Court says interference not prescribed by law because police action lacked legal basis. I'd say no (not prescribed). Legitimate aim yes (public safety). Necessity no (disproportionate). Positive obligation yes (state failed). So overall violation.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "no"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "yes"
+    }
+  },
+  "violated": true
+}

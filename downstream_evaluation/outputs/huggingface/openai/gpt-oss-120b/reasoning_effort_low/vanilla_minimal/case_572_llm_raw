@@ -1,0 +1,33 @@
+analysisWe need map. Likely violations: scope yes (political demonstration). interference yes (apprehension, conviction). prescribed by law? there is law article 19.3 but maybe not clear if law meets requirement – likely yes as law exists. legitimate aim? public safety/order – yes. necessity? probably not necessary proportionate – likely no -> violation. positive obligation? state must protect right – perhaps no. So overall violation true.
+
+Select facts: scope uses F006 (participation in political demos). interference uses F007,F008,F013,F014,F015. prescribed_by_law uses F013 (law). legitimate_aim uses F018,F019 (public order). necessity uses same plus maybe F011,F012 (detention length). positive_obligation maybe F005 general? maybe none.
+
+Provide JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F006"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F007", "F008", "F013", "F014", "F015"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F013"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F018", "F019"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F011", "F012", "F018", "F019"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}

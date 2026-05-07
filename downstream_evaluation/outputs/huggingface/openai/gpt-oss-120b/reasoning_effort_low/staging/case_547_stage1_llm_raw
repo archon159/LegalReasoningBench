@@ -1,0 +1,36 @@
+analysisWe need map facts to elements.
+
+Scope: need assembly existence, participation, peacefulness. Facts: F006,F007 announce demo; F008,F009 purpose; F012 applicant participated; maybe F010 indicates absence due to participation. So include F006,F007,F008,F009,F012.
+
+Interference: governmental act interfering - disciplinary sanction. Facts: F010 initiation, F011 request defense, F013 warning, F014 law basis, F015 objection, F016 dismissal, F017, F018. Include those.
+
+Prescribed by law: need law provision foreseeability. Facts: F014 (section 125), plus references to law descriptions F019,F020. Also maybe F021 about holiday but less. Use F014,F019,F020.
+
+Legitimate aim: need justification by state—likely public service duty, discipline, ensuring efficiency. Facts: perhaps none directly given, but could infer from law. No explicit fact stating aim. Might be empty. But could use F014 (law) as source of aim. We'll put [].
+
+Necessity: need balancing info – severity of sanction vs aim. Facts: F013 warning, F014 law, maybe F021 holiday showing context. Use F013,F014,F021.
+
+Positive obligation: does Court spell out? Not in facts. Likely none. [].
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F006", "F007", "F008", "F009", "F012"]
+    },
+    "interference": {
+      "facts": ["F010", "F011", "F013", "F014", "F015", "F016", "F017", "F018"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F014", "F019", "F020"]
+    },
+    "legitimate_aim": {
+      "facts": []
+    },
+    "necessity": {
+      "facts": ["F013", "F014", "F021"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

@@ -1,0 +1,39 @@
+analysisWe need assess based on selected facts.
+
+Scope: facts show application for demonstration, description, expected participants, speeches, letters – indicates intention to assemble peacefully. No fact about actual participation because banned. But scope asks: i) assembly? yes planning. ii) applicant tried to participate – he organized. iii) peaceful? assumed peaceful; no evidence of violence. So conclude yes.
+
+Interference: Fact F021 shows police forbid demonstration -> interference. Yes.
+
+Prescribed_by_law: Need law basis. Facts F013 registration, and F032 statutory provision allowing ban within 48h for traffic hindrance. That seems sufficient foreseeability. So yes.
+
+Legitimate aim: Police cited traffic safety, airport accessibility, traffic code. Those correspond to public safety / prevention of disorder. So legitimate aim yes.
+
+Necessity: Need balancing. Facts: police suggestion to move location (F016), applicants argue alternatives (F028,F029), court endorsed police (F031). We must decide if necessity satisfied. Given they had alternative location and court upheld ban, but jurisprudence often finds bans excessive if less restrictive measures exist. Here police could have allowed on hard shoulder with conditions. Applicants offered assurances. Likely not necessary. So conclusion no.
+
+Positive obligation: Not relevant as interference present; but check if state had duty to facilitate. Fact only law. Probably no positive obligation breached. Conclusion no.
+
+Overall violation: Since necessity no, violation yes.
+
+Let's output.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes"
+    },
+    "interference": {
+      "conclusion": "yes"
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes"
+    },
+    "legitimate_aim": {
+      "conclusion": "yes"
+    },
+    "necessity": {
+      "conclusion": "no"
+    },
+    "positive_obligation": {
+      "conclusion": "no"
+    }
+  },
+  "violated": true
+}

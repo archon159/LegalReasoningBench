@@ -1,0 +1,36 @@
+analysisWe need map facts per element.
+
+Scope: need facts showing assembly, participation, peacefulness. Facts: F011 (demonstration), F012,F013,F014 context, F023 start, F024 gathered, F025-027 block roads (but shows not peaceful?). Need peaceful? maybe F033 indicates arguments but no serious conflict. So include F011,F023,F024,F033.
+
+Interference: governmental act interfering: permits? restrictions? Police fines? Pre-trial investigation? F030 (investigations), F031-032 restraining order, F045-046 fine, F048 indictment, etc. Also F018-020 permits but they were granted. Interference likely the criminal prosecution. Include F030,F031,F032,F045,F046,F048,F049-F055 etc. Choose key: F030,F031,F032,F045,F046,F048,F049.
+
+Prescribed_by_law: need law foreseeability, accessibility, safeguards. Facts about law: F179 (law publication), F180-181 description of article 283, F189-191 administrative law, F182-184 sentencing, F187-188 necessity definition. Also permits: F018-020 show permitting system. Use F179,F180,F181,F187,F188.
+
+Legitimate_aim: need aim like public safety, order. Facts showing disruption, damage: F034-038, F055-069, F056 etc. Use F034,F055,F056,F068,F069.
+
+Necessity: need balancing, defense of necessity argued. Facts: F088 (alternative remedy), F089 (defense of necessity criteria), F090 (court rejected), F168-171 Supreme Court statements about necessity. Include F088,F089,F090,F168,F169,F170,F171.
+
+Positive_obligation: Court may have positive duty to protect peaceful assembly. Need facts about permits granted and then police response? Maybe none. Could be F018-020 showing permit issuance implies state must protect. But positive obligation maybe not addressed. Might be empty. We'll output [].
+
+Let's craft JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "facts": ["F011", "F023", "F024", "F033"]
+    },
+    "interference": {
+      "facts": ["F030", "F031", "F032", "F045", "F046", "F048", "F049"]
+    },
+    "prescribed_by_law": {
+      "facts": ["F179", "F180", "F181", "F187", "F188"]
+    },
+    "legitimate_aim": {
+      "facts": ["F034", "F055", "F056", "F068", "F069"]
+    },
+    "necessity": {
+      "facts": ["F088", "F089", "F090", "F168", "F169", "F170", "F171"]
+    },
+    "positive_obligation": {
+      "facts": []
+    }
+  }
+}

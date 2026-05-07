@@ -1,0 +1,45 @@
+analysisWe need determine if interference etc. Likely yes violation due to conviction for participation in funeral/demonstration. Use facts: assembly existed (F009-F014). Applicant participated (F033,F034,F035). Peaceful? It turned violent later, but his involvement peaceful. So scope maybe yes. Interference: detention and conviction (F042,F066...). Prescribed by law: laws exist (F044,F128 etc). Likely yes. Legitimate aim: public safety/order (F018 etc). Probably yes. Necessity: disproportionate => no. So violation. Positive obligation maybe none. Provide facts.
+
+Let's pick facts per element.
+
+Scope: assembly existence F009-F014, applicant participation F033,F035,F037. Peacefulness? The crowd later violent (F017,F018) but his actions peaceful. Might note F036 denial of stone throwing. We'll include F036.
+
+Interference: arrest F026, detention F042, conviction F066.
+
+Prescribed by law: charges under law (F044,F128) and law existence (F123-F130). Use F044,F128.
+
+Legitimate aim: police warning, public order (F016,F017,F018).
+
+Necessity: assess proportionality – conviction heavy vs peaceful participation. Facts: sentencing length F067,F069, plus lack of violence by him (F036,F039). Use those.
+
+Positive obligation: none.
+
+Return JSON.assistantfinal{
+  "elements": {
+    "scope": {
+      "conclusion": "yes",
+      "facts": ["F009", "F010", "F011", "F012", "F013", "F014", "F033", "F034", "F035", "F036"]
+    },
+    "interference": {
+      "conclusion": "yes",
+      "facts": ["F026", "F042", "F066", "F067", "F069"]
+    },
+    "prescribed_by_law": {
+      "conclusion": "yes",
+      "facts": ["F044", "F128", "F123", "F124", "F130"]
+    },
+    "legitimate_aim": {
+      "conclusion": "yes",
+      "facts": ["F016", "F017", "F018"]
+    },
+    "necessity": {
+      "conclusion": "no",
+      "facts": ["F036", "F039", "F067", "F069", "F018"]
+    },
+    "positive_obligation": {
+      "conclusion": "no",
+      "facts": []
+    }
+  },
+  "violated": true
+}
