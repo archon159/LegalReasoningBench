@@ -186,8 +186,7 @@ Each `gold_standard/compiled_gold_standard/case_N.json` has the schema:
 - `conclusion.violated` — case-level Article 11 violation finding.
 - `conclusion.elements[el].conclusion` — `"yes"` / `"no"` / `null` (not discussed).
 - `conclusion.elements[el].discussed` — `"explicit"` / `"implied"` /
-  `"implicit"` / `"not_discussed"`. `"implicit"` marks the dependency-chain
-  fills applied by `postprocess_apply_dependency_chain.py`.
+  `"implicit"` / `"not_discussed"`.
 - `fact_mapping.listN` — fact IDs (`F<XXX>`) referencing
   `outputs/atomic_facts/case_N.json`. Subset constraint:
   `List 3 ⊆ List 2 ⊆ List 1`.
