@@ -288,3 +288,17 @@ export HF_MODELS_DIR=/path/to/your/hf_models
 
 Models are expected at `$HF_MODELS_DIR/<org>/<model_name>/`, matching
 the `--model` argument exactly.
+
+### Citation
+
+A full citation will be added once the NeurIPS 2026 proceedings are available.
+Until then, please cite as:
+ 
+```bibtex
+@inproceedings{paul2026legalreasoningbench,
+  title     = {LegalReasoningBench: A Benchmark of Structured Annotations for ECtHR Article 11 Cases},
+  author    = {Paul, Shounak and Lee, Seungeon and Engel, Christoph and Gummadi, Krishna P.},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
+  year      = {2026}
+}
+```
