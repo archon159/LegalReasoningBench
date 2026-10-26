@@ -1,7 +1,7 @@
 # LegalReasoningBench
 
 This is the **LegalReasoningBench** benchmark introduced in the paper
-*"Can an LLM Reason Like a Lawyer?"* (NeurIPS 2026 submission). It provides
+*"Can an LLM Reason Like a Lawyer?"*, accepted at NeurIPS 2026. It provides
 structured gold-standard annotations for European Court of Human Rights
 (ECtHR) Article 11 (freedom of assembly) cases — covering case-level
 conclusions, six doctrinal element conclusions, and fact-to-element mappings
